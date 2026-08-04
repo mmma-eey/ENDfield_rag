@@ -9,8 +9,7 @@ __pycache__/
 dist/
 build/
 
-# 数据文件（体积大，本地使用）
-data_main/
+# BM25 索引文件（本地生成，不入库）
 *.pkl
 
 # IDE
