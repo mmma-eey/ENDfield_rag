@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "template": "装备档案",
+    "article_id": "b165995d-8d45-4697-a1d0-65b5664e83f8",
+    "updated_at": "2026-07-19T15:05:50.123Z"
+  },
+  "basic": {
+    "name": "旧锋装甲·壹型",
+    "rarity": 5,
+    "part_type": "Body",
+    "slot_type": "护甲",
+    "group_name": "旧锋装备组",
+    "suit_name": "旧锋",
+    "description": "本装备由宏山选剑局设计，使用集成工业系统制造，能够提高使用者的作战能力。",
+    "flavor": "选剑局回收遗落的技术文件后所研发的综合防御装备。\n它有着天使战争时期的影子，沉重、粗粝却也足够高效。",
+    "icon_url": "https://assets.fz.wiki/c3338b6b5f3d4283/2272e27165c23985.png",
+    "categories": [
+      "五星装备",
+      "护甲",
+      "装备"
+    ]
+  },
+  "suit": {
+    "group_name": "旧锋装备组",
+    "piece_count": 6,
+    "self_equip_id": "item_equip_t4_suit_crush_fracture_body_02",
+    "bonus": {
+      "name": "旧锋",
+      "levels": [
+        {
+          "desc": "攻击提升 8% · phy_dmg_up_perstack 6% · special_multi 1.50 · 持续 20s",
+          "level": 1,
+          "values": {
+            "atk_up": 0.08,
+            "duration": 20.0,
+            "special_multi": 1.5,
+            "phy_dmg_up_perstack": 0.06
+          }
+        }
+      ],
+      "skillId": "passive_equipsuit_crush_fracture",
+      "paramTable": {
+        "rows": [
+          {
+            "label": "攻击提升",
+            "values": [
+              "8%"
+            ]
+          },
+          {
+            "label": "phy_dmg_up_perstack",
+            "values": [
+              "6%"
+            ]
+          },
+          {
+            "label": "special_multi",
+            "values": [
+              "1.50"
+            ]
+          },
+          {
+            "label": "持续",
+            "values": [
+              "20s"
+            ]
+          }
+        ],
+        "levels": [
+          1
+        ],
+        "levelLabels": [
+          "Lv1"
+        ]
+      },
+      "description": "3件套组效果：装备者攻击力<@ba.vup>+{atk_up:0%}</>。\n装备者造成<#ba.crush>猛击</>、<#ba.fracture>碎甲</>时，根据<#ba.consume>消耗</>的最大<#ba.noguard>破防</>层数，使自身<@ba.pd>物理伤害</><@ba.vup>+[{phy_dmg_up_perstack:0%}×<#ba.consume>消耗</>层数]</>，持续{duration}秒。若目标已处于<#ba.physicalvul>物理脆弱</>、<@ba.poise>失衡</>状态或被附着<#ba.originium>源石结晶</>，上述增益效果变为<@ba.vup>{special_multi:0.0}</>倍。增益效果无法叠加。"
+    },
+    "pieces": [
+      {
+        "name": "旧锋装甲",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_crush_fracture_body_01"
+      },
+      {
+        "name": "旧锋装甲·壹型",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_crush_fracture_body_02"
+      },
+      {
+        "name": "旧锋手甲",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_crush_fracture_hand_01"
+      },
+      {
+        "name": "旧锋手甲·壹型",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_crush_fracture_hand_02"
+      },
+      {
+        "name": "旧锋刺刃",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_crush_fracture_edc_01"
+      },
+      {
+        "name": "旧锋刺刃·壹型",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_crush_fracture_edc_02"
+      }
+    ]
+  },
+  "stats": {
+    "enhance_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rows": [
+      {
+        "label": "防御力",
+        "attr_type": "Def",
+        "is_base": true,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          56.0,
+          56.0,
+          56.0,
+          56.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "敏捷",
+        "attr_type": "Agi",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          87.0,
+          95.0,
+          104.0,
+          113.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "力量",
+        "attr_type": "Str",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          58.0,
+          63.0,
+          69.0,
+          75.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "源石技艺强度",
+        "attr_type": "PhysicalAndSpellInflictionEnhance",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          20.7,
+          22.77,
+          24.84,
+          26.91
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      }
+    ]
+  },
+  "materials": {
+    "unlock_type": "EquipFormulaChest",
+    "unlock_key": "reward_eco_map02_lv006_int_70271",
+    "gold": 0,
+    "items": []
+  }
+}

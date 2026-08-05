@@ -1,0 +1,270 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "template": "装备档案",
+    "article_id": "0f256f3b-adcd-4966-8b91-99ba01272e0a",
+    "updated_at": "2026-07-19T15:05:57.224Z"
+  },
+  "basic": {
+    "name": "M.I.警用瞄具·壹型",
+    "rarity": 5,
+    "part_type": "EDC",
+    "slot_type": "配件",
+    "group_name": "M.I.警用装备组",
+    "suit_name": "M.I.警用",
+    "description": "本装备由梅什科工业设计，使用集成工业系统制造，能够提高使用者的作战能力。\n",
+    "flavor": "M.I.警用系列装备。\n梅什科工业的部分产品会被走私到荒野上。在一些裂地者暗杀者手中，M.I.警用瞄具是上等品。",
+    "icon_url": "https://assets.fz.wiki/c3338b6b5f3d4283/57d096548b5cfccf.png",
+    "categories": [
+      "五星装备",
+      "装备",
+      "配件"
+    ]
+  },
+  "suit": {
+    "group_name": "M.I.警用装备组",
+    "piece_count": 15,
+    "self_equip_id": "item_equip_t4_suit_criti01_edc_06",
+    "bonus": {
+      "name": "M.I.警用",
+      "levels": [
+        {
+          "desc": "暴击率提升 5% · 持续 5s · 攻击提升 5% · 最大层数 5 · crit_up2 5%",
+          "level": 1,
+          "values": {
+            "atk_up": 0.05,
+            "crit_up": 0.05,
+            "crit_up2": 0.05,
+            "duration": 5.0,
+            "max_stack": 5.0
+          }
+        }
+      ],
+      "skillId": "passive_equipsuit_critsuit_01",
+      "paramTable": {
+        "rows": [
+          {
+            "label": "暴击率提升",
+            "values": [
+              "5%"
+            ]
+          },
+          {
+            "label": "持续",
+            "values": [
+              "5s"
+            ]
+          },
+          {
+            "label": "攻击提升",
+            "values": [
+              "5%"
+            ]
+          },
+          {
+            "label": "最大层数",
+            "values": [
+              "5"
+            ]
+          },
+          {
+            "label": "crit_up2",
+            "values": [
+              "5%"
+            ]
+          }
+        ],
+        "levels": [
+          1
+        ],
+        "levelLabels": [
+          "Lv1"
+        ]
+      },
+      "description": "3件套组效果：装备者暴击率<@ba.vup>+{crit_up:0%}</>。\n当装备者触发暴击后，{duration}秒内<@ba.vup>+{atk_up:0%}</>攻击力，该效果最多叠加{max_stack:0}层。层数叠满后，额外<@ba.vup>+{crit_up2:0%}</>暴击率，该效果无法叠加。"
+    },
+    "pieces": [
+      {
+        "name": "M.I.警用护甲",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_criti01_body_01"
+      },
+      {
+        "name": "M.I.警用罩衣",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_criti01_body_02"
+      },
+      {
+        "name": "M.I.警用罩衣·壹型",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_criti01_body_03"
+      },
+      {
+        "name": "M.I.警用罩衣·贰型",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_criti01_body_04"
+      },
+      {
+        "name": "M.I.警用手套",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_criti01_hand_01"
+      },
+      {
+        "name": "M.I.警用手环",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_criti01_hand_02"
+      },
+      {
+        "name": "M.I.警用手环·壹型",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_criti01_hand_03"
+      },
+      {
+        "name": "M.I.警用臂环",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_criti01_edc_01"
+      },
+      {
+        "name": "M.I.警用瞄具",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_criti01_edc_02"
+      },
+      {
+        "name": "M.I.警用工具组",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_criti01_edc_03"
+      },
+      {
+        "name": "M.I.警用刺刃",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_criti01_edc_04"
+      },
+      {
+        "name": "M.I.警用刺刃·壹型",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_criti01_edc_05"
+      },
+      {
+        "name": "M.I.警用护甲·壹型",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_criti01_body_06"
+      },
+      {
+        "name": "M.I.警用手套·壹型",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_criti01_hand_04"
+      },
+      {
+        "name": "M.I.警用瞄具·壹型",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_criti01_edc_06"
+      }
+    ]
+  },
+  "stats": {
+    "enhance_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rows": [
+      {
+        "label": "防御力",
+        "attr_type": "Def",
+        "is_base": true,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          21.0,
+          21.0,
+          21.0,
+          21.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "敏捷",
+        "attr_type": "Agi",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          32.0,
+          35.0,
+          38.0,
+          41.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "智识",
+        "attr_type": "Wisd",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          21.0,
+          23.0,
+          25.0,
+          27.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "暴击率",
+        "attr_type": "CriticalRate",
+        "is_base": false,
+        "is_percent": true,
+        "enhances": true,
+        "values": [
+          0.1035,
+          0.11385,
+          0.12419999999999999,
+          0.13455
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      }
+    ]
+  },
+  "materials": {
+    "unlock_type": "EquipFormulaChest",
+    "unlock_key": "reward_eco_map02_lv003_int_296",
+    "gold": 0,
+    "items": []
+  }
+}

@@ -1,0 +1,2932 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "article_id": "3fe82ef5-5749-4b04-9f10-e7c185813df0",
+    "title": "装备",
+    "updated_at": "2026-07-30T09:09:51.630Z"
+  },
+  "attr_groups": [
+    {
+      "keys": [
+        "攻击力",
+        "生命值",
+        "暴击率",
+        "源石技艺强度",
+        "治疗效率加成",
+        "物理伤害加成",
+        "终结技充能效率",
+        "对失衡目标伤害加成",
+        "法术伤害加成",
+        "寒冷和电磁伤害加成",
+        "全伤害减免",
+        "灼热和自然伤害加成"
+      ],
+      "label": "附加属性"
+    },
+    {
+      "keys": [
+        "普通攻击伤害加成",
+        "战技伤害加成",
+        "连携技伤害加成",
+        "终结技伤害加成",
+        "所有技能伤害加成"
+      ],
+      "label": "技能属性"
+    }
+  ],
+  "attr_order": [
+    "攻击力",
+    "生命值",
+    "暴击率",
+    "源石技艺强度",
+    "治疗效率加成",
+    "物理伤害加成",
+    "终结技充能效率",
+    "对失衡目标伤害加成",
+    "法术伤害加成",
+    "寒冷和电磁伤害加成",
+    "全伤害减免",
+    "灼热和自然伤害加成",
+    "普通攻击伤害加成",
+    "战技伤害加成",
+    "连携技伤害加成",
+    "终结技伤害加成",
+    "所有技能伤害加成"
+  ],
+  "entries": [
+    {
+      "name": "集成实训护甲",
+      "group": "集成实训装备组",
+      "title": "装备/集成实训护甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_parts_wuling00_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/0abaa643d7b197c9.png",
+      "attrKeys": [
+        "法术伤害加成"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "集成实训钢甲",
+      "group": "集成实训装备组",
+      "title": "装备/集成实训钢甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_parts_wuling00_body_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/a78de663a3c383e3.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "集成实训胸甲",
+      "group": "集成实训装备组",
+      "title": "装备/集成实训胸甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_parts_wuling00_body_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/6584d2987d62ca93.png",
+      "attrKeys": [],
+      "slotType": "护甲"
+    },
+    {
+      "name": "纾难重甲",
+      "group": "纾难装备组",
+      "title": "装备/纾难重甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_parts_wuling01_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/2aac3b7cb7eed53c.png",
+      "attrKeys": [
+        "普通攻击伤害加成"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "纾难护甲",
+      "group": "纾难装备组",
+      "title": "装备/纾难护甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_parts_wuling01_body_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/b6ed82ca9d630e23.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "涉渊重甲",
+      "group": "涉渊装备组",
+      "title": "装备/涉渊重甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_parts_wuling02_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/67833e769d8e9b7f.png",
+      "attrKeys": [
+        "源石技艺强度"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "涉渊轻甲",
+      "group": "涉渊装备组",
+      "title": "装备/涉渊轻甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_parts_wuling02_body_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/2329dbbef450901b.png",
+      "attrKeys": [
+        "治疗效率加成"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "拓荒护甲",
+      "group": "拓荒装备组",
+      "title": "装备/拓荒护甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_atb01_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/3d132cc5b816ff75.png",
+      "attrKeys": [
+        "终结技伤害加成"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "拓荒护甲·壹型",
+      "group": "拓荒装备组",
+      "title": "装备/拓荒护甲·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_atb01_body_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/068c8bfda8fe6870.png",
+      "attrKeys": [
+        "战技伤害加成"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "拓荒护甲·贰型",
+      "group": "拓荒装备组",
+      "title": "装备/拓荒护甲·贰型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_atb01_body_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/6b8180162a6b7d19.png",
+      "attrKeys": [
+        "战技伤害加成"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "拓荒护甲·叁型",
+      "group": "拓荒装备组",
+      "title": "装备/拓荒护甲·叁型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_atb01_body_04",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/9ab0439c5dabd8ec.png",
+      "attrKeys": [],
+      "slotType": "护甲"
+    },
+    {
+      "name": "拓荒护服",
+      "group": "拓荒装备组",
+      "title": "装备/拓荒护服",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_atb01_body_05",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/3c67c6391262875f.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "50式应龙重甲",
+      "group": "50式应龙装备组",
+      "title": "装备/50式应龙重甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_atk02_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/2aff463af3154ed8.png",
+      "attrKeys": [
+        "物理伤害加成"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "50式应龙重甲·壹型",
+      "group": "50式应龙装备组",
+      "title": "装备/50式应龙重甲·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_atk02_body_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/f2a627304066a355.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "50式应龙重甲·贰型",
+      "group": "50式应龙装备组",
+      "title": "装备/50式应龙重甲·贰型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_atk02_body_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/d568a61b5e9ed5ac.png",
+      "attrKeys": [
+        "连携技伤害加成"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "50式应龙轻甲",
+      "group": "50式应龙装备组",
+      "title": "装备/50式应龙轻甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_atk02_body_04",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/a841c6f4e5ab8115.png",
+      "attrKeys": [
+        "所有技能伤害加成"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "碾骨重护甲",
+      "group": "碾骨装备组",
+      "title": "装备/碾骨重护甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_attri01_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/8d9532545b0955dd.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "碾骨重护甲·壹型",
+      "group": "碾骨装备组",
+      "title": "装备/碾骨重护甲·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_attri01_body_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/742ad6612c0ecf67.png",
+      "attrKeys": [
+        "连携技伤害加成"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "碾骨披巾",
+      "group": "碾骨装备组",
+      "title": "装备/碾骨披巾",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_attri01_body_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/4fc0ea3720e43249.png",
+      "attrKeys": [
+        "连携技伤害加成"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "碾骨披巾·壹型",
+      "group": "碾骨装备组",
+      "title": "装备/碾骨披巾·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_attri01_body_04",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/4fc0ea3720e43249.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "碾骨重护甲·贰型",
+      "group": "碾骨装备组",
+      "title": "装备/碾骨重护甲·贰型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_attri01_body_05",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/1153cb796dc5d67e.png",
+      "attrKeys": [
+        "寒冷和电磁伤害加成"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "落潮轻甲",
+      "group": "潮涌装备组",
+      "title": "装备/落潮轻甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_burst01_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/d2b1ad00b43c82d4.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "清波重甲",
+      "group": "清波装备组",
+      "title": "装备/清波重甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_combo_cd01_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/7e61e22fdbba3cb0.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "清波轻甲",
+      "group": "清波装备组",
+      "title": "装备/清波轻甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_combo_cd01_body_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/48a1703ecbcab517.png",
+      "attrKeys": [
+        "源石技艺强度"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "M.I.警用护甲",
+      "group": "M.I.警用装备组",
+      "title": "装备/M.I.警用护甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_criti01_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/dec880aa27d4ba11.png",
+      "attrKeys": [
+        "源石技艺强度"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "M.I.警用罩衣",
+      "group": "M.I.警用装备组",
+      "title": "装备/M.I.警用罩衣",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_criti01_body_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/7efae0021fbc6bd0.png",
+      "attrKeys": [
+        "普通攻击伤害加成"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "M.I.警用罩衣·壹型",
+      "group": "M.I.警用装备组",
+      "title": "装备/M.I.警用罩衣·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_criti01_body_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/961db94c206d98e7.png",
+      "attrKeys": [
+        "暴击率"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "M.I.警用罩衣·贰型",
+      "group": "M.I.警用装备组",
+      "title": "装备/M.I.警用罩衣·贰型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_criti01_body_04",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/3b325a34d7eed7c2.png",
+      "attrKeys": [
+        "战技伤害加成"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "M.I.警用护甲·壹型",
+      "group": "M.I.警用装备组",
+      "title": "装备/M.I.警用护甲·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_criti01_body_06",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/f6ec6a8c37e1c9bc.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "旧锋装甲",
+      "group": "旧锋装备组",
+      "title": "装备/旧锋装甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_crush_fracture_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/099320e015051102.png",
+      "attrKeys": [
+        "物理伤害加成"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "旧锋装甲·壹型",
+      "group": "旧锋装备组",
+      "title": "装备/旧锋装甲·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_crush_fracture_body_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/2272e27165c23985.png",
+      "attrKeys": [
+        "源石技艺强度"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "壤流轻甲",
+      "group": "壤流装备组",
+      "title": "装备/壤流轻甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_expend_spell01_body_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/9247ca8b1619feb2.png",
+      "attrKeys": [
+        "寒冷和电磁伤害加成"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "动火用外骨骼",
+      "group": "动火用装备组",
+      "title": "装备/动火用外骨骼",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_fire_natr01_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/b19d501fb58cf8d5.png",
+      "attrKeys": [
+        "灼热和自然伤害加成"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "动火用辅助骨骼",
+      "group": "动火用装备组",
+      "title": "装备/动火用辅助骨骼",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_fire_natr01_body_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/18011679a6a7d82b.png",
+      "attrKeys": [
+        "灼热和自然伤害加成"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "生物辅助重甲",
+      "group": "生物辅助装备组",
+      "title": "装备/生物辅助重甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_heal01_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/240fa70c79449def.png",
+      "attrKeys": [
+        "治疗效率加成"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "生物辅助胸甲",
+      "group": "生物辅助装备组",
+      "title": "装备/生物辅助胸甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_heal01_body_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/192a934822c37903.png",
+      "attrKeys": [
+        "治疗效率加成"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "生物辅助胸甲·壹型",
+      "group": "生物辅助装备组",
+      "title": "装备/生物辅助胸甲·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_heal01_body_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/3b3a063998f14fe9.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "点剑轻装甲",
+      "group": "点剑装备组",
+      "title": "装备/点剑轻装甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_phy01_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/7e6fe7224ec9202a.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "点剑重装甲",
+      "group": "点剑装备组",
+      "title": "装备/点剑重装甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_phy01_body_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/9b1682730ae84086.png",
+      "attrKeys": [
+        "源石技艺强度"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "点剑重装甲·壹型",
+      "group": "点剑装备组",
+      "title": "装备/点剑重装甲·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_phy01_body_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/53138d51ac70f2af.png",
+      "attrKeys": [
+        "物理伤害加成"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "点剑纤维护甲",
+      "group": "点剑装备组",
+      "title": "装备/点剑纤维护甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_phy01_body_04",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/f9545bdd2a2e3973.png",
+      "attrKeys": [
+        "物理伤害加成"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "轻超域护板",
+      "group": "轻超域装备组",
+      "title": "装备/轻超域护板",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_poise01_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/8aff4b5ef6916995.png",
+      "attrKeys": [
+        "对失衡目标伤害加成"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "脉冲式干扰服",
+      "group": "脉冲式装备组",
+      "title": "装备/脉冲式干扰服",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_pulse_cryst01_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/b8b8202ef238270c.png",
+      "attrKeys": [
+        "源石技艺强度"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "长息装甲",
+      "group": "长息装备组",
+      "title": "装备/长息装甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_usp02_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/167bab6598ddcc61.png",
+      "attrKeys": [
+        "源石技艺强度"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "长息轻护甲",
+      "group": "长息装备组",
+      "title": "装备/长息轻护甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_usp02_body_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/4fde36619c16bf40.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "长息轻护甲·壹型",
+      "group": "长息装备组",
+      "title": "装备/长息轻护甲·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_usp02_body_04",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/04301394c5d9e2bc.png",
+      "attrKeys": [],
+      "slotType": "护甲"
+    },
+    {
+      "name": "集成实训排障刀",
+      "group": "集成实训装备组",
+      "title": "装备/集成实训排障刀",
+      "rarity": 5,
+      "equipId": "item_equip_t4_parts_wuling00_edc_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/cc11ab88e7e985e2.png",
+      "attrKeys": [
+        "法术伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "集成实训火种石",
+      "group": "集成实训装备组",
+      "title": "装备/集成实训火种石",
+      "rarity": 5,
+      "equipId": "item_equip_t4_parts_wuling00_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/37e8d5e20d7c99b8.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "集成实训照明器",
+      "group": "集成实训装备组",
+      "title": "装备/集成实训照明器",
+      "rarity": 5,
+      "equipId": "item_equip_t4_parts_wuling00_edc_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/54e33d0bd72f88da.png",
+      "attrKeys": [],
+      "slotType": "配件"
+    },
+    {
+      "name": "纾难识别牌",
+      "group": "纾难装备组",
+      "title": "装备/纾难识别牌",
+      "rarity": 5,
+      "equipId": "item_equip_t4_parts_wuling01_edc_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/4cc72705080be20c.png",
+      "attrKeys": [
+        "全伤害减免"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "纾难识别牌·壹型",
+      "group": "纾难装备组",
+      "title": "装备/纾难识别牌·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_parts_wuling01_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/3345c2a7d5d4e111.png",
+      "attrKeys": [
+        "连携技伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "纾难印章",
+      "group": "纾难装备组",
+      "title": "装备/纾难印章",
+      "rarity": 5,
+      "equipId": "item_equip_t4_parts_wuling01_edc_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/9ae6bdabae08d834.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "纾难印章·壹型",
+      "group": "纾难装备组",
+      "title": "装备/纾难印章·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_parts_wuling01_edc_04",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/fc8daac4b9f02d21.png",
+      "attrKeys": [
+        "暴击率"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "涉渊护甲板",
+      "group": "涉渊装备组",
+      "title": "装备/涉渊护甲板",
+      "rarity": 5,
+      "equipId": "item_equip_t4_parts_wuling02_edc_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/1a189f84a07ac264.png",
+      "attrKeys": [],
+      "slotType": "配件"
+    },
+    {
+      "name": "拓荒通信器",
+      "group": "拓荒装备组",
+      "title": "装备/拓荒通信器",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_atb01_edc_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/d4a774180d0f5c82.png",
+      "attrKeys": [
+        "连携技伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "拓荒通信器·壹型",
+      "group": "拓荒装备组",
+      "title": "装备/拓荒通信器·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_atb01_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/4eafff199c65eae4.png",
+      "attrKeys": [
+        "寒冷和电磁伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "拓荒分析仪",
+      "group": "拓荒装备组",
+      "title": "装备/拓荒分析仪",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_atb01_edc_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/72871daa0f90477e.png",
+      "attrKeys": [
+        "终结技伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "拓荒增量供氧栓",
+      "group": "拓荒装备组",
+      "title": "装备/拓荒增量供氧栓",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_atb01_edc_04",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/ebddc9dbfaa0d3a2.png",
+      "attrKeys": [],
+      "slotType": "配件"
+    },
+    {
+      "name": "拓荒供氧栓",
+      "group": "拓荒装备组",
+      "title": "装备/拓荒供氧栓",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_atb01_edc_05",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/c0cdf9bad915878f.png",
+      "attrKeys": [
+        "物理伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "拓荒增量供氧栓·壹型",
+      "group": "拓荒装备组",
+      "title": "装备/拓荒增量供氧栓·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_atb01_edc_06",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/e0c8ed94a105a792.png",
+      "attrKeys": [],
+      "slotType": "配件"
+    },
+    {
+      "name": "50式应龙雷达",
+      "group": "50式应龙装备组",
+      "title": "装备/50式应龙雷达",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_atk02_edc_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/9360f9ebc48a9957.png",
+      "attrKeys": [
+        "物理伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "50式应龙雷达·壹型",
+      "group": "50式应龙装备组",
+      "title": "装备/50式应龙雷达·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_atk02_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/ed9839957ae44bc5.png",
+      "attrKeys": [
+        "终结技伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "50式应龙雷达·贰型",
+      "group": "50式应龙装备组",
+      "title": "装备/50式应龙雷达·贰型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_atk02_edc_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/cbf3080df61ba217.png",
+      "attrKeys": [
+        "连携技伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "50式应龙短刃",
+      "group": "50式应龙装备组",
+      "title": "装备/50式应龙短刃",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_atk02_edc_04",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/a784e6f8473f43ca.png",
+      "attrKeys": [
+        "连携技伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "50式应龙短刃·壹型",
+      "group": "50式应龙装备组",
+      "title": "装备/50式应龙短刃·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_atk02_edc_05",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/89aa0ca3a33754c8.png",
+      "attrKeys": [
+        "所有技能伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "碾骨小雕像·贰型",
+      "group": "碾骨装备组",
+      "title": "装备/碾骨小雕像·贰型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_attri01_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/53559fb572723b69.png",
+      "attrKeys": [
+        "战技伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "碾骨小雕像",
+      "group": "碾骨装备组",
+      "title": "装备/碾骨小雕像",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_attri01_edc_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/f7f7cf7d37fc754f.png",
+      "attrKeys": [
+        "战技伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "碾骨面具",
+      "group": "碾骨装备组",
+      "title": "装备/碾骨面具",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_attri01_edc_04",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/b526c4ff73c23883.png",
+      "attrKeys": [
+        "对失衡目标伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "碾骨面具·壹型",
+      "group": "碾骨装备组",
+      "title": "装备/碾骨面具·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_attri01_edc_05",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/d49b1855daadb662.png",
+      "attrKeys": [
+        "暴击率"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "碾骨小雕像·壹型",
+      "group": "碾骨装备组",
+      "title": "装备/碾骨小雕像·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_attri01_edc_06",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/f7f7cf7d37fc754f.png",
+      "attrKeys": [
+        "连携技伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "碾骨面具·贰型",
+      "group": "碾骨装备组",
+      "title": "装备/碾骨面具·贰型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_attri01_edc_07",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/477d31629a3e0931.png",
+      "attrKeys": [
+        "战技伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "悬河供氧栓",
+      "group": "潮涌装备组",
+      "title": "装备/悬河供氧栓",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_burst01_edc_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/82e5b3326bf7473d.png",
+      "attrKeys": [
+        "寒冷和电磁伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "浊流切割炬",
+      "group": "潮涌装备组",
+      "title": "装备/浊流切割炬",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_burst01_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/8fd49b7a6e63b988.png",
+      "attrKeys": [
+        "普通攻击伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "清波定位仪",
+      "group": "清波装备组",
+      "title": "装备/清波定位仪",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_combo_cd01_edc_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/0eb3139df3e3c474.png",
+      "attrKeys": [
+        "战技伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "清波竹刃",
+      "group": "清波装备组",
+      "title": "装备/清波竹刃",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_combo_cd01_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/342bdd55c5e849b1.png",
+      "attrKeys": [
+        "灼热和自然伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "清波水罐",
+      "group": "清波装备组",
+      "title": "装备/清波水罐",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_combo_cd01_edc_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/eabc78afa302f754.png",
+      "attrKeys": [
+        "源石技艺强度"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "清波定位仪·壹型",
+      "group": "清波装备组",
+      "title": "装备/清波定位仪·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_combo_cd01_edc_04",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/fea6c69bbac18613.png",
+      "attrKeys": [
+        "物理伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "M.I.警用臂环",
+      "group": "M.I.警用装备组",
+      "title": "装备/M.I.警用臂环",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_criti01_edc_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/312d217f0a203253.png",
+      "attrKeys": [
+        "寒冷和电磁伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "M.I.警用瞄具",
+      "group": "M.I.警用装备组",
+      "title": "装备/M.I.警用瞄具",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_criti01_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/099d34f257476452.png",
+      "attrKeys": [
+        "战技伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "M.I.警用工具组",
+      "group": "M.I.警用装备组",
+      "title": "装备/M.I.警用工具组",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_criti01_edc_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/f6bd2263bb43f4e9.png",
+      "attrKeys": [
+        "暴击率"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "M.I.警用刺刃",
+      "group": "M.I.警用装备组",
+      "title": "装备/M.I.警用刺刃",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_criti01_edc_04",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/8f47b9142bc527bf.png",
+      "attrKeys": [
+        "灼热和自然伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "M.I.警用刺刃·壹型",
+      "group": "M.I.警用装备组",
+      "title": "装备/M.I.警用刺刃·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_criti01_edc_05",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/dd978c6130439b32.png",
+      "attrKeys": [
+        "战技伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "M.I.警用瞄具·壹型",
+      "group": "M.I.警用装备组",
+      "title": "装备/M.I.警用瞄具·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_criti01_edc_06",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/57d096548b5cfccf.png",
+      "attrKeys": [
+        "暴击率"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "旧锋刺刃",
+      "group": "旧锋装备组",
+      "title": "装备/旧锋刺刃",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_crush_fracture_edc_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/8f6c8ab067fdcc4a.png",
+      "attrKeys": [
+        "物理伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "旧锋刺刃·壹型",
+      "group": "旧锋装备组",
+      "title": "装备/旧锋刺刃·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_crush_fracture_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/eb36f3af30e72749.png",
+      "attrKeys": [
+        "物理伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "壤流短棍",
+      "group": "壤流装备组",
+      "title": "装备/壤流短棍",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_expend_spell01_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/4a84ce10ed945081.png",
+      "attrKeys": [
+        "战技伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "动火用储能匣",
+      "group": "动火用装备组",
+      "title": "装备/动火用储能匣",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_fire_natr01_edc_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/2d14d5d6d871ab09.png",
+      "attrKeys": [
+        "源石技艺强度"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "动火用测温镜",
+      "group": "动火用装备组",
+      "title": "装备/动火用测温镜",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_fire_natr01_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/559bcf6f14bde69a.png",
+      "attrKeys": [
+        "战技伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "动火用电力匣",
+      "group": "动火用装备组",
+      "title": "装备/动火用电力匣",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_fire_natr01_edc_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/af083018160913a9.png",
+      "attrKeys": [
+        "源石技艺强度"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "动火用隔温板",
+      "group": "动火用装备组",
+      "title": "装备/动火用隔温板",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_fire_natr01_edc_04",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/de7380f9fcf3e85f.png",
+      "attrKeys": [
+        "所有技能伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "生物辅助接驳器",
+      "group": "生物辅助装备组",
+      "title": "装备/生物辅助接驳器",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_heal01_edc_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/2815c7df2037dd4a.png",
+      "attrKeys": [
+        "全伤害减免"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "生物辅助接驳器·贰型",
+      "group": "生物辅助装备组",
+      "title": "装备/生物辅助接驳器·贰型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_heal01_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/0c8ef80fc6685ca7.png",
+      "attrKeys": [
+        "生命值"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "生物辅助护板",
+      "group": "生物辅助装备组",
+      "title": "装备/生物辅助护板",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_heal01_edc_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/26590646b597c09f.png",
+      "attrKeys": [],
+      "slotType": "配件"
+    },
+    {
+      "name": "生物辅助护盾针",
+      "group": "生物辅助装备组",
+      "title": "装备/生物辅助护盾针",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_heal01_edc_04",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/b30510d88e41093b.png",
+      "attrKeys": [
+        "治疗效率加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "生物辅助接驳器·壹型",
+      "group": "生物辅助装备组",
+      "title": "装备/生物辅助接驳器·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_heal01_edc_05",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/2815c7df2037dd4a.png",
+      "attrKeys": [
+        "生命值"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "点剑定位信标",
+      "group": "点剑装备组",
+      "title": "装备/点剑定位信标",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_phy01_edc_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/4f5fc8c13f353fc1.png",
+      "attrKeys": [
+        "源石技艺强度"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "点剑微型滤芯",
+      "group": "点剑装备组",
+      "title": "装备/点剑微型滤芯",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_phy01_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/afa5649e1ad940e2.png",
+      "attrKeys": [
+        "物理伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "点剑火石",
+      "group": "点剑装备组",
+      "title": "装备/点剑火石",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_phy01_edc_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/2e58419e7b9364c9.png",
+      "attrKeys": [
+        "物理伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "点剑短刃",
+      "group": "点剑装备组",
+      "title": "装备/点剑短刃",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_phy01_edc_04",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/dc829fbd255a2ccd.png",
+      "attrKeys": [
+        "终结技伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "轻超域分析环",
+      "group": "轻超域装备组",
+      "title": "装备/轻超域分析环",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_poise01_edc_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/f6f0468e4912cbf4.png",
+      "attrKeys": [
+        "物理伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "轻超域稳定盘",
+      "group": "轻超域装备组",
+      "title": "装备/轻超域稳定盘",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_poise01_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/637c0db31ecb4f0a.png",
+      "attrKeys": [
+        "源石技艺强度"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "轻超域稳定盘·壹型",
+      "group": "轻超域装备组",
+      "title": "装备/轻超域稳定盘·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_poise01_edc_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/609e9b7c457efbe0.png",
+      "attrKeys": [
+        "物理伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "轻超域腕表",
+      "group": "轻超域装备组",
+      "title": "装备/轻超域腕表",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_poise01_edc_04",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/e181d1f62e74f34f.png",
+      "attrKeys": [
+        "战技伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "脉冲式探针",
+      "group": "脉冲式装备组",
+      "title": "装备/脉冲式探针",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_pulse_cryst01_edc_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/98cc6e03f25cbcaa.png",
+      "attrKeys": [
+        "源石技艺强度"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "脉冲式校准器",
+      "group": "脉冲式装备组",
+      "title": "装备/脉冲式校准器",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_pulse_cryst01_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/9a7627afae8233b7.png",
+      "attrKeys": [
+        "源石技艺强度"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "脉冲式侵入核",
+      "group": "脉冲式装备组",
+      "title": "装备/脉冲式侵入核",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_pulse_cryst01_edc_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/c027f677c341a676.png",
+      "attrKeys": [
+        "终结技伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "长息蓄电核",
+      "group": "长息装备组",
+      "title": "装备/长息蓄电核",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_usp02_edc_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/c751f64c843b1666.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "长息蓄电核·壹型",
+      "group": "长息装备组",
+      "title": "装备/长息蓄电核·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_usp02_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/286f52d1abd72f42.png",
+      "attrKeys": [
+        "治疗效率加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "长息辅助臂",
+      "group": "长息装备组",
+      "title": "装备/长息辅助臂",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_usp02_edc_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/29ef4743722c403f.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "长息加固板",
+      "group": "长息装备组",
+      "title": "装备/长息加固板",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_usp02_edc_04",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/2466f5640fe1ad00.png",
+      "attrKeys": [],
+      "slotType": "配件"
+    },
+    {
+      "name": "集成实训手套",
+      "group": "集成实训装备组",
+      "title": "装备/集成实训手套",
+      "rarity": 5,
+      "equipId": "item_equip_t4_parts_wuling00_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/e9821b207dbb22af.png",
+      "attrKeys": [
+        "法术伤害加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "集成实训护手",
+      "group": "集成实训装备组",
+      "title": "装备/集成实训护手",
+      "rarity": 5,
+      "equipId": "item_equip_t4_parts_wuling00_hand_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/f2f1cab92d293ec7.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "集成实训缠带",
+      "group": "集成实训装备组",
+      "title": "装备/集成实训缠带",
+      "rarity": 5,
+      "equipId": "item_equip_t4_parts_wuling00_hand_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/c09c243928ef3a33.png",
+      "attrKeys": [],
+      "slotType": "护手"
+    },
+    {
+      "name": "纾难护手",
+      "group": "纾难装备组",
+      "title": "装备/纾难护手",
+      "rarity": 5,
+      "equipId": "item_equip_t4_parts_wuling01_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/63fa5585bc87cfb4.png",
+      "attrKeys": [
+        "终结技伤害加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "纾难手套",
+      "group": "纾难装备组",
+      "title": "装备/纾难手套",
+      "rarity": 5,
+      "equipId": "item_equip_t4_parts_wuling01_hand_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/abd36e9f53f2ed1b.png",
+      "attrKeys": [
+        "所有技能伤害加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "涉渊护手",
+      "group": "涉渊装备组",
+      "title": "装备/涉渊护手",
+      "rarity": 5,
+      "equipId": "item_equip_t4_parts_wuling02_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/95387e276d2da2c4.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "涉渊手套",
+      "group": "涉渊装备组",
+      "title": "装备/涉渊手套",
+      "rarity": 5,
+      "equipId": "item_equip_t4_parts_wuling02_hand_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/c95c258011ca4692.png",
+      "attrKeys": [
+        "战技伤害加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "拓荒耐蚀手套",
+      "group": "拓荒装备组",
+      "title": "装备/拓荒耐蚀手套",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_atb01_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/9820cb6afa8c7023.png",
+      "attrKeys": [
+        "战技伤害加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "拓荒纤维手套",
+      "group": "拓荒装备组",
+      "title": "装备/拓荒纤维手套",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_atb01_hand_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/2508025efdf59c46.png",
+      "attrKeys": [
+        "所有技能伤害加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "拓荒纤维手套·壹型",
+      "group": "拓荒装备组",
+      "title": "装备/拓荒纤维手套·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_atb01_hand_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/a4bad3b8fa087656.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "50式应龙护手",
+      "group": "50式应龙装备组",
+      "title": "装备/50式应龙护手",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_atk02_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/e6feccb52cbebcc9.png",
+      "attrKeys": [
+        "连携技伤害加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "50式应龙护手·壹型",
+      "group": "50式应龙装备组",
+      "title": "装备/50式应龙护手·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_atk02_hand_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/e6feccb52cbebcc9.png",
+      "attrKeys": [
+        "连携技伤害加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "碾骨腕带",
+      "group": "碾骨装备组",
+      "title": "装备/碾骨腕带",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_attri01_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/b7e1f4179cf7f3d7.png",
+      "attrKeys": [
+        "灼热和自然伤害加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "碾骨腕带·壹型",
+      "group": "碾骨装备组",
+      "title": "装备/碾骨腕带·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_attri01_hand_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/19c32f8aa3cfccc4.png",
+      "attrKeys": [
+        "寒冷和电磁伤害加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "碾骨手套",
+      "group": "碾骨装备组",
+      "title": "装备/碾骨手套",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_attri01_hand_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/974df058b8e52d0b.png",
+      "attrKeys": [
+        "寒冷和电磁伤害加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "潮涌手甲",
+      "group": "潮涌装备组",
+      "title": "装备/潮涌手甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_burst01_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/01763c5ce801bb99.png",
+      "attrKeys": [
+        "寒冷和电磁伤害加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "清波手甲",
+      "group": "清波装备组",
+      "title": "装备/清波手甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_combo_cd01_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/40b5024ca5b51fb1.png",
+      "attrKeys": [
+        "所有技能伤害加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "清波护手",
+      "group": "清波装备组",
+      "title": "装备/清波护手",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_combo_cd01_hand_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/7718b463aaacf5ce.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "M.I.警用手套",
+      "group": "M.I.警用装备组",
+      "title": "装备/M.I.警用手套",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_criti01_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/5c4eca101a1d95be.png",
+      "attrKeys": [
+        "战技伤害加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "M.I.警用手环",
+      "group": "M.I.警用装备组",
+      "title": "装备/M.I.警用手环",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_criti01_hand_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/ae9160e86229b950.png",
+      "attrKeys": [
+        "普通攻击伤害加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "M.I.警用手环·壹型",
+      "group": "M.I.警用装备组",
+      "title": "装备/M.I.警用手环·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_criti01_hand_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/fe953c6d03186e7a.png",
+      "attrKeys": [
+        "暴击率"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "M.I.警用手套·壹型",
+      "group": "M.I.警用装备组",
+      "title": "装备/M.I.警用手套·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_criti01_hand_04",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/212ac21eecbabc42.png",
+      "attrKeys": [
+        "终结技伤害加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "旧锋手甲",
+      "group": "旧锋装备组",
+      "title": "装备/旧锋手甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_crush_fracture_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/b9d99c17c514ca23.png",
+      "attrKeys": [
+        "源石技艺强度"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "旧锋手甲·壹型",
+      "group": "旧锋装备组",
+      "title": "装备/旧锋手甲·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_crush_fracture_hand_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/3558b88b2f6c2475.png",
+      "attrKeys": [
+        "源石技艺强度"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "壤流护手",
+      "group": "壤流装备组",
+      "title": "装备/壤流护手",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_expend_spell01_hand_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/818590de270e9108.png",
+      "attrKeys": [
+        "寒冷和电磁伤害加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "动火用手套",
+      "group": "动火用装备组",
+      "title": "装备/动火用手套",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_fire_natr01_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/5643ba88d0d21e43.png",
+      "attrKeys": [
+        "源石技艺强度"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "动火用手甲",
+      "group": "动火用装备组",
+      "title": "装备/动火用手甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_fire_natr01_hand_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/cd7ab7673ae4ca5b.png",
+      "attrKeys": [
+        "灼热和自然伤害加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "动火用手甲·壹型",
+      "group": "动火用装备组",
+      "title": "装备/动火用手甲·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_fire_natr01_hand_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/c6f4329738b7efe3.png",
+      "attrKeys": [
+        "灼热和自然伤害加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "动火用护手",
+      "group": "动火用装备组",
+      "title": "装备/动火用护手",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_fire_natr01_hand_04",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/c2b13350a0c86ddc.png",
+      "attrKeys": [
+        "灼热和自然伤害加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "生物辅助臂甲",
+      "group": "生物辅助装备组",
+      "title": "装备/生物辅助臂甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_heal01_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/82b7d3ad0057bbf7.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "生物辅助手甲",
+      "group": "生物辅助装备组",
+      "title": "装备/生物辅助手甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_heal01_hand_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/7e0542273ec823b2.png",
+      "attrKeys": [
+        "治疗效率加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "生物辅助手甲·壹型",
+      "group": "生物辅助装备组",
+      "title": "装备/生物辅助手甲·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_heal01_hand_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/e2686a0556548fc6.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "点剑战术手套",
+      "group": "点剑装备组",
+      "title": "装备/点剑战术手套",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_phy01_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/8f2e01715e8d00d8.png",
+      "attrKeys": [
+        "物理伤害加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "点剑战术手甲",
+      "group": "点剑装备组",
+      "title": "装备/点剑战术手甲",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_phy01_hand_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/0625c2216e3346d1.png",
+      "attrKeys": [
+        "终结技伤害加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "点剑战术手甲·壹型",
+      "group": "点剑装备组",
+      "title": "装备/点剑战术手甲·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_phy01_hand_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/01677acf54835084.png",
+      "attrKeys": [
+        "源石技艺强度"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "轻超域护手",
+      "group": "轻超域装备组",
+      "title": "装备/轻超域护手",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_poise01_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/fe07942e38ec980a.png",
+      "attrKeys": [
+        "源石技艺强度"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "轻超域轻护手",
+      "group": "轻超域装备组",
+      "title": "装备/轻超域轻护手",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_poise01_hand_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/83ce8adca1aa1a5a.png",
+      "attrKeys": [
+        "所有技能伤害加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "脉冲式手套",
+      "group": "脉冲式装备组",
+      "title": "装备/脉冲式手套",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_pulse_cryst01_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/6a93f60dcf7ea0f4.png",
+      "attrKeys": [
+        "寒冷和电磁伤害加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "长息护手",
+      "group": "长息装备组",
+      "title": "装备/长息护手",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_usp02_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/a54077b6f7dcffd8.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "长息护手·壹型",
+      "group": "长息装备组",
+      "title": "装备/长息护手·壹型",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_usp02_hand_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/a54077b6f7dcffd8.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "长息裹手",
+      "group": "长息装备组",
+      "title": "装备/长息裹手",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_usp02_hand_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/091c577c0c231c66.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "长息手套",
+      "group": "长息装备组",
+      "title": "装备/长息手套",
+      "rarity": 5,
+      "equipId": "item_equip_t4_suit_usp02_hand_04",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/78a9f8673ae79f69.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "矿场护甲·壹型",
+      "group": "矿场γ型独立装备组",
+      "title": "装备/矿场护甲·壹型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_parts_tundra01_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/aa190b731b9a1439.png",
+      "attrKeys": [
+        "暴击率"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "矿场防护服·壹型",
+      "group": "矿场γ型独立装备组",
+      "title": "装备/矿场防护服·壹型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_parts_tundra01_body_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/1e81611ac4f701a3.png",
+      "attrKeys": [
+        "攻击力"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "巡行信使夹克·壹型",
+      "group": "巡行信使装备组",
+      "title": "装备/巡行信使夹克·壹型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_agi01_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/9e640b7622735fd7.png",
+      "attrKeys": [
+        "生命值"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "阿伯莉重甲",
+      "group": "阿伯莉遗声装备组",
+      "title": "装备/阿伯莉重甲",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_atk01_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/62eed046a2d7310b.png",
+      "attrKeys": [
+        "所有技能伤害加成"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "阿伯莉重甲·壹型",
+      "group": "阿伯莉遗声装备组",
+      "title": "装备/阿伯莉重甲·壹型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_atk01_body_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/85e9e9089a6d80ba.png",
+      "attrKeys": [
+        "连携技伤害加成"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "阿伯莉轻甲",
+      "group": "阿伯莉遗声装备组",
+      "title": "装备/阿伯莉轻甲",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_atk01_body_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/a62366abac86805f.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "阿伯莉轻甲·壹型",
+      "group": "阿伯莉遗声装备组",
+      "title": "装备/阿伯莉轻甲·壹型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_atk01_body_04",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/108f5ae8274d035d.png",
+      "attrKeys": [
+        "战技伤害加成"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "重装信使夹克·壹型",
+      "group": "重装信使装备组",
+      "title": "装备/重装信使夹克·壹型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_str01_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/c47ee34b67aafabf.png",
+      "attrKeys": [
+        "生命值"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "天灾防护重甲",
+      "group": "天灾防护装备组",
+      "title": "装备/天灾防护重甲",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_usp01_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/18d2898080aac5a3.png",
+      "attrKeys": [
+        "终结技伤害加成"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "天灾防护重甲·壹型",
+      "group": "天灾防护装备组",
+      "title": "装备/天灾防护重甲·壹型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_usp01_body_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/e1d3e3cdbebfe1a1.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "蚀电防护背心·壹型",
+      "group": "蚀电防护装备组",
+      "title": "装备/蚀电防护背心·壹型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_will01_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/f999c2d95c17bc1e.png",
+      "attrKeys": [
+        "生命值"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "蚀电屏蔽背心·壹型",
+      "group": "蚀电屏蔽装备组",
+      "title": "装备/蚀电屏蔽背心·壹型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_wisd01_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/2f055b5dcc801a38.png",
+      "attrKeys": [
+        "普通攻击伤害加成"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "蚀电屏蔽背心·贰型",
+      "group": "蚀电屏蔽装备组",
+      "title": "装备/蚀电屏蔽背心·贰型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_wisd01_body_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/b40f32025b8161b1.png",
+      "attrKeys": [
+        "生命值"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "矿场增压轮·壹型",
+      "group": "矿场γ型独立装备组",
+      "title": "装备/矿场增压轮·壹型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_parts_tundra01_edc_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/fb406a973a4a5791.png",
+      "attrKeys": [
+        "全伤害减免"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "矿场传动轮·壹型",
+      "group": "矿场γ型独立装备组",
+      "title": "装备/矿场传动轮·壹型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_parts_tundra01_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/5de83dcd5eea2581.png",
+      "attrKeys": [
+        "连携技伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "矿场压缩核·壹型",
+      "group": "矿场γ型独立装备组",
+      "title": "装备/矿场压缩核·壹型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_parts_tundra01_edc_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/966d2ef5d4e120b8.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "矿场联络仪·壹型",
+      "group": "矿场γ型独立装备组",
+      "title": "装备/矿场联络仪·壹型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_parts_tundra01_edc_04",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/0678490efcfd8609.png",
+      "attrKeys": [
+        "治疗效率加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "巡行信使手电·壹型",
+      "group": "巡行信使装备组",
+      "title": "装备/巡行信使手电·壹型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_agi01_edc_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/2287ae99b0f96e27.png",
+      "attrKeys": [
+        "连携技伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "巡行信使手电·贰型",
+      "group": "巡行信使装备组",
+      "title": "装备/巡行信使手电·贰型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_agi01_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/594ff2a70fbe225c.png",
+      "attrKeys": [
+        "终结技伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "巡行信使陀螺·壹型",
+      "group": "巡行信使装备组",
+      "title": "装备/巡行信使陀螺·壹型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_agi01_edc_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/cd097b4c991e7a0b.png",
+      "attrKeys": [
+        "攻击力"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "阿伯莉紫光灯",
+      "group": "阿伯莉遗声装备组",
+      "title": "装备/阿伯莉紫光灯",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_atk01_edc_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/5b8767bbad3715a5.png",
+      "attrKeys": [
+        "所有技能伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "阿伯莉侦听芯片",
+      "group": "阿伯莉遗声装备组",
+      "title": "装备/阿伯莉侦听芯片",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_atk01_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/a008dfdb06b04649.png",
+      "attrKeys": [
+        "对失衡目标伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "阿伯莉侦听芯片·壹型",
+      "group": "阿伯莉遗声装备组",
+      "title": "装备/阿伯莉侦听芯片·壹型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_atk01_edc_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/c560f2784c566455.png",
+      "attrKeys": [
+        "连携技伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "阿伯莉照明器",
+      "group": "阿伯莉遗声装备组",
+      "title": "装备/阿伯莉照明器",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_atk01_edc_04",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/b1e44221f63305a6.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "阿伯莉传感芯片",
+      "group": "阿伯莉遗声装备组",
+      "title": "装备/阿伯莉传感芯片",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_atk01_edc_05",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/0a38b52e3893456e.png",
+      "attrKeys": [
+        "战技伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "阿伯莉传感芯片·壹型",
+      "group": "阿伯莉遗声装备组",
+      "title": "装备/阿伯莉传感芯片·壹型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_atk01_edc_06",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/fee841afac4d9507.png",
+      "attrKeys": [
+        "战技伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "重装信使陀螺·壹型",
+      "group": "重装信使装备组",
+      "title": "装备/重装信使陀螺·壹型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_str01_edc_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/180c59ee14d93600.png",
+      "attrKeys": [
+        "攻击力"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "重装信使手电·壹型",
+      "group": "重装信使装备组",
+      "title": "装备/重装信使手电·壹型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_str01_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/4893594e74a03b81.png",
+      "attrKeys": [
+        "暴击率"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "天灾防护净芯",
+      "group": "天灾防护装备组",
+      "title": "装备/天灾防护净芯",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_usp01_edc_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/7ecc015210ad13d7.png",
+      "attrKeys": [
+        "终结技伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "天灾防护净芯·壹型",
+      "group": "天灾防护装备组",
+      "title": "装备/天灾防护净芯·壹型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_usp01_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/7ecc015210ad13d7.png",
+      "attrKeys": [],
+      "slotType": "配件"
+    },
+    {
+      "name": "天灾防护滤芯",
+      "group": "天灾防护装备组",
+      "title": "装备/天灾防护滤芯",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_usp01_edc_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/5d4f19a9354ae9f3.png",
+      "attrKeys": [
+        "源石技艺强度"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "蚀电防护电池·壹型",
+      "group": "蚀电防护装备组",
+      "title": "装备/蚀电防护电池·壹型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_will01_edc_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/99d671d918e90192.png",
+      "attrKeys": [
+        "治疗效率加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "蚀电防护扳手·壹型",
+      "group": "蚀电防护装备组",
+      "title": "装备/蚀电防护扳手·壹型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_will01_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/a4bd68bb25a0d796.png",
+      "attrKeys": [
+        "攻击力"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "蚀电屏蔽扳手·贰型",
+      "group": "蚀电屏蔽装备组",
+      "title": "装备/蚀电屏蔽扳手·贰型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_wisd01_edc_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/26a5b71fdfad0187.png",
+      "attrKeys": [
+        "攻击力"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "蚀电屏蔽电池·壹型",
+      "group": "蚀电屏蔽装备组",
+      "title": "装备/蚀电屏蔽电池·壹型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_wisd01_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/fb0028588ef34801.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "矿场手套·贰型",
+      "group": "矿场γ型独立装备组",
+      "title": "装备/矿场手套·贰型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_parts_tundra01_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/e6164edbd04500cc.png",
+      "attrKeys": [
+        "攻击力"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "矿场护手·壹型",
+      "group": "矿场γ型独立装备组",
+      "title": "装备/矿场护手·壹型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_parts_tundra01_hand_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/82792f26a32154df.png",
+      "attrKeys": [
+        "终结技充能效率"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "巡行信使手套·壹型",
+      "group": "巡行信使装备组",
+      "title": "装备/巡行信使手套·壹型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_agi01_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/487537015a1bd933.png",
+      "attrKeys": [
+        "攻击力"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "阿伯莉手甲",
+      "group": "阿伯莉遗声装备组",
+      "title": "装备/阿伯莉手甲",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_atk01_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/9f14f0bc6c2366db.png",
+      "attrKeys": [
+        "对失衡目标伤害加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "重装信使手套·壹型",
+      "group": "重装信使装备组",
+      "title": "装备/重装信使手套·壹型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_str01_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/ef55bb0fe19b117b.png",
+      "attrKeys": [
+        "攻击力"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "重装信使手套·贰型",
+      "group": "重装信使装备组",
+      "title": "装备/重装信使手套·贰型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_str01_hand_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/b982bb719fa069e9.png",
+      "attrKeys": [
+        "连携技伤害加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "天灾防护手套",
+      "group": "天灾防护装备组",
+      "title": "装备/天灾防护手套",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_usp01_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/0f3db024dd7e71cb.png",
+      "attrKeys": [
+        "源石技艺强度"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "蚀电防护手套·壹型",
+      "group": "蚀电防护装备组",
+      "title": "装备/蚀电防护手套·壹型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_will01_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/afe7615f9c2cf802.png",
+      "attrKeys": [
+        "攻击力"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "蚀电屏蔽手套·壹型",
+      "group": "蚀电屏蔽装备组",
+      "title": "装备/蚀电屏蔽手套·壹型",
+      "rarity": 4,
+      "equipId": "item_equip_t3_suit_wisd01_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/7957e194d683d510.png",
+      "attrKeys": [
+        "攻击力"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "巡行信使夹克",
+      "group": "巡行信使装备组",
+      "title": "装备/巡行信使夹克",
+      "rarity": 3,
+      "equipId": "item_equip_t2_suit_agi01_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/d5fb41b3bc35c50d.png",
+      "attrKeys": [],
+      "slotType": "护甲"
+    },
+    {
+      "name": "重装信使夹克",
+      "group": "重装信使装备组",
+      "title": "装备/重装信使夹克",
+      "rarity": 3,
+      "equipId": "item_equip_t2_suit_str01_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/d558890bcb7c0976.png",
+      "attrKeys": [
+        "生命值"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "蚀电防护背心",
+      "group": "蚀电防护装备组",
+      "title": "装备/蚀电防护背心",
+      "rarity": 3,
+      "equipId": "item_equip_t2_suit_will01_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/6fffb1863dfb91e8.png",
+      "attrKeys": [
+        "生命值"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "蚀电屏蔽背心",
+      "group": "蚀电屏蔽装备组",
+      "title": "装备/蚀电屏蔽背心",
+      "rarity": 3,
+      "equipId": "item_equip_t2_suit_wisd01_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/0bc38648caf95c9c.png",
+      "attrKeys": [],
+      "slotType": "护甲"
+    },
+    {
+      "name": "矿场增压轮",
+      "group": "矿场β型独立装备组",
+      "title": "装备/矿场增压轮",
+      "rarity": 3,
+      "equipId": "item_equip_t2_parts_tundra01_edc_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/54d3e541e4137c95.png",
+      "attrKeys": [
+        "连携技伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "矿场传动轮",
+      "group": "矿场β型独立装备组",
+      "title": "装备/矿场传动轮",
+      "rarity": 3,
+      "equipId": "item_equip_t2_parts_tundra01_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/8b4f4cbd8c7bf8f1.png",
+      "attrKeys": [
+        "暴击率"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "矿场压缩核",
+      "group": "矿场β型独立装备组",
+      "title": "装备/矿场压缩核",
+      "rarity": 3,
+      "equipId": "item_equip_t2_parts_tundra01_edc_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/7acc6ada6f03b27a.png",
+      "attrKeys": [
+        "暴击率"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "矿场联络仪",
+      "group": "矿场β型独立装备组",
+      "title": "装备/矿场联络仪",
+      "rarity": 3,
+      "equipId": "item_equip_t2_parts_tundra01_edc_04",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/d2d5c8267c1feab0.png",
+      "attrKeys": [
+        "生命值"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "巡行信使陀螺",
+      "group": "巡行信使装备组",
+      "title": "装备/巡行信使陀螺",
+      "rarity": 3,
+      "equipId": "item_equip_t2_suit_agi01_edc_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/9eb4c9961e7e5f26.png",
+      "attrKeys": [
+        "攻击力"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "巡行信使手电",
+      "group": "巡行信使装备组",
+      "title": "装备/巡行信使手电",
+      "rarity": 3,
+      "equipId": "item_equip_t2_suit_agi01_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/8897cefc3819f66a.png",
+      "attrKeys": [
+        "连携技伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "重装信使陀螺",
+      "group": "重装信使装备组",
+      "title": "装备/重装信使陀螺",
+      "rarity": 3,
+      "equipId": "item_equip_t2_suit_str01_edc_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/dfb0ebafb9653529.png",
+      "attrKeys": [
+        "攻击力"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "重装信使手电",
+      "group": "重装信使装备组",
+      "title": "装备/重装信使手电",
+      "rarity": 3,
+      "equipId": "item_equip_t2_suit_str01_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/2736791cb6277e51.png",
+      "attrKeys": [
+        "生命值"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "蚀电防护扳手",
+      "group": "蚀电防护装备组",
+      "title": "装备/蚀电防护扳手",
+      "rarity": 3,
+      "equipId": "item_equip_t2_suit_will01_edc_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/a336b281089cd0a1.png",
+      "attrKeys": [
+        "攻击力"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "蚀电防护电池",
+      "group": "蚀电防护装备组",
+      "title": "装备/蚀电防护电池",
+      "rarity": 3,
+      "equipId": "item_equip_t2_suit_will01_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/d9e7247ac91ebaef.png",
+      "attrKeys": [
+        "治疗效率加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "蚀电屏蔽扳手",
+      "group": "蚀电屏蔽装备组",
+      "title": "装备/蚀电屏蔽扳手",
+      "rarity": 3,
+      "equipId": "item_equip_t2_suit_wisd01_edc_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/e010c66561167ce6.png",
+      "attrKeys": [
+        "攻击力"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "蚀电屏蔽扳手·壹型",
+      "group": "蚀电屏蔽装备组",
+      "title": "装备/蚀电屏蔽扳手·壹型",
+      "rarity": 3,
+      "equipId": "item_equip_t2_suit_wisd01_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/0c81cc079ecea74b.png",
+      "attrKeys": [
+        "寒冷和电磁伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "蚀电屏蔽电池",
+      "group": "蚀电屏蔽装备组",
+      "title": "装备/蚀电屏蔽电池",
+      "rarity": 3,
+      "equipId": "item_equip_t2_suit_wisd01_edc_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/fb190468050ae32c.png",
+      "attrKeys": [
+        "暴击率"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "矿场手甲·壹型",
+      "group": "矿场β型独立装备组",
+      "title": "装备/矿场手甲·壹型",
+      "rarity": 3,
+      "equipId": "item_equip_t2_parts_tundra01_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/6ddc8a36bd5f4c58.png",
+      "attrKeys": [
+        "攻击力"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "矿场手套·壹型",
+      "group": "矿场β型独立装备组",
+      "title": "装备/矿场手套·壹型",
+      "rarity": 3,
+      "equipId": "item_equip_t2_parts_tundra01_hand_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/4a7e1019463701e5.png",
+      "attrKeys": [
+        "生命值"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "巡行信使手套",
+      "group": "巡行信使装备组",
+      "title": "装备/巡行信使手套",
+      "rarity": 3,
+      "equipId": "item_equip_t2_suit_agi01_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/48dc0015bbdd5155.png",
+      "attrKeys": [
+        "物理伤害加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "重装信使手套",
+      "group": "重装信使装备组",
+      "title": "装备/重装信使手套",
+      "rarity": 3,
+      "equipId": "item_equip_t2_suit_str01_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/cc1efe8bdedc1a60.png",
+      "attrKeys": [
+        "全伤害减免"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "蚀电防护手套",
+      "group": "蚀电防护装备组",
+      "title": "装备/蚀电防护手套",
+      "rarity": 3,
+      "equipId": "item_equip_t2_suit_will01_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/3a86d3d0f0296964.png",
+      "attrKeys": [
+        "治疗效率加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "蚀电屏蔽手套",
+      "group": "蚀电屏蔽装备组",
+      "title": "装备/蚀电屏蔽手套",
+      "rarity": 3,
+      "equipId": "item_equip_t2_suit_wisd01_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/06483f550d40ad97.png",
+      "attrKeys": [
+        "法术伤害加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "矿场护甲",
+      "group": "矿场α型独立装备组",
+      "title": "装备/矿场护甲",
+      "rarity": 2,
+      "equipId": "item_equip_t1_parts_tundra01_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/275fa2f9d6434ce6.png",
+      "attrKeys": [],
+      "slotType": "护甲"
+    },
+    {
+      "name": "矿场防护服",
+      "group": "矿场α型独立装备组",
+      "title": "装备/矿场防护服",
+      "rarity": 2,
+      "equipId": "item_equip_t1_parts_tundra01_body_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/a42b4dda25d20b8f.png",
+      "attrKeys": [],
+      "slotType": "护甲"
+    },
+    {
+      "name": "测试型重甲",
+      "group": "矿场α型独立装备组",
+      "title": "装备/测试型重甲",
+      "rarity": 2,
+      "equipId": "item_equip_t1_parts_tundra01_body_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/bc87eca17afb7330.png",
+      "attrKeys": [],
+      "slotType": "护甲"
+    },
+    {
+      "name": "测试型重甲·壹型",
+      "group": "矿场α型独立装备组",
+      "title": "装备/测试型重甲·壹型",
+      "rarity": 2,
+      "equipId": "item_equip_t1_parts_tundra01_body_04",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/786e37cc08e86999.png",
+      "attrKeys": [],
+      "slotType": "护甲"
+    },
+    {
+      "name": "矿场轻甲",
+      "group": "矿场α型独立装备组",
+      "title": "装备/矿场轻甲",
+      "rarity": 2,
+      "equipId": "item_equip_t1_parts_tundra01_body_05",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/f655db6c56d3f127.png",
+      "attrKeys": [
+        "生命值"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "矿场滤尘衣",
+      "group": "矿场α型独立装备组",
+      "title": "装备/矿场滤尘衣",
+      "rarity": 2,
+      "equipId": "item_equip_t1_parts_tundra01_body_06",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/3433896d01b31bb3.png",
+      "attrKeys": [
+        "生命值"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "集成化重甲",
+      "group": "集成重型装备组",
+      "title": "装备/集成化重甲",
+      "rarity": 2,
+      "equipId": "item_equip_t1_suit_stragi01_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/9edb7536ba208082.png",
+      "attrKeys": [
+        "全伤害减免"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "集成化轻甲",
+      "group": "集成轻型装备组",
+      "title": "装备/集成化轻甲",
+      "rarity": 2,
+      "equipId": "item_equip_t1_suit_wisdwill01_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/b6b74c9c55c837cc.png",
+      "attrKeys": [
+        "战技伤害加成"
+      ],
+      "slotType": "护甲"
+    },
+    {
+      "name": "应急联络仪",
+      "group": "矿场α型独立装备组",
+      "title": "装备/应急联络仪",
+      "rarity": 2,
+      "equipId": "item_equip_t1_parts_tundra01_edc_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/7987885423264968.png",
+      "attrKeys": [
+        "暴击率"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "应急压缩核",
+      "group": "矿场α型独立装备组",
+      "title": "装备/应急压缩核",
+      "rarity": 2,
+      "equipId": "item_equip_t1_parts_tundra01_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/ac97443760dd1e1e.png",
+      "attrKeys": [
+        "攻击力"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "集成化重甲片",
+      "group": "集成重型装备组",
+      "title": "装备/集成化重甲片",
+      "rarity": 2,
+      "equipId": "item_equip_t1_suit_stragi01_edc_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/5eebad025fb5d8cd.png",
+      "attrKeys": [
+        "全伤害减免"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "集成化合金板",
+      "group": "集成重型装备组",
+      "title": "装备/集成化合金板",
+      "rarity": 2,
+      "equipId": "item_equip_t1_suit_stragi01_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/ee9c639b723c1677.png",
+      "attrKeys": [
+        "全伤害减免"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "集成化轻甲片",
+      "group": "集成轻型装备组",
+      "title": "装备/集成化轻甲片",
+      "rarity": 2,
+      "equipId": "item_equip_t1_suit_wisdwill01_edc_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/78cd75d50fefc1ac.png",
+      "attrKeys": [
+        "连携技伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "集成化陶瓷板",
+      "group": "集成轻型装备组",
+      "title": "装备/集成化陶瓷板",
+      "rarity": 2,
+      "equipId": "item_equip_t1_suit_wisdwill01_edc_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/0de361551b93717b.png",
+      "attrKeys": [
+        "战技伤害加成"
+      ],
+      "slotType": "配件"
+    },
+    {
+      "name": "矿场手甲",
+      "group": "矿场α型独立装备组",
+      "title": "装备/矿场手甲",
+      "rarity": 2,
+      "equipId": "item_equip_t1_parts_tundra01_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/8774269db56c8f5b.png",
+      "attrKeys": [
+        "生命值"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "矿场护腕",
+      "group": "矿场α型独立装备组",
+      "title": "装备/矿场护腕",
+      "rarity": 2,
+      "equipId": "item_equip_t1_parts_tundra01_hand_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/ad7291a8a1360ed1.png",
+      "attrKeys": [
+        "生命值"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "矿场手套",
+      "group": "矿场α型独立装备组",
+      "title": "装备/矿场手套",
+      "rarity": 2,
+      "equipId": "item_equip_t1_parts_tundra01_hand_03",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/a259b0c449746bbc.png",
+      "attrKeys": [
+        "生命值"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "矿场护手",
+      "group": "矿场α型独立装备组",
+      "title": "装备/矿场护手",
+      "rarity": 2,
+      "equipId": "item_equip_t1_parts_tundra01_hand_04",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/af136610aa15fe36.png",
+      "attrKeys": [
+        "生命值"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "集成化手甲",
+      "group": "集成重型装备组",
+      "title": "装备/集成化手甲",
+      "rarity": 2,
+      "equipId": "item_equip_t1_suit_stragi01_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/0f60b33448ec1dac.png",
+      "attrKeys": [
+        "全伤害减免"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "集成化战术手套",
+      "group": "集成轻型装备组",
+      "title": "装备/集成化战术手套",
+      "rarity": 2,
+      "equipId": "item_equip_t1_suit_wisdwill01_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/471f75eca2f1f3c2.png",
+      "attrKeys": [
+        "连携技伤害加成"
+      ],
+      "slotType": "护手"
+    },
+    {
+      "name": "简易护甲",
+      "group": "简易独立装备组",
+      "title": "装备/简易护甲",
+      "rarity": 1,
+      "equipId": "item_equip_t0_parts_tundra01_body_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/a676da30e3ca7bd2.png",
+      "attrKeys": [],
+      "slotType": "护甲"
+    },
+    {
+      "name": "简易护服",
+      "group": "简易独立装备组",
+      "title": "装备/简易护服",
+      "rarity": 1,
+      "equipId": "item_equip_t0_parts_tundra01_body_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/475c8f5f6d62c26e.png",
+      "attrKeys": [],
+      "slotType": "护甲"
+    },
+    {
+      "name": "简易手甲",
+      "group": "简易独立装备组",
+      "title": "装备/简易手甲",
+      "rarity": 1,
+      "equipId": "item_equip_t0_parts_tundra01_hand_01",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/3fd28b9671874f11.png",
+      "attrKeys": [],
+      "slotType": "护手"
+    },
+    {
+      "name": "简易护手",
+      "group": "简易独立装备组",
+      "title": "装备/简易护手",
+      "rarity": 1,
+      "equipId": "item_equip_t0_parts_tundra01_hand_02",
+      "iconUrl": "https://assets.fz.wiki/c3338b6b5f3d4283/213f0c8f19299603.png",
+      "attrKeys": [],
+      "slotType": "护手"
+    }
+  ]
+}

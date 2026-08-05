@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "template": "装备档案",
+    "article_id": "9943e913-45d1-4b84-9e31-02b625d0e51b",
+    "updated_at": "2026-07-19T15:06:01.122Z"
+  },
+  "basic": {
+    "name": "生物辅助臂甲",
+    "rarity": 5,
+    "part_type": "Hand",
+    "slot_type": "护手",
+    "group_name": "生物辅助装备组",
+    "suit_name": "生物辅助",
+    "description": "本装备由罗德岛设计，使用集成工业系统制造，能够提高使用者的作战能力。",
+    "flavor": "医疗者们爱用装备的加重款。\n罗德岛仍保留着在装备上配置矿石病监测模组的习惯。",
+    "icon_url": "https://assets.fz.wiki/c3338b6b5f3d4283/82b7d3ad0057bbf7.png",
+    "categories": [
+      "五星装备",
+      "护手",
+      "装备"
+    ]
+  },
+  "suit": {
+    "group_name": "生物辅助装备组",
+    "piece_count": 11,
+    "self_equip_id": "item_equip_t4_suit_heal01_hand_01",
+    "bonus": {
+      "name": "生物辅助",
+      "levels": [
+        {
+          "desc": "治疗提升 20% · 持续 10s · dmg_taken_down 85% · dmg_taken_down2 70%",
+          "level": 1,
+          "values": {
+            "heal_up": 0.2,
+            "duration": 10.0,
+            "dmg_taken_down": 0.85,
+            "dmg_taken_down2": 0.7
+          }
+        }
+      ],
+      "skillId": "passive_equipsuit_healup_01",
+      "paramTable": {
+        "rows": [
+          {
+            "label": "治疗提升",
+            "values": [
+              "20%"
+            ]
+          },
+          {
+            "label": "持续",
+            "values": [
+              "10s"
+            ]
+          },
+          {
+            "label": "dmg_taken_down",
+            "values": [
+              "85%"
+            ]
+          },
+          {
+            "label": "dmg_taken_down2",
+            "values": [
+              "70%"
+            ]
+          }
+        ],
+        "levels": [
+          1
+        ],
+        "levelLabels": [
+          "Lv1"
+        ]
+      },
+      "description": "3件套组效果：装备者治疗效率<@ba.vup>+{heal_up:0%}</>。\n当装备者治疗我方目标后，使该目标在{duration}秒内受到的所有类型伤害<@ba.vup>-{1-dmg_taken_down:0%}</>；如果该目标受到的治疗量溢出，则受到的所有类型伤害<@ba.vup>-{1-dmg_taken_down2:0%}</>。上述效果无法叠加。"
+    },
+    "pieces": [
+      {
+        "name": "生物辅助重甲",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_heal01_body_01"
+      },
+      {
+        "name": "生物辅助胸甲",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_heal01_body_02"
+      },
+      {
+        "name": "生物辅助臂甲",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_heal01_hand_01"
+      },
+      {
+        "name": "生物辅助手甲",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_heal01_hand_02"
+      },
+      {
+        "name": "生物辅助接驳器",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_heal01_edc_01"
+      },
+      {
+        "name": "生物辅助接驳器·贰型",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_heal01_edc_02"
+      },
+      {
+        "name": "生物辅助护板",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_heal01_edc_03"
+      },
+      {
+        "name": "生物辅助护盾针",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_heal01_edc_04"
+      },
+      {
+        "name": "生物辅助接驳器·壹型",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_heal01_edc_05"
+      },
+      {
+        "name": "生物辅助胸甲·壹型",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_heal01_body_03"
+      },
+      {
+        "name": "生物辅助手甲·壹型",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_heal01_hand_03"
+      }
+    ]
+  },
+  "stats": {
+    "enhance_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rows": [
+      {
+        "label": "防御力",
+        "attr_type": "Def",
+        "is_base": true,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          42.0,
+          42.0,
+          42.0,
+          42.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "力量",
+        "attr_type": "Str",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          65.0,
+          71.0,
+          78.0,
+          84.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "意志",
+        "attr_type": "Will",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          43.0,
+          47.0,
+          51.0,
+          55.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "终结技充能效率",
+        "attr_type": "UltimateSpGainScalar",
+        "is_base": false,
+        "is_percent": true,
+        "enhances": true,
+        "values": [
+          0.20535714285714285,
+          0.22589285714285715,
+          0.2464285714285714,
+          0.2669642857142857
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      }
+    ]
+  },
+  "materials": {
+    "unlock_type": "EquipFormulaChest",
+    "unlock_key": "reward_eco_map02_lv002_int_530234",
+    "gold": 0,
+    "items": []
+  }
+}

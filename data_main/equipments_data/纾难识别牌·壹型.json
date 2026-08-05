@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "template": "装备档案",
+    "article_id": "d2b3a603-6992-4a2c-a960-842a5d6e32b9",
+    "updated_at": "2026-07-19T15:05:52.064Z"
+  },
+  "basic": {
+    "name": "纾难识别牌·壹型",
+    "rarity": 5,
+    "part_type": "EDC",
+    "slot_type": "配件",
+    "group_name": "纾难装备组",
+    "suit_name": "",
+    "description": "本装备由宏山选剑局设计，使用集成工业系统制造，能够提高使用者的作战能力。",
+    "flavor": "象征着艰辛前路的装备。“事未竟，路犹长。”",
+    "icon_url": "https://assets.fz.wiki/c3338b6b5f3d4283/3345c2a7d5d4e111.png",
+    "categories": [
+      "五星装备",
+      "装备",
+      "配件"
+    ]
+  },
+  "suit": {
+    "group_name": "纾难装备组",
+    "piece_count": 8,
+    "self_equip_id": "item_equip_t4_parts_wuling01_edc_02",
+    "bonus": null,
+    "pieces": [
+      {
+        "name": "纾难重甲",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_parts_wuling01_body_01"
+      },
+      {
+        "name": "纾难护甲",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_parts_wuling01_body_02"
+      },
+      {
+        "name": "纾难护手",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_parts_wuling01_hand_01"
+      },
+      {
+        "name": "纾难手套",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_parts_wuling01_hand_02"
+      },
+      {
+        "name": "纾难识别牌",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_parts_wuling01_edc_01"
+      },
+      {
+        "name": "纾难识别牌·壹型",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_parts_wuling01_edc_02"
+      },
+      {
+        "name": "纾难印章",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_parts_wuling01_edc_03"
+      },
+      {
+        "name": "纾难印章·壹型",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_parts_wuling01_edc_04"
+      }
+    ]
+  },
+  "stats": {
+    "enhance_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rows": [
+      {
+        "label": "防御力",
+        "attr_type": "Def",
+        "is_base": true,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          21.0,
+          21.0,
+          21.0,
+          21.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "敏捷",
+        "attr_type": "Agi",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          43.0,
+          47.0,
+          51.0,
+          55.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "连携技伤害加成",
+        "attr_type": "ComboSkillDamageIncrease",
+        "is_base": false,
+        "is_percent": true,
+        "enhances": true,
+        "values": [
+          0.43199999999999994,
+          0.47519999999999996,
+          0.5183999999999999,
+          0.5616
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      }
+    ]
+  },
+  "materials": {
+    "unlock_type": "DomainShop",
+    "unlock_key": "domainshop_channel_map02_1",
+    "gold": 0,
+    "items": []
+  }
+}

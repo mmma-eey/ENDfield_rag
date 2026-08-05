@@ -11,6 +11,7 @@ from rag.config import TOP_K_RERANK
 from rag.generator import generate
 from rag.reranker import rerank
 from rag.retriever import hybrid_search
+from rag.sql_fallback import enrich
 
 
 def query(question: str, verbose: bool = True) -> dict:
@@ -29,7 +30,7 @@ def query(question: str, verbose: bool = True) -> dict:
     if verbose:
         print(f"\n[检索] 召回 {len(candidates)} 条候选")
         for i, c in enumerate(candidates[:5]):
-            print(f"  {i+1}. [{c['operator_name']}][{c['chunk_type']}] "
+            print(f"  {i+1}. [{c['source_name']}][{c['chunk_type']}] "
                   f"bm25={c['bm25_score']:.3f} vec={c['vector_score']:.3f} "
                   f"combined={c['combined_score']:.3f}")
 
@@ -41,26 +42,38 @@ def query(question: str, verbose: bool = True) -> dict:
         print(f"\n[Reranker] 重排后 Top {len(reranked)}:")
         for i, r in enumerate(reranked):
             orig = candidates[r["index"]]
-            print(f"  {i+1}. [{orig['operator_name']}][{orig['chunk_type']}] "
+            print(f"  {i+1}. [{orig['source_name']}][{orig['chunk_type']}] "
                   f"score={r['score']:.4f}")
 
     # ---- Phase 3: LLM 生成 ----
-    # 给 LLM 的上下文附加上干员名
     top_contexts = []
     for r in reranked:
         orig = candidates[r["index"]]
         text = clean_text(r["document"])
-        op_name = orig.get("operator_name", "未知")
+        src_name = orig.get("source_name", "未知")
         chunk_type = orig.get("chunk_type", "")
-        top_contexts.append(f"[{op_name}][{chunk_type}] {text}")
-    answer = generate(question, top_contexts)
+        top_contexts.append(f"[{src_name}][{chunk_type}] {text}")
+
+    # ---- Phase 2.5: SQL Fallback ----
+    supplement_texts = enrich(question, top_contexts)
+    if verbose and supplement_texts:
+        print(f"\n[SQL] 补充了 {len(supplement_texts)} 条结构化数据")
+        for s in supplement_texts[:5]:
+            print(f"  + {s[:100]}...")
+
+    # ---- Phase 3: LLM 生成 ----
+    # SQL 补全也可能带 wiki 标记，统一清洗后再拼接
+    supplement_texts = [clean_text(s) for s in supplement_texts]
+    full_contexts = supplement_texts + top_contexts
+    answer = generate(question, full_contexts)
 
     # 构建引用来源
     sources = []
     for r in reranked:
         orig = candidates[r["index"]]
         sources.append({
-            "operator_name": orig["operator_name"],
+            "source_name": orig["source_name"],
+            "source_type": orig.get("source_type", "unknown"),
             "chunk_type": orig["chunk_type"],
             "content": clean_text(r["document"])[:200],
             "rerank_score": r["score"],
@@ -83,7 +96,7 @@ if __name__ == "__main__":
         print(f"[回答]\n{result['answer']}")
         print(f"\n[来源]")
         for s in result["sources"]:
-            print(f"  - [{s['operator_name']}] ({s['chunk_type']}) "
+            print(f"  - [{s['source_name']}] ({s['chunk_type']}) "
                   f"rerank={s['rerank_score']:.4f}")
     else:
         print("ENDfield RAG 问答 (交互模式)")

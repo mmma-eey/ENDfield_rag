@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "template": "装备档案",
+    "article_id": "019f68f1-c9c1-7d24-bb9c-be95b4e15375",
+    "updated_at": "2026-07-19T15:05:47.741Z"
+  },
+  "basic": {
+    "name": "涉渊轻甲",
+    "rarity": 5,
+    "part_type": "Body",
+    "slot_type": "护甲",
+    "group_name": "涉渊装备组",
+    "suit_name": "",
+    "description": "本装备由宏山选剑局设计，使用集成工业系统制造，能够提高使用者的作战能力。",
+    "flavor": "选剑局为了需要频繁往复危险区域的作战人员所设计的特殊装备组。\n“吾观冬景，以明生死。”",
+    "icon_url": "https://assets.fz.wiki/c3338b6b5f3d4283/2329dbbef450901b.png",
+    "categories": [
+      "五星装备",
+      "护甲",
+      "装备"
+    ]
+  },
+  "suit": {
+    "group_name": "涉渊装备组",
+    "piece_count": 5,
+    "self_equip_id": "item_equip_t4_parts_wuling02_body_02",
+    "bonus": null,
+    "pieces": [
+      {
+        "name": "涉渊重甲",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_parts_wuling02_body_01"
+      },
+      {
+        "name": "涉渊轻甲",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_parts_wuling02_body_02"
+      },
+      {
+        "name": "涉渊护手",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_parts_wuling02_hand_01"
+      },
+      {
+        "name": "涉渊手套",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_parts_wuling02_hand_02"
+      },
+      {
+        "name": "涉渊护甲板",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_parts_wuling02_edc_01"
+      }
+    ]
+  },
+  "stats": {
+    "enhance_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rows": [
+      {
+        "label": "防御力",
+        "attr_type": "Def",
+        "is_base": true,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          56.0,
+          56.0,
+          56.0,
+          56.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "意志",
+        "attr_type": "Will",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          115.0,
+          126.0,
+          138.0,
+          149.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "治疗效率加成",
+        "attr_type": "HealOutputIncrease",
+        "is_base": false,
+        "is_percent": true,
+        "enhances": true,
+        "values": [
+          0.10799999999999998,
+          0.11879999999999999,
+          0.12959999999999997,
+          0.1404
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      }
+    ]
+  },
+  "materials": {
+    "unlock_type": "StarShop",
+    "unlock_key": "shop_item_shop_trstar_2",
+    "gold": 0,
+    "items": []
+  }
+}

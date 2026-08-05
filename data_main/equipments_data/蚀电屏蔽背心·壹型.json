@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "template": "装备档案",
+    "article_id": "910e61f4-ee7e-4458-ac2b-780d80c3d9f6",
+    "updated_at": "2026-07-19T15:06:06.319Z"
+  },
+  "basic": {
+    "name": "蚀电屏蔽背心·壹型",
+    "rarity": 4,
+    "part_type": "Body",
+    "slot_type": "护甲",
+    "group_name": "蚀电屏蔽装备组",
+    "suit_name": "蚀电屏蔽",
+    "description": "本装备由终末地工业自研，使用集成工业系统制造，能够提高使用者的作战能力。",
+    "flavor": "特殊环境作业时必备的防护装备。\n严重的侵蚀灾害往往会带来有悖常理的电路故障，抢修者亦需小心。",
+    "icon_url": "https://assets.fz.wiki/c3338b6b5f3d4283/2f055b5dcc801a38.png",
+    "categories": [
+      "四星装备",
+      "护甲",
+      "装备"
+    ]
+  },
+  "suit": {
+    "group_name": "蚀电屏蔽装备组",
+    "piece_count": 10,
+    "self_equip_id": "item_equip_t3_suit_wisd01_body_01",
+    "bonus": {
+      "name": "蚀电屏蔽",
+      "levels": [
+        {
+          "desc": "wisd_up 5000% · hp_ratio 80% · 法伤提升 20%",
+          "level": 1,
+          "values": {
+            "wisd_up": 50.0,
+            "hp_ratio": 0.8,
+            "spell_dmg_up": 0.2
+          }
+        }
+      ],
+      "skillId": "passive_equipsuit_wisd_01",
+      "paramTable": {
+        "rows": [
+          {
+            "label": "wisd_up",
+            "values": [
+              "5000%"
+            ]
+          },
+          {
+            "label": "hp_ratio",
+            "values": [
+              "80%"
+            ]
+          },
+          {
+            "label": "法伤提升",
+            "values": [
+              "20%"
+            ]
+          }
+        ],
+        "levels": [
+          1
+        ],
+        "levelLabels": [
+          "Lv1"
+        ]
+      },
+      "description": "3件套组效果：装备者智识<@ba.vup>+{wisd_up}</>。\n当装备者生命值高于{hp_ratio:0%}时，造成的<@ba.key>法术伤害</><@ba.vup>+{spell_dmg_up:0%}</>。"
+    },
+    "pieces": [
+      {
+        "name": "蚀电屏蔽背心",
+        "rarity": 3,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t2_suit_wisd01_body_01"
+      },
+      {
+        "name": "蚀电屏蔽手套",
+        "rarity": 3,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t2_suit_wisd01_hand_01"
+      },
+      {
+        "name": "蚀电屏蔽扳手",
+        "rarity": 3,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t2_suit_wisd01_edc_01"
+      },
+      {
+        "name": "蚀电屏蔽扳手·壹型",
+        "rarity": 3,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t2_suit_wisd01_edc_02"
+      },
+      {
+        "name": "蚀电屏蔽电池",
+        "rarity": 3,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t2_suit_wisd01_edc_03"
+      },
+      {
+        "name": "蚀电屏蔽背心·壹型",
+        "rarity": 4,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t3_suit_wisd01_body_01"
+      },
+      {
+        "name": "蚀电屏蔽背心·贰型",
+        "rarity": 4,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t3_suit_wisd01_body_02"
+      },
+      {
+        "name": "蚀电屏蔽手套·壹型",
+        "rarity": 4,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t3_suit_wisd01_hand_01"
+      },
+      {
+        "name": "蚀电屏蔽扳手·贰型",
+        "rarity": 4,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t3_suit_wisd01_edc_01"
+      },
+      {
+        "name": "蚀电屏蔽电池·壹型",
+        "rarity": 4,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t3_suit_wisd01_edc_02"
+      }
+    ]
+  },
+  "stats": {
+    "enhance_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rows": [
+      {
+        "label": "防御力",
+        "attr_type": "Def",
+        "is_base": true,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          40.0,
+          40.0,
+          40.0,
+          40.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "智识",
+        "attr_type": "Wisd",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          61.0,
+          61.0,
+          61.0,
+          61.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "敏捷",
+        "attr_type": "Agi",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          41.0,
+          41.0,
+          41.0,
+          41.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "普通攻击伤害加成",
+        "attr_type": "NormalAttackDamageIncrease",
+        "is_base": false,
+        "is_percent": true,
+        "enhances": false,
+        "values": [
+          0.09799999999999999,
+          0.09799999999999999,
+          0.09799999999999999,
+          0.09799999999999999
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      }
+    ]
+  },
+  "materials": {
+    "unlock_type": "AdventureLevel",
+    "unlock_key": "",
+    "gold": 0,
+    "items": []
+  }
+}

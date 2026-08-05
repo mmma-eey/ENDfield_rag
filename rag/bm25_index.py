@@ -12,8 +12,8 @@ from db.models import KnowledgeChunk
 INDEX_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
                           "data_main", "bm25_index.pkl")
 
-# 清洗 wiki 标记标签
-_WIKI_TAG_RE = re.compile(r'<[@#]?[a-zA-Z_.]+>|</>|{[a-zA-Z_:0-9]+}')
+# 清洗 wiki 标记标签（<@ba.key>、<#ba.weak>、{agi}、{ultimate_gain_up:0.0%} 等）
+_WIKI_TAG_RE = re.compile(r'<[@#]?[a-zA-Z_.]+>|</>|{[^}]+}')
 
 
 def clean_text(text: str) -> str:

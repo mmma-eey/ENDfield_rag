@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "template": "装备档案",
+    "article_id": "ce38aa2d-97e6-49db-bc34-6c7099ef8b1c",
+    "updated_at": "2026-07-19T15:06:02.030Z"
+  },
+  "basic": {
+    "name": "脉冲式手套",
+    "rarity": 5,
+    "part_type": "Hand",
+    "slot_type": "护手",
+    "group_name": "脉冲式装备组",
+    "suit_name": "脉冲式",
+    "description": "本装备由终末地工业自研，使用集成工业系统制造，能够提高使用者的作战能力。",
+    "flavor": "设计新颖的装备。\n很少有人能理解终末地工业为什么要提高脉冲系列装备的低温耐受能力。",
+    "icon_url": "https://assets.fz.wiki/c3338b6b5f3d4283/6a93f60dcf7ea0f4.png",
+    "categories": [
+      "五星装备",
+      "护手",
+      "装备"
+    ]
+  },
+  "suit": {
+    "group_name": "脉冲式装备组",
+    "piece_count": 5,
+    "self_equip_id": "item_equip_t4_suit_pulse_cryst01_hand_01",
+    "bonus": {
+      "name": "脉冲式",
+      "levels": [
+        {
+          "desc": "phy_spell_up 3000% · pulse_dmg_up 50% · 持续 10s · cryst_dmg_up 50% · 持续时间 10",
+          "level": 1,
+          "values": {
+            "duration": 10.0,
+            "duration2": 10.0,
+            "cryst_dmg_up": 0.5,
+            "phy_spell_up": 30.0,
+            "pulse_dmg_up": 0.5
+          }
+        }
+      ],
+      "skillId": "passive_equipsuit_cpinflict_01",
+      "paramTable": {
+        "rows": [
+          {
+            "label": "phy_spell_up",
+            "values": [
+              "3000%"
+            ]
+          },
+          {
+            "label": "pulse_dmg_up",
+            "values": [
+              "50%"
+            ]
+          },
+          {
+            "label": "持续",
+            "values": [
+              "10s"
+            ]
+          },
+          {
+            "label": "cryst_dmg_up",
+            "values": [
+              "50%"
+            ]
+          },
+          {
+            "label": "持续时间",
+            "values": [
+              "10"
+            ]
+          }
+        ],
+        "levels": [
+          1
+        ],
+        "levelLabels": [
+          "Lv1"
+        ]
+      },
+      "description": "3件套组效果：装备者源石技艺强度<@ba.vup>+{phy_spell_up:0}</>。\n当装备者施加<#ba.conduct>导电</>后，<@ba.pulse>电磁伤害</><@ba.vup>+{pulse_dmg_up:0%}</>，持续{duration}秒，该效果无法叠加；当装备者施加<#ba.frozen>冻结</>后，<@ba.cryst>寒冷伤害</><@ba.vup>+{cryst_dmg_up:0%}</>，持续{duration2}秒，该效果无法叠加。"
+    },
+    "pieces": [
+      {
+        "name": "脉冲式干扰服",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_pulse_cryst01_body_01"
+      },
+      {
+        "name": "脉冲式手套",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_pulse_cryst01_hand_01"
+      },
+      {
+        "name": "脉冲式探针",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_pulse_cryst01_edc_01"
+      },
+      {
+        "name": "脉冲式校准器",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_pulse_cryst01_edc_02"
+      },
+      {
+        "name": "脉冲式侵入核",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_pulse_cryst01_edc_03"
+      }
+    ]
+  },
+  "stats": {
+    "enhance_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rows": [
+      {
+        "label": "防御力",
+        "attr_type": "Def",
+        "is_base": true,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          42.0,
+          42.0,
+          42.0,
+          42.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "意志",
+        "attr_type": "Will",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          65.0,
+          71.0,
+          78.0,
+          84.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "智识",
+        "attr_type": "Wisd",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          43.0,
+          47.0,
+          51.0,
+          55.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "寒冷和电磁伤害加成",
+        "attr_type": "Level",
+        "is_base": false,
+        "is_percent": true,
+        "enhances": true,
+        "values": [
+          0.19166666666666668,
+          0.21083333333333337,
+          0.23,
+          0.2491666666666667
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": "CrystAndPulseDamageIncrease"
+      }
+    ]
+  },
+  "materials": {
+    "unlock_type": "EquipFormulaChest",
+    "unlock_key": "reward_eco_map02_lv002_int_530232",
+    "gold": 0,
+    "items": []
+  }
+}

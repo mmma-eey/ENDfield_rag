@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "template": "装备档案",
+    "article_id": "2ee5d9da-bcb1-4ada-b55e-aefd418ecec2",
+    "updated_at": "2026-07-19T15:06:08.800Z"
+  },
+  "basic": {
+    "name": "巡行信使手电·贰型",
+    "rarity": 4,
+    "part_type": "EDC",
+    "slot_type": "配件",
+    "group_name": "巡行信使装备组",
+    "suit_name": "巡行信使",
+    "description": "本装备由终末地工业参考荒野手工艺品设计，使用集成工业系统制造，能够提高使用者的作战能力。",
+    "flavor": "坚固的照明手电。\n它尾部的尖锥偶尔会被用来破开一些尘封的古物。",
+    "icon_url": "https://assets.fz.wiki/c3338b6b5f3d4283/594ff2a70fbe225c.png",
+    "categories": [
+      "四星装备",
+      "装备",
+      "配件"
+    ]
+  },
+  "suit": {
+    "group_name": "巡行信使装备组",
+    "piece_count": 9,
+    "self_equip_id": "item_equip_t3_suit_agi01_edc_02",
+    "bonus": {
+      "name": "巡行信使",
+      "levels": [
+        {
+          "desc": "agi_up 5000% · hp_ratio 80% · 物伤提升 20%",
+          "level": 1,
+          "values": {
+            "agi_up": 50.0,
+            "hp_ratio": 0.8,
+            "phy_dmg_up": 0.2
+          }
+        }
+      ],
+      "skillId": "passive_equipsuit_agi_01",
+      "paramTable": {
+        "rows": [
+          {
+            "label": "agi_up",
+            "values": [
+              "5000%"
+            ]
+          },
+          {
+            "label": "hp_ratio",
+            "values": [
+              "80%"
+            ]
+          },
+          {
+            "label": "物伤提升",
+            "values": [
+              "20%"
+            ]
+          }
+        ],
+        "levels": [
+          1
+        ],
+        "levelLabels": [
+          "Lv1"
+        ]
+      },
+      "description": "3件套组效果：装备者敏捷<@ba.vup>+{agi_up}</>。\n当装备者生命值高于{hp_ratio:0%}时，造成的<@ba.pd>物理伤害</><@ba.vup>+{phy_dmg_up:0%}</>。"
+    },
+    "pieces": [
+      {
+        "name": "巡行信使夹克",
+        "rarity": 3,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t2_suit_agi01_body_01"
+      },
+      {
+        "name": "巡行信使手套",
+        "rarity": 3,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t2_suit_agi01_hand_01"
+      },
+      {
+        "name": "巡行信使陀螺",
+        "rarity": 3,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t2_suit_agi01_edc_01"
+      },
+      {
+        "name": "巡行信使手电",
+        "rarity": 3,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t2_suit_agi01_edc_02"
+      },
+      {
+        "name": "巡行信使夹克·壹型",
+        "rarity": 4,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t3_suit_agi01_body_01"
+      },
+      {
+        "name": "巡行信使手套·壹型",
+        "rarity": 4,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t3_suit_agi01_hand_01"
+      },
+      {
+        "name": "巡行信使手电·壹型",
+        "rarity": 4,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t3_suit_agi01_edc_01"
+      },
+      {
+        "name": "巡行信使手电·贰型",
+        "rarity": 4,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t3_suit_agi01_edc_02"
+      },
+      {
+        "name": "巡行信使陀螺·壹型",
+        "rarity": 4,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t3_suit_agi01_edc_03"
+      }
+    ]
+  },
+  "stats": {
+    "enhance_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rows": [
+      {
+        "label": "防御力",
+        "attr_type": "Def",
+        "is_base": true,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          15.0,
+          15.0,
+          15.0,
+          15.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "敏捷",
+        "attr_type": "Agi",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          23.0,
+          23.0,
+          23.0,
+          23.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "力量",
+        "attr_type": "Str",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          15.0,
+          15.0,
+          15.0,
+          15.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "终结技伤害加成",
+        "attr_type": "UltimateSkillDamageIncrease",
+        "is_base": false,
+        "is_percent": true,
+        "enhances": false,
+        "values": [
+          0.3675,
+          0.3675,
+          0.3675,
+          0.3675
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      }
+    ]
+  },
+  "materials": {
+    "unlock_type": "AdventureLevel",
+    "unlock_key": "",
+    "gold": 0,
+    "items": []
+  }
+}

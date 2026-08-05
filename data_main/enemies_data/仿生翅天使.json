@@ -1,0 +1,1275 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "article_id": "5d651e80-8777-4a38-b613-8d268cefb0ea",
+    "updated_at": "2026-06-21T13:31:30.253Z"
+  },
+  "basic": {
+    "name": "仿生翅天使",
+    "nickname": "",
+    "display_type": "Normal",
+    "is_dangerous": false,
+    "zmd_map_links": [
+      {
+        "map": "map01",
+        "param": "select",
+        "value": "eny_0076_agfly"
+      }
+    ],
+    "distributions": [
+      {
+        "name": "矿脉源区",
+        "distributionId": "distribution_map01_lv006"
+      },
+      {
+        "name": "能量淤积点·矿脉源区",
+        "distributionId": "distribution_world_energy_point03"
+      }
+    ]
+  },
+  "background": {
+    "body": "“苏索泰隆”（归档编号：ARA07C），飞行能力与其外形无关。这种形成模式最早被认为是对生物的模仿，但如今，共识已演变为模仿泰拉人所使用的飞行器。"
+  },
+  "stats": {
+    "level_curve": {
+      "1": {
+        "hp": 111,
+        "atk": 26,
+        "def": 100
+      },
+      "2": {
+        "hp": 126,
+        "atk": 30,
+        "def": 100
+      },
+      "3": {
+        "hp": 143,
+        "atk": 34,
+        "def": 100
+      },
+      "4": {
+        "hp": 160,
+        "atk": 38,
+        "def": 100
+      },
+      "5": {
+        "hp": 179,
+        "atk": 43,
+        "def": 100
+      },
+      "6": {
+        "hp": 210,
+        "atk": 47,
+        "def": 100
+      },
+      "7": {
+        "hp": 245,
+        "atk": 52,
+        "def": 100
+      },
+      "8": {
+        "hp": 283,
+        "atk": 56,
+        "def": 100
+      },
+      "9": {
+        "hp": 325,
+        "atk": 61,
+        "def": 100
+      },
+      "10": {
+        "hp": 371,
+        "atk": 66,
+        "def": 100
+      },
+      "11": {
+        "hp": 397,
+        "atk": 71,
+        "def": 100
+      },
+      "12": {
+        "hp": 423,
+        "atk": 77,
+        "def": 100
+      },
+      "13": {
+        "hp": 471,
+        "atk": 82,
+        "def": 100
+      },
+      "14": {
+        "hp": 521,
+        "atk": 88,
+        "def": 100
+      },
+      "15": {
+        "hp": 574,
+        "atk": 93,
+        "def": 100
+      },
+      "16": {
+        "hp": 630,
+        "atk": 99,
+        "def": 100
+      },
+      "17": {
+        "hp": 689,
+        "atk": 105,
+        "def": 100
+      },
+      "18": {
+        "hp": 724,
+        "atk": 111,
+        "def": 100
+      },
+      "19": {
+        "hp": 759,
+        "atk": 118,
+        "def": 100
+      },
+      "20": {
+        "hp": 795,
+        "atk": 124,
+        "def": 100
+      },
+      "21": {
+        "hp": 874,
+        "atk": 131,
+        "def": 100
+      },
+      "22": {
+        "hp": 960,
+        "atk": 138,
+        "def": 100
+      },
+      "23": {
+        "hp": 1052,
+        "atk": 145,
+        "def": 100
+      },
+      "24": {
+        "hp": 1151,
+        "atk": 153,
+        "def": 100
+      },
+      "25": {
+        "hp": 1258,
+        "atk": 161,
+        "def": 100
+      },
+      "26": {
+        "hp": 1372,
+        "atk": 168,
+        "def": 100
+      },
+      "27": {
+        "hp": 1495,
+        "atk": 176,
+        "def": 100
+      },
+      "28": {
+        "hp": 1637,
+        "atk": 184,
+        "def": 100
+      },
+      "29": {
+        "hp": 1791,
+        "atk": 193,
+        "def": 100
+      },
+      "30": {
+        "hp": 1957,
+        "atk": 201,
+        "def": 100
+      },
+      "31": {
+        "hp": 2207,
+        "atk": 218,
+        "def": 100
+      },
+      "32": {
+        "hp": 2429,
+        "atk": 234,
+        "def": 100
+      },
+      "33": {
+        "hp": 2670,
+        "atk": 250,
+        "def": 100
+      },
+      "34": {
+        "hp": 2931,
+        "atk": 267,
+        "def": 100
+      },
+      "35": {
+        "hp": 3215,
+        "atk": 285,
+        "def": 100
+      },
+      "36": {
+        "hp": 3523,
+        "atk": 303,
+        "def": 100
+      },
+      "37": {
+        "hp": 3856,
+        "atk": 323,
+        "def": 100
+      },
+      "38": {
+        "hp": 4217,
+        "atk": 343,
+        "def": 100
+      },
+      "39": {
+        "hp": 4607,
+        "atk": 364,
+        "def": 100
+      },
+      "40": {
+        "hp": 5029,
+        "atk": 386,
+        "def": 100
+      },
+      "41": {
+        "hp": 5443,
+        "atk": 409,
+        "def": 100
+      },
+      "42": {
+        "hp": 5884,
+        "atk": 432,
+        "def": 100
+      },
+      "43": {
+        "hp": 6352,
+        "atk": 457,
+        "def": 100
+      },
+      "44": {
+        "hp": 6850,
+        "atk": 483,
+        "def": 100
+      },
+      "45": {
+        "hp": 7379,
+        "atk": 509,
+        "def": 100
+      },
+      "46": {
+        "hp": 7939,
+        "atk": 537,
+        "def": 100
+      },
+      "47": {
+        "hp": 8533,
+        "atk": 566,
+        "def": 100
+      },
+      "48": {
+        "hp": 9162,
+        "atk": 595,
+        "def": 100
+      },
+      "49": {
+        "hp": 9828,
+        "atk": 626,
+        "def": 100
+      },
+      "50": {
+        "hp": 10532,
+        "atk": 658,
+        "def": 100
+      },
+      "51": {
+        "hp": 11469,
+        "atk": 694,
+        "def": 100
+      },
+      "52": {
+        "hp": 12206,
+        "atk": 728,
+        "def": 100
+      },
+      "53": {
+        "hp": 12985,
+        "atk": 763,
+        "def": 100
+      },
+      "54": {
+        "hp": 13808,
+        "atk": 800,
+        "def": 100
+      },
+      "55": {
+        "hp": 14676,
+        "atk": 837,
+        "def": 100
+      },
+      "56": {
+        "hp": 15594,
+        "atk": 861,
+        "def": 100
+      },
+      "57": {
+        "hp": 16562,
+        "atk": 885,
+        "def": 100
+      },
+      "58": {
+        "hp": 17584,
+        "atk": 909,
+        "def": 100
+      },
+      "59": {
+        "hp": 18662,
+        "atk": 933,
+        "def": 100
+      },
+      "60": {
+        "hp": 19800,
+        "atk": 958,
+        "def": 100
+      },
+      "61": {
+        "hp": 21013,
+        "atk": 985,
+        "def": 100
+      },
+      "62": {
+        "hp": 22224,
+        "atk": 1011,
+        "def": 100
+      },
+      "63": {
+        "hp": 23543,
+        "atk": 1039,
+        "def": 100
+      },
+      "64": {
+        "hp": 24860,
+        "atk": 1066,
+        "def": 100
+      },
+      "65": {
+        "hp": 26236,
+        "atk": 1094,
+        "def": 100
+      },
+      "66": {
+        "hp": 27602,
+        "atk": 1122,
+        "def": 100
+      },
+      "67": {
+        "hp": 29087,
+        "atk": 1151,
+        "def": 100
+      },
+      "68": {
+        "hp": 30559,
+        "atk": 1180,
+        "def": 100
+      },
+      "69": {
+        "hp": 32321,
+        "atk": 1210,
+        "def": 100
+      },
+      "70": {
+        "hp": 34221,
+        "atk": 1241,
+        "def": 100
+      },
+      "71": {
+        "hp": 35485,
+        "atk": 1261,
+        "def": 100
+      },
+      "72": {
+        "hp": 36700,
+        "atk": 1280,
+        "def": 100
+      },
+      "73": {
+        "hp": 38024,
+        "atk": 1301,
+        "def": 100
+      },
+      "74": {
+        "hp": 39296,
+        "atk": 1320,
+        "def": 100
+      },
+      "75": {
+        "hp": 40680,
+        "atk": 1341,
+        "def": 100
+      },
+      "76": {
+        "hp": 42010,
+        "atk": 1361,
+        "def": 100
+      },
+      "77": {
+        "hp": 43456,
+        "atk": 1381,
+        "def": 100
+      },
+      "78": {
+        "hp": 44845,
+        "atk": 1401,
+        "def": 100
+      },
+      "79": {
+        "hp": 46355,
+        "atk": 1422,
+        "def": 100
+      },
+      "80": {
+        "hp": 47629,
+        "atk": 1442,
+        "def": 100
+      },
+      "81": {
+        "hp": 49851,
+        "atk": 1462,
+        "def": 100
+      },
+      "82": {
+        "hp": 52147,
+        "atk": 1483,
+        "def": 100
+      },
+      "83": {
+        "hp": 54519,
+        "atk": 1504,
+        "def": 100
+      },
+      "84": {
+        "hp": 56969,
+        "atk": 1525,
+        "def": 100
+      },
+      "85": {
+        "hp": 59496,
+        "atk": 1546,
+        "def": 100
+      },
+      "86": {
+        "hp": 62105,
+        "atk": 1567,
+        "def": 100
+      },
+      "87": {
+        "hp": 64795,
+        "atk": 1588,
+        "def": 100
+      },
+      "88": {
+        "hp": 67568,
+        "atk": 1609,
+        "def": 100
+      },
+      "89": {
+        "hp": 70427,
+        "atk": 1631,
+        "def": 100
+      },
+      "90": {
+        "hp": 73373,
+        "atk": 1652,
+        "def": 100
+      },
+      "91": {
+        "hp": 75170,
+        "atk": 1672,
+        "def": 100
+      },
+      "92": {
+        "hp": 76995,
+        "atk": 1693,
+        "def": 100
+      },
+      "93": {
+        "hp": 78849,
+        "atk": 1713,
+        "def": 100
+      },
+      "94": {
+        "hp": 80732,
+        "atk": 1734,
+        "def": 100
+      },
+      "95": {
+        "hp": 81977,
+        "atk": 1752,
+        "def": 100
+      },
+      "96": {
+        "hp": 83232,
+        "atk": 1771,
+        "def": 100
+      },
+      "97": {
+        "hp": 84497,
+        "atk": 1790,
+        "def": 100
+      },
+      "98": {
+        "hp": 85770,
+        "atk": 1809,
+        "def": 100
+      },
+      "99": {
+        "hp": 87054,
+        "atk": 1829,
+        "def": 100
+      },
+      "100": {
+        "hp": 88347,
+        "atk": 1848,
+        "def": 100
+      }
+    },
+    "groups": [
+      {
+        "group_key": "basic",
+        "group_label": "基础战斗",
+        "label": "普攻距离",
+        "value": 6.0,
+        "format": "scalar",
+        "attr_type": "NormalAttackRange"
+      },
+      {
+        "group_key": "basic",
+        "group_label": "基础战斗",
+        "label": "重量",
+        "value": 1.0,
+        "format": "int",
+        "attr_type": "Weight"
+      },
+      {
+        "group_key": "basic",
+        "group_label": "基础战斗",
+        "label": "暴击率",
+        "value": 0.0,
+        "format": "percent",
+        "attr_type": "CriticalRate"
+      },
+      {
+        "group_key": "basic",
+        "group_label": "基础战斗",
+        "label": "暴击伤害",
+        "value": 0.5,
+        "format": "percent",
+        "attr_type": "CriticalDamageIncrease"
+      },
+      {
+        "group_key": "basic",
+        "group_label": "基础战斗",
+        "label": "攻击频率",
+        "value": 1.0,
+        "format": "scalar",
+        "attr_type": "AttackRate"
+      },
+      {
+        "group_key": "basic",
+        "group_label": "基础战斗",
+        "label": "仇恨值",
+        "value": 0.0,
+        "format": "scalar",
+        "attr_type": "Hatred"
+      },
+      {
+        "group_key": "poise",
+        "group_label": "失衡",
+        "label": "失衡值上限",
+        "value": 60.0,
+        "format": "scalar",
+        "attr_type": "MaxPoise"
+      },
+      {
+        "group_key": "poise",
+        "group_label": "失衡",
+        "label": "失衡承伤倍率",
+        "value": 1.0,
+        "format": "multiplier",
+        "attr_type": "BreakingAttackDamageTakenScalar"
+      },
+      {
+        "group_key": "poise",
+        "group_label": "失衡",
+        "label": "失衡恢复时间",
+        "value": 6.0,
+        "format": "seconds",
+        "attr_type": "PoiseRecTime"
+      },
+      {
+        "group_key": "superarmor",
+        "group_label": "抗打断",
+        "label": "初始抗打断",
+        "value": 0,
+        "format": "int",
+        "attr_type": "initialSuperArmor"
+      },
+      {
+        "group_key": "superarmor",
+        "group_label": "抗打断",
+        "label": "失衡时抗打断",
+        "value": 0,
+        "format": "int",
+        "attr_type": "zeroPoiseSuperArmor"
+      },
+      {
+        "group_key": "superarmor",
+        "group_label": "抗打断",
+        "label": "韧性归零抗打断",
+        "value": 0,
+        "format": "int",
+        "attr_type": "superArmorWhenResilienceZero"
+      },
+      {
+        "group_key": "superarmor",
+        "group_label": "抗打断",
+        "label": "处决技力回复",
+        "value": 25.0,
+        "format": "scalar",
+        "attr_type": "breakingAttackedAtbObtain"
+      },
+      {
+        "group_key": "resilience",
+        "group_label": "韧性",
+        "label": "最大韧性",
+        "value": 65.0,
+        "format": "scalar",
+        "attr_type": "maxResilience"
+      },
+      {
+        "group_key": "resilience",
+        "group_label": "韧性",
+        "label": "受伤韧性降低",
+        "value": 0.0,
+        "format": "scalar",
+        "attr_type": "resilienceDecreaseWhenHurt"
+      },
+      {
+        "group_key": "resilience",
+        "group_label": "韧性",
+        "label": "韧性回复值",
+        "value": 100.0,
+        "format": "scalar",
+        "attr_type": "resilienceRecover"
+      },
+      {
+        "group_key": "resilience",
+        "group_label": "韧性",
+        "label": "韧性回复间隔",
+        "value": 1.0,
+        "format": "seconds",
+        "attr_type": "resilienceRecoverInterval"
+      },
+      {
+        "group_key": "resilience",
+        "group_label": "韧性",
+        "label": "韧性完全回复时长",
+        "value": 3.0,
+        "format": "seconds",
+        "attr_type": "resilienceFullRecoverTime"
+      },
+      {
+        "group_key": "misc",
+        "group_label": "其他",
+        "label": "对塔攻击值",
+        "value": 10.0,
+        "format": "scalar",
+        "attr_type": "attackValueAgainstTower"
+      },
+      {
+        "group_key": "misc",
+        "group_label": "其他",
+        "label": "击退系数",
+        "value": 1.0,
+        "format": "scalar",
+        "attr_type": "pushedBackCoefficient"
+      }
+    ],
+    "poise_knots": []
+  },
+  "resistances": [
+    {
+      "element": "Physical",
+      "element_label": "物理",
+      "percent": 100.0,
+      "scalar": 1.0
+    },
+    {
+      "element": "Fire",
+      "element_label": "灼热",
+      "percent": 100.0,
+      "scalar": 1.0
+    },
+    {
+      "element": "Pulse",
+      "element_label": "电磁",
+      "percent": 100.0,
+      "scalar": 1.0
+    },
+    {
+      "element": "Cryst",
+      "element_label": "寒冷",
+      "percent": 100.0,
+      "scalar": 1.0
+    },
+    {
+      "element": "Natural",
+      "element_label": "自然",
+      "percent": 100.0,
+      "scalar": 1.0
+    },
+    {
+      "element": "Ether",
+      "element_label": "超域",
+      "percent": 100.0,
+      "scalar": 1.0
+    }
+  ],
+  "abilities": [
+    {
+      "ordinal": 1,
+      "ability_id": "eny_0076_agfly_ability_1",
+      "description": "施放的小型旋风会同时减速干员。"
+    }
+  ],
+  "drops": [
+    {
+      "name": "中空异香石",
+      "item_id": "item_drop_agfly_1",
+      "rarity": 1
+    }
+  ],
+  "tips": [
+    "注意躲避飞行天使释放的小旋风。"
+  ],
+  "variants": [
+    {
+      "enemy_id": "eny_0076_agfly_reaper",
+      "is_dangerous": false,
+      "modifiers": [
+        {
+          "text": "攻击力 -30%",
+          "label": "攻击力",
+          "attr_type": "Atk"
+        },
+        {
+          "text": "最大生命值 -80%",
+          "label": "最大生命值",
+          "attr_type": "MaxHp"
+        }
+      ],
+      "level_curve": {
+        "1": {
+          "hp": 22,
+          "atk": 18,
+          "def": 100
+        },
+        "2": {
+          "hp": 25,
+          "atk": 21,
+          "def": 100
+        },
+        "3": {
+          "hp": 29,
+          "atk": 24,
+          "def": 100
+        },
+        "4": {
+          "hp": 32,
+          "atk": 27,
+          "def": 100
+        },
+        "5": {
+          "hp": 36,
+          "atk": 30,
+          "def": 100
+        },
+        "6": {
+          "hp": 42,
+          "atk": 33,
+          "def": 100
+        },
+        "7": {
+          "hp": 49,
+          "atk": 36,
+          "def": 100
+        },
+        "8": {
+          "hp": 57,
+          "atk": 39,
+          "def": 100
+        },
+        "9": {
+          "hp": 65,
+          "atk": 43,
+          "def": 100
+        },
+        "10": {
+          "hp": 74,
+          "atk": 46,
+          "def": 100
+        },
+        "11": {
+          "hp": 79,
+          "atk": 50,
+          "def": 100
+        },
+        "12": {
+          "hp": 85,
+          "atk": 54,
+          "def": 100
+        },
+        "13": {
+          "hp": 94,
+          "atk": 57,
+          "def": 100
+        },
+        "14": {
+          "hp": 104,
+          "atk": 62,
+          "def": 100
+        },
+        "15": {
+          "hp": 115,
+          "atk": 65,
+          "def": 100
+        },
+        "16": {
+          "hp": 126,
+          "atk": 69,
+          "def": 100
+        },
+        "17": {
+          "hp": 138,
+          "atk": 74,
+          "def": 100
+        },
+        "18": {
+          "hp": 145,
+          "atk": 78,
+          "def": 100
+        },
+        "19": {
+          "hp": 152,
+          "atk": 83,
+          "def": 100
+        },
+        "20": {
+          "hp": 159,
+          "atk": 87,
+          "def": 100
+        },
+        "21": {
+          "hp": 175,
+          "atk": 92,
+          "def": 100
+        },
+        "22": {
+          "hp": 192,
+          "atk": 97,
+          "def": 100
+        },
+        "23": {
+          "hp": 210,
+          "atk": 102,
+          "def": 100
+        },
+        "24": {
+          "hp": 230,
+          "atk": 107,
+          "def": 100
+        },
+        "25": {
+          "hp": 252,
+          "atk": 113,
+          "def": 100
+        },
+        "26": {
+          "hp": 274,
+          "atk": 118,
+          "def": 100
+        },
+        "27": {
+          "hp": 299,
+          "atk": 123,
+          "def": 100
+        },
+        "28": {
+          "hp": 327,
+          "atk": 129,
+          "def": 100
+        },
+        "29": {
+          "hp": 358,
+          "atk": 135,
+          "def": 100
+        },
+        "30": {
+          "hp": 391,
+          "atk": 141,
+          "def": 100
+        },
+        "31": {
+          "hp": 441,
+          "atk": 153,
+          "def": 100
+        },
+        "32": {
+          "hp": 486,
+          "atk": 164,
+          "def": 100
+        },
+        "33": {
+          "hp": 534,
+          "atk": 175,
+          "def": 100
+        },
+        "34": {
+          "hp": 586,
+          "atk": 187,
+          "def": 100
+        },
+        "35": {
+          "hp": 643,
+          "atk": 200,
+          "def": 100
+        },
+        "36": {
+          "hp": 705,
+          "atk": 212,
+          "def": 100
+        },
+        "37": {
+          "hp": 771,
+          "atk": 226,
+          "def": 100
+        },
+        "38": {
+          "hp": 843,
+          "atk": 240,
+          "def": 100
+        },
+        "39": {
+          "hp": 921,
+          "atk": 255,
+          "def": 100
+        },
+        "40": {
+          "hp": 1006,
+          "atk": 270,
+          "def": 100
+        },
+        "41": {
+          "hp": 1089,
+          "atk": 286,
+          "def": 100
+        },
+        "42": {
+          "hp": 1177,
+          "atk": 302,
+          "def": 100
+        },
+        "43": {
+          "hp": 1270,
+          "atk": 320,
+          "def": 100
+        },
+        "44": {
+          "hp": 1370,
+          "atk": 338,
+          "def": 100
+        },
+        "45": {
+          "hp": 1476,
+          "atk": 356,
+          "def": 100
+        },
+        "46": {
+          "hp": 1588,
+          "atk": 376,
+          "def": 100
+        },
+        "47": {
+          "hp": 1707,
+          "atk": 396,
+          "def": 100
+        },
+        "48": {
+          "hp": 1832,
+          "atk": 416,
+          "def": 100
+        },
+        "49": {
+          "hp": 1966,
+          "atk": 438,
+          "def": 100
+        },
+        "50": {
+          "hp": 2106,
+          "atk": 461,
+          "def": 100
+        },
+        "51": {
+          "hp": 2294,
+          "atk": 486,
+          "def": 100
+        },
+        "52": {
+          "hp": 2441,
+          "atk": 510,
+          "def": 100
+        },
+        "53": {
+          "hp": 2597,
+          "atk": 534,
+          "def": 100
+        },
+        "54": {
+          "hp": 2762,
+          "atk": 560,
+          "def": 100
+        },
+        "55": {
+          "hp": 2935,
+          "atk": 586,
+          "def": 100
+        },
+        "56": {
+          "hp": 3119,
+          "atk": 603,
+          "def": 100
+        },
+        "57": {
+          "hp": 3312,
+          "atk": 620,
+          "def": 100
+        },
+        "58": {
+          "hp": 3517,
+          "atk": 636,
+          "def": 100
+        },
+        "59": {
+          "hp": 3732,
+          "atk": 653,
+          "def": 100
+        },
+        "60": {
+          "hp": 3960,
+          "atk": 671,
+          "def": 100
+        },
+        "61": {
+          "hp": 4203,
+          "atk": 690,
+          "def": 100
+        },
+        "62": {
+          "hp": 4445,
+          "atk": 708,
+          "def": 100
+        },
+        "63": {
+          "hp": 4709,
+          "atk": 727,
+          "def": 100
+        },
+        "64": {
+          "hp": 4972,
+          "atk": 746,
+          "def": 100
+        },
+        "65": {
+          "hp": 5247,
+          "atk": 766,
+          "def": 100
+        },
+        "66": {
+          "hp": 5520,
+          "atk": 785,
+          "def": 100
+        },
+        "67": {
+          "hp": 5817,
+          "atk": 806,
+          "def": 100
+        },
+        "68": {
+          "hp": 6112,
+          "atk": 826,
+          "def": 100
+        },
+        "69": {
+          "hp": 6464,
+          "atk": 847,
+          "def": 100
+        },
+        "70": {
+          "hp": 6844,
+          "atk": 869,
+          "def": 100
+        },
+        "71": {
+          "hp": 7097,
+          "atk": 883,
+          "def": 100
+        },
+        "72": {
+          "hp": 7340,
+          "atk": 896,
+          "def": 100
+        },
+        "73": {
+          "hp": 7605,
+          "atk": 911,
+          "def": 100
+        },
+        "74": {
+          "hp": 7859,
+          "atk": 924,
+          "def": 100
+        },
+        "75": {
+          "hp": 8136,
+          "atk": 939,
+          "def": 100
+        },
+        "76": {
+          "hp": 8402,
+          "atk": 953,
+          "def": 100
+        },
+        "77": {
+          "hp": 8691,
+          "atk": 967,
+          "def": 100
+        },
+        "78": {
+          "hp": 8969,
+          "atk": 981,
+          "def": 100
+        },
+        "79": {
+          "hp": 9271,
+          "atk": 995,
+          "def": 100
+        },
+        "80": {
+          "hp": 9526,
+          "atk": 1009,
+          "def": 100
+        },
+        "81": {
+          "hp": 9970,
+          "atk": 1023,
+          "def": 100
+        },
+        "82": {
+          "hp": 10429,
+          "atk": 1038,
+          "def": 100
+        },
+        "83": {
+          "hp": 10904,
+          "atk": 1053,
+          "def": 100
+        },
+        "84": {
+          "hp": 11394,
+          "atk": 1068,
+          "def": 100
+        },
+        "85": {
+          "hp": 11899,
+          "atk": 1082,
+          "def": 100
+        },
+        "86": {
+          "hp": 12421,
+          "atk": 1097,
+          "def": 100
+        },
+        "87": {
+          "hp": 12959,
+          "atk": 1112,
+          "def": 100
+        },
+        "88": {
+          "hp": 13514,
+          "atk": 1126,
+          "def": 100
+        },
+        "89": {
+          "hp": 14085,
+          "atk": 1142,
+          "def": 100
+        },
+        "90": {
+          "hp": 14675,
+          "atk": 1156,
+          "def": 100
+        },
+        "91": {
+          "hp": 15034,
+          "atk": 1170,
+          "def": 100
+        },
+        "92": {
+          "hp": 15399,
+          "atk": 1185,
+          "def": 100
+        },
+        "93": {
+          "hp": 15770,
+          "atk": 1199,
+          "def": 100
+        },
+        "94": {
+          "hp": 16146,
+          "atk": 1214,
+          "def": 100
+        },
+        "95": {
+          "hp": 16395,
+          "atk": 1226,
+          "def": 100
+        },
+        "96": {
+          "hp": 16646,
+          "atk": 1240,
+          "def": 100
+        },
+        "97": {
+          "hp": 16899,
+          "atk": 1253,
+          "def": 100
+        },
+        "98": {
+          "hp": 17154,
+          "atk": 1266,
+          "def": 100
+        },
+        "99": {
+          "hp": 17411,
+          "atk": 1280,
+          "def": 100
+        },
+        "100": {
+          "hp": 17669,
+          "atk": 1294,
+          "def": 100
+        }
+      }
+    }
+  ]
+}

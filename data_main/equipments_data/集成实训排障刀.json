@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "template": "装备档案",
+    "article_id": "019f68f1-d6a8-77a2-87b5-f56cbc70edc8",
+    "updated_at": "2026-07-19T15:05:51.669Z"
+  },
+  "basic": {
+    "name": "集成实训排障刀",
+    "rarity": 5,
+    "part_type": "EDC",
+    "slot_type": "配件",
+    "group_name": "集成实训装备组",
+    "suit_name": "集成实训",
+    "description": "本装备由终末地工业自研，使用集成工业系统制造，能够提高使用者的作战能力。",
+    "flavor": "终末地为干员训练而设计的作战装备组，因为过于物美价廉而广受市场欢迎。\n功能颇多的刀具，在能够有效破坏天使等敌人的防护结构的同时，亦可作为工业排障工具使用。",
+    "icon_url": "https://assets.fz.wiki/c3338b6b5f3d4283/cc11ab88e7e985e2.png",
+    "categories": [
+      "五星装备",
+      "装备",
+      "配件"
+    ]
+  },
+  "suit": {
+    "group_name": "集成实训装备组",
+    "piece_count": 9,
+    "self_equip_id": "item_equip_t4_parts_wuling00_edc_01",
+    "bonus": {
+      "name": "集成实训",
+      "levels": [
+        {
+          "desc": "伤害提升 20% · dmg_taken_down 90% · ultimate_gain_up 10%",
+          "level": 1,
+          "values": {
+            "dmg_up": 0.2,
+            "dmg_taken_down": 0.9,
+            "ultimate_gain_up": 0.1
+          }
+        }
+      ],
+      "skillId": "passive_equipsuit_generaltype",
+      "paramTable": {
+        "rows": [
+          {
+            "label": "伤害提升",
+            "values": [
+              "20%"
+            ]
+          },
+          {
+            "label": "dmg_taken_down",
+            "values": [
+              "90%"
+            ]
+          },
+          {
+            "label": "ultimate_gain_up",
+            "values": [
+              "10%"
+            ]
+          }
+        ],
+        "levels": [
+          1
+        ],
+        "levelLabels": [
+          "Lv1"
+        ]
+      },
+      "description": "3件套组效果：装备者造成的所有类型伤害<@ba.vup>+{dmg_up:0%}</>，受到的所有类型伤害<@ba.vup>-{1-dmg_taken_down:0%}</>，终结技充能效率<@ba.vup>+{ultimate_gain_up:0%}</>。"
+    },
+    "pieces": [
+      {
+        "name": "集成实训护甲",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_parts_wuling00_body_01"
+      },
+      {
+        "name": "集成实训钢甲",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_parts_wuling00_body_02"
+      },
+      {
+        "name": "集成实训胸甲",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_parts_wuling00_body_03"
+      },
+      {
+        "name": "集成实训手套",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_parts_wuling00_hand_01"
+      },
+      {
+        "name": "集成实训护手",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_parts_wuling00_hand_02"
+      },
+      {
+        "name": "集成实训缠带",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_parts_wuling00_hand_03"
+      },
+      {
+        "name": "集成实训排障刀",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_parts_wuling00_edc_01"
+      },
+      {
+        "name": "集成实训火种石",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_parts_wuling00_edc_02"
+      },
+      {
+        "name": "集成实训照明器",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_parts_wuling00_edc_03"
+      }
+    ]
+  },
+  "stats": {
+    "enhance_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rows": [
+      {
+        "label": "防御力",
+        "attr_type": "Def",
+        "is_base": true,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          18.0,
+          18.0,
+          18.0,
+          18.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "主能力",
+        "attr_type": "Level",
+        "is_base": false,
+        "is_percent": true,
+        "enhances": true,
+        "values": [
+          27.0,
+          29.0,
+          32.0,
+          35.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": "Main"
+      },
+      {
+        "label": "副能力",
+        "attr_type": "Level",
+        "is_base": false,
+        "is_percent": true,
+        "enhances": true,
+        "values": [
+          18.0,
+          19.0,
+          21.0,
+          23.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": "Sub"
+      },
+      {
+        "label": "法术伤害加成",
+        "attr_type": "Level",
+        "is_base": false,
+        "is_percent": true,
+        "enhances": true,
+        "values": [
+          0.1863157894736842,
+          0.20494736842105266,
+          0.22357894736842104,
+          0.2422105263157895
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": "SpellDamageIncrease"
+      }
+    ]
+  },
+  "materials": {
+    "unlock_type": "DefaultUnlock",
+    "unlock_key": "",
+    "gold": 0,
+    "items": []
+  }
+}

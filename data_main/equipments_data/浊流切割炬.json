@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "template": "装备档案",
+    "article_id": "2414f329-d96d-4574-b8ad-55ae89ac8304",
+    "updated_at": "2026-07-19T15:05:53.973Z"
+  },
+  "basic": {
+    "name": "浊流切割炬",
+    "rarity": 5,
+    "part_type": "EDC",
+    "slot_type": "配件",
+    "group_name": "潮涌装备组",
+    "suit_name": "潮涌",
+    "description": "本装备由宏山选剑局设计，使用集成工业系统制造，能够提高使用者的作战能力。",
+    "flavor": "选剑局为侵蚀潮周边作业所设计的套组装备。\n它是一缕有关侵蚀潮的恐惧：高悬灾厄何时坠入眼眸？",
+    "icon_url": "https://assets.fz.wiki/c3338b6b5f3d4283/8fd49b7a6e63b988.png",
+    "categories": [
+      "五星装备",
+      "装备",
+      "配件"
+    ]
+  },
+  "suit": {
+    "group_name": "潮涌装备组",
+    "piece_count": 4,
+    "self_equip_id": "item_equip_t4_suit_burst01_edc_02",
+    "bonus": {
+      "name": "潮涌",
+      "levels": [
+        {
+          "desc": "skill_dmg_up 20% · stack_cond 2 · 法伤提升 35% · 持续 15s",
+          "level": 1,
+          "values": {
+            "duration": 15.0,
+            "stack_cond": 2.0,
+            "skill_dmg_up": 0.2,
+            "spell_dmg_up": 0.35
+          }
+        }
+      ],
+      "skillId": "passive_equipsuit_burst_01",
+      "paramTable": {
+        "rows": [
+          {
+            "label": "skill_dmg_up",
+            "values": [
+              "20%"
+            ]
+          },
+          {
+            "label": "stack_cond",
+            "values": [
+              "2"
+            ]
+          },
+          {
+            "label": "法伤提升",
+            "values": [
+              "35%"
+            ]
+          },
+          {
+            "label": "持续",
+            "values": [
+              "15s"
+            ]
+          }
+        ],
+        "levels": [
+          1
+        ],
+        "levelLabels": [
+          "Lv1"
+        ]
+      },
+      "description": "3件套组效果：装备者所有技能伤害<@ba.vup>+{skill_dmg_up:0%}</>。\n装备者使敌人达到<@ba.key>{stack_cond}</>层及以上<#ba.spellinflict>法术附着</>后，造成的<@ba.key>法术伤害</><@ba.vup>+{spell_dmg_up:0%}</>，持续{duration}秒，该效果无法叠加。"
+    },
+    "pieces": [
+      {
+        "name": "落潮轻甲",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_burst01_body_01"
+      },
+      {
+        "name": "潮涌手甲",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_burst01_hand_01"
+      },
+      {
+        "name": "悬河供氧栓",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_burst01_edc_01"
+      },
+      {
+        "name": "浊流切割炬",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_burst01_edc_02"
+      }
+    ]
+  },
+  "stats": {
+    "enhance_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rows": [
+      {
+        "label": "防御力",
+        "attr_type": "Def",
+        "is_base": true,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          21.0,
+          21.0,
+          21.0,
+          21.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "智识",
+        "attr_type": "Wisd",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          32.0,
+          35.0,
+          38.0,
+          41.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "力量",
+        "attr_type": "Str",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          21.0,
+          23.0,
+          25.0,
+          27.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "普通攻击伤害加成",
+        "attr_type": "NormalAttackDamageIncrease",
+        "is_base": false,
+        "is_percent": true,
+        "enhances": true,
+        "values": [
+          0.27599999999999997,
+          0.3036,
+          0.33119999999999994,
+          0.35879999999999995
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      }
+    ]
+  },
+  "materials": {
+    "unlock_type": "EquipFormulaChest",
+    "unlock_key": "reward_eco_map02_lv001_int_360037",
+    "gold": 0,
+    "items": []
+  }
+}

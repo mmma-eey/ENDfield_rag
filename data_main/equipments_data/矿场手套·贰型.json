@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "template": "装备档案",
+    "article_id": "81631a78-fef8-43cb-8f1d-f893a719d434",
+    "updated_at": "2026-07-19T15:06:13.269Z"
+  },
+  "basic": {
+    "name": "矿场手套·贰型",
+    "rarity": 4,
+    "part_type": "Hand",
+    "slot_type": "护手",
+    "group_name": "矿场γ型独立装备组",
+    "suit_name": "",
+    "description": "本装备由终末地工业自研，使用集成工业系统制造，能够提高使用者的作战能力。",
+    "flavor": "多用于矿场作业的防护装备。\n《四号谷地安全防护标准》要求劳动保护装备至少需要软性保护及硬性保护两层防护结构。",
+    "icon_url": "https://assets.fz.wiki/c3338b6b5f3d4283/e6164edbd04500cc.png",
+    "categories": [
+      "四星装备",
+      "护手",
+      "装备"
+    ]
+  },
+  "suit": {
+    "group_name": "矿场γ型独立装备组",
+    "piece_count": 8,
+    "self_equip_id": "item_equip_t3_parts_tundra01_hand_01",
+    "bonus": null,
+    "pieces": [
+      {
+        "name": "矿场护甲·壹型",
+        "rarity": 4,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t3_parts_tundra01_body_01"
+      },
+      {
+        "name": "矿场防护服·壹型",
+        "rarity": 4,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t3_parts_tundra01_body_02"
+      },
+      {
+        "name": "矿场手套·贰型",
+        "rarity": 4,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t3_parts_tundra01_hand_01"
+      },
+      {
+        "name": "矿场护手·壹型",
+        "rarity": 4,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t3_parts_tundra01_hand_02"
+      },
+      {
+        "name": "矿场增压轮·壹型",
+        "rarity": 4,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t3_parts_tundra01_edc_01"
+      },
+      {
+        "name": "矿场传动轮·壹型",
+        "rarity": 4,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t3_parts_tundra01_edc_02"
+      },
+      {
+        "name": "矿场压缩核·壹型",
+        "rarity": 4,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t3_parts_tundra01_edc_03"
+      },
+      {
+        "name": "矿场联络仪·壹型",
+        "rarity": 4,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t3_parts_tundra01_edc_04"
+      }
+    ]
+  },
+  "stats": {
+    "enhance_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rows": [
+      {
+        "label": "防御力",
+        "attr_type": "Def",
+        "is_base": true,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          30.0,
+          30.0,
+          30.0,
+          30.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "智识",
+        "attr_type": "Wisd",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          49.0,
+          49.0,
+          49.0,
+          49.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "敏捷",
+        "attr_type": "Agi",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          32.0,
+          32.0,
+          32.0,
+          32.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "攻击力",
+        "attr_type": "Atk",
+        "is_base": false,
+        "is_percent": true,
+        "enhances": false,
+        "values": [
+          0.13,
+          0.13,
+          0.13,
+          0.13
+        ],
+        "modifier_type": "BaseMultiplier",
+        "composite_attr": ""
+      }
+    ]
+  },
+  "materials": {
+    "unlock_type": "AdventureLevel",
+    "unlock_key": "",
+    "gold": 0,
+    "items": []
+  }
+}

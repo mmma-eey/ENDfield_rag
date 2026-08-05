@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "template": "装备档案",
+    "article_id": "b00c6892-356f-493c-a5ea-da13c06b842e",
+    "updated_at": "2026-07-19T15:06:34.802Z"
+  },
+  "basic": {
+    "name": "集成化轻甲片",
+    "rarity": 2,
+    "part_type": "EDC",
+    "slot_type": "配件",
+    "group_name": "集成轻型装备组",
+    "suit_name": "集成轻型",
+    "description": "本装备由终末地工业自研，使用集成工业系统制造，能够提高使用者的作战能力。",
+    "flavor": "结构简单的模块化轻型防护装备。\n护甲片能够灵活装配是这套集成化装备的最大卖点。",
+    "icon_url": "https://assets.fz.wiki/c3338b6b5f3d4283/78cd75d50fefc1ac.png",
+    "categories": [
+      "装备",
+      "配件"
+    ]
+  },
+  "suit": {
+    "group_name": "集成轻型装备组",
+    "piece_count": 4,
+    "self_equip_id": "item_equip_t1_suit_wisdwill01_edc_01",
+    "bonus": {
+      "name": "集成轻型",
+      "levels": [
+        {
+          "desc": "生命提升 50000% · 攻击提升 2000% · 持续 5s",
+          "level": 1,
+          "values": {
+            "hp_up": 500.0,
+            "atk_up": 20.0,
+            "duration": 5.0
+          }
+        }
+      ],
+      "skillId": "passive_equipsuit_wisdwill_01",
+      "paramTable": {
+        "rows": [
+          {
+            "label": "生命提升",
+            "values": [
+              "50000%"
+            ]
+          },
+          {
+            "label": "攻击提升",
+            "values": [
+              "2000%"
+            ]
+          },
+          {
+            "label": "持续",
+            "values": [
+              "5s"
+            ]
+          }
+        ],
+        "levels": [
+          1
+        ],
+        "levelLabels": [
+          "Lv1"
+        ]
+      },
+      "description": "3件套组效果：装备者生命值<@ba.vup>+{hp_up}</>。\n当装备者击败敌人后，攻击力<@ba.vup>+{atk_up}</>，持续<@ba.vup>{duration}</>秒。"
+    },
+    "pieces": [
+      {
+        "name": "集成化轻甲",
+        "rarity": 2,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t1_suit_wisdwill01_body_01"
+      },
+      {
+        "name": "集成化战术手套",
+        "rarity": 2,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t1_suit_wisdwill01_hand_01"
+      },
+      {
+        "name": "集成化轻甲片",
+        "rarity": 2,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t1_suit_wisdwill01_edc_01"
+      },
+      {
+        "name": "集成化陶瓷板",
+        "rarity": 2,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t1_suit_wisdwill01_edc_02"
+      }
+    ]
+  },
+  "stats": {
+    "enhance_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rows": [
+      {
+        "label": "防御力",
+        "attr_type": "Def",
+        "is_base": true,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          8.4,
+          8.4,
+          8.4,
+          8.4
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "智识",
+        "attr_type": "Wisd",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          16.0,
+          16.0,
+          16.0,
+          16.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "连携技伤害加成",
+        "attr_type": "ComboSkillDamageIncrease",
+        "is_base": false,
+        "is_percent": true,
+        "enhances": false,
+        "values": [
+          0.162,
+          0.162,
+          0.162,
+          0.162
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      }
+    ]
+  },
+  "materials": {
+    "unlock_type": "AdventureLevel",
+    "unlock_key": "",
+    "gold": 0,
+    "items": []
+  }
+}

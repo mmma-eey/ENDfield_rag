@@ -19,14 +19,22 @@ def generate(question: str, contexts: list[str]) -> str:
         {"role": "user", "content": f"参考资料：\n{context_text}\n\n用户问题：{question}"},
     ]
 
-    resp = client.chat.completions.create(
-        model=LLM_MODEL,
-        messages=messages,
-        temperature=0.3,
-        max_tokens=1024,
-    )
+    # DeepSeek API 偶发返回空 content，重试最多 2 次
+    for attempt in range(3):
+        resp = client.chat.completions.create(
+            model=LLM_MODEL,
+            messages=messages,
+            temperature=0.3,
+            max_tokens=1024,
+        )
+        content = resp.choices[0].message.content
+        if content:
+            return content
+        if attempt < 2:
+            import time
+            time.sleep(1.0)
 
-    return resp.choices[0].message.content
+    return ""
 
 
 def chat_with_history(messages: list[dict], contexts: list[str]) -> str:

@@ -1,0 +1,743 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "article_id": "aa8aceb4-85b5-4865-b106-0801530859c1",
+    "updated_at": "2026-06-21T13:31:29.793Z"
+  },
+  "basic": {
+    "name": "白垩附肢",
+    "nickname": "",
+    "display_type": "Boss",
+    "is_dangerous": false,
+    "zmd_map_links": [],
+    "distributions": [
+      {
+        "name": "供能高地",
+        "distributionId": "distribution_map01_lv007"
+      }
+    ]
+  },
+  "background": {
+    "body": "未归档。因形成特征，推定为天使。外观上自本体延伸而出，实则由形成位置延伸至本体，推定此为扰敌策略。"
+  },
+  "stats": {
+    "level_curve": {
+      "1": {
+        "hp": 235,
+        "atk": 59,
+        "def": 100
+      },
+      "2": {
+        "hp": 269,
+        "atk": 68,
+        "def": 100
+      },
+      "3": {
+        "hp": 304,
+        "atk": 77,
+        "def": 100
+      },
+      "4": {
+        "hp": 341,
+        "atk": 86,
+        "def": 100
+      },
+      "5": {
+        "hp": 380,
+        "atk": 96,
+        "def": 100
+      },
+      "6": {
+        "hp": 446,
+        "atk": 106,
+        "def": 100
+      },
+      "7": {
+        "hp": 520,
+        "atk": 116,
+        "def": 100
+      },
+      "8": {
+        "hp": 601,
+        "atk": 127,
+        "def": 100
+      },
+      "9": {
+        "hp": 690,
+        "atk": 138,
+        "def": 100
+      },
+      "10": {
+        "hp": 788,
+        "atk": 149,
+        "def": 100
+      },
+      "11": {
+        "hp": 843,
+        "atk": 161,
+        "def": 100
+      },
+      "12": {
+        "hp": 900,
+        "atk": 173,
+        "def": 100
+      },
+      "13": {
+        "hp": 1000,
+        "atk": 185,
+        "def": 100
+      },
+      "14": {
+        "hp": 1107,
+        "atk": 197,
+        "def": 100
+      },
+      "15": {
+        "hp": 1220,
+        "atk": 210,
+        "def": 100
+      },
+      "16": {
+        "hp": 1339,
+        "atk": 223,
+        "def": 100
+      },
+      "17": {
+        "hp": 1464,
+        "atk": 237,
+        "def": 100
+      },
+      "18": {
+        "hp": 1539,
+        "atk": 251,
+        "def": 100
+      },
+      "19": {
+        "hp": 1614,
+        "atk": 265,
+        "def": 100
+      },
+      "20": {
+        "hp": 1689,
+        "atk": 279,
+        "def": 100
+      },
+      "21": {
+        "hp": 1858,
+        "atk": 295,
+        "def": 100
+      },
+      "22": {
+        "hp": 2040,
+        "atk": 311,
+        "def": 100
+      },
+      "23": {
+        "hp": 2236,
+        "atk": 327,
+        "def": 100
+      },
+      "24": {
+        "hp": 2446,
+        "atk": 344,
+        "def": 100
+      },
+      "25": {
+        "hp": 2672,
+        "atk": 361,
+        "def": 100
+      },
+      "26": {
+        "hp": 2915,
+        "atk": 379,
+        "def": 100
+      },
+      "27": {
+        "hp": 3176,
+        "atk": 397,
+        "def": 100
+      },
+      "28": {
+        "hp": 3479,
+        "atk": 415,
+        "def": 100
+      },
+      "29": {
+        "hp": 3806,
+        "atk": 433,
+        "def": 100
+      },
+      "30": {
+        "hp": 4158,
+        "atk": 452,
+        "def": 100
+      },
+      "31": {
+        "hp": 4690,
+        "atk": 491,
+        "def": 100
+      },
+      "32": {
+        "hp": 5161,
+        "atk": 526,
+        "def": 100
+      },
+      "33": {
+        "hp": 5673,
+        "atk": 563,
+        "def": 100
+      },
+      "34": {
+        "hp": 6229,
+        "atk": 601,
+        "def": 100
+      },
+      "35": {
+        "hp": 6832,
+        "atk": 641,
+        "def": 100
+      },
+      "36": {
+        "hp": 7486,
+        "atk": 683,
+        "def": 100
+      },
+      "37": {
+        "hp": 8194,
+        "atk": 726,
+        "def": 100
+      },
+      "38": {
+        "hp": 8961,
+        "atk": 772,
+        "def": 100
+      },
+      "39": {
+        "hp": 9790,
+        "atk": 819,
+        "def": 100
+      },
+      "40": {
+        "hp": 10688,
+        "atk": 868,
+        "def": 100
+      },
+      "41": {
+        "hp": 11567,
+        "atk": 920,
+        "def": 100
+      },
+      "42": {
+        "hp": 12503,
+        "atk": 973,
+        "def": 100
+      },
+      "43": {
+        "hp": 13499,
+        "atk": 1029,
+        "def": 100
+      },
+      "44": {
+        "hp": 14556,
+        "atk": 1086,
+        "def": 100
+      },
+      "45": {
+        "hp": 15679,
+        "atk": 1146,
+        "def": 100
+      },
+      "46": {
+        "hp": 16871,
+        "atk": 1208,
+        "def": 100
+      },
+      "47": {
+        "hp": 18133,
+        "atk": 1273,
+        "def": 100
+      },
+      "48": {
+        "hp": 19470,
+        "atk": 1340,
+        "def": 100
+      },
+      "49": {
+        "hp": 20884,
+        "atk": 1409,
+        "def": 100
+      },
+      "50": {
+        "hp": 22379,
+        "atk": 1481,
+        "def": 100
+      },
+      "51": {
+        "hp": 24371,
+        "atk": 1562,
+        "def": 100
+      },
+      "52": {
+        "hp": 25938,
+        "atk": 1638,
+        "def": 100
+      },
+      "53": {
+        "hp": 27593,
+        "atk": 1718,
+        "def": 100
+      },
+      "54": {
+        "hp": 29341,
+        "atk": 1800,
+        "def": 100
+      },
+      "55": {
+        "hp": 31187,
+        "atk": 1884,
+        "def": 100
+      },
+      "56": {
+        "hp": 33136,
+        "atk": 1937,
+        "def": 100
+      },
+      "57": {
+        "hp": 35194,
+        "atk": 1990,
+        "def": 100
+      },
+      "58": {
+        "hp": 37366,
+        "atk": 2045,
+        "def": 100
+      },
+      "59": {
+        "hp": 39658,
+        "atk": 2100,
+        "def": 100
+      },
+      "60": {
+        "hp": 42076,
+        "atk": 2156,
+        "def": 100
+      },
+      "61": {
+        "hp": 44652,
+        "atk": 2216,
+        "def": 100
+      },
+      "62": {
+        "hp": 47227,
+        "atk": 2275,
+        "def": 100
+      },
+      "63": {
+        "hp": 50029,
+        "atk": 2337,
+        "def": 100
+      },
+      "64": {
+        "hp": 52827,
+        "atk": 2398,
+        "def": 100
+      },
+      "65": {
+        "hp": 55751,
+        "atk": 2462,
+        "def": 100
+      },
+      "66": {
+        "hp": 58655,
+        "atk": 2524,
+        "def": 100
+      },
+      "67": {
+        "hp": 61809,
+        "atk": 2590,
+        "def": 100
+      },
+      "68": {
+        "hp": 64938,
+        "atk": 2654,
+        "def": 100
+      },
+      "69": {
+        "hp": 68683,
+        "atk": 2723,
+        "def": 100
+      },
+      "70": {
+        "hp": 72720,
+        "atk": 2792,
+        "def": 100
+      },
+      "71": {
+        "hp": 75405,
+        "atk": 2837,
+        "def": 100
+      },
+      "72": {
+        "hp": 77988,
+        "atk": 2881,
+        "def": 100
+      },
+      "73": {
+        "hp": 80800,
+        "atk": 2927,
+        "def": 100
+      },
+      "74": {
+        "hp": 83504,
+        "atk": 2971,
+        "def": 100
+      },
+      "75": {
+        "hp": 86445,
+        "atk": 3017,
+        "def": 100
+      },
+      "76": {
+        "hp": 89271,
+        "atk": 3061,
+        "def": 100
+      },
+      "77": {
+        "hp": 92344,
+        "atk": 3108,
+        "def": 100
+      },
+      "78": {
+        "hp": 95296,
+        "atk": 3152,
+        "def": 100
+      },
+      "79": {
+        "hp": 98504,
+        "atk": 3199,
+        "def": 100
+      },
+      "80": {
+        "hp": 101211,
+        "atk": 3244,
+        "def": 100
+      },
+      "81": {
+        "hp": 105933,
+        "atk": 3291,
+        "def": 100
+      },
+      "82": {
+        "hp": 110813,
+        "atk": 3337,
+        "def": 100
+      },
+      "83": {
+        "hp": 115854,
+        "atk": 3384,
+        "def": 100
+      },
+      "84": {
+        "hp": 121058,
+        "atk": 3431,
+        "def": 100
+      },
+      "85": {
+        "hp": 126430,
+        "atk": 3478,
+        "def": 100
+      },
+      "86": {
+        "hp": 131972,
+        "atk": 3526,
+        "def": 100
+      },
+      "87": {
+        "hp": 137689,
+        "atk": 3573,
+        "def": 100
+      },
+      "88": {
+        "hp": 143583,
+        "atk": 3621,
+        "def": 100
+      },
+      "89": {
+        "hp": 149658,
+        "atk": 3669,
+        "def": 100
+      },
+      "90": {
+        "hp": 155918,
+        "atk": 3717,
+        "def": 100
+      },
+      "91": {
+        "hp": 159736,
+        "atk": 3762,
+        "def": 100
+      },
+      "92": {
+        "hp": 163615,
+        "atk": 3808,
+        "def": 100
+      },
+      "93": {
+        "hp": 167554,
+        "atk": 3854,
+        "def": 100
+      },
+      "94": {
+        "hp": 171555,
+        "atk": 3900,
+        "def": 100
+      },
+      "95": {
+        "hp": 174201,
+        "atk": 3943,
+        "def": 100
+      },
+      "96": {
+        "hp": 176868,
+        "atk": 3986,
+        "def": 100
+      },
+      "97": {
+        "hp": 179555,
+        "atk": 4028,
+        "def": 100
+      },
+      "98": {
+        "hp": 182262,
+        "atk": 4071,
+        "def": 100
+      },
+      "99": {
+        "hp": 184989,
+        "atk": 4114,
+        "def": 100
+      },
+      "100": {
+        "hp": 187737,
+        "atk": 4158,
+        "def": 100
+      }
+    },
+    "groups": [
+      {
+        "group_key": "basic",
+        "group_label": "基础战斗",
+        "label": "普攻距离",
+        "value": 12.0,
+        "format": "scalar",
+        "attr_type": "NormalAttackRange"
+      },
+      {
+        "group_key": "basic",
+        "group_label": "基础战斗",
+        "label": "重量",
+        "value": 2.0,
+        "format": "int",
+        "attr_type": "Weight"
+      },
+      {
+        "group_key": "basic",
+        "group_label": "基础战斗",
+        "label": "暴击率",
+        "value": 0.0,
+        "format": "percent",
+        "attr_type": "CriticalRate"
+      },
+      {
+        "group_key": "basic",
+        "group_label": "基础战斗",
+        "label": "暴击伤害",
+        "value": 0.5,
+        "format": "percent",
+        "attr_type": "CriticalDamageIncrease"
+      },
+      {
+        "group_key": "basic",
+        "group_label": "基础战斗",
+        "label": "攻击频率",
+        "value": 1.0,
+        "format": "scalar",
+        "attr_type": "AttackRate"
+      },
+      {
+        "group_key": "basic",
+        "group_label": "基础战斗",
+        "label": "仇恨值",
+        "value": 0.0,
+        "format": "scalar",
+        "attr_type": "Hatred"
+      },
+      {
+        "group_key": "poise",
+        "group_label": "失衡",
+        "label": "失衡值上限",
+        "value": 0.0,
+        "format": "scalar",
+        "attr_type": "MaxPoise"
+      },
+      {
+        "group_key": "poise",
+        "group_label": "失衡",
+        "label": "失衡承伤倍率",
+        "value": 1.25,
+        "format": "multiplier",
+        "attr_type": "BreakingAttackDamageTakenScalar"
+      },
+      {
+        "group_key": "poise",
+        "group_label": "失衡",
+        "label": "失衡恢复时间",
+        "value": 6.0,
+        "format": "seconds",
+        "attr_type": "PoiseRecTime"
+      },
+      {
+        "group_key": "superarmor",
+        "group_label": "抗打断",
+        "label": "初始抗打断",
+        "value": 30,
+        "format": "int",
+        "attr_type": "initialSuperArmor"
+      },
+      {
+        "group_key": "superarmor",
+        "group_label": "抗打断",
+        "label": "失衡时抗打断",
+        "value": 30,
+        "format": "int",
+        "attr_type": "zeroPoiseSuperArmor"
+      },
+      {
+        "group_key": "superarmor",
+        "group_label": "抗打断",
+        "label": "韧性归零抗打断",
+        "value": 0,
+        "format": "int",
+        "attr_type": "superArmorWhenResilienceZero"
+      },
+      {
+        "group_key": "superarmor",
+        "group_label": "抗打断",
+        "label": "处决技力回复",
+        "value": 100.0,
+        "format": "scalar",
+        "attr_type": "breakingAttackedAtbObtain"
+      },
+      {
+        "group_key": "resilience",
+        "group_label": "韧性",
+        "label": "最大韧性",
+        "value": 65.0,
+        "format": "scalar",
+        "attr_type": "maxResilience"
+      },
+      {
+        "group_key": "resilience",
+        "group_label": "韧性",
+        "label": "受伤韧性降低",
+        "value": 0.0,
+        "format": "scalar",
+        "attr_type": "resilienceDecreaseWhenHurt"
+      },
+      {
+        "group_key": "resilience",
+        "group_label": "韧性",
+        "label": "韧性回复值",
+        "value": 0.0,
+        "format": "scalar",
+        "attr_type": "resilienceRecover"
+      },
+      {
+        "group_key": "resilience",
+        "group_label": "韧性",
+        "label": "韧性回复间隔",
+        "value": 0.0,
+        "format": "seconds",
+        "attr_type": "resilienceRecoverInterval"
+      },
+      {
+        "group_key": "resilience",
+        "group_label": "韧性",
+        "label": "韧性完全回复时长",
+        "value": 0.0,
+        "format": "seconds",
+        "attr_type": "resilienceFullRecoverTime"
+      },
+      {
+        "group_key": "misc",
+        "group_label": "其他",
+        "label": "对塔攻击值",
+        "value": 0.0,
+        "format": "scalar",
+        "attr_type": "attackValueAgainstTower"
+      },
+      {
+        "group_key": "misc",
+        "group_label": "其他",
+        "label": "击退系数",
+        "value": 0.0,
+        "format": "scalar",
+        "attr_type": "pushedBackCoefficient"
+      }
+    ],
+    "poise_knots": []
+  },
+  "resistances": [
+    {
+      "element": "Physical",
+      "element_label": "物理",
+      "percent": 100.0,
+      "scalar": 1.0
+    },
+    {
+      "element": "Fire",
+      "element_label": "灼热",
+      "percent": 100.0,
+      "scalar": 1.0
+    },
+    {
+      "element": "Pulse",
+      "element_label": "电磁",
+      "percent": 100.0,
+      "scalar": 1.0
+    },
+    {
+      "element": "Cryst",
+      "element_label": "寒冷",
+      "percent": 100.0,
+      "scalar": 1.0
+    },
+    {
+      "element": "Natural",
+      "element_label": "自然",
+      "percent": 100.0,
+      "scalar": 1.0
+    },
+    {
+      "element": "Ether",
+      "element_label": "超域",
+      "percent": 100.0,
+      "scalar": 1.0
+    }
+  ],
+  "abilities": [
+    {
+      "ordinal": 1,
+      "ability_id": "eny_0062_paletent_ability_1",
+      "description": "有的白垩附肢擅长攻击近距离的敌人，它们会疯狂锤击地面。"
+    },
+    {
+      "ordinal": 2,
+      "ability_id": "eny_0062_paletent_ability_2",
+      "description": "有的白垩附肢擅长攻击远距离的敌人，它们把自己的末端碎裂为侵蚀，抛射向敌人。"
+    }
+  ],
+  "drops": [],
+  "tips": [],
+  "variants": []
+}

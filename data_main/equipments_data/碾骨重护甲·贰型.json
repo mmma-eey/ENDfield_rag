@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "template": "装备档案",
+    "article_id": "bb72669b-2d51-4a78-9745-870941fdbb15",
+    "updated_at": "2026-07-19T15:05:49.088Z"
+  },
+  "basic": {
+    "name": "碾骨重护甲·贰型",
+    "rarity": 5,
+    "part_type": "Body",
+    "slot_type": "护甲",
+    "group_name": "碾骨装备组",
+    "suit_name": "碾骨",
+    "description": "本装备由终末地工业参考荒野手工艺品设计，使用集成工业系统制造，能够提高使用者的作战能力。\n",
+    "flavor": "设计灵感来自于碾骨氏族的装备。\n厚重护甲不单单具有防护能力，在荒地行人眼中，它也代表着一种冷酷残忍的行事风格。",
+    "icon_url": "https://assets.fz.wiki/c3338b6b5f3d4283/1153cb796dc5d67e.png",
+    "categories": [
+      "五星装备",
+      "护甲",
+      "装备"
+    ]
+  },
+  "suit": {
+    "group_name": "碾骨装备组",
+    "piece_count": 14,
+    "self_equip_id": "item_equip_t4_suit_attri01_body_05",
+    "bonus": {
+      "name": "碾骨",
+      "levels": [
+        {
+          "desc": "攻击提升 15% · 伤害提升 30% · 最大层数 2",
+          "level": 1,
+          "values": {
+            "atk_up": 0.15,
+            "dmg_up": 0.3,
+            "max_stack": 2.0
+          }
+        }
+      ],
+      "skillId": "passive_equipsuit_attrisuit_01",
+      "paramTable": {
+        "rows": [
+          {
+            "label": "攻击提升",
+            "values": [
+              "15%"
+            ]
+          },
+          {
+            "label": "伤害提升",
+            "values": [
+              "30%"
+            ]
+          },
+          {
+            "label": "最大层数",
+            "values": [
+              "2"
+            ]
+          }
+        ],
+        "levels": [
+          1
+        ],
+        "levelLabels": [
+          "Lv1"
+        ]
+      },
+      "description": "3件套组效果：装备者攻击力<@ba.vup>+{atk_up:0%}</>。\n当装备者施放连携技时，获得一层<@ba.key>碾骨重压</>，下一次的战技伤害<@ba.vup>+{dmg_up:0%}</>，<@ba.key>碾骨重压</>最多可叠加{max_stack:0}层。"
+    },
+    "pieces": [
+      {
+        "name": "碾骨重护甲",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_attri01_body_01"
+      },
+      {
+        "name": "碾骨重护甲·壹型",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_attri01_body_02"
+      },
+      {
+        "name": "碾骨披巾",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_attri01_body_03"
+      },
+      {
+        "name": "碾骨披巾·壹型",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_attri01_body_04"
+      },
+      {
+        "name": "碾骨腕带",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_attri01_hand_01"
+      },
+      {
+        "name": "碾骨腕带·壹型",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_attri01_hand_02"
+      },
+      {
+        "name": "碾骨小雕像",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_attri01_edc_03"
+      },
+      {
+        "name": "碾骨面具",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_attri01_edc_04"
+      },
+      {
+        "name": "碾骨面具·壹型",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_attri01_edc_05"
+      },
+      {
+        "name": "碾骨小雕像·壹型",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_attri01_edc_06"
+      },
+      {
+        "name": "碾骨面具·贰型",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_attri01_edc_07"
+      },
+      {
+        "name": "碾骨重护甲·贰型",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_attri01_body_05"
+      },
+      {
+        "name": "碾骨手套",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_attri01_hand_03"
+      },
+      {
+        "name": "碾骨小雕像·贰型",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_attri01_edc_02"
+      }
+    ]
+  },
+  "stats": {
+    "enhance_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rows": [
+      {
+        "label": "防御力",
+        "attr_type": "Def",
+        "is_base": true,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          56.0,
+          56.0,
+          56.0,
+          56.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "敏捷",
+        "attr_type": "Agi",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          87.0,
+          95.0,
+          104.0,
+          113.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "力量",
+        "attr_type": "Str",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          58.0,
+          63.0,
+          69.0,
+          75.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "寒冷和电磁伤害加成",
+        "attr_type": "Level",
+        "is_base": false,
+        "is_percent": true,
+        "enhances": true,
+        "values": [
+          0.11499999999999999,
+          0.1265,
+          0.13799999999999998,
+          0.1495
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": "CrystAndPulseDamageIncrease"
+      }
+    ]
+  },
+  "materials": {
+    "unlock_type": "EquipFormulaChest",
+    "unlock_key": "reward_eco_map02_lv003_int_297",
+    "gold": 0,
+    "items": []
+  }
+}

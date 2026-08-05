@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "template": "装备档案",
+    "article_id": "18221130-4559-4b3a-a8d8-00efdec31e8d",
+    "updated_at": "2026-07-19T15:05:59.755Z"
+  },
+  "basic": {
+    "name": "动火用手套",
+    "rarity": 5,
+    "part_type": "Hand",
+    "slot_type": "护手",
+    "group_name": "动火用装备组",
+    "suit_name": "动火用",
+    "description": "本装备由终末地工业自研，使用集成工业系统制造，能够提高使用者的作战能力。",
+    "flavor": "耐火性极强的装备。\n为了深入高温环境进行探索，联盟工团与终末地工业合力研发了动火用系列装备。",
+    "icon_url": "https://assets.fz.wiki/c3338b6b5f3d4283/5643ba88d0d21e43.png",
+    "categories": [
+      "五星装备",
+      "护手",
+      "装备"
+    ]
+  },
+  "suit": {
+    "group_name": "动火用装备组",
+    "piece_count": 10,
+    "self_equip_id": "item_equip_t4_suit_fire_natr01_hand_01",
+    "bonus": {
+      "name": "动火用",
+      "levels": [
+        {
+          "desc": "phy_spell_up 3000% · fire_dmg_up 50% · 持续 10s · nature_dmg_up 50% · 持续时间 10",
+          "level": 1,
+          "values": {
+            "duration": 10.0,
+            "duration2": 10.0,
+            "fire_dmg_up": 0.5,
+            "phy_spell_up": 30.0,
+            "nature_dmg_up": 0.5
+          }
+        }
+      ],
+      "skillId": "passive_equipsuit_fninflict_01",
+      "paramTable": {
+        "rows": [
+          {
+            "label": "phy_spell_up",
+            "values": [
+              "3000%"
+            ]
+          },
+          {
+            "label": "fire_dmg_up",
+            "values": [
+              "50%"
+            ]
+          },
+          {
+            "label": "持续",
+            "values": [
+              "10s"
+            ]
+          },
+          {
+            "label": "nature_dmg_up",
+            "values": [
+              "50%"
+            ]
+          },
+          {
+            "label": "持续时间",
+            "values": [
+              "10"
+            ]
+          }
+        ],
+        "levels": [
+          1
+        ],
+        "levelLabels": [
+          "Lv1"
+        ]
+      },
+      "description": "3件套组效果：装备者源石技艺强度<@ba.vup>+{phy_spell_up:0}</>。\n当装备者施加<#ba.burning>燃烧</>后，<@ba.fire>灼热伤害</>+<@ba.vup>{fire_dmg_up:0%}</>，持续{duration}秒，该效果无法叠加；当装备者施加<#ba.corrupt>腐蚀</>后，<@ba.natur>自然伤害</>+<@ba.vup>{nature_dmg_up:0%}</>，持续{duration2}秒，该效果无法叠加。"
+    },
+    "pieces": [
+      {
+        "name": "动火用外骨骼",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_fire_natr01_body_01"
+      },
+      {
+        "name": "动火用辅助骨骼",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_fire_natr01_body_02"
+      },
+      {
+        "name": "动火用手套",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_fire_natr01_hand_01"
+      },
+      {
+        "name": "动火用手甲",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_fire_natr01_hand_02"
+      },
+      {
+        "name": "动火用手甲·壹型",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_fire_natr01_hand_03"
+      },
+      {
+        "name": "动火用储能匣",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_fire_natr01_edc_01"
+      },
+      {
+        "name": "动火用测温镜",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_fire_natr01_edc_02"
+      },
+      {
+        "name": "动火用电力匣",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_fire_natr01_edc_03"
+      },
+      {
+        "name": "动火用护手",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_fire_natr01_hand_04"
+      },
+      {
+        "name": "动火用隔温板",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_fire_natr01_edc_04"
+      }
+    ]
+  },
+  "stats": {
+    "enhance_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rows": [
+      {
+        "label": "防御力",
+        "attr_type": "Def",
+        "is_base": true,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          42.0,
+          42.0,
+          42.0,
+          42.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "力量",
+        "attr_type": "Str",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          65.0,
+          71.0,
+          78.0,
+          84.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "意志",
+        "attr_type": "Will",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          43.0,
+          47.0,
+          51.0,
+          55.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "源石技艺强度",
+        "attr_type": "PhysicalAndSpellInflictionEnhance",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          34.5,
+          37.95,
+          41.4,
+          44.85
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      }
+    ]
+  },
+  "materials": {
+    "unlock_type": "DomainShop",
+    "unlock_key": "domainshop_channel_map02_1",
+    "gold": 0,
+    "items": []
+  }
+}

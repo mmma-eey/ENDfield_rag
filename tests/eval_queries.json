@@ -1,0 +1,299 @@
+{
+  "queries": [
+    {
+      "id": "Q01",
+      "category": "operator_stat",
+      "question": "卡缪的战技是什么，有什么效果",
+      "expected_sources": ["卡缪", "驱火焚影"],
+      "expected_keywords": ["灼热", "衔火血翼", "灼热附着", "虚弱", "灼热脆弱"]
+    },
+    {
+      "id": "Q02",
+      "category": "operator_stat",
+      "question": "卡缪90级攻击力是多少",
+      "expected_sources": ["卡缪", "operator_attributes"],
+      "expected_keywords": ["攻击力", "343"]
+    },
+    {
+      "id": "Q03",
+      "category": "operator_search",
+      "question": "哪些干员有灼热伤害",
+      "expected_sources": ["卡缪", "狼卫", "莱万汀"],
+      "expected_keywords": ["灼热", "灼热伤害"]
+    },
+    {
+      "id": "Q04",
+      "category": "operator_stat",
+      "question": "佩丽卡是几星干员，什么职业",
+      "expected_sources": ["佩丽卡"],
+      "expected_keywords": ["5星", "术师", "电磁"]
+    },
+    {
+      "id": "Q05",
+      "category": "weapon_compare",
+      "question": "镀红祝福和灯火使命哪个更适合卡缪",
+      "expected_sources": ["卡缪", "镀红祝福", "灯火使命"],
+      "expected_keywords": ["镀红祝福", "灯火使命", "灼热", "敏捷"]
+    },
+    {
+      "id": "Q06",
+      "category": "operator_search",
+      "question": "6星先锋干员有哪些",
+      "expected_sources": ["卡缪"],
+      "expected_keywords": ["先锋", "6星"]
+    },
+    {
+      "id": "Q07",
+      "category": "mechanism",
+      "question": "卡缪的终结技有什么效果",
+      "expected_sources": ["卡缪"],
+      "expected_keywords": ["猩红坠雨", "终结技", "灼热"]
+    },
+    {
+      "id": "Q08",
+      "category": "operator_stat",
+      "question": "狼卫是什么职业",
+      "expected_sources": ["狼卫"],
+      "expected_keywords": ["狙击", "灼热"]
+    },
+    {
+      "id": "Q09",
+      "category": "lore",
+      "question": "卡缪的背景故事是什么",
+      "expected_sources": ["卡缪"],
+      "expected_keywords": ["塞什卡", "看护人", "萨卡兹", "血液"]
+    },
+    {
+      "id": "Q10",
+      "category": "operator_stat",
+      "question": "莱万汀有几级天赋",
+      "expected_sources": ["莱万汀"],
+      "expected_keywords": ["天赋"]
+    },
+    {
+      "id": "Q11",
+      "category": "operator_search",
+      "question": "都有哪些五星干员",
+      "expected_sources": ["佩丽卡", "大潘", "弧光"],
+      "expected_keywords": ["5星"]
+    },
+    {
+      "id": "Q12",
+      "category": "mechanism",
+      "question": "什么是连携技",
+      "expected_sources": [],
+      "expected_keywords": ["连携", "连携技"]
+    },
+    {
+      "id": "Q13",
+      "category": "weapon_recommend",
+      "question": "别礼适合带什么武器",
+      "expected_sources": ["别礼", "赫拉芬格"],
+      "expected_keywords": ["武器", "赫拉芬格", "寒冷"]
+    },
+    {
+      "id": "Q14",
+      "category": "operator_stat",
+      "question": "大潘的普攻叫什么",
+      "expected_sources": ["大潘"],
+      "expected_keywords": ["普通攻击"]
+    },
+    {
+      "id": "Q15",
+      "category": "mechanism",
+      "question": "卡缪的伏血能恢复多少技力",
+      "expected_sources": ["卡缪", "伏血"],
+      "expected_keywords": ["伏血", "技力"]
+    },
+    {
+      "id": "Q16",
+      "category": "operator_stat",
+      "question": "昼雪是几星干员",
+      "expected_sources": ["昼雪"],
+      "expected_keywords": ["5星", "突击"]
+    },
+    {
+      "id": "Q17",
+      "category": "lore",
+      "question": "陈千语的语音台词有哪些",
+      "expected_sources": ["陈千语"],
+      "expected_keywords": ["语音", "台词"]
+    },
+    {
+      "id": "Q18",
+      "category": "mechanism",
+      "question": "洁尔佩塔有什么基建技能",
+      "expected_sources": ["洁尔佩塔"],
+      "expected_keywords": ["后勤", "基建"]
+    },
+    {
+      "id": "Q19",
+      "category": "operator_search",
+      "question": "有哪些长柄武器干员",
+      "expected_sources": ["卡缪"],
+      "expected_keywords": ["长柄武器"]
+    },
+    {
+      "id": "Q20",
+      "category": "operator_stat",
+      "question": "骏卫的终结技叫什么",
+      "expected_sources": ["骏卫"],
+      "expected_keywords": ["终结技"]
+    },
+    {
+      "id": "Q21",
+      "category": "operator_stat",
+      "question": "黎风的元素属性是什么",
+      "expected_sources": ["黎风"],
+      "expected_keywords": ["元素"]
+    },
+    {
+      "id": "Q22",
+      "category": "operator_stat",
+      "question": "秋栗是什么职业的干员",
+      "expected_sources": ["秋栗"],
+      "expected_keywords": ["先锋"]
+    },
+    {
+      "id": "Q23",
+      "category": "mechanism",
+      "question": "什么是灼热附着",
+      "expected_sources": [],
+      "expected_keywords": ["灼热附着", "灼热伤害", "持续"]
+    },
+    {
+      "id": "Q24",
+      "category": "operator_search",
+      "question": "有哪些终末地工业的干员",
+      "expected_sources": ["卡缪", "佩丽卡", "陈千语"],
+      "expected_keywords": ["终末地工业"]
+    },
+    {
+      "id": "Q25",
+      "category": "weapon_compare",
+      "question": "镀红祝福为什么适合卡缪",
+      "expected_sources": ["卡缪", "镀红祝福"],
+      "expected_keywords": ["敏捷", "灼热", "镀红祝福", "主属性"]
+    },
+    {
+      "id": "Q26",
+      "category": "operator_stat",
+      "question": "赫拉芬格的技能效果是什么",
+      "expected_sources": ["赫拉芬格"],
+      "expected_keywords": ["赫拉芬格", "迸发", "切骨之寒", "寒冷"]
+    },
+    {
+      "id": "Q27",
+      "category": "operator_stat",
+      "question": "余烬的连携技有什么效果",
+      "expected_sources": ["余烬"],
+      "expected_keywords": ["连携技"]
+    },
+    {
+      "id": "Q28",
+      "category": "operator_search",
+      "question": "哪个干员的防御力最高",
+      "expected_sources": [],
+      "expected_keywords": ["防御", "Def"]
+    },
+    {
+      "id": "Q29",
+      "category": "operator_stat",
+      "question": "庄方宜的所属阵营是什么",
+      "expected_sources": ["庄方宜"],
+      "expected_keywords": ["所属", "阵营"]
+    },
+    {
+      "id": "Q30",
+      "category": "lore",
+      "question": "女管理员的档案资料是什么",
+      "expected_sources": ["女管理员"],
+      "expected_keywords": ["管理员", "档案"]
+    },
+    {
+      "id": "Q31",
+      "category": "equipment_stat",
+      "question": "纾难识别牌是哪个部位的装备",
+      "expected_sources": ["纾难识别牌"],
+      "expected_keywords": ["配件"]
+    },
+    {
+      "id": "Q32",
+      "category": "equipment_stat",
+      "question": "纾难识别牌的获取方式是什么",
+      "expected_sources": ["纾难识别牌"],
+      "expected_keywords": ["域商店"]
+    },
+    {
+      "id": "Q33",
+      "category": "equipment_stat",
+      "question": "纾难识别牌有什么装备属性",
+      "expected_sources": ["纾难识别牌"],
+      "expected_keywords": ["防御力", "力量", "全伤害减免"]
+    },
+    {
+      "id": "Q34",
+      "category": "equipment_search",
+      "question": "哪些装备附加攻击力属性",
+      "expected_sources": ["巡行信使陀螺", "重装信使陀螺"],
+      "expected_keywords": ["攻击力"]
+    },
+    {
+      "id": "Q35",
+      "category": "equipment_suit",
+      "question": "纾难装备组有哪些装备",
+      "expected_sources": ["纾难重甲", "纾难护甲"],
+      "expected_keywords": ["纾难"]
+    },
+    {
+      "id": "Q36",
+      "category": "equipment_stat",
+      "question": "集成实训护甲附加什么属性",
+      "expected_sources": ["集成实训护甲"],
+      "expected_keywords": ["法术伤害加成"]
+    },
+    {
+      "id": "Q37",
+      "category": "equipment_stat",
+      "question": "集成实训钢甲的附加属性是什么",
+      "expected_sources": ["集成实训钢甲"],
+      "expected_keywords": ["终结技充能效率"]
+    },
+    {
+      "id": "Q38",
+      "category": "equipment_search",
+      "question": "有哪些五星护甲装备",
+      "expected_sources": ["集成实训护甲", "纾难重甲"],
+      "expected_keywords": ["护甲"]
+    },
+    {
+      "id": "Q39",
+      "category": "equipment_stat",
+      "question": "简易护甲是什么等级的装备",
+      "expected_sources": ["简易护甲"],
+      "expected_keywords": ["1星"]
+    },
+    {
+      "id": "Q40",
+      "category": "equipment_stat",
+      "question": "纾难重甲的附加属性是什么",
+      "expected_sources": ["纾难重甲"],
+      "expected_keywords": ["普通攻击伤害加成"]
+    }
+  ],
+
+  "categories": {
+    "operator_stat": "干员数值/技能查询",
+    "operator_search": "条件筛选查询",
+    "weapon_compare": "武器对比/推荐",
+    "weapon_recommend": "武器推荐",
+    "mechanism": "游戏机制解释",
+    "lore": "剧情/语音/档案"
+  },
+
+  "scoring": {
+    "source_hit_rate": "来源匹配率: 期望来源出现在 Top 5 召回中的比例",
+    "keyword_recall": "关键词召回率: 回答中包含期望关键词的比例",
+    "pass": "双指标都 > 0 记为通过"
+  }
+}

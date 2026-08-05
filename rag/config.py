@@ -17,7 +17,8 @@ LLM_MODEL = os.getenv("LLM_MODEL", "deepseek-chat")
 # ---- 检索参数 ----
 TOP_K_RETRIEVAL = 30        # 混合检索召回数
 TOP_K_RERANK = 5            # Reranker 重排后保留数
-BM25_WEIGHT = 0.3           # BM25 权重（0~1），余弦距离权重 = 1 - BM25_WEIGHT
+BM25_WEIGHT = 0.5           # [已弃用] 加权融合权重，RRF 融合后不再使用
+RRF_K = 60                  # RRF 平滑常数（k，排名越靠前权重越高）
 EMBEDDING_DIM = 1024        # 向量维度（text-embedding-v4 → 1024 维）
 
 # ---- 数据库连接 ----

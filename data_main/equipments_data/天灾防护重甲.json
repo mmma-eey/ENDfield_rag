@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "template": "装备档案",
+    "article_id": "a7ebd238-93c6-4f11-b8c4-61b572b9c80a",
+    "updated_at": "2026-07-19T15:06:05.459Z"
+  },
+  "basic": {
+    "name": "天灾防护重甲",
+    "rarity": 4,
+    "part_type": "Body",
+    "slot_type": "护甲",
+    "group_name": "天灾防护装备组",
+    "suit_name": "天灾防护",
+    "description": "本装备由特里格拉夫军工厂设计，使用集成工业系统制造，能够提高使用者的作战能力。",
+    "flavor": "源石研究园种植作业中会使用的外骨骼装备。\n搭载了微电流刺激系统，能有效降低穿戴者的疲劳感——工人们对这种“振奋精神”的小设计尤为满意。",
+    "icon_url": "https://assets.fz.wiki/c3338b6b5f3d4283/18d2898080aac5a3.png",
+    "categories": [
+      "四星装备",
+      "护甲",
+      "装备"
+    ]
+  },
+  "suit": {
+    "group_name": "天灾防护装备组",
+    "piece_count": 6,
+    "self_equip_id": "item_equip_t3_suit_usp01_body_01",
+    "bonus": {
+      "name": "天灾防护",
+      "levels": [
+        {
+          "desc": "ultimate_gain_up 20% · atb_recover 50",
+          "level": 1,
+          "values": {
+            "atb_recover": 50.0,
+            "ultimate_gain_up": 0.2
+          }
+        }
+      ],
+      "skillId": "passive_equipsuit_usp_01",
+      "paramTable": {
+        "rows": [
+          {
+            "label": "ultimate_gain_up",
+            "values": [
+              "20%"
+            ]
+          },
+          {
+            "label": "atb_recover",
+            "values": [
+              "50"
+            ]
+          }
+        ],
+        "levels": [
+          1
+        ],
+        "levelLabels": [
+          "Lv1"
+        ]
+      },
+      "description": "3件套组效果：装备者终结技充能效率<@ba.vup>+{ultimate_gain_up:0%}</>。\n装备者施放战技时<#ba.return>返还</><@ba.vup>{atb_recover:0}</>点技力，此效果每场战斗最多触发一次。"
+    },
+    "pieces": [
+      {
+        "name": "天灾防护重甲",
+        "rarity": 4,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t3_suit_usp01_body_01"
+      },
+      {
+        "name": "天灾防护重甲·壹型",
+        "rarity": 4,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t3_suit_usp01_body_02"
+      },
+      {
+        "name": "天灾防护手套",
+        "rarity": 4,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t3_suit_usp01_hand_01"
+      },
+      {
+        "name": "天灾防护净芯",
+        "rarity": 4,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t3_suit_usp01_edc_01"
+      },
+      {
+        "name": "天灾防护净芯·壹型",
+        "rarity": 4,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t3_suit_usp01_edc_02"
+      },
+      {
+        "name": "天灾防护滤芯",
+        "rarity": 4,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t3_suit_usp01_edc_03"
+      }
+    ]
+  },
+  "stats": {
+    "enhance_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rows": [
+      {
+        "label": "防御力",
+        "attr_type": "Def",
+        "is_base": true,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          40.0,
+          40.0,
+          40.0,
+          40.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "力量",
+        "attr_type": "Str",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          61.0,
+          61.0,
+          61.0,
+          61.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "智识",
+        "attr_type": "Wisd",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          41.0,
+          41.0,
+          41.0,
+          41.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "终结技伤害加成",
+        "attr_type": "UltimateSkillDamageIncrease",
+        "is_base": false,
+        "is_percent": true,
+        "enhances": false,
+        "values": [
+          0.18375,
+          0.18375,
+          0.18375,
+          0.18375
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      }
+    ]
+  },
+  "materials": {
+    "unlock_type": "AdventureLevel",
+    "unlock_key": "",
+    "gold": 0,
+    "items": []
+  }
+}

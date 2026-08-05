@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "template": "装备档案",
+    "article_id": "6b752bfa-0d32-49c7-b42b-3cb49ed95453",
+    "updated_at": "2026-07-19T15:05:54.399Z"
+  },
+  "basic": {
+    "name": "清波定位仪",
+    "rarity": 5,
+    "part_type": "EDC",
+    "slot_type": "配件",
+    "group_name": "清波装备组",
+    "suit_name": "清波",
+    "description": "本装备由终末地工业参考荒野手工艺品设计，使用集成工业系统制造，能够提高使用者的作战能力。",
+    "flavor": "自清波寨古书中还原出来的高性价比装备。\n某种结合了水脉探测功能及指南功能的简易装置。据文献记载，它在清波寨建立之初就已立下了赫赫战功。",
+    "icon_url": "https://assets.fz.wiki/c3338b6b5f3d4283/0eb3139df3e3c474.png",
+    "categories": [
+      "五星装备",
+      "装备",
+      "配件"
+    ]
+  },
+  "suit": {
+    "group_name": "清波装备组",
+    "piece_count": 8,
+    "self_equip_id": "item_equip_t4_suit_combo_cd01_edc_01",
+    "bonus": {
+      "name": "清波",
+      "levels": [
+        {
+          "desc": "连携技冷却 85% · spell_up 20% · 持续 15s · 最大层数 2",
+          "level": 1,
+          "values": {
+            "duration": 15.0,
+            "spell_up": 0.2,
+            "max_stack": 2.0,
+            "comboskill_cooldown": 0.85
+          }
+        }
+      ],
+      "skillId": "passive_equipsuit_combo_cd01",
+      "paramTable": {
+        "rows": [
+          {
+            "label": "连携技冷却",
+            "values": [
+              "85%"
+            ]
+          },
+          {
+            "label": "spell_up",
+            "values": [
+              "20%"
+            ]
+          },
+          {
+            "label": "持续",
+            "values": [
+              "15s"
+            ]
+          },
+          {
+            "label": "最大层数",
+            "values": [
+              "2"
+            ]
+          }
+        ],
+        "levels": [
+          1
+        ],
+        "levelLabels": [
+          "Lv1"
+        ]
+      },
+      "description": "3件套组效果：装备者连携技冷却缩减<@ba.vup>+{1-comboskill_cooldown:0%}</>。\n当装备者施放连携技时，所有技能伤害<@ba.vup>+{spell_up:0%}</>，持续{duration}秒。该效果最多叠加{max_stack}层，每层单独计算持续时间。"
+    },
+    "pieces": [
+      {
+        "name": "清波重甲",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_combo_cd01_body_01"
+      },
+      {
+        "name": "清波轻甲",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_combo_cd01_body_02"
+      },
+      {
+        "name": "清波手甲",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_combo_cd01_hand_01"
+      },
+      {
+        "name": "清波护手",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_combo_cd01_hand_02"
+      },
+      {
+        "name": "清波定位仪",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_combo_cd01_edc_01"
+      },
+      {
+        "name": "清波竹刃",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_combo_cd01_edc_02"
+      },
+      {
+        "name": "清波水罐",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_combo_cd01_edc_03"
+      },
+      {
+        "name": "清波定位仪·壹型",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_combo_cd01_edc_04"
+      }
+    ]
+  },
+  "stats": {
+    "enhance_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rows": [
+      {
+        "label": "防御力",
+        "attr_type": "Def",
+        "is_base": true,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          21.0,
+          21.0,
+          21.0,
+          21.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "敏捷",
+        "attr_type": "Agi",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          32.0,
+          35.0,
+          38.0,
+          41.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "力量",
+        "attr_type": "Str",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          21.0,
+          23.0,
+          25.0,
+          27.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "战技伤害加成",
+        "attr_type": "NormalSkillDamageIncrease",
+        "is_base": false,
+        "is_percent": true,
+        "enhances": true,
+        "values": [
+          0.414,
+          0.4554,
+          0.49679999999999996,
+          0.5382
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      }
+    ]
+  },
+  "materials": {
+    "unlock_type": "EquipFormulaChest",
+    "unlock_key": "reward_eco_map02_lv004_int_83313",
+    "gold": 0,
+    "items": []
+  }
+}

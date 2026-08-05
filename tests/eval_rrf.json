@@ -1,0 +1,794 @@
+{
+  "model": "deepseek-v4-flash",
+  "total": 40,
+  "passed": 39,
+  "failure": 1,
+  "pass_rate": "39/40",
+  "avg_source_hit": 0.896,
+  "avg_keyword_recall": 0.925,
+  "avg_time": 5.07,
+  "total_time": 202.9,
+  "details": [
+    {
+      "id": "Q01",
+      "category": "operator_stat",
+      "question": "卡缪的战技是什么，有什么效果",
+      "source_hit_rate": 0.5,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "卡缪"
+      ],
+      "source_misses": [
+        "驱火焚影"
+      ],
+      "keyword_hits": [
+        "灼热",
+        "衔火血翼",
+        "灼热附着",
+        "虚弱",
+        "灼热脆弱"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "卡缪的战技是**驱火焚影**。\n\n效果为：召唤**衔火血翼**飞向敌人，造成小范围灼热伤害，并施加**灼热附着**。血翼会在目标周围盘桓，期间为敌人附加**虚弱**和**灼热脆弱**效果。若该目标被击",
+      "elapsed": 7.4
+    },
+    {
+      "id": "Q02",
+      "category": "operator_stat",
+      "question": "卡缪90级攻击力是多少",
+      "source_hit_rate": 0.5,
+      "keyword_recall": 0.5,
+      "passed": true,
+      "source_hits": [
+        "卡缪"
+      ],
+      "source_misses": [
+        "operator_attributes"
+      ],
+      "keyword_hits": [
+        "攻击力"
+      ],
+      "keyword_misses": [
+        "343"
+      ],
+      "answer_preview": "根据现有资料，**无法确认卡缪90级时的具体攻击力数值**。\n\n目前资料仅记录了卡缪的基础信息（6星先锋、灼热元素、长柄武器、敏捷主属性等），以及技能和天赋的名称与描述，但**未包含角色成长属性表或9",
+      "elapsed": 3.48
+    },
+    {
+      "id": "Q03",
+      "category": "operator_search",
+      "question": "哪些干员有灼热伤害",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "卡缪",
+        "狼卫",
+        "莱万汀"
+      ],
+      "source_misses": [],
+      "keyword_hits": [
+        "灼热",
+        "灼热伤害"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "根据目前资料，以下干员拥有**灼热伤害**能力：\n\n1. **卡缪**（6星先锋）  \n   - 普通攻击「歃血涤罪」：对敌人进行至多5段攻击，造成灼热伤害\n\n2. **莱万汀**（6星突击）  \n ",
+      "elapsed": 4.1
+    },
+    {
+      "id": "Q04",
+      "category": "operator_stat",
+      "question": "佩丽卡是几星干员，什么职业",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "佩丽卡"
+      ],
+      "source_misses": [],
+      "keyword_hits": [
+        "5星",
+        "术师",
+        "电磁"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "佩丽卡是**5星术师干员**，元素为电磁（雷），武器类型为施术单元。\n\n来源：\n- [来源 1][佩丽卡][basic]：佩丽卡，5星术师；元素：电磁；武器类型：施术单元\n- [来源 2][佩丽卡][",
+      "elapsed": 2.52
+    },
+    {
+      "id": "Q05",
+      "category": "weapon_compare",
+      "question": "镀红祝福和灯火使命哪个更适合卡缪",
+      "source_hit_rate": 0.67,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "镀红祝福",
+        "灯火使命"
+      ],
+      "source_misses": [
+        "卡缪"
+      ],
+      "keyword_hits": [
+        "镀红祝福",
+        "灯火使命",
+        "灼热",
+        "敏捷"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "综合现有资料来看，**镀红祝福和灯火使命都适合卡缪**，但两者侧重不同：**镀红祝福更偏向直接提升灼热伤害，灯火使命更偏向终结技充能与全队增伤**。具体选择取决于你希望卡缪在队伍中承担的角色（输出核心",
+      "elapsed": 13.24
+    },
+    {
+      "id": "Q06",
+      "category": "operator_search",
+      "question": "6星先锋干员有哪些",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "卡缪"
+      ],
+      "source_misses": [],
+      "keyword_hits": [
+        "先锋",
+        "6星"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "根据现有资料，6星先锋干员共有以下2位：\n\n## 6星先锋干员列表\n\n| 干员 | 元素 | 武器类型 | 主属性 | 副属性 | 所属 |\n|------|------|----------|---",
+      "elapsed": 5.47
+    },
+    {
+      "id": "Q07",
+      "category": "mechanism",
+      "question": "卡缪的终结技有什么效果",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "卡缪"
+      ],
+      "source_misses": [],
+      "keyword_hits": [
+        "猩红坠雨",
+        "终结技",
+        "灼热"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "卡缪的终结技 **猩红坠雨** 效果如下：\n\n- 飞向空中，落下枪雨并衔接横扫攻击\n- 对命中的目标造成**灼热伤害**并施加**灼热附着**\n- 同时恢复一定技力\n- 施放后一段时间内，下一次**战",
+      "elapsed": 3.34
+    },
+    {
+      "id": "Q08",
+      "category": "operator_stat",
+      "question": "狼卫是什么职业",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 0.5,
+      "passed": true,
+      "source_hits": [
+        "狼卫"
+      ],
+      "source_misses": [],
+      "keyword_hits": [
+        "灼热"
+      ],
+      "keyword_misses": [
+        "狙击"
+      ],
+      "answer_preview": "狼卫是一名**5星术师干员**。\n\n以下是相关信息：\n\n- **职业**：术师\n- **星级**：5星\n- **元素**：灼热（火）\n- **武器类型**：手铳\n- **主属性**：力量\n- **副属",
+      "elapsed": 4.45
+    },
+    {
+      "id": "Q09",
+      "category": "lore",
+      "question": "卡缪的背景故事是什么",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 0.5,
+      "passed": true,
+      "source_hits": [
+        "卡缪"
+      ],
+      "source_misses": [],
+      "keyword_hits": [
+        "塞什卡",
+        "看护人"
+      ],
+      "keyword_misses": [
+        "萨卡兹",
+        "血液"
+      ],
+      "answer_preview": "卡缪·亚尔诺（Camiu·Arno）是《明日方舟：终末地》中的6星先锋干员，其背景故事如下：\n\n**核心背景：**\n- 塞什卡的看护人，以个人身份寻求与终末地工业的合作，经管理员引荐，目前于特种技术部",
+      "elapsed": 9.98
+    },
+    {
+      "id": "Q10",
+      "category": "operator_stat",
+      "question": "莱万汀有几级天赋",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "莱万汀"
+      ],
+      "source_misses": [],
+      "keyword_hits": [
+        "天赋"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "根据现有资料，莱万汀拥有两个天赋：**灼心**和**复燃**。\n\n关于天赋等级：\n- **灼心**：资料中出现了 **Lv1、Lv2、Lv3** 三个等级版本。\n- **复燃**：资料中目前仅出现 *",
+      "elapsed": 4.99
+    },
+    {
+      "id": "Q11",
+      "category": "operator_search",
+      "question": "都有哪些五星干员",
+      "source_hit_rate": 0.67,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "佩丽卡",
+        "弧光"
+      ],
+      "source_misses": [
+        "大潘"
+      ],
+      "keyword_hits": [
+        "5星"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "根据目前资料，五星干员共有以下5位：\n\n1. **弧光** — 5星先锋（元素：电磁 / 单手剑）\n2. **阿列什** — 5星先锋（元素：寒冷 / 单手剑）\n3. **赛希** — 5星辅助（元素",
+      "elapsed": 2.93
+    },
+    {
+      "id": "Q12",
+      "category": "mechanism",
+      "question": "什么是连携技",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [],
+      "source_misses": [],
+      "keyword_hits": [
+        "连携",
+        "连携技"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "根据现有资料，**连携技**是干员的一种**技能类型**，通常需要**特定条件**才能发动，并与队伍中其他干员的行动或敌人身上的**特殊状态**相关联。\n\n目前资料中提到的连携技及发动条件如下：\n\n-",
+      "elapsed": 8.78
+    },
+    {
+      "id": "Q13",
+      "category": "weapon_recommend",
+      "question": "别礼适合带什么武器",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "别礼",
+        "赫拉芬格"
+      ],
+      "source_misses": [],
+      "keyword_hits": [
+        "武器",
+        "赫拉芬格",
+        "寒冷"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "别礼最适合的武器是**赫拉芬格**，这款武器与其技能机制高度契合。\n\n---\n\n### 核心推荐：赫拉芬格（技能适配）\n\n**推荐理由：**\n1. **技能加成精准匹配**：赫拉芬格的技能“迸发·切骨",
+      "elapsed": 11.48
+    },
+    {
+      "id": "Q14",
+      "category": "operator_stat",
+      "question": "大潘的普攻叫什么",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "大潘"
+      ],
+      "source_misses": [],
+      "keyword_hits": [
+        "普通攻击"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "大潘的普通攻击名为**滚刀切！**。\n\n相关来源：干员档案中明确标注其普通攻击技能为「滚刀切！」。",
+      "elapsed": 2.52
+    },
+    {
+      "id": "Q15",
+      "category": "mechanism",
+      "question": "卡缪的伏血能恢复多少技力",
+      "source_hit_rate": 0.5,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "卡缪"
+      ],
+      "source_misses": [
+        "伏血"
+      ],
+      "keyword_hits": [
+        "伏血",
+        "技力"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "根据目前资料，**未提及“伏血”这一具体技能**，可能你想询问的是卡缪的 **“歃血涤罪”（普通攻击）**。关于技力恢复，资料中仅描述为“恢复一定技力”，**未给出具体恢复数值**。\n\n以下是相关资料",
+      "elapsed": 6.54
+    },
+    {
+      "id": "Q16",
+      "category": "operator_stat",
+      "question": "昼雪是几星干员",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 0.5,
+      "passed": true,
+      "source_hits": [
+        "昼雪"
+      ],
+      "source_misses": [],
+      "keyword_hits": [
+        "5星"
+      ],
+      "keyword_misses": [
+        "突击"
+      ],
+      "answer_preview": "昼雪是**5星重装干员**。\n\n来源：\n- [来源 1]：昼雪，5星重装；元素：寒冷；武器类型：双手剑\n- [来源 2]：昼雪，5星重装干员，元素寒冷（冰/冰队）",
+      "elapsed": 2.35
+    },
+    {
+      "id": "Q17",
+      "category": "lore",
+      "question": "陈千语的语音台词有哪些",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "陈千语"
+      ],
+      "source_misses": [],
+      "keyword_hits": [
+        "语音",
+        "台词"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "根据现有资料，陈千语的语音台词如下：\n\n- **力竭**：呜……可恶……\n- **采集矿物1**：没想到吧？我有专门对付石头的剑法。\n- **更换武器**：哇，给我用这么好的家伙？普通的也够啦，照样能",
+      "elapsed": 2.74
+    },
+    {
+      "id": "Q18",
+      "category": "mechanism",
+      "question": "洁尔佩塔有什么基建技能",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 0.5,
+      "passed": true,
+      "source_hits": [
+        "洁尔佩塔"
+      ],
+      "source_misses": [],
+      "keyword_hits": [
+        "基建"
+      ],
+      "keyword_misses": [
+        "后勤"
+      ],
+      "answer_preview": "根据目前资料，**未提及洁尔佩塔的基建技能**。\n\n资料中仅包含洁尔佩塔的战斗技能和天赋信息，未涉及基建技能相关内容：\n\n- **战斗技能**：秘杖·束能技艺（普通攻击）、秘杖·引力模式（战技）、秘杖",
+      "elapsed": 4.74
+    },
+    {
+      "id": "Q19",
+      "category": "operator_search",
+      "question": "有哪些长柄武器干员",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "卡缪"
+      ],
+      "source_misses": [],
+      "keyword_hits": [
+        "长柄武器"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "根据现有资料，**长柄武器干员**共有4位：\n\n1. **埃特拉** — 4星近卫，元素：寒冷  \n2. **卡缪** — 6星先锋，元素：灼热  \n3. **黎风** — 6星近卫，元素：物理  \n",
+      "elapsed": 3.41
+    },
+    {
+      "id": "Q20",
+      "category": "operator_stat",
+      "question": "骏卫的终结技叫什么",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "骏卫"
+      ],
+      "source_misses": [],
+      "keyword_hits": [
+        "终结技"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "骏卫的终结技叫 **「盾卫旗队，上前」**。\n\n该技能效果为：以目标为中心召唤四名盾卫向目标进军，将途中敌人往目标方向推动，造成物理伤害并生成5点铁誓；后续还有基于铁誓消耗的袭扰与决胜效果。\n\n来源：",
+      "elapsed": 3.71
+    },
+    {
+      "id": "Q21",
+      "category": "operator_stat",
+      "question": "黎风的元素属性是什么",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "黎风"
+      ],
+      "source_misses": [],
+      "keyword_hits": [
+        "元素"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "黎风的元素属性是**物理**。\n\n来源：黎风为6星近卫干员，基础档案显示其元素为物理。",
+      "elapsed": 2.09
+    },
+    {
+      "id": "Q22",
+      "category": "operator_stat",
+      "question": "秋栗是什么职业的干员",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "秋栗"
+      ],
+      "source_misses": [],
+      "keyword_hits": [
+        "先锋"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "根据资料，秋栗是**4星先锋干员**，元素为**灼热**，武器类型为**单手剑**，主属性敏捷、副属性智识，所属**终末地工业**。\n\n来源：《明日方舟：终末地》干员秋栗的基础信息与干员档案。",
+      "elapsed": 2.43
+    },
+    {
+      "id": "Q23",
+      "category": "mechanism",
+      "question": "什么是灼热附着",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [],
+      "source_misses": [],
+      "keyword_hits": [
+        "灼热附着",
+        "灼热伤害",
+        "持续"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "**灼热附着**是《明日方舟：终末地》中一种**灼热元素状态**，可施加于敌人身上，并与部分干员的技能/天赋产生联动（如被消耗、吸收或触发追加效果）。目前资料中未给出其完整定义（如持续时长、叠加层数上",
+      "elapsed": 7.83
+    },
+    {
+      "id": "Q24",
+      "category": "operator_search",
+      "question": "有哪些终末地工业的干员",
+      "source_hit_rate": 0.0,
+      "keyword_recall": 1.0,
+      "passed": false,
+      "source_hits": [],
+      "source_misses": [
+        "卡缪",
+        "佩丽卡",
+        "陈千语"
+      ],
+      "keyword_hits": [
+        "终末地工业"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "目前资料中仅提及一位与终末地工业装备相关的干员：**黎风**。\n\n- **来源**：[寻路者道标] 武器适配干员（属性适配）：**黎风**\n\n补充说明：资料中提到的「寻路者道标」「显锋」「荧光雷羽」「",
+      "elapsed": 5.64
+    },
+    {
+      "id": "Q25",
+      "category": "weapon_compare",
+      "question": "镀红祝福为什么适合卡缪",
+      "source_hit_rate": 0.5,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "镀红祝福"
+      ],
+      "source_misses": [
+        "卡缪"
+      ],
+      "keyword_hits": [
+        "敏捷",
+        "灼热",
+        "镀红祝福",
+        "主属性"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "核心答案：**镀红祝福适合卡缪**，因为武器的属性加成、被动效果都与卡缪的定位（灼热先锋、敏捷主属性、长柄武器）高度契合，且资料",
+      "elapsed": 13.55
+    },
+    {
+      "id": "Q26",
+      "category": "operator_stat",
+      "question": "赫拉芬格的技能效果是什么",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "赫拉芬格"
+      ],
+      "source_misses": [],
+      "keyword_hits": [
+        "赫拉芬格",
+        "迸发",
+        "切骨之寒",
+        "寒冷"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "根据资料，赫拉芬格的技能效果如下：\n\n1. **力量提升·大**：力量+\n2. **攻击提升·大**：攻击力+\n3. **迸发·切骨之寒**：\n   - 所有技能伤害+\n   - 装备者通过战技施加寒",
+      "elapsed": 3.83
+    },
+    {
+      "id": "Q27",
+      "category": "operator_stat",
+      "question": "余烬的连携技有什么效果",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "余烬"
+      ],
+      "source_misses": [],
+      "keyword_hits": [
+        "连携技"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "根据资料，余烬的连携技**前线援护**效果如下：\n\n- **触发条件**：主控干员受到攻击后可以发动。\n- **技能效果**：向目标敌人跳起并重砸，造成**物理伤害**并使敌人**倒地**，同时**治",
+      "elapsed": 4.62
+    },
+    {
+      "id": "Q28",
+      "category": "operator_search",
+      "question": "哪个干员的防御力最高",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 0.5,
+      "passed": true,
+      "source_hits": [],
+      "source_misses": [],
+      "keyword_hits": [
+        "防御"
+      ],
+      "keyword_misses": [
+        "Def"
+      ],
+      "answer_preview": "根据目前资料，**无法判断哪个干员的防御力最高**，因为：\n\n- 资料中仅提供了干员「卡契尔」的防御力相关信息（天赋「坚韧防线」：每有10点意志，防御力+），但**未给出具体加成数值**，也没有列出其",
+      "elapsed": 8.09
+    },
+    {
+      "id": "Q29",
+      "category": "operator_stat",
+      "question": "庄方宜的所属阵营是什么",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "庄方宜"
+      ],
+      "source_misses": [],
+      "keyword_hits": [
+        "所属",
+        "阵营"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "庄方宜的所属阵营是**终末地工业**。\n\n来源：干员庄方宜的基础档案中标注“所属：终末地工业”。",
+      "elapsed": 3.26
+    },
+    {
+      "id": "Q30",
+      "category": "lore",
+      "question": "女管理员的档案资料是什么",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "女管理员"
+      ],
+      "source_misses": [],
+      "keyword_hits": [
+        "管理员",
+        "档案"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "女管理员的档案资料如下：\n\n- **基础档案**（来源5）：\n  - 【代号】管理员\n  - 【性别】■■（未知）\n  - 【身份认证】■■（未知）\n  - 【生日】■■（未知）\n  - 【种族】■■",
+      "elapsed": 4.9
+    },
+    {
+      "id": "Q31",
+      "category": "equipment_stat",
+      "question": "纾难识别牌是哪个部位的装备",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "纾难识别牌"
+      ],
+      "source_misses": [],
+      "keyword_hits": [
+        "配件"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "**纾难识别牌是配件部位的装备。**\n\n具体信息如下：\n\n- **装备部位**：配件装备\n- **星级**：5星\n- **所属套装**：纾难装备组（8件套）\n- **属性**：防御力、力量、全伤害减免",
+      "elapsed": 3.52
+    },
+    {
+      "id": "Q32",
+      "category": "equipment_stat",
+      "question": "纾难识别牌的获取方式是什么",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "纾难识别牌"
+      ],
+      "source_misses": [],
+      "keyword_hits": [
+        "域商店"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "核心答案：**纾难识别牌**的获取方式是**域商店**。\n\n> 支持来源：\n> - 来源4（纾难识别牌·装备）：「纾难识别牌，5星配件装备，纾难装备组……获取方式：域商店」\n> - 来源9（纾难识别牌",
+      "elapsed": 3.58
+    },
+    {
+      "id": "Q33",
+      "category": "equipment_stat",
+      "question": "纾难识别牌有什么装备属性",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "纾难识别牌"
+      ],
+      "source_misses": [],
+      "keyword_hits": [
+        "防御力",
+        "力量",
+        "全伤害减免"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "**纾难识别牌**的装备属性为：**防御力、力量、全伤害减免**。\n\n具体数值如下（强化0~3级）：\n\n| 属性 | 强化0级 | 强化1级 | 强化2级 | 强化3级 |\n|------|-----",
+      "elapsed": 4.89
+    },
+    {
+      "id": "Q34",
+      "category": "equipment_search",
+      "question": "哪些装备附加攻击力属性",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "巡行信使陀螺",
+        "重装信使陀螺"
+      ],
+      "source_misses": [],
+      "keyword_hits": [
+        "攻击力"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "根据参考资料，**以下 5 件装备全部附加攻击力属性**：\n\n| 装备名称 | 星级 | 类型 | 附加属性 |\n|---------|------|------|---------|\n| 重装信使陀",
+      "elapsed": 4.51
+    },
+    {
+      "id": "Q35",
+      "category": "equipment_suit",
+      "question": "纾难装备组有哪些装备",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "纾难重甲",
+        "纾难护甲"
+      ],
+      "source_misses": [],
+      "keyword_hits": [
+        "纾难"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "根据资料，**纾难装备组**共有 8 件装备，均为 5 星品质，由宏山选剑局设计，获取方式为「域商店」。具体如下：\n\n| 装备名称 | 类型 | 属性 |\n|---------|------|----",
+      "elapsed": 4.17
+    },
+    {
+      "id": "Q36",
+      "category": "equipment_stat",
+      "question": "集成实训护甲附加什么属性",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "集成实训护甲"
+      ],
+      "source_misses": [],
+      "keyword_hits": [
+        "法术伤害加成"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "集成实训护甲附加属性为：**防御力、主能力、副能力、法术伤害加成**。\n\n来源：\n- 集成实训护甲（5星护甲装备）：属性包含防御力、主能力、副能力、法术伤害加成。",
+      "elapsed": 2.08
+    },
+    {
+      "id": "Q37",
+      "category": "equipment_stat",
+      "question": "集成实训钢甲的附加属性是什么",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "集成实训钢甲"
+      ],
+      "source_misses": [],
+      "keyword_hits": [
+        "终结技充能效率"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "集成实训钢甲的附加属性包括：**防御力、主能力、副能力、终结技充能效率**。\n\n具体数据如下（强化0~3级）：\n\n- **防御力**：48.0 / 48.0 / 48.0 / 48.0\n- **副能力",
+      "elapsed": 5.49
+    },
+    {
+      "id": "Q38",
+      "category": "equipment_search",
+      "question": "有哪些五星护甲装备",
+      "source_hit_rate": 0.5,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "纾难重甲"
+      ],
+      "source_misses": [
+        "集成实训护甲"
+      ],
+      "keyword_hits": [
+        "护甲"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "根据目前资料，五星护甲装备共有以下 7 件：\n\n1. **点剑重装甲·壹型**（点剑装备组）  \n   - 附加属性：防御力、敏捷、力量、物理伤害加成  \n   - 获取方式：装备图纸箱\n\n2. **",
+      "elapsed": 4.55
+    },
+    {
+      "id": "Q39",
+      "category": "equipment_stat",
+      "question": "简易护甲是什么等级的装备",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "简易护甲"
+      ],
+      "source_misses": [],
+      "keyword_hits": [
+        "1星"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "**简易护甲是1星护甲装备**，属于「简易独立装备组」。\n\n- **装备类型**：护甲（1星）\n- **附加属性**：防御力、力量、敏捷、生命值\n- **强化属性（0~3级）**：\n  - 防御力：8",
+      "elapsed": 3.08
+    },
+    {
+      "id": "Q40",
+      "category": "equipment_stat",
+      "question": "纾难重甲的附加属性是什么",
+      "source_hit_rate": 1.0,
+      "keyword_recall": 1.0,
+      "passed": true,
+      "source_hits": [
+        "纾难重甲"
+      ],
+      "source_misses": [],
+      "keyword_hits": [
+        "普通攻击伤害加成"
+      ],
+      "keyword_misses": [],
+      "answer_preview": "纾难重甲的附加属性是：**防御力、敏捷、普通攻击伤害加成**。\n\n**来源依据：**\n- [来源 4][来源 5]：纾难重甲，5星护甲装备，纾难装备组，附加属性为防御力、敏捷、普通攻击伤害加成。",
+      "elapsed": 2.6
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "template": "装备档案",
+    "article_id": "a749ad5f-f273-4014-b1eb-e2b495c0fb9a",
+    "updated_at": "2026-07-19T15:06:13.816Z"
+  },
+  "basic": {
+    "name": "重装信使手套·壹型",
+    "rarity": 4,
+    "part_type": "Hand",
+    "slot_type": "护手",
+    "group_name": "重装信使装备组",
+    "suit_name": "重装信使",
+    "description": "本装备由终末地工业参考荒野手工艺品设计，使用集成工业系统制造，能够提高使用者的作战能力。",
+    "flavor": "信使们爱用的护手。\n大部分信使会为自己的交通工具增加一个便捷脱离装置，以便能在突发的侵蚀灾害中保全性命。",
+    "icon_url": "https://assets.fz.wiki/c3338b6b5f3d4283/ef55bb0fe19b117b.png",
+    "categories": [
+      "四星装备",
+      "护手",
+      "装备"
+    ]
+  },
+  "suit": {
+    "group_name": "重装信使装备组",
+    "piece_count": 9,
+    "self_equip_id": "item_equip_t3_suit_str01_hand_01",
+    "bonus": {
+      "name": "重装信使",
+      "levels": [
+        {
+          "desc": "str_up 5000% · hp_ratio 50% · dmg_taken_down 70%",
+          "level": 1,
+          "values": {
+            "str_up": 50.0,
+            "hp_ratio": 0.5,
+            "dmg_taken_down": 0.7
+          }
+        }
+      ],
+      "skillId": "passive_equipsuit_str_01",
+      "paramTable": {
+        "rows": [
+          {
+            "label": "str_up",
+            "values": [
+              "5000%"
+            ]
+          },
+          {
+            "label": "hp_ratio",
+            "values": [
+              "50%"
+            ]
+          },
+          {
+            "label": "dmg_taken_down",
+            "values": [
+              "70%"
+            ]
+          }
+        ],
+        "levels": [
+          1
+        ],
+        "levelLabels": [
+          "Lv1"
+        ]
+      },
+      "description": "3件套组效果：装备者力量<@ba.vup>+{str_up}</>。\n当装备者生命值低于{hp_ratio:0%}时，受到的所有类型伤害<@ba.vup>-{1-dmg_taken_down:0%}</>。"
+    },
+    "pieces": [
+      {
+        "name": "重装信使夹克",
+        "rarity": 3,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t2_suit_str01_body_01"
+      },
+      {
+        "name": "重装信使手套",
+        "rarity": 3,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t2_suit_str01_hand_01"
+      },
+      {
+        "name": "重装信使陀螺",
+        "rarity": 3,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t2_suit_str01_edc_01"
+      },
+      {
+        "name": "重装信使手电",
+        "rarity": 3,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t2_suit_str01_edc_02"
+      },
+      {
+        "name": "重装信使夹克·壹型",
+        "rarity": 4,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t3_suit_str01_body_01"
+      },
+      {
+        "name": "重装信使手套·壹型",
+        "rarity": 4,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t3_suit_str01_hand_01"
+      },
+      {
+        "name": "重装信使手套·贰型",
+        "rarity": 4,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t3_suit_str01_hand_02"
+      },
+      {
+        "name": "重装信使陀螺·壹型",
+        "rarity": 4,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t3_suit_str01_edc_01"
+      },
+      {
+        "name": "重装信使手电·壹型",
+        "rarity": 4,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t3_suit_str01_edc_02"
+      }
+    ]
+  },
+  "stats": {
+    "enhance_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rows": [
+      {
+        "label": "防御力",
+        "attr_type": "Def",
+        "is_base": true,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          30.0,
+          30.0,
+          30.0,
+          30.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "力量",
+        "attr_type": "Str",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          46.0,
+          46.0,
+          46.0,
+          46.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "敏捷",
+        "attr_type": "Agi",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          30.0,
+          30.0,
+          30.0,
+          30.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "攻击力",
+        "attr_type": "Atk",
+        "is_base": false,
+        "is_percent": true,
+        "enhances": false,
+        "values": [
+          0.1225,
+          0.1225,
+          0.1225,
+          0.1225
+        ],
+        "modifier_type": "BaseMultiplier",
+        "composite_attr": ""
+      }
+    ]
+  },
+  "materials": {
+    "unlock_type": "AdventureLevel",
+    "unlock_key": "",
+    "gold": 0,
+    "items": []
+  }
+}

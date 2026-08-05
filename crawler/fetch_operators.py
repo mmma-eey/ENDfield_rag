@@ -11,7 +11,7 @@ import requests
 from crawler.processor import process_operator
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OPERATOR_LIST_PATH = os.path.join(BASE_DIR, "operator.json")
+OPERATOR_LIST_PATH = os.path.join(BASE_DIR, "data_main", "operator_data", "operator.json")
 OUTPUT_DIR = os.path.join(BASE_DIR, "data_main", "operator_data")
 API_BASE = "https://api.fz.wiki/api/v1/articles/by-title"
 

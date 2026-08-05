@@ -1,0 +1,1558 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "template": "武器档案",
+    "article_id": "019f68f4-7e8b-74f8-bd68-524627d7c274",
+    "updated_at": "2026-07-19T16:16:42.842Z"
+  },
+  "basic": {
+    "name": "黄金时代",
+    "name_en": "Golden Age",
+    "rarity": 6,
+    "weapon_type": "长柄武器",
+    "max_lv": 90,
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。",
+    "flavor": "梅什科工业的高端线产品之一。枪尖由特殊金合金制成，坚固且锋利，造型典雅，造价高昂，常被用于需要彰显使用者地位的场合。",
+    "categories": [
+      "六星武器",
+      "武器",
+      "长柄武器"
+    ]
+  },
+  "stats": {
+    "formula": "value(level) = round(base + slope * (level - stage_start_level))",
+    "stages": [
+      {
+        "stage": 0,
+        "level_range": [
+          1,
+          19
+        ],
+        "levels": 19,
+        "atk": {
+          "base": 49,
+          "slope": 4.888889,
+          "values": [
+            49,
+            54,
+            59,
+            64,
+            69,
+            74,
+            78,
+            83,
+            88,
+            93,
+            98,
+            103,
+            108,
+            113,
+            118,
+            123,
+            127,
+            132,
+            137
+          ]
+        }
+      },
+      {
+        "stage": 1,
+        "level_range": [
+          20,
+          39
+        ],
+        "levels": 20,
+        "atk": {
+          "base": 142,
+          "slope": 4.894737,
+          "values": [
+            142,
+            147,
+            152,
+            157,
+            162,
+            167,
+            172,
+            176,
+            181,
+            186,
+            191,
+            196,
+            201,
+            206,
+            211,
+            216,
+            221,
+            225,
+            230,
+            235
+          ]
+        }
+      },
+      {
+        "stage": 2,
+        "level_range": [
+          40,
+          59
+        ],
+        "levels": 20,
+        "atk": {
+          "base": 240,
+          "slope": 4.894737,
+          "values": [
+            240,
+            245,
+            250,
+            255,
+            260,
+            265,
+            270,
+            274,
+            279,
+            284,
+            289,
+            294,
+            299,
+            304,
+            309,
+            314,
+            319,
+            323,
+            328,
+            333
+          ]
+        }
+      },
+      {
+        "stage": 3,
+        "level_range": [
+          60,
+          79
+        ],
+        "levels": 20,
+        "atk": {
+          "base": 338,
+          "slope": 4.894737,
+          "values": [
+            338,
+            343,
+            348,
+            353,
+            358,
+            363,
+            368,
+            372,
+            377,
+            382,
+            387,
+            392,
+            397,
+            402,
+            407,
+            412,
+            417,
+            421,
+            426,
+            431
+          ]
+        }
+      },
+      {
+        "stage": 4,
+        "level_range": [
+          80,
+          90
+        ],
+        "levels": 11,
+        "atk": {
+          "base": 436,
+          "slope": 4.9,
+          "values": [
+            436,
+            441,
+            446,
+            451,
+            456,
+            461,
+            466,
+            470,
+            475,
+            480,
+            485
+          ]
+        }
+      }
+    ],
+    "breaks": [
+      {
+        "stage": 0,
+        "unlock_lv": 1,
+        "gold": 0,
+        "skill_bounds": [
+          {
+            "lower": 1,
+            "upper": 3
+          },
+          {
+            "lower": 1,
+            "upper": 3
+          },
+          {
+            "lower": 1,
+            "upper": 4
+          }
+        ]
+      },
+      {
+        "stage": 1,
+        "unlock_lv": 20,
+        "gold": 2200,
+        "skill_bounds": [
+          {
+            "lower": 2,
+            "upper": 5
+          },
+          {
+            "lower": 1,
+            "upper": 4
+          },
+          {
+            "lower": 1,
+            "upper": 4
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "unlock_lv": 40,
+        "gold": 8500,
+        "skill_bounds": [
+          {
+            "lower": 2,
+            "upper": 6
+          },
+          {
+            "lower": 2,
+            "upper": 6
+          },
+          {
+            "lower": 1,
+            "upper": 4
+          }
+        ]
+      },
+      {
+        "stage": 3,
+        "unlock_lv": 60,
+        "gold": 25000,
+        "skill_bounds": [
+          {
+            "lower": 3,
+            "upper": 8
+          },
+          {
+            "lower": 2,
+            "upper": 7
+          },
+          {
+            "lower": 1,
+            "upper": 4
+          }
+        ]
+      },
+      {
+        "stage": 4,
+        "unlock_lv": 80,
+        "gold": 90000,
+        "skill_bounds": [
+          {
+            "lower": 3,
+            "upper": 9
+          },
+          {
+            "lower": 3,
+            "upper": 9
+          },
+          {
+            "lower": 1,
+            "upper": 4
+          }
+        ]
+      }
+    ],
+    "level_up_detail": [
+      {
+        "lv": 1,
+        "atk": 49,
+        "lv_up_exp": 10,
+        "lv_up_gold": 0,
+        "cumulative_exp": 10,
+        "cumulative_gold": 0
+      },
+      {
+        "lv": 2,
+        "atk": 54,
+        "lv_up_exp": 10,
+        "lv_up_gold": 0,
+        "cumulative_exp": 20,
+        "cumulative_gold": 0
+      },
+      {
+        "lv": 3,
+        "atk": 59,
+        "lv_up_exp": 10,
+        "lv_up_gold": 0,
+        "cumulative_exp": 30,
+        "cumulative_gold": 0
+      },
+      {
+        "lv": 4,
+        "atk": 64,
+        "lv_up_exp": 20,
+        "lv_up_gold": 0,
+        "cumulative_exp": 50,
+        "cumulative_gold": 0
+      },
+      {
+        "lv": 5,
+        "atk": 69,
+        "lv_up_exp": 40,
+        "lv_up_gold": 0,
+        "cumulative_exp": 90,
+        "cumulative_gold": 0
+      },
+      {
+        "lv": 6,
+        "atk": 74,
+        "lv_up_exp": 50,
+        "lv_up_gold": 0,
+        "cumulative_exp": 140,
+        "cumulative_gold": 0
+      },
+      {
+        "lv": 7,
+        "atk": 78,
+        "lv_up_exp": 80,
+        "lv_up_gold": 0,
+        "cumulative_exp": 220,
+        "cumulative_gold": 0
+      },
+      {
+        "lv": 8,
+        "atk": 83,
+        "lv_up_exp": 110,
+        "lv_up_gold": 0,
+        "cumulative_exp": 330,
+        "cumulative_gold": 0
+      },
+      {
+        "lv": 9,
+        "atk": 88,
+        "lv_up_exp": 150,
+        "lv_up_gold": 0,
+        "cumulative_exp": 480,
+        "cumulative_gold": 0
+      },
+      {
+        "lv": 10,
+        "atk": 93,
+        "lv_up_exp": 200,
+        "lv_up_gold": 10,
+        "cumulative_exp": 680,
+        "cumulative_gold": 10
+      },
+      {
+        "lv": 11,
+        "atk": 98,
+        "lv_up_exp": 270,
+        "lv_up_gold": 10,
+        "cumulative_exp": 950,
+        "cumulative_gold": 20
+      },
+      {
+        "lv": 12,
+        "atk": 103,
+        "lv_up_exp": 370,
+        "lv_up_gold": 10,
+        "cumulative_exp": 1320,
+        "cumulative_gold": 30
+      },
+      {
+        "lv": 13,
+        "atk": 108,
+        "lv_up_exp": 480,
+        "lv_up_gold": 20,
+        "cumulative_exp": 1800,
+        "cumulative_gold": 50
+      },
+      {
+        "lv": 14,
+        "atk": 113,
+        "lv_up_exp": 620,
+        "lv_up_gold": 30,
+        "cumulative_exp": 2420,
+        "cumulative_gold": 80
+      },
+      {
+        "lv": 15,
+        "atk": 118,
+        "lv_up_exp": 780,
+        "lv_up_gold": 50,
+        "cumulative_exp": 3200,
+        "cumulative_gold": 130
+      },
+      {
+        "lv": 16,
+        "atk": 123,
+        "lv_up_exp": 990,
+        "lv_up_gold": 70,
+        "cumulative_exp": 4190,
+        "cumulative_gold": 200
+      },
+      {
+        "lv": 17,
+        "atk": 127,
+        "lv_up_exp": 1250,
+        "lv_up_gold": 100,
+        "cumulative_exp": 5440,
+        "cumulative_gold": 300
+      },
+      {
+        "lv": 18,
+        "atk": 132,
+        "lv_up_exp": 1550,
+        "lv_up_gold": 140,
+        "cumulative_exp": 6990,
+        "cumulative_gold": 440
+      },
+      {
+        "lv": 19,
+        "atk": 137,
+        "lv_up_exp": 1900,
+        "lv_up_gold": 200,
+        "cumulative_exp": 8890,
+        "cumulative_gold": 640
+      },
+      {
+        "lv": 20,
+        "atk": 142,
+        "lv_up_exp": 2360,
+        "lv_up_gold": 240,
+        "cumulative_exp": 11250,
+        "cumulative_gold": 880
+      },
+      {
+        "lv": 21,
+        "atk": 147,
+        "lv_up_exp": 2960,
+        "lv_up_gold": 300,
+        "cumulative_exp": 14210,
+        "cumulative_gold": 1180
+      },
+      {
+        "lv": 22,
+        "atk": 152,
+        "lv_up_exp": 3280,
+        "lv_up_gold": 330,
+        "cumulative_exp": 17490,
+        "cumulative_gold": 1510
+      },
+      {
+        "lv": 23,
+        "atk": 157,
+        "lv_up_exp": 3580,
+        "lv_up_gold": 360,
+        "cumulative_exp": 21070,
+        "cumulative_gold": 1870
+      },
+      {
+        "lv": 24,
+        "atk": 162,
+        "lv_up_exp": 3850,
+        "lv_up_gold": 390,
+        "cumulative_exp": 24920,
+        "cumulative_gold": 2260
+      },
+      {
+        "lv": 25,
+        "atk": 167,
+        "lv_up_exp": 4090,
+        "lv_up_gold": 410,
+        "cumulative_exp": 29010,
+        "cumulative_gold": 2670
+      },
+      {
+        "lv": 26,
+        "atk": 172,
+        "lv_up_exp": 4300,
+        "lv_up_gold": 430,
+        "cumulative_exp": 33310,
+        "cumulative_gold": 3100
+      },
+      {
+        "lv": 27,
+        "atk": 176,
+        "lv_up_exp": 4600,
+        "lv_up_gold": 460,
+        "cumulative_exp": 37910,
+        "cumulative_gold": 3560
+      },
+      {
+        "lv": 28,
+        "atk": 181,
+        "lv_up_exp": 4810,
+        "lv_up_gold": 490,
+        "cumulative_exp": 42720,
+        "cumulative_gold": 4050
+      },
+      {
+        "lv": 29,
+        "atk": 186,
+        "lv_up_exp": 4940,
+        "lv_up_gold": 500,
+        "cumulative_exp": 47660,
+        "cumulative_gold": 4550
+      },
+      {
+        "lv": 30,
+        "atk": 191,
+        "lv_up_exp": 5090,
+        "lv_up_gold": 510,
+        "cumulative_exp": 52750,
+        "cumulative_gold": 5060
+      },
+      {
+        "lv": 31,
+        "atk": 196,
+        "lv_up_exp": 5250,
+        "lv_up_gold": 530,
+        "cumulative_exp": 58000,
+        "cumulative_gold": 5590
+      },
+      {
+        "lv": 32,
+        "atk": 201,
+        "lv_up_exp": 5480,
+        "lv_up_gold": 550,
+        "cumulative_exp": 63480,
+        "cumulative_gold": 6140
+      },
+      {
+        "lv": 33,
+        "atk": 206,
+        "lv_up_exp": 5670,
+        "lv_up_gold": 570,
+        "cumulative_exp": 69150,
+        "cumulative_gold": 6710
+      },
+      {
+        "lv": 34,
+        "atk": 211,
+        "lv_up_exp": 5820,
+        "lv_up_gold": 590,
+        "cumulative_exp": 74970,
+        "cumulative_gold": 7300
+      },
+      {
+        "lv": 35,
+        "atk": 216,
+        "lv_up_exp": 5910,
+        "lv_up_gold": 600,
+        "cumulative_exp": 80880,
+        "cumulative_gold": 7900
+      },
+      {
+        "lv": 36,
+        "atk": 221,
+        "lv_up_exp": 6010,
+        "lv_up_gold": 610,
+        "cumulative_exp": 86890,
+        "cumulative_gold": 8510
+      },
+      {
+        "lv": 37,
+        "atk": 225,
+        "lv_up_exp": 6110,
+        "lv_up_gold": 620,
+        "cumulative_exp": 93000,
+        "cumulative_gold": 9130
+      },
+      {
+        "lv": 38,
+        "atk": 230,
+        "lv_up_exp": 6220,
+        "lv_up_gold": 630,
+        "cumulative_exp": 99220,
+        "cumulative_gold": 9760
+      },
+      {
+        "lv": 39,
+        "atk": 235,
+        "lv_up_exp": 6320,
+        "lv_up_gold": 640,
+        "cumulative_exp": 105540,
+        "cumulative_gold": 10400
+      },
+      {
+        "lv": 40,
+        "atk": 240,
+        "lv_up_exp": 6430,
+        "lv_up_gold": 650,
+        "cumulative_exp": 111970,
+        "cumulative_gold": 11050
+      },
+      {
+        "lv": 41,
+        "atk": 245,
+        "lv_up_exp": 6620,
+        "lv_up_gold": 670,
+        "cumulative_exp": 118590,
+        "cumulative_gold": 11720
+      },
+      {
+        "lv": 42,
+        "atk": 250,
+        "lv_up_exp": 6810,
+        "lv_up_gold": 690,
+        "cumulative_exp": 125400,
+        "cumulative_gold": 12410
+      },
+      {
+        "lv": 43,
+        "atk": 255,
+        "lv_up_exp": 7010,
+        "lv_up_gold": 710,
+        "cumulative_exp": 132410,
+        "cumulative_gold": 13120
+      },
+      {
+        "lv": 44,
+        "atk": 260,
+        "lv_up_exp": 7220,
+        "lv_up_gold": 730,
+        "cumulative_exp": 139630,
+        "cumulative_gold": 13850
+      },
+      {
+        "lv": 45,
+        "atk": 265,
+        "lv_up_exp": 7410,
+        "lv_up_gold": 750,
+        "cumulative_exp": 147040,
+        "cumulative_gold": 14600
+      },
+      {
+        "lv": 46,
+        "atk": 270,
+        "lv_up_exp": 7690,
+        "lv_up_gold": 770,
+        "cumulative_exp": 154730,
+        "cumulative_gold": 15370
+      },
+      {
+        "lv": 47,
+        "atk": 274,
+        "lv_up_exp": 7960,
+        "lv_up_gold": 800,
+        "cumulative_exp": 162690,
+        "cumulative_gold": 16170
+      },
+      {
+        "lv": 48,
+        "atk": 279,
+        "lv_up_exp": 8260,
+        "lv_up_gold": 830,
+        "cumulative_exp": 170950,
+        "cumulative_gold": 17000
+      },
+      {
+        "lv": 49,
+        "atk": 284,
+        "lv_up_exp": 8580,
+        "lv_up_gold": 860,
+        "cumulative_exp": 179530,
+        "cumulative_gold": 17860
+      },
+      {
+        "lv": 50,
+        "atk": 289,
+        "lv_up_exp": 8940,
+        "lv_up_gold": 900,
+        "cumulative_exp": 188470,
+        "cumulative_gold": 18760
+      },
+      {
+        "lv": 51,
+        "atk": 294,
+        "lv_up_exp": 9320,
+        "lv_up_gold": 940,
+        "cumulative_exp": 197790,
+        "cumulative_gold": 19700
+      },
+      {
+        "lv": 52,
+        "atk": 299,
+        "lv_up_exp": 9740,
+        "lv_up_gold": 980,
+        "cumulative_exp": 207530,
+        "cumulative_gold": 20680
+      },
+      {
+        "lv": 53,
+        "atk": 304,
+        "lv_up_exp": 10190,
+        "lv_up_gold": 1020,
+        "cumulative_exp": 217720,
+        "cumulative_gold": 21700
+      },
+      {
+        "lv": 54,
+        "atk": 309,
+        "lv_up_exp": 10680,
+        "lv_up_gold": 1070,
+        "cumulative_exp": 228400,
+        "cumulative_gold": 22770
+      },
+      {
+        "lv": 55,
+        "atk": 314,
+        "lv_up_exp": 11210,
+        "lv_up_gold": 1130,
+        "cumulative_exp": 239610,
+        "cumulative_gold": 23900
+      },
+      {
+        "lv": 56,
+        "atk": 319,
+        "lv_up_exp": 11770,
+        "lv_up_gold": 1180,
+        "cumulative_exp": 251380,
+        "cumulative_gold": 25080
+      },
+      {
+        "lv": 57,
+        "atk": 323,
+        "lv_up_exp": 12380,
+        "lv_up_gold": 1240,
+        "cumulative_exp": 263760,
+        "cumulative_gold": 26320
+      },
+      {
+        "lv": 58,
+        "atk": 328,
+        "lv_up_exp": 13040,
+        "lv_up_gold": 1310,
+        "cumulative_exp": 276800,
+        "cumulative_gold": 27630
+      },
+      {
+        "lv": 59,
+        "atk": 333,
+        "lv_up_exp": 13740,
+        "lv_up_gold": 1380,
+        "cumulative_exp": 290540,
+        "cumulative_gold": 29010
+      },
+      {
+        "lv": 60,
+        "atk": 338,
+        "lv_up_exp": 14110,
+        "lv_up_gold": 1420,
+        "cumulative_exp": 304650,
+        "cumulative_gold": 30430
+      },
+      {
+        "lv": 61,
+        "atk": 343,
+        "lv_up_exp": 15870,
+        "lv_up_gold": 1540,
+        "cumulative_exp": 320520,
+        "cumulative_gold": 31970
+      },
+      {
+        "lv": 62,
+        "atk": 348,
+        "lv_up_exp": 17690,
+        "lv_up_gold": 1670,
+        "cumulative_exp": 338210,
+        "cumulative_gold": 33640
+      },
+      {
+        "lv": 63,
+        "atk": 353,
+        "lv_up_exp": 19480,
+        "lv_up_gold": 1800,
+        "cumulative_exp": 357690,
+        "cumulative_gold": 35440
+      },
+      {
+        "lv": 64,
+        "atk": 358,
+        "lv_up_exp": 21670,
+        "lv_up_gold": 1960,
+        "cumulative_exp": 379360,
+        "cumulative_gold": 37400
+      },
+      {
+        "lv": 65,
+        "atk": 363,
+        "lv_up_exp": 24220,
+        "lv_up_gold": 2160,
+        "cumulative_exp": 403580,
+        "cumulative_gold": 39560
+      },
+      {
+        "lv": 66,
+        "atk": 368,
+        "lv_up_exp": 27210,
+        "lv_up_gold": 2390,
+        "cumulative_exp": 430790,
+        "cumulative_gold": 41950
+      },
+      {
+        "lv": 67,
+        "atk": 372,
+        "lv_up_exp": 30700,
+        "lv_up_gold": 2680,
+        "cumulative_exp": 461490,
+        "cumulative_gold": 44630
+      },
+      {
+        "lv": 68,
+        "atk": 377,
+        "lv_up_exp": 34780,
+        "lv_up_gold": 3010,
+        "cumulative_exp": 496270,
+        "cumulative_gold": 47640
+      },
+      {
+        "lv": 69,
+        "atk": 382,
+        "lv_up_exp": 39510,
+        "lv_up_gold": 3400,
+        "cumulative_exp": 535780,
+        "cumulative_gold": 51040
+      },
+      {
+        "lv": 70,
+        "atk": 387,
+        "lv_up_exp": 44990,
+        "lv_up_gold": 3860,
+        "cumulative_exp": 580770,
+        "cumulative_gold": 54900
+      },
+      {
+        "lv": 71,
+        "atk": 392,
+        "lv_up_exp": 48870,
+        "lv_up_gold": 4400,
+        "cumulative_exp": 629640,
+        "cumulative_gold": 59300
+      },
+      {
+        "lv": 72,
+        "atk": 397,
+        "lv_up_exp": 53240,
+        "lv_up_gold": 5020,
+        "cumulative_exp": 682880,
+        "cumulative_gold": 64320
+      },
+      {
+        "lv": 73,
+        "atk": 402,
+        "lv_up_exp": 58140,
+        "lv_up_gold": 5730,
+        "cumulative_exp": 741020,
+        "cumulative_gold": 70050
+      },
+      {
+        "lv": 74,
+        "atk": 407,
+        "lv_up_exp": 63580,
+        "lv_up_gold": 6560,
+        "cumulative_exp": 804600,
+        "cumulative_gold": 76610
+      },
+      {
+        "lv": 75,
+        "atk": 412,
+        "lv_up_exp": 69600,
+        "lv_up_gold": 7500,
+        "cumulative_exp": 874200,
+        "cumulative_gold": 84110
+      },
+      {
+        "lv": 76,
+        "atk": 417,
+        "lv_up_exp": 74420,
+        "lv_up_gold": 8380,
+        "cumulative_exp": 948620,
+        "cumulative_gold": 92490
+      },
+      {
+        "lv": 77,
+        "atk": 421,
+        "lv_up_exp": 79530,
+        "lv_up_gold": 9350,
+        "cumulative_exp": 1028150,
+        "cumulative_gold": 101840
+      },
+      {
+        "lv": 78,
+        "atk": 426,
+        "lv_up_exp": 84940,
+        "lv_up_gold": 10420,
+        "cumulative_exp": 1113090,
+        "cumulative_gold": 112260
+      },
+      {
+        "lv": 79,
+        "atk": 431,
+        "lv_up_exp": 90620,
+        "lv_up_gold": 11590,
+        "cumulative_exp": 1203710,
+        "cumulative_gold": 123850
+      },
+      {
+        "lv": 80,
+        "atk": 436,
+        "lv_up_exp": 96570,
+        "lv_up_gold": 12880,
+        "cumulative_exp": 1300280,
+        "cumulative_gold": 136730
+      },
+      {
+        "lv": 81,
+        "atk": 441,
+        "lv_up_exp": 103570,
+        "lv_up_gold": 14400,
+        "cumulative_exp": 1403850,
+        "cumulative_gold": 151130
+      },
+      {
+        "lv": 82,
+        "atk": 446,
+        "lv_up_exp": 110930,
+        "lv_up_gold": 16070,
+        "cumulative_exp": 1514780,
+        "cumulative_gold": 167200
+      },
+      {
+        "lv": 83,
+        "atk": 451,
+        "lv_up_exp": 118620,
+        "lv_up_gold": 17900,
+        "cumulative_exp": 1633400,
+        "cumulative_gold": 185100
+      },
+      {
+        "lv": 84,
+        "atk": 456,
+        "lv_up_exp": 126650,
+        "lv_up_gold": 19910,
+        "cumulative_exp": 1760050,
+        "cumulative_gold": 205010
+      },
+      {
+        "lv": 85,
+        "atk": 461,
+        "lv_up_exp": 134990,
+        "lv_up_gold": 22090,
+        "cumulative_exp": 1895040,
+        "cumulative_gold": 227100
+      },
+      {
+        "lv": 86,
+        "atk": 466,
+        "lv_up_exp": 143620,
+        "lv_up_gold": 24470,
+        "cumulative_exp": 2038660,
+        "cumulative_gold": 251570
+      },
+      {
+        "lv": 87,
+        "atk": 470,
+        "lv_up_exp": 152540,
+        "lv_up_gold": 27060,
+        "cumulative_exp": 2191200,
+        "cumulative_gold": 278630
+      },
+      {
+        "lv": 88,
+        "atk": 475,
+        "lv_up_exp": 161720,
+        "lv_up_gold": 29860,
+        "cumulative_exp": 2352920,
+        "cumulative_gold": 308490
+      },
+      {
+        "lv": 89,
+        "atk": 480,
+        "lv_up_exp": 171160,
+        "lv_up_gold": 32900,
+        "cumulative_exp": 2524080,
+        "cumulative_gold": 341390
+      },
+      {
+        "lv": 90,
+        "atk": 485,
+        "lv_up_exp": 0,
+        "lv_up_gold": 0,
+        "cumulative_exp": 2524080,
+        "cumulative_gold": 341390
+      }
+    ],
+    "total_level_exp": 2524080,
+    "total_level_gold": 341390
+  },
+  "skills": [
+    {
+      "name": "意志提升·大",
+      "skill_id": "wpn_attr_will_high",
+      "type_label": "",
+      "description": "意志<@ba.vup>+{will}</>",
+      "zero_potential_max_level": 9,
+      "levels": [
+        {
+          "level": 1,
+          "desc": "意志 20",
+          "values": {
+            "will": 20.0
+          }
+        },
+        {
+          "level": 2,
+          "desc": "意志 36",
+          "values": {
+            "will": 36.0
+          }
+        },
+        {
+          "level": 3,
+          "desc": "意志 52",
+          "values": {
+            "will": 52.0
+          }
+        },
+        {
+          "level": 4,
+          "desc": "意志 68",
+          "values": {
+            "will": 68.0
+          }
+        },
+        {
+          "level": 5,
+          "desc": "意志 84",
+          "values": {
+            "will": 84.0
+          }
+        },
+        {
+          "level": 6,
+          "desc": "意志 100",
+          "values": {
+            "will": 100.0
+          }
+        },
+        {
+          "level": 7,
+          "desc": "意志 116",
+          "values": {
+            "will": 116.0
+          }
+        },
+        {
+          "level": 8,
+          "desc": "意志 132",
+          "values": {
+            "will": 132.0
+          }
+        },
+        {
+          "level": 9,
+          "desc": "意志 156",
+          "values": {
+            "will": 156.0
+          }
+        }
+      ],
+      "param_table": [
+        {
+          "label": "意志",
+          "values": [
+            "20",
+            "36",
+            "52",
+            "68",
+            "84",
+            "100",
+            "116",
+            "132",
+            "156"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "治疗效率提升·大",
+      "skill_id": "wpn_sp_attr_heal_high",
+      "type_label": "",
+      "description": "治疗效率<@ba.vup>+{heal:0.0%}</>",
+      "zero_potential_max_level": 9,
+      "levels": [
+        {
+          "level": 1,
+          "desc": "治疗 5.95%",
+          "values": {
+            "heal": 0.0595238
+          }
+        },
+        {
+          "level": 2,
+          "desc": "治疗 10.71%",
+          "values": {
+            "heal": 0.107143
+          }
+        },
+        {
+          "level": 3,
+          "desc": "治疗 15.48%",
+          "values": {
+            "heal": 0.154762
+          }
+        },
+        {
+          "level": 4,
+          "desc": "治疗 20.24%",
+          "values": {
+            "heal": 0.202381
+          }
+        },
+        {
+          "level": 5,
+          "desc": "治疗 25%",
+          "values": {
+            "heal": 0.25
+          }
+        },
+        {
+          "level": 6,
+          "desc": "治疗 29.76%",
+          "values": {
+            "heal": 0.297619
+          }
+        },
+        {
+          "level": 7,
+          "desc": "治疗 34.52%",
+          "values": {
+            "heal": 0.345238
+          }
+        },
+        {
+          "level": 8,
+          "desc": "治疗 39.29%",
+          "values": {
+            "heal": 0.392857
+          }
+        },
+        {
+          "level": 9,
+          "desc": "治疗 46.43%",
+          "values": {
+            "heal": 0.464286
+          }
+        }
+      ],
+      "param_table": [
+        {
+          "label": "治疗",
+          "values": [
+            "5.95%",
+            "10.71%",
+            "15.48%",
+            "20.24%",
+            "25%",
+            "29.76%",
+            "34.52%",
+            "39.29%",
+            "46.43%"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "追袭·大英雄",
+      "skill_id": "sk_wpn_lance_0016",
+      "type_label": "潜能技能",
+      "description": "电磁伤害<@ba.vup>+{pulse_dmg_up:0.0%}</>。\n装备者通过连携技造成伤害时，治疗效率<@ba.vup>+{heal_up:0.0%}</>，持续{duration:0}秒；装备者通过连携技治疗小队内其他干员时，全队法术伤害<@ba.vup>+{spell_dmg_up:0.0%}</>，持续{duration2:0}秒。\n<@ba.info>同名效果无法叠加。</>",
+      "zero_potential_max_level": 4,
+      "levels": [
+        {
+          "level": 1,
+          "desc": "脉冲伤害提升 6% · 治疗提升 4% · 持续时间 15s · 法伤提升 5% · 持续时间 ② 20",
+          "values": {
+            "heal_up": 0.04,
+            "duration": 15.0,
+            "duration2": 20.0,
+            "pulse_dmg_up": 0.06,
+            "spell_dmg_up": 0.05
+          }
+        },
+        {
+          "level": 2,
+          "desc": "脉冲伤害提升 7.2% · 治疗提升 4.8% · 持续时间 15s · 法伤提升 6% · 持续时间 ② 20",
+          "values": {
+            "heal_up": 0.048,
+            "duration": 15.0,
+            "duration2": 20.0,
+            "pulse_dmg_up": 0.072,
+            "spell_dmg_up": 0.06
+          }
+        },
+        {
+          "level": 3,
+          "desc": "脉冲伤害提升 8.4% · 治疗提升 5.6% · 持续时间 15s · 法伤提升 7% · 持续时间 ② 20",
+          "values": {
+            "heal_up": 0.056,
+            "duration": 15.0,
+            "duration2": 20.0,
+            "pulse_dmg_up": 0.084,
+            "spell_dmg_up": 0.07
+          }
+        },
+        {
+          "level": 4,
+          "desc": "脉冲伤害提升 9.6% · 治疗提升 6.4% · 持续时间 15s · 法伤提升 8% · 持续时间 ② 20",
+          "values": {
+            "heal_up": 0.064,
+            "duration": 15.0,
+            "duration2": 20.0,
+            "pulse_dmg_up": 0.096,
+            "spell_dmg_up": 0.08
+          }
+        },
+        {
+          "level": 5,
+          "desc": "脉冲伤害提升 10.8% · 治疗提升 7.2% · 持续时间 15s · 法伤提升 9% · 持续时间 ② 20",
+          "values": {
+            "heal_up": 0.072,
+            "duration": 15.0,
+            "duration2": 20.0,
+            "pulse_dmg_up": 0.108,
+            "spell_dmg_up": 0.09
+          }
+        },
+        {
+          "level": 6,
+          "desc": "脉冲伤害提升 12% · 治疗提升 8% · 持续时间 15s · 法伤提升 10% · 持续时间 ② 20",
+          "values": {
+            "heal_up": 0.08,
+            "duration": 15.0,
+            "duration2": 20.0,
+            "pulse_dmg_up": 0.12,
+            "spell_dmg_up": 0.1
+          }
+        },
+        {
+          "level": 7,
+          "desc": "脉冲伤害提升 13.2% · 治疗提升 8.8% · 持续时间 15s · 法伤提升 11% · 持续时间 ② 20",
+          "values": {
+            "heal_up": 0.088,
+            "duration": 15.0,
+            "duration2": 20.0,
+            "pulse_dmg_up": 0.132,
+            "spell_dmg_up": 0.11
+          }
+        },
+        {
+          "level": 8,
+          "desc": "脉冲伤害提升 14.4% · 治疗提升 9.6% · 持续时间 15s · 法伤提升 12% · 持续时间 ② 20",
+          "values": {
+            "heal_up": 0.096,
+            "duration": 15.0,
+            "duration2": 20.0,
+            "pulse_dmg_up": 0.144,
+            "spell_dmg_up": 0.12
+          }
+        },
+        {
+          "level": 9,
+          "desc": "脉冲伤害提升 16.8% · 治疗提升 11.2% · 持续时间 15s · 法伤提升 14% · 持续时间 ② 20",
+          "values": {
+            "heal_up": 0.112,
+            "duration": 15.0,
+            "duration2": 20.0,
+            "pulse_dmg_up": 0.168,
+            "spell_dmg_up": 0.14
+          }
+        }
+      ],
+      "param_table": [
+        {
+          "label": "脉冲伤害提升",
+          "values": [
+            "6%",
+            "7.2%",
+            "8.4%",
+            "9.6%",
+            "10.8%",
+            "12%",
+            "13.2%",
+            "14.4%",
+            "16.8%"
+          ]
+        },
+        {
+          "label": "治疗提升",
+          "values": [
+            "4%",
+            "4.8%",
+            "5.6%",
+            "6.4%",
+            "7.2%",
+            "8%",
+            "8.8%",
+            "9.6%",
+            "11.2%"
+          ]
+        },
+        {
+          "label": "持续时间",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "法伤提升",
+          "values": [
+            "5%",
+            "6%",
+            "7%",
+            "8%",
+            "9%",
+            "10%",
+            "11%",
+            "12%",
+            "14%"
+          ]
+        },
+        {
+          "label": "持续时间 ②",
+          "values": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        }
+      ]
+    }
+  ],
+  "materials": {
+    "ascension": [
+      {
+        "stage": 1,
+        "unlock_lv": 20,
+        "gold": 2200,
+        "items": [
+          {
+            "id": "item_weapon_break_low",
+            "name": "强固模具",
+            "qty": 5,
+            "tier": 3
+          },
+          {
+            "id": "item_plant_spcstone_1_1",
+            "name": "轻黯石",
+            "qty": 3,
+            "tier": 4
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "unlock_lv": 40,
+        "gold": 8500,
+        "items": [
+          {
+            "id": "item_weapon_break_low",
+            "name": "强固模具",
+            "qty": 18,
+            "tier": 3
+          },
+          {
+            "id": "item_plant_spcstone_1_2",
+            "name": "中黯石",
+            "qty": 5,
+            "tier": 4
+          }
+        ]
+      },
+      {
+        "stage": 3,
+        "unlock_lv": 60,
+        "gold": 25000,
+        "items": [
+          {
+            "id": "item_weapon_break_high",
+            "name": "重型强固模具",
+            "qty": 20,
+            "tier": 4
+          },
+          {
+            "id": "item_plant_spcstone_1_3",
+            "name": "重黯石",
+            "qty": 5,
+            "tier": 4
+          }
+        ]
+      },
+      {
+        "stage": 4,
+        "unlock_lv": 80,
+        "gold": 90000,
+        "items": [
+          {
+            "id": "item_weapon_break_high",
+            "name": "重型强固模具",
+            "qty": 30,
+            "tier": 4
+          },
+          {
+            "id": "item_char_skill_specialize_4",
+            "name": "象限拟合液",
+            "qty": 16,
+            "tier": 5
+          },
+          {
+            "id": "item_plant_spcstone_2_2",
+            "name": "武陵石",
+            "qty": 8,
+            "tier": 5
+          }
+        ]
+      }
+    ],
+    "gold_item": {
+      "id": "item_gold",
+      "name": "折金票",
+      "tier": 4
+    },
+    "total_break_gold": 125700
+  },
+  "gems": [
+    {
+      "gem_id": "gem_lance_0016_663",
+      "display_name": "无瑕基质·医疗",
+      "tier_name": "无瑕基质",
+      "rarity": 5,
+      "terms": [
+        {
+          "label": "意志提升",
+          "level": 6,
+          "type_label": "基础属性"
+        },
+        {
+          "label": "生命提升",
+          "level": 6,
+          "type_label": "附加属性"
+        },
+        {
+          "label": "医疗",
+          "level": 3,
+          "type_label": "技能属性"
+        }
+      ],
+      "domains": [
+        {
+          "domain_id": "domain_1",
+          "domain_name": "四号谷地"
+        },
+        {
+          "domain_id": "domain_2",
+          "domain_name": "武陵"
+        }
+      ],
+      "drop_points": [
+        {
+          "name": "能量淤积点·北部禁区",
+          "domain_name": "武陵",
+          "world_level": 2,
+          "recommend_lv": 20
+        },
+        {
+          "name": "能量淤积点·武陵城",
+          "domain_name": "武陵",
+          "world_level": 2,
+          "recommend_lv": 20
+        },
+        {
+          "name": "能量淤积点·清波寨",
+          "domain_name": "武陵",
+          "world_level": 1,
+          "recommend_lv": 20
+        },
+        {
+          "name": "能量淤积点·藏剑谷",
+          "domain_name": "武陵",
+          "world_level": 2,
+          "recommend_lv": 20
+        },
+        {
+          "name": "重度能量淤积点·北部禁区",
+          "domain_name": "武陵",
+          "world_level": 4,
+          "recommend_lv": 40
+        },
+        {
+          "name": "重度能量淤积点·武陵城",
+          "domain_name": "武陵",
+          "world_level": 4,
+          "recommend_lv": 40
+        },
+        {
+          "name": "重度能量淤积点·清波寨",
+          "domain_name": "武陵",
+          "world_level": 4,
+          "recommend_lv": 40
+        },
+        {
+          "name": "重度能量淤积点·藏剑谷",
+          "domain_name": "武陵",
+          "world_level": 4,
+          "recommend_lv": 40
+        },
+        {
+          "name": "能量淤积点·供能高地",
+          "domain_name": "四号谷地",
+          "world_level": 1,
+          "recommend_lv": 50
+        },
+        {
+          "name": "重度能量淤积点·供能高地",
+          "domain_name": "四号谷地",
+          "world_level": 5,
+          "recommend_lv": 50
+        }
+      ]
+    }
+  ],
+  "background": {
+    "body": "“老家伙，岁月真是不饶人啊，你的枪法……居然变得这么沉重了。”\n库兰塔将长枪插进了充满裂痕的屋顶，脱下早已不堪重负的护甲。\n“我只比你年长几岁，你又能年轻到哪儿去？难道你还是那爱听英雄故事的小孩？”\n“跟我回去，别再做傻事。‘军阀’雅各布已死，他那所谓‘更加伟大的城市’的理想，不值得你把自己的命留在这儿。”\n\n“……我原本以为你能理解我。”望向越过第三十九具裂地者尸体的黎博利，库兰塔抽出了别在腰间的短剑——几十年的岁月，精致的剑鞘早已锈蚀，但短剑依旧反射着寒光，“我只相信一个理想——老师把短剑交到我们手中时讲过的，回到泰拉、回到那个黄金时代的理想。但现在，他的墓碑都被锚点给砸碎了，我们甚至连回到塔卫二的北方都做不到……感到失望的可不只有雅各布。你来告诉我，‘偶尔’的物资匮乏、遍地的侵蚀、天使的袭击，还有那座文明环带许诺已久的理想城，这些又算什么？”\n\n黎博利无奈地叹了口气，停在了距离库兰塔十步的地方。靴子踩在了风吹来的沙尘上，咯吱作响。\n“你真是挑了个好地方，这屋顶的风，怕是能让羽兽不用扇动翅膀就可以飞起来。”\n“是啊，好大的风……可惜快停了。”库兰塔举起手中的短剑，“我们打赢了天使战争。但那之后呢？我们都老了，再等下去，我肯定等不到老师的理想实现的那天。我得自谋出路。”\n“但这不是你跟着雅各布，把老师的那杆长枪指向比你更绝望的人的借口。”\n“弱肉强食，总得有人这么做。”库兰塔站直了身子，略显生疏地挥了挥手中的短剑，“为了老师的理想，这就是我选择的路……你阻止不了我。”\n“以前的你，明明是个为了救援被天使袭击的聚落，和大伙儿连夜奔袭十几里的英雄。”黎博利摸向腰间，那是一柄与库兰塔手中相同的短剑。\n他仍记得老师将短剑交给他们的那天；记得那个接过短剑时眼睛发亮，说想要老师那杆枪的义兄；记得义兄说“我要成为大英雄”时，自己忍不住哈哈大笑。为什么要笑？不记得了。\n\n“英雄？我算是个什么英雄。”库兰塔说罢，便将手中的短剑举至胸前，“你说的英雄，要么只活在你的脑子里，要么就已经死在了那天晚上。”\n“你的所作所为亵渎了老师的长枪。”黎博利扔下打完蚀刻弹药的手铳，抽出短剑，直冲库兰塔而去，“把它还来。”\n“那就要看……你的本事了！”"
+  }
+}

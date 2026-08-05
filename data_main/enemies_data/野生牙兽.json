@@ -1,0 +1,758 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "article_id": "e190610f-b4aa-4377-98f0-ef957d36c0bd",
+    "updated_at": "2026-06-21T13:31:24.602Z"
+  },
+  "basic": {
+    "name": "野生牙兽",
+    "nickname": "",
+    "display_type": "Normal",
+    "is_dangerous": false,
+    "zmd_map_links": [
+      {
+        "map": "map01",
+        "param": "select",
+        "value": "eny_0057_dog"
+      }
+    ],
+    "distributions": [
+      {
+        "name": "枢纽区",
+        "distributionId": "distribution_map01_lv001"
+      },
+      {
+        "name": "谷地通道",
+        "distributionId": "distribution_map01_lv002"
+      },
+      {
+        "name": "供能高地",
+        "distributionId": "distribution_map01_lv007"
+      }
+    ]
+  },
+  "background": {
+    "body": "自然环境中的野生牙兽。它们仍是掠食者，但在塔卫二，要保持这个地位并不容易。"
+  },
+  "stats": {
+    "level_curve": {
+      "1": {
+        "hp": 1,
+        "atk": 16,
+        "def": 100
+      },
+      "2": {
+        "hp": 1,
+        "atk": 19,
+        "def": 100
+      },
+      "3": {
+        "hp": 1,
+        "atk": 21,
+        "def": 100
+      },
+      "4": {
+        "hp": 1,
+        "atk": 24,
+        "def": 100
+      },
+      "5": {
+        "hp": 1,
+        "atk": 27,
+        "def": 100
+      },
+      "6": {
+        "hp": 1,
+        "atk": 29,
+        "def": 100
+      },
+      "7": {
+        "hp": 1,
+        "atk": 32,
+        "def": 100
+      },
+      "8": {
+        "hp": 1,
+        "atk": 35,
+        "def": 100
+      },
+      "9": {
+        "hp": 1,
+        "atk": 38,
+        "def": 100
+      },
+      "10": {
+        "hp": 1,
+        "atk": 41,
+        "def": 100
+      },
+      "11": {
+        "hp": 1,
+        "atk": 45,
+        "def": 100
+      },
+      "12": {
+        "hp": 1,
+        "atk": 48,
+        "def": 100
+      },
+      "13": {
+        "hp": 1,
+        "atk": 51,
+        "def": 100
+      },
+      "14": {
+        "hp": 1,
+        "atk": 55,
+        "def": 100
+      },
+      "15": {
+        "hp": 1,
+        "atk": 58,
+        "def": 100
+      },
+      "16": {
+        "hp": 1,
+        "atk": 62,
+        "def": 100
+      },
+      "17": {
+        "hp": 1,
+        "atk": 66,
+        "def": 100
+      },
+      "18": {
+        "hp": 1,
+        "atk": 70,
+        "def": 100
+      },
+      "19": {
+        "hp": 1,
+        "atk": 74,
+        "def": 100
+      },
+      "20": {
+        "hp": 1,
+        "atk": 78,
+        "def": 100
+      },
+      "21": {
+        "hp": 1,
+        "atk": 82,
+        "def": 100
+      },
+      "22": {
+        "hp": 1,
+        "atk": 86,
+        "def": 100
+      },
+      "23": {
+        "hp": 1,
+        "atk": 91,
+        "def": 100
+      },
+      "24": {
+        "hp": 1,
+        "atk": 96,
+        "def": 100
+      },
+      "25": {
+        "hp": 1,
+        "atk": 100,
+        "def": 100
+      },
+      "26": {
+        "hp": 1,
+        "atk": 105,
+        "def": 100
+      },
+      "27": {
+        "hp": 1,
+        "atk": 110,
+        "def": 100
+      },
+      "28": {
+        "hp": 1,
+        "atk": 115,
+        "def": 100
+      },
+      "29": {
+        "hp": 1,
+        "atk": 120,
+        "def": 100
+      },
+      "30": {
+        "hp": 1,
+        "atk": 126,
+        "def": 100
+      },
+      "31": {
+        "hp": 1,
+        "atk": 136,
+        "def": 100
+      },
+      "32": {
+        "hp": 1,
+        "atk": 146,
+        "def": 100
+      },
+      "33": {
+        "hp": 1,
+        "atk": 156,
+        "def": 100
+      },
+      "34": {
+        "hp": 1,
+        "atk": 167,
+        "def": 100
+      },
+      "35": {
+        "hp": 1,
+        "atk": 178,
+        "def": 100
+      },
+      "36": {
+        "hp": 1,
+        "atk": 190,
+        "def": 100
+      },
+      "37": {
+        "hp": 1,
+        "atk": 202,
+        "def": 100
+      },
+      "38": {
+        "hp": 1,
+        "atk": 214,
+        "def": 100
+      },
+      "39": {
+        "hp": 1,
+        "atk": 227,
+        "def": 100
+      },
+      "40": {
+        "hp": 1,
+        "atk": 241,
+        "def": 100
+      },
+      "41": {
+        "hp": 1,
+        "atk": 255,
+        "def": 100
+      },
+      "42": {
+        "hp": 1,
+        "atk": 270,
+        "def": 100
+      },
+      "43": {
+        "hp": 1,
+        "atk": 286,
+        "def": 100
+      },
+      "44": {
+        "hp": 1,
+        "atk": 302,
+        "def": 100
+      },
+      "45": {
+        "hp": 1,
+        "atk": 318,
+        "def": 100
+      },
+      "46": {
+        "hp": 1,
+        "atk": 336,
+        "def": 100
+      },
+      "47": {
+        "hp": 1,
+        "atk": 354,
+        "def": 100
+      },
+      "48": {
+        "hp": 1,
+        "atk": 372,
+        "def": 100
+      },
+      "49": {
+        "hp": 1,
+        "atk": 391,
+        "def": 100
+      },
+      "50": {
+        "hp": 1,
+        "atk": 411,
+        "def": 100
+      },
+      "51": {
+        "hp": 1,
+        "atk": 434,
+        "def": 100
+      },
+      "52": {
+        "hp": 1,
+        "atk": 455,
+        "def": 100
+      },
+      "53": {
+        "hp": 1,
+        "atk": 477,
+        "def": 100
+      },
+      "54": {
+        "hp": 1,
+        "atk": 500,
+        "def": 100
+      },
+      "55": {
+        "hp": 1,
+        "atk": 523,
+        "def": 100
+      },
+      "56": {
+        "hp": 1,
+        "atk": 538,
+        "def": 100
+      },
+      "57": {
+        "hp": 1,
+        "atk": 553,
+        "def": 100
+      },
+      "58": {
+        "hp": 1,
+        "atk": 568,
+        "def": 100
+      },
+      "59": {
+        "hp": 1,
+        "atk": 583,
+        "def": 100
+      },
+      "60": {
+        "hp": 1,
+        "atk": 599,
+        "def": 100
+      },
+      "61": {
+        "hp": 1,
+        "atk": 615,
+        "def": 100
+      },
+      "62": {
+        "hp": 1,
+        "atk": 632,
+        "def": 100
+      },
+      "63": {
+        "hp": 1,
+        "atk": 649,
+        "def": 100
+      },
+      "64": {
+        "hp": 1,
+        "atk": 666,
+        "def": 100
+      },
+      "65": {
+        "hp": 1,
+        "atk": 684,
+        "def": 100
+      },
+      "66": {
+        "hp": 1,
+        "atk": 701,
+        "def": 100
+      },
+      "67": {
+        "hp": 1,
+        "atk": 719,
+        "def": 100
+      },
+      "68": {
+        "hp": 1,
+        "atk": 737,
+        "def": 100
+      },
+      "69": {
+        "hp": 1,
+        "atk": 756,
+        "def": 100
+      },
+      "70": {
+        "hp": 1,
+        "atk": 775,
+        "def": 100
+      },
+      "71": {
+        "hp": 1,
+        "atk": 788,
+        "def": 100
+      },
+      "72": {
+        "hp": 1,
+        "atk": 800,
+        "def": 100
+      },
+      "73": {
+        "hp": 1,
+        "atk": 813,
+        "def": 100
+      },
+      "74": {
+        "hp": 1,
+        "atk": 825,
+        "def": 100
+      },
+      "75": {
+        "hp": 1,
+        "atk": 838,
+        "def": 100
+      },
+      "76": {
+        "hp": 1,
+        "atk": 850,
+        "def": 100
+      },
+      "77": {
+        "hp": 1,
+        "atk": 863,
+        "def": 100
+      },
+      "78": {
+        "hp": 1,
+        "atk": 876,
+        "def": 100
+      },
+      "79": {
+        "hp": 1,
+        "atk": 889,
+        "def": 100
+      },
+      "80": {
+        "hp": 1,
+        "atk": 901,
+        "def": 100
+      },
+      "81": {
+        "hp": 1,
+        "atk": 914,
+        "def": 100
+      },
+      "82": {
+        "hp": 1,
+        "atk": 927,
+        "def": 100
+      },
+      "83": {
+        "hp": 1,
+        "atk": 940,
+        "def": 100
+      },
+      "84": {
+        "hp": 1,
+        "atk": 953,
+        "def": 100
+      },
+      "85": {
+        "hp": 1,
+        "atk": 966,
+        "def": 100
+      },
+      "86": {
+        "hp": 1,
+        "atk": 979,
+        "def": 100
+      },
+      "87": {
+        "hp": 1,
+        "atk": 993,
+        "def": 100
+      },
+      "88": {
+        "hp": 1,
+        "atk": 1006,
+        "def": 100
+      },
+      "89": {
+        "hp": 1,
+        "atk": 1019,
+        "def": 100
+      },
+      "90": {
+        "hp": 1,
+        "atk": 1032,
+        "def": 100
+      },
+      "91": {
+        "hp": 1,
+        "atk": 1045,
+        "def": 100
+      },
+      "92": {
+        "hp": 1,
+        "atk": 1058,
+        "def": 100
+      },
+      "93": {
+        "hp": 1,
+        "atk": 1071,
+        "def": 100
+      },
+      "94": {
+        "hp": 1,
+        "atk": 1083,
+        "def": 100
+      },
+      "95": {
+        "hp": 1,
+        "atk": 1095,
+        "def": 100
+      },
+      "96": {
+        "hp": 1,
+        "atk": 1107,
+        "def": 100
+      },
+      "97": {
+        "hp": 1,
+        "atk": 1119,
+        "def": 100
+      },
+      "98": {
+        "hp": 1,
+        "atk": 1131,
+        "def": 100
+      },
+      "99": {
+        "hp": 1,
+        "atk": 1143,
+        "def": 100
+      },
+      "100": {
+        "hp": 1,
+        "atk": 1155,
+        "def": 100
+      }
+    },
+    "groups": [
+      {
+        "group_key": "basic",
+        "group_label": "基础战斗",
+        "label": "普攻距离",
+        "value": 2.1,
+        "format": "scalar",
+        "attr_type": "NormalAttackRange"
+      },
+      {
+        "group_key": "basic",
+        "group_label": "基础战斗",
+        "label": "重量",
+        "value": 1,
+        "format": "int",
+        "attr_type": "Weight"
+      },
+      {
+        "group_key": "basic",
+        "group_label": "基础战斗",
+        "label": "暴击率",
+        "value": 0,
+        "format": "percent",
+        "attr_type": "CriticalRate"
+      },
+      {
+        "group_key": "basic",
+        "group_label": "基础战斗",
+        "label": "暴击伤害",
+        "value": 0.5,
+        "format": "percent",
+        "attr_type": "CriticalDamageIncrease"
+      },
+      {
+        "group_key": "basic",
+        "group_label": "基础战斗",
+        "label": "攻击频率",
+        "value": 1,
+        "format": "scalar",
+        "attr_type": "AttackRate"
+      },
+      {
+        "group_key": "basic",
+        "group_label": "基础战斗",
+        "label": "仇恨值",
+        "value": 0,
+        "format": "scalar",
+        "attr_type": "Hatred"
+      },
+      {
+        "group_key": "poise",
+        "group_label": "失衡",
+        "label": "失衡值上限",
+        "value": 60,
+        "format": "scalar",
+        "attr_type": "MaxPoise"
+      },
+      {
+        "group_key": "poise",
+        "group_label": "失衡",
+        "label": "失衡承伤倍率",
+        "value": 1,
+        "format": "multiplier",
+        "attr_type": "BreakingAttackDamageTakenScalar"
+      },
+      {
+        "group_key": "poise",
+        "group_label": "失衡",
+        "label": "失衡恢复时间",
+        "value": 6,
+        "format": "seconds",
+        "attr_type": "PoiseRecTime"
+      },
+      {
+        "group_key": "superarmor",
+        "group_label": "抗打断",
+        "label": "初始抗打断",
+        "value": 0,
+        "format": "int",
+        "attr_type": "initialSuperArmor"
+      },
+      {
+        "group_key": "superarmor",
+        "group_label": "抗打断",
+        "label": "失衡时抗打断",
+        "value": 0,
+        "format": "int",
+        "attr_type": "zeroPoiseSuperArmor"
+      },
+      {
+        "group_key": "superarmor",
+        "group_label": "抗打断",
+        "label": "韧性归零抗打断",
+        "value": 0,
+        "format": "int",
+        "attr_type": "superArmorWhenResilienceZero"
+      },
+      {
+        "group_key": "superarmor",
+        "group_label": "抗打断",
+        "label": "处决技力回复",
+        "value": 25,
+        "format": "scalar",
+        "attr_type": "breakingAttackedAtbObtain"
+      },
+      {
+        "group_key": "resilience",
+        "group_label": "韧性",
+        "label": "最大韧性",
+        "value": 65,
+        "format": "scalar",
+        "attr_type": "maxResilience"
+      },
+      {
+        "group_key": "resilience",
+        "group_label": "韧性",
+        "label": "受伤韧性降低",
+        "value": 0,
+        "format": "scalar",
+        "attr_type": "resilienceDecreaseWhenHurt"
+      },
+      {
+        "group_key": "resilience",
+        "group_label": "韧性",
+        "label": "韧性回复值",
+        "value": 0,
+        "format": "scalar",
+        "attr_type": "resilienceRecover"
+      },
+      {
+        "group_key": "resilience",
+        "group_label": "韧性",
+        "label": "韧性回复间隔",
+        "value": 0,
+        "format": "seconds",
+        "attr_type": "resilienceRecoverInterval"
+      },
+      {
+        "group_key": "resilience",
+        "group_label": "韧性",
+        "label": "韧性完全回复时长",
+        "value": 0,
+        "format": "seconds",
+        "attr_type": "resilienceFullRecoverTime"
+      },
+      {
+        "group_key": "misc",
+        "group_label": "其他",
+        "label": "对塔攻击值",
+        "value": 5,
+        "format": "scalar",
+        "attr_type": "attackValueAgainstTower"
+      },
+      {
+        "group_key": "misc",
+        "group_label": "其他",
+        "label": "击退系数",
+        "value": 1,
+        "format": "scalar",
+        "attr_type": "pushedBackCoefficient"
+      }
+    ],
+    "poise_knots": []
+  },
+  "resistances": [
+    {
+      "element": "Physical",
+      "element_label": "物理",
+      "percent": 100,
+      "scalar": 1
+    },
+    {
+      "element": "Fire",
+      "element_label": "灼热",
+      "percent": 100,
+      "scalar": 1
+    },
+    {
+      "element": "Pulse",
+      "element_label": "电磁",
+      "percent": 100,
+      "scalar": 1
+    },
+    {
+      "element": "Cryst",
+      "element_label": "寒冷",
+      "percent": 100,
+      "scalar": 1
+    },
+    {
+      "element": "Natural",
+      "element_label": "自然",
+      "percent": 100,
+      "scalar": 1
+    },
+    {
+      "element": "Ether",
+      "element_label": "超域",
+      "percent": 100,
+      "scalar": 1
+    }
+  ],
+  "abilities": [
+    {
+      "ordinal": 1,
+      "ability_id": "eny_0057_dog_ability_1",
+      "description": "温顺的生物，较为胆小，不会主动攻击干员。"
+    }
+  ],
+  "drops": [
+    {
+      "name": "兽肉",
+      "item_id": "item_drop_dog_1",
+      "rarity": 1
+    }
+  ],
+  "tips": [],
+  "variants": []
+}

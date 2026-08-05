@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "template": "装备档案",
+    "article_id": "85f2c71d-4bd2-4fd1-b0c2-2d31b59c9ce1",
+    "updated_at": "2026-07-19T15:05:55.263Z"
+  },
+  "basic": {
+    "name": "壤流短棍",
+    "rarity": 5,
+    "part_type": "EDC",
+    "slot_type": "配件",
+    "group_name": "壤流装备组",
+    "suit_name": "壤流",
+    "description": "本装备由宏山选剑局设计，使用集成工业系统制造，能够提高使用者的作战能力。",
+    "flavor": "拟用作武陵城巡卫武器的实验型装备。\n轻便的短棍……不用怀疑，必要时它可以轻松打断野兽的骨头。",
+    "icon_url": "https://assets.fz.wiki/c3338b6b5f3d4283/4a84ce10ed945081.png",
+    "categories": [
+      "五星装备",
+      "装备",
+      "配件"
+    ]
+  },
+  "suit": {
+    "group_name": "壤流装备组",
+    "piece_count": 3,
+    "self_equip_id": "item_equip_t4_suit_expend_spell01_edc_02",
+    "bonus": {
+      "name": "壤流",
+      "levels": [
+        {
+          "desc": "攻击提升 10% · 法伤提升 15% · 持续 25s · 最大层数 3",
+          "level": 1,
+          "values": {
+            "atk_up": 0.1,
+            "duration": 25.0,
+            "max_stack": 3.0,
+            "spell_dmg_up": 0.15
+          }
+        }
+      ],
+      "skillId": "passive_equipsuit_expend_spell01",
+      "paramTable": {
+        "rows": [
+          {
+            "label": "攻击提升",
+            "values": [
+              "10%"
+            ]
+          },
+          {
+            "label": "法伤提升",
+            "values": [
+              "15%"
+            ]
+          },
+          {
+            "label": "持续",
+            "values": [
+              "25s"
+            ]
+          },
+          {
+            "label": "最大层数",
+            "values": [
+              "3"
+            ]
+          }
+        ],
+        "levels": [
+          1
+        ],
+        "levelLabels": [
+          "Lv1"
+        ]
+      },
+      "description": "3件套组效果：装备者攻击力<@ba.vup>+{atk_up:0%}</>。\n装备者每次<#ba.consume>消耗</><#ba.conduct>导电</>或<#ba.corrupt>腐蚀</>后，根据<#ba.statuslevel>异常等级</>获得相同层数的强化状态，每层使<@ba.pulse>电磁伤害</>和<@ba.natur>自然伤害</><@ba.vup>+{spell_dmg_up:0%}</>，持续{duration}秒。强化状态最多存在{max_stack}层，每层单独计算持续时间。"
+    },
+    "pieces": [
+      {
+        "name": "壤流轻甲",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_expend_spell01_body_02"
+      },
+      {
+        "name": "壤流护手",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_expend_spell01_hand_02"
+      },
+      {
+        "name": "壤流短棍",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_expend_spell01_edc_02"
+      }
+    ]
+  },
+  "stats": {
+    "enhance_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rows": [
+      {
+        "label": "防御力",
+        "attr_type": "Def",
+        "is_base": true,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          21.0,
+          21.0,
+          21.0,
+          21.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "意志",
+        "attr_type": "Will",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          32.0,
+          35.0,
+          38.0,
+          41.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "智识",
+        "attr_type": "Wisd",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          21.0,
+          23.0,
+          25.0,
+          27.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "战技伤害加成",
+        "attr_type": "NormalSkillDamageIncrease",
+        "is_base": false,
+        "is_percent": true,
+        "enhances": true,
+        "values": [
+          0.414,
+          0.4554,
+          0.49679999999999996,
+          0.5382
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      }
+    ]
+  },
+  "materials": {
+    "unlock_type": "EquipFormulaChest",
+    "unlock_key": "reward_eco_map02_lv004_int_83311",
+    "gold": 0,
+    "items": []
+  }
+}

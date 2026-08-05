@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "template": "装备档案",
+    "article_id": "7d3e6ea0-4271-4989-8f1a-221b14e71e13",
+    "updated_at": "2026-07-19T15:06:19.665Z"
+  },
+  "basic": {
+    "name": "简易护服",
+    "rarity": 1,
+    "part_type": "Body",
+    "slot_type": "护甲",
+    "group_name": "简易独立装备组",
+    "suit_name": "",
+    "description": "本装备为临时制品，未通过终末地工业产品检验流程验证，防御能力有限。\n",
+    "flavor": "结构简单的初级护甲。\n它在心理上给人的鼓励远大于它的实际防御性能。",
+    "icon_url": "https://assets.fz.wiki/c3338b6b5f3d4283/475c8f5f6d62c26e.png",
+    "categories": [
+      "护甲",
+      "装备"
+    ]
+  },
+  "suit": {
+    "group_name": "简易独立装备组",
+    "piece_count": 4,
+    "self_equip_id": "item_equip_t0_parts_tundra01_body_02",
+    "bonus": null,
+    "pieces": [
+      {
+        "name": "简易护甲",
+        "rarity": 1,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t0_parts_tundra01_body_01"
+      },
+      {
+        "name": "简易护服",
+        "rarity": 1,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t0_parts_tundra01_body_02"
+      },
+      {
+        "name": "简易手甲",
+        "rarity": 1,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t0_parts_tundra01_hand_01"
+      },
+      {
+        "name": "简易护手",
+        "rarity": 1,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t0_parts_tundra01_hand_02"
+      }
+    ]
+  },
+  "stats": {
+    "enhance_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rows": [
+      {
+        "label": "防御力",
+        "attr_type": "Def",
+        "is_base": true,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          8.0,
+          8.0,
+          8.0,
+          8.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "智识",
+        "attr_type": "Wisd",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          15.0,
+          15.0,
+          15.0,
+          15.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "意志",
+        "attr_type": "Will",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          10.0,
+          10.0,
+          10.0,
+          10.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "生命值",
+        "attr_type": "MaxHp",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          46.3273721859878,
+          46.3273721859878,
+          46.3273721859878,
+          46.3273721859878
+        ],
+        "modifier_type": "BaseFinalAddition",
+        "composite_attr": ""
+      }
+    ]
+  },
+  "materials": {
+    "unlock_type": "DefaultUnlock",
+    "unlock_key": "",
+    "gold": 0,
+    "items": []
+  }
+}

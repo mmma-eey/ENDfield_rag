@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "template": "装备档案",
+    "article_id": "c2917c8e-bbf3-431a-b1ea-668a74444e77",
+    "updated_at": "2026-07-19T15:05:58.071Z"
+  },
+  "basic": {
+    "name": "50式应龙护手",
+    "rarity": 5,
+    "part_type": "Hand",
+    "slot_type": "护手",
+    "group_name": "50式应龙装备组",
+    "suit_name": "50式应龙",
+    "description": "本装备由宏山选剑局设计，使用集成工业系统制造，能够提高使用者的作战能力。",
+    "flavor": "应龙特勤队所配装备的民用版，缺少了关键力量，但具备了普适性。\n“我并不觊觎那份被赠与的力量，我离它十分遥远，我该成为支撑他们的骨骼。”",
+    "icon_url": "https://assets.fz.wiki/c3338b6b5f3d4283/e6feccb52cbebcc9.png",
+    "categories": [
+      "五星装备",
+      "护手",
+      "装备"
+    ]
+  },
+  "suit": {
+    "group_name": "50式应龙装备组",
+    "piece_count": 11,
+    "self_equip_id": "item_equip_t4_suit_atk02_hand_01",
+    "bonus": {
+      "name": "50式应龙",
+      "levels": [
+        {
+          "desc": "攻击提升 15% · 伤害提升 20% · 最大层数 3",
+          "level": 1,
+          "values": {
+            "atk_up": 0.15,
+            "dmg_up": 0.2,
+            "max_stack": 3.0
+          }
+        }
+      ],
+      "skillId": "passive_equipsuit_atk_02",
+      "paramTable": {
+        "rows": [
+          {
+            "label": "攻击提升",
+            "values": [
+              "15%"
+            ]
+          },
+          {
+            "label": "伤害提升",
+            "values": [
+              "20%"
+            ]
+          },
+          {
+            "label": "最大层数",
+            "values": [
+              "3"
+            ]
+          }
+        ],
+        "levels": [
+          1
+        ],
+        "levelLabels": [
+          "Lv1"
+        ]
+      },
+      "description": "3件套组效果：装备者攻击力<@ba.vup>+{atk_up:0%}</>。\n当小队内任意干员施放战技时，装备者获得一层<@ba.key>应龙之锐</>，使得该干员下一次连携技伤害<@ba.vup>+{dmg_up:0%}</>，<@ba.key>应龙之锐</>最多叠加{max_stack:0}层。"
+    },
+    "pieces": [
+      {
+        "name": "50式应龙重甲",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_atk02_body_01"
+      },
+      {
+        "name": "50式应龙重甲·壹型",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_atk02_body_02"
+      },
+      {
+        "name": "50式应龙重甲·贰型",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_atk02_body_03"
+      },
+      {
+        "name": "50式应龙轻甲",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_atk02_body_04"
+      },
+      {
+        "name": "50式应龙护手",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_atk02_hand_01"
+      },
+      {
+        "name": "50式应龙护手·壹型",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_atk02_hand_02"
+      },
+      {
+        "name": "50式应龙雷达",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_atk02_edc_01"
+      },
+      {
+        "name": "50式应龙雷达·壹型",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_atk02_edc_02"
+      },
+      {
+        "name": "50式应龙雷达·贰型",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_atk02_edc_03"
+      },
+      {
+        "name": "50式应龙短刃",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_atk02_edc_04"
+      },
+      {
+        "name": "50式应龙短刃·壹型",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_atk02_edc_05"
+      }
+    ]
+  },
+  "stats": {
+    "enhance_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rows": [
+      {
+        "label": "防御力",
+        "attr_type": "Def",
+        "is_base": true,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          42.0,
+          42.0,
+          42.0,
+          42.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "敏捷",
+        "attr_type": "Agi",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          65.0,
+          71.0,
+          78.0,
+          84.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "智识",
+        "attr_type": "Wisd",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          43.0,
+          47.0,
+          51.0,
+          55.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "连携技伤害加成",
+        "attr_type": "ComboSkillDamageIncrease",
+        "is_base": false,
+        "is_percent": true,
+        "enhances": true,
+        "values": [
+          0.345,
+          0.3795,
+          0.414,
+          0.44849999999999995
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      }
+    ]
+  },
+  "materials": {
+    "unlock_type": "EquipFormulaChest",
+    "unlock_key": "reward_eco_map02_lv001_int_360036",
+    "gold": 0,
+    "items": []
+  }
+}

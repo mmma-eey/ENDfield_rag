@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "template": "装备档案",
+    "article_id": "019f68f1-e928-7cc0-96c8-1ba9f7738cc7",
+    "updated_at": "2026-07-19T15:05:57.799Z"
+  },
+  "basic": {
+    "name": "涉渊手套",
+    "rarity": 5,
+    "part_type": "Hand",
+    "slot_type": "护手",
+    "group_name": "涉渊装备组",
+    "suit_name": "",
+    "description": "本装备由宏山选剑局设计，使用集成工业系统制造，能够提高使用者的作战能力。",
+    "flavor": "选剑局为了需要频繁往复危险区域的作战人员所设计的特殊装备组。\n“吾展旗旌，以备裹骸。”",
+    "icon_url": "https://assets.fz.wiki/c3338b6b5f3d4283/c95c258011ca4692.png",
+    "categories": [
+      "五星装备",
+      "护手",
+      "装备"
+    ]
+  },
+  "suit": {
+    "group_name": "涉渊装备组",
+    "piece_count": 5,
+    "self_equip_id": "item_equip_t4_parts_wuling02_hand_02",
+    "bonus": null,
+    "pieces": [
+      {
+        "name": "涉渊重甲",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_parts_wuling02_body_01"
+      },
+      {
+        "name": "涉渊轻甲",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_parts_wuling02_body_02"
+      },
+      {
+        "name": "涉渊护手",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_parts_wuling02_hand_01"
+      },
+      {
+        "name": "涉渊手套",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_parts_wuling02_hand_02"
+      },
+      {
+        "name": "涉渊护甲板",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_parts_wuling02_edc_01"
+      }
+    ]
+  },
+  "stats": {
+    "enhance_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rows": [
+      {
+        "label": "防御力",
+        "attr_type": "Def",
+        "is_base": true,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          42.0,
+          42.0,
+          42.0,
+          42.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "意志",
+        "attr_type": "Will",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          86.0,
+          94.0,
+          103.0,
+          111.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "战技伤害加成",
+        "attr_type": "NormalSkillDamageIncrease",
+        "is_base": false,
+        "is_percent": true,
+        "enhances": true,
+        "values": [
+          0.36,
+          0.396,
+          0.432,
+          0.46799999999999997
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      }
+    ]
+  },
+  "materials": {
+    "unlock_type": "StarShop",
+    "unlock_key": "shop_item_shop_trstar_4",
+    "gold": 0,
+    "items": []
+  }
+}

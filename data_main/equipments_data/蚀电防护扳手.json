@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "template": "装备档案",
+    "article_id": "48a3be87-9335-4e1b-abd4-24bb8de63588",
+    "updated_at": "2026-07-19T15:06:16.041Z"
+  },
+  "basic": {
+    "name": "蚀电防护扳手",
+    "rarity": 3,
+    "part_type": "EDC",
+    "slot_type": "配件",
+    "group_name": "蚀电防护装备组",
+    "suit_name": "蚀电防护",
+    "description": "本装备由终末地工业自研，使用集成工业系统制造，能够提高使用者的作战能力。",
+    "flavor": "线条流畅的扳手。\n“用来当武器意外顺手！”——某位不愿透露姓名的工人。",
+    "icon_url": "https://assets.fz.wiki/c3338b6b5f3d4283/a336b281089cd0a1.png",
+    "categories": [
+      "三星装备",
+      "装备",
+      "配件"
+    ]
+  },
+  "suit": {
+    "group_name": "蚀电防护装备组",
+    "piece_count": 8,
+    "self_equip_id": "item_equip_t2_suit_will01_edc_01",
+    "bonus": {
+      "name": "蚀电防护",
+      "levels": [
+        {
+          "desc": "will_up 5000% · hp_ratio 50% · 治疗提升 30%",
+          "level": 1,
+          "values": {
+            "heal_up": 0.3,
+            "will_up": 50.0,
+            "hp_ratio": 0.5
+          }
+        }
+      ],
+      "skillId": "passive_equipsuit_will_01",
+      "paramTable": {
+        "rows": [
+          {
+            "label": "will_up",
+            "values": [
+              "5000%"
+            ]
+          },
+          {
+            "label": "hp_ratio",
+            "values": [
+              "50%"
+            ]
+          },
+          {
+            "label": "治疗提升",
+            "values": [
+              "30%"
+            ]
+          }
+        ],
+        "levels": [
+          1
+        ],
+        "levelLabels": [
+          "Lv1"
+        ]
+      },
+      "description": "3件套组效果：装备者意志<@ba.vup>+{will_up}</>。\n当装备者生命值低于{hp_ratio:0%}时，造成的治疗效果<@ba.vup>+{heal_up:0%}</>。"
+    },
+    "pieces": [
+      {
+        "name": "蚀电防护背心",
+        "rarity": 3,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t2_suit_will01_body_01"
+      },
+      {
+        "name": "蚀电防护手套",
+        "rarity": 3,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t2_suit_will01_hand_01"
+      },
+      {
+        "name": "蚀电防护扳手",
+        "rarity": 3,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t2_suit_will01_edc_01"
+      },
+      {
+        "name": "蚀电防护电池",
+        "rarity": 3,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t2_suit_will01_edc_02"
+      },
+      {
+        "name": "蚀电防护背心·壹型",
+        "rarity": 4,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t3_suit_will01_body_01"
+      },
+      {
+        "name": "蚀电防护手套·壹型",
+        "rarity": 4,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t3_suit_will01_hand_01"
+      },
+      {
+        "name": "蚀电防护电池·壹型",
+        "rarity": 4,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t3_suit_will01_edc_01"
+      },
+      {
+        "name": "蚀电防护扳手·壹型",
+        "rarity": 4,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t3_suit_will01_edc_02"
+      }
+    ]
+  },
+  "stats": {
+    "enhance_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rows": [
+      {
+        "label": "防御力",
+        "attr_type": "Def",
+        "is_base": true,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          10.799999999999999,
+          10.799999999999999,
+          10.799999999999999,
+          10.799999999999999
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "意志",
+        "attr_type": "Will",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          21.0,
+          21.0,
+          21.0,
+          21.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "攻击力",
+        "attr_type": "Atk",
+        "is_base": false,
+        "is_percent": true,
+        "enhances": false,
+        "values": [
+          0.105,
+          0.105,
+          0.105,
+          0.105
+        ],
+        "modifier_type": "BaseMultiplier",
+        "composite_attr": ""
+      }
+    ]
+  },
+  "materials": {
+    "unlock_type": "AdventureLevel",
+    "unlock_key": "",
+    "gold": 0,
+    "items": []
+  }
+}

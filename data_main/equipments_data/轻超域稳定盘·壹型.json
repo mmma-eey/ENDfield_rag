@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "template": "装备档案",
+    "article_id": "553b71f7-e32f-4f33-8952-1a3bbbf2f890",
+    "updated_at": "2026-07-19T15:05:56.565Z"
+  },
+  "basic": {
+    "name": "轻超域稳定盘·壹型",
+    "rarity": 5,
+    "part_type": "EDC",
+    "slot_type": "配件",
+    "group_name": "轻超域装备组",
+    "suit_name": "轻超域",
+    "description": "本装备由轻超域技术实验室设计，使用集成工业系统制造，能够提高使用者的作战能力。",
+    "flavor": "轻巧的实验型防护装备。\n“为了避免参数混乱导致您像气球一样飘向高空，请随身携带配套稳定盘，谢谢。”",
+    "icon_url": "https://assets.fz.wiki/c3338b6b5f3d4283/609e9b7c457efbe0.png",
+    "categories": [
+      "五星装备",
+      "装备",
+      "配件"
+    ]
+  },
+  "suit": {
+    "group_name": "轻超域装备组",
+    "piece_count": 7,
+    "self_equip_id": "item_equip_t4_suit_poise01_edc_03",
+    "bonus": {
+      "name": "轻超域",
+      "levels": [
+        {
+          "desc": "攻击提升 8% · 物伤提升 8% · 持续 15s · 最大层数 4 · stack_cond 4 · phy_dmg_up2 16% · 持续时间 10",
+          "level": 1,
+          "values": {
+            "atk_up": 0.08,
+            "duration": 15.0,
+            "duration2": 10.0,
+            "max_stack": 4.0,
+            "phy_dmg_up": 0.08,
+            "stack_cond": 4.0,
+            "phy_dmg_up2": 0.16
+          }
+        }
+      ],
+      "skillId": "passive_equipsuit_poisebreak_01",
+      "paramTable": {
+        "rows": [
+          {
+            "label": "攻击提升",
+            "values": [
+              "8%"
+            ]
+          },
+          {
+            "label": "物伤提升",
+            "values": [
+              "8%"
+            ]
+          },
+          {
+            "label": "持续",
+            "values": [
+              "15s"
+            ]
+          },
+          {
+            "label": "最大层数",
+            "values": [
+              "4"
+            ]
+          },
+          {
+            "label": "stack_cond",
+            "values": [
+              "4"
+            ]
+          },
+          {
+            "label": "phy_dmg_up2",
+            "values": [
+              "16%"
+            ]
+          },
+          {
+            "label": "持续时间",
+            "values": [
+              "10"
+            ]
+          }
+        ],
+        "levels": [
+          1
+        ],
+        "levelLabels": [
+          "Lv1"
+        ]
+      },
+      "description": "3件套组效果：装备者攻击力<@ba.vup>+{atk_up:0%}</>。\n装备者施加<#ba.noguard>破防</>后，<@ba.pd>物理伤害</><@ba.vup>+{phy_dmg_up:0%}</>，持续{duration}秒，最多可叠加{max_stack:0}层。若使目标达到{stack_cond:0}层<#ba.noguard>破防</>，物理伤害额外<@ba.vup>+{phy_dmg_up2:0%}</>，持续{duration2}秒，该效果无法叠加。"
+    },
+    "pieces": [
+      {
+        "name": "轻超域护板",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_poise01_body_01"
+      },
+      {
+        "name": "轻超域护手",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_poise01_hand_01"
+      },
+      {
+        "name": "轻超域轻护手",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_poise01_hand_02"
+      },
+      {
+        "name": "轻超域分析环",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_poise01_edc_01"
+      },
+      {
+        "name": "轻超域稳定盘",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_poise01_edc_02"
+      },
+      {
+        "name": "轻超域稳定盘·壹型",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_poise01_edc_03"
+      },
+      {
+        "name": "轻超域腕表",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_poise01_edc_04"
+      }
+    ]
+  },
+  "stats": {
+    "enhance_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rows": [
+      {
+        "label": "防御力",
+        "attr_type": "Def",
+        "is_base": true,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          21.0,
+          21.0,
+          21.0,
+          21.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "敏捷",
+        "attr_type": "Agi",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          32.0,
+          35.0,
+          38.0,
+          41.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "力量",
+        "attr_type": "Str",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          21.0,
+          23.0,
+          25.0,
+          27.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "物理伤害加成",
+        "attr_type": "PhysicalDamageIncrease",
+        "is_base": false,
+        "is_percent": true,
+        "enhances": true,
+        "values": [
+          0.22999999999999998,
+          0.253,
+          0.27599999999999997,
+          0.299
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      }
+    ]
+  },
+  "materials": {
+    "unlock_type": "DomainShop",
+    "unlock_key": "domainshop_channel_map02_1",
+    "gold": 0,
+    "items": []
+  }
+}

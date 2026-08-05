@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "template": "装备档案",
+    "article_id": "129ac8f8-ee19-4d5f-a80b-4c15a836a600",
+    "updated_at": "2026-07-19T15:06:18.107Z"
+  },
+  "basic": {
+    "name": "集成化重甲",
+    "rarity": 2,
+    "part_type": "Body",
+    "slot_type": "护甲",
+    "group_name": "集成重型装备组",
+    "suit_name": "集成重型",
+    "description": "本装备由终末地工业自研，使用集成工业系统制造，能够提高使用者的作战能力。",
+    "flavor": "结构简单的模块化重型防护装备。\n在加重加厚了所装配的护甲片后，这些重甲多半时间会被送去集成高威力铳械。",
+    "icon_url": "https://assets.fz.wiki/c3338b6b5f3d4283/9edb7536ba208082.png",
+    "categories": [
+      "护甲",
+      "装备"
+    ]
+  },
+  "suit": {
+    "group_name": "集成重型装备组",
+    "piece_count": 4,
+    "self_equip_id": "item_equip_t1_suit_stragi01_body_01",
+    "bonus": {
+      "name": "集成重型",
+      "levels": [
+        {
+          "desc": "生命提升 50000% · hp_add 100 · 冷却 5s",
+          "level": 1,
+          "values": {
+            "cd": 5.0,
+            "hp_up": 500.0,
+            "hp_add": 100.0
+          }
+        }
+      ],
+      "skillId": "passive_equipsuit_stragi_01",
+      "paramTable": {
+        "rows": [
+          {
+            "label": "生命提升",
+            "values": [
+              "50000%"
+            ]
+          },
+          {
+            "label": "hp_add",
+            "values": [
+              "100"
+            ]
+          },
+          {
+            "label": "冷却",
+            "values": [
+              "5s"
+            ]
+          }
+        ],
+        "levels": [
+          1
+        ],
+        "levelLabels": [
+          "Lv1"
+        ]
+      },
+      "description": "3件套组效果：装备者生命值<@ba.vup>+{hp_up}</>。\n当装备者击败敌人后，回复<@ba.heal>{hp_add}</>点生命值。该效果每{cd}秒最多触发一次。"
+    },
+    "pieces": [
+      {
+        "name": "集成化重甲",
+        "rarity": 2,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t1_suit_stragi01_body_01"
+      },
+      {
+        "name": "集成化手甲",
+        "rarity": 2,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t1_suit_stragi01_hand_01"
+      },
+      {
+        "name": "集成化重甲片",
+        "rarity": 2,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t1_suit_stragi01_edc_01"
+      },
+      {
+        "name": "集成化合金板",
+        "rarity": 2,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t1_suit_stragi01_edc_02"
+      }
+    ]
+  },
+  "stats": {
+    "enhance_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rows": [
+      {
+        "label": "防御力",
+        "attr_type": "Def",
+        "is_base": true,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          22.400000000000002,
+          22.400000000000002,
+          22.400000000000002,
+          22.400000000000002
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "力量",
+        "attr_type": "Str",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          30.0,
+          30.0,
+          30.0,
+          30.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "敏捷",
+        "attr_type": "Agi",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          30.0,
+          30.0,
+          30.0,
+          30.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "全伤害减免",
+        "attr_type": "Level",
+        "is_base": false,
+        "is_percent": true,
+        "enhances": false,
+        "values": [
+          0.9610764055742431,
+          0.9610764055742431,
+          0.9610764055742431,
+          0.9610764055742431
+        ],
+        "modifier_type": "BaseFinalMultiplier",
+        "composite_attr": "AllDamageTakenScalar"
+      }
+    ]
+  },
+  "materials": {
+    "unlock_type": "AdventureLevel",
+    "unlock_key": "",
+    "gold": 0,
+    "items": []
+  }
+}

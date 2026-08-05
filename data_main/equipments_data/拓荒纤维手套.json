@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "template": "装备档案",
+    "article_id": "75bcaac5-ffeb-49b3-a246-5074146720a5",
+    "updated_at": "2026-07-19T15:05:57.895Z"
+  },
+  "basic": {
+    "name": "拓荒纤维手套",
+    "rarity": 5,
+    "part_type": "Hand",
+    "slot_type": "护手",
+    "group_name": "拓荒装备组",
+    "suit_name": "拓荒",
+    "description": "本装备由北进重工支援所设计，使用集成工业系统制造，能够提高使用者的作战能力。",
+    "flavor": "拓荒者系列护甲水下作战型号——独特的纤维编织技术使手套也拥有了供氧循环功能。",
+    "icon_url": "https://assets.fz.wiki/c3338b6b5f3d4283/2508025efdf59c46.png",
+    "categories": [
+      "五星装备",
+      "护手",
+      "装备"
+    ]
+  },
+  "suit": {
+    "group_name": "拓荒装备组",
+    "piece_count": 14,
+    "self_equip_id": "item_equip_t4_suit_atb01_hand_02",
+    "bonus": {
+      "name": "拓荒",
+      "levels": [
+        {
+          "desc": "连携技冷却 85% · 伤害提升 16% · 持续 15s",
+          "level": 1,
+          "values": {
+            "dmg_up": 0.16,
+            "duration": 15.0,
+            "comboskill_cooldown": 0.85
+          }
+        }
+      ],
+      "skillId": "passive_equipsuit_combosuit_01",
+      "paramTable": {
+        "rows": [
+          {
+            "label": "连携技冷却",
+            "values": [
+              "85%"
+            ]
+          },
+          {
+            "label": "伤害提升",
+            "values": [
+              "16%"
+            ]
+          },
+          {
+            "label": "持续",
+            "values": [
+              "15s"
+            ]
+          }
+        ],
+        "levels": [
+          1
+        ],
+        "levelLabels": [
+          "Lv1"
+        ]
+      },
+      "description": "3件套组效果：装备者连携技冷却缩减<@ba.vup>+{1-comboskill_cooldown:0%}</>。\n装备者通过技能恢复技力后，全队造成的伤害<@ba.vup>+{dmg_up:0%}</>，持续{duration}秒，该效果无法叠加。"
+    },
+    "pieces": [
+      {
+        "name": "拓荒护甲",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_atb01_body_01"
+      },
+      {
+        "name": "拓荒护甲·壹型",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_atb01_body_02"
+      },
+      {
+        "name": "拓荒护甲·贰型",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_atb01_body_03"
+      },
+      {
+        "name": "拓荒护甲·叁型",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_atb01_body_04"
+      },
+      {
+        "name": "拓荒护服",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_atb01_body_05"
+      },
+      {
+        "name": "拓荒耐蚀手套",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_atb01_hand_01"
+      },
+      {
+        "name": "拓荒纤维手套",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_atb01_hand_02"
+      },
+      {
+        "name": "拓荒通信器",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_atb01_edc_01"
+      },
+      {
+        "name": "拓荒通信器·壹型",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_atb01_edc_02"
+      },
+      {
+        "name": "拓荒分析仪",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_atb01_edc_03"
+      },
+      {
+        "name": "拓荒增量供氧栓",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_atb01_edc_04"
+      },
+      {
+        "name": "拓荒供氧栓",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_atb01_edc_05"
+      },
+      {
+        "name": "拓荒纤维手套·壹型",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_atb01_hand_03"
+      },
+      {
+        "name": "拓荒增量供氧栓·壹型",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_atb01_edc_06"
+      }
+    ]
+  },
+  "stats": {
+    "enhance_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rows": [
+      {
+        "label": "防御力",
+        "attr_type": "Def",
+        "is_base": true,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          42.0,
+          42.0,
+          42.0,
+          42.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "意志",
+        "attr_type": "Will",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          65.0,
+          71.0,
+          78.0,
+          84.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "力量",
+        "attr_type": "Str",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          43.0,
+          47.0,
+          51.0,
+          55.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "所有技能伤害加成",
+        "attr_type": "Level",
+        "is_base": false,
+        "is_percent": true,
+        "enhances": true,
+        "values": [
+          0.23,
+          0.25300000000000006,
+          0.276,
+          0.29900000000000004
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": "AllSkillDamageIncrease"
+      }
+    ]
+  },
+  "materials": {
+    "unlock_type": "EquipFormulaChest",
+    "unlock_key": "reward_eco_map02_lv003_int_295",
+    "gold": 0,
+    "items": []
+  }
+}

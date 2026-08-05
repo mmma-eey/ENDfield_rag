@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "template": "装备档案",
+    "article_id": "3747d65a-39f5-49b5-8e5f-91f34d91b3a2",
+    "updated_at": "2026-07-19T15:06:17.886Z"
+  },
+  "basic": {
+    "name": "矿场防护服",
+    "rarity": 2,
+    "part_type": "Body",
+    "slot_type": "护甲",
+    "group_name": "矿场α型独立装备组",
+    "suit_name": "",
+    "description": "本装备由终末地工业自研，使用集成工业系统制造，能够提高使用者的作战能力。",
+    "flavor": "多用于矿场作业的防护装备。\n《四号谷地安全防护标准》要求劳动保护装备至少需要软性保护及硬性保护两层防护结构。",
+    "icon_url": "https://assets.fz.wiki/c3338b6b5f3d4283/a42b4dda25d20b8f.png",
+    "categories": [
+      "护甲",
+      "装备"
+    ]
+  },
+  "suit": {
+    "group_name": "矿场α型独立装备组",
+    "piece_count": 12,
+    "self_equip_id": "item_equip_t1_parts_tundra01_body_02",
+    "bonus": null,
+    "pieces": [
+      {
+        "name": "矿场护甲",
+        "rarity": 2,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t1_parts_tundra01_body_01"
+      },
+      {
+        "name": "测试型重甲",
+        "rarity": 2,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t1_parts_tundra01_body_03"
+      },
+      {
+        "name": "矿场轻甲",
+        "rarity": 2,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t1_parts_tundra01_body_05"
+      },
+      {
+        "name": "测试型重甲·壹型",
+        "rarity": 2,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t1_parts_tundra01_body_04"
+      },
+      {
+        "name": "矿场防护服",
+        "rarity": 2,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t1_parts_tundra01_body_02"
+      },
+      {
+        "name": "矿场滤尘衣",
+        "rarity": 2,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t1_parts_tundra01_body_06"
+      },
+      {
+        "name": "矿场手甲",
+        "rarity": 2,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t1_parts_tundra01_hand_01"
+      },
+      {
+        "name": "矿场护腕",
+        "rarity": 2,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t1_parts_tundra01_hand_02"
+      },
+      {
+        "name": "矿场手套",
+        "rarity": 2,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t1_parts_tundra01_hand_03"
+      },
+      {
+        "name": "矿场护手",
+        "rarity": 2,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t1_parts_tundra01_hand_04"
+      },
+      {
+        "name": "应急联络仪",
+        "rarity": 2,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t1_parts_tundra01_edc_01"
+      },
+      {
+        "name": "应急压缩核",
+        "rarity": 2,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t1_parts_tundra01_edc_02"
+      }
+    ]
+  },
+  "stats": {
+    "enhance_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rows": [
+      {
+        "label": "防御力",
+        "attr_type": "Def",
+        "is_base": true,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          16.0,
+          16.0,
+          16.0,
+          16.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "智识",
+        "attr_type": "Wisd",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          27.0,
+          27.0,
+          27.0,
+          27.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "意志",
+        "attr_type": "Will",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          18.0,
+          18.0,
+          18.0,
+          18.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "生命值",
+        "attr_type": "MaxHp",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          125.3763938565117,
+          125.3763938565117,
+          125.3763938565117,
+          125.3763938565117
+        ],
+        "modifier_type": "BaseFinalAddition",
+        "composite_attr": ""
+      }
+    ]
+  },
+  "materials": {
+    "unlock_type": "AdventureLevel",
+    "unlock_key": "",
+    "gold": 0,
+    "items": []
+  }
+}

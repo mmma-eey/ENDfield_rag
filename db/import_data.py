@@ -16,6 +16,77 @@ DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__
                         "data_main", "operator_data")
 
 
+# 元素口语别名（与 term_mappings 一致：火→灼热、冰→寒冷、雷→电磁、毒→自然）
+ELEMENT_ALIAS = {"灼热": "火", "寒冷": "冰", "电磁": "雷", "自然": "毒"}
+
+
+def build_operator_chunks(data: dict) -> list[tuple[str, str]]:
+    """生成干员知识切片（内容前缀干员名，保证 BM25/向量可被名字锚定）"""
+    basic = data["basic"]
+    name = basic["name"]
+    chunks = []
+
+    # 干员画像（元素/职业/星级等标签，供元素、职业类查询检索）
+    profile_parts = [f"{name}，{basic['rarity']}星{basic['profession']}干员"]
+    if basic.get("sub_profession"):
+        profile_parts[-1] += f"·{basic['sub_profession']}"
+    if basic.get("element"):
+        alias = ELEMENT_ALIAS.get(basic["element"])
+        profile_parts.append(f"元素{basic['element']}" + (f"（{alias}/{alias}队）" if alias else ""))
+    if basic.get("weapon_type"):
+        profile_parts.append(f"武器类型{basic['weapon_type']}")
+    details = data.get("details", {})
+    if details.get("主属性"):
+        profile_parts.append(f"主属性{details['主属性']}")
+    if details.get("副属性"):
+        profile_parts.append(f"副属性{details['副属性']}")
+    if basic.get("faction"):
+        profile_parts.append(f"所属{basic['faction']}")
+    chunks.append(("operator_profile", "，".join(profile_parts) + "。"))
+
+    # bio
+    if data.get("bio"):
+        chunks.append(("bio", f"{name}的简介：{data['bio']}"))
+
+    # 技能描述
+    for sk in data.get("skills", []):
+        desc = sk.get("description", "")
+        if desc:
+            chunks.append(("skill", f"{name}的技能{sk['name']}（{sk.get('type', '')}）：{desc}"))
+
+    # 天赋描述
+    for t in data.get("talents", []):
+        desc = t.get("desc", "")
+        if desc:
+            chunks.append(("talent", f"{name}的天赋{t['name']}（Lv{t.get('level', '')}）：{desc}"))
+
+    # 后勤
+    for l in data.get("logistics", []):
+        desc = l.get("desc", "")
+        if desc:
+            chunks.append(("logistic", f"{name}的后勤{l['name']}：{desc}"))
+
+    # 档案
+    for a in data.get("archive_texts", []):
+        body = a.get("body", "")
+        if body:
+            chunks.append(("archive", f"{name}的档案-{a['title']}：{body}"))
+
+    # 语音
+    for v in data.get("voice_lines", []):
+        text = v.get("text", "")
+        if text:
+            chunks.append(("voice", f"{name}的语音-{v['scene']}：{text}"))
+
+    # 专长
+    for s in data.get("specialties", []):
+        desc = s.get("desc", "")
+        if desc:
+            chunks.append(("specialty", f"{name}的专长{s['name']}：{desc}"))
+
+    return chunks
+
+
 def import_operator(session, data: dict):
     article_id = data["meta"]["article_id"]
     basic = data["basic"]
@@ -137,47 +208,7 @@ def import_operator(session, data: dict):
         ))
 
     # ---- 知识切片（向量库文本，embedding 后续 Phase 填充）----
-    chunks = []
-
-    # bio
-    if data.get("bio"):
-        chunks.append(("bio", data["bio"]))
-
-    # 技能描述
-    for sk in data.get("skills", []):
-        desc = sk.get("description", "")
-        if desc:
-            chunks.append(("skill", f"{sk['name']}（{sk.get('type', '')}）：{desc}"))
-
-    # 天赋描述
-    for t in data.get("talents", []):
-        desc = t.get("desc", "")
-        if desc:
-            chunks.append(("talent", f"{t['name']}（Lv{t.get('level', '')}）：{desc}"))
-
-    # 后勤
-    for l in data.get("logistics", []):
-        desc = l.get("desc", "")
-        if desc:
-            chunks.append(("logistic", f"{l['name']}：{desc}"))
-
-    # 档案
-    for a in data.get("archive_texts", []):
-        body = a.get("body", "")
-        if body:
-            chunks.append(("archive", f"{a['title']}：{body}"))
-
-    # 语音
-    for v in data.get("voice_lines", []):
-        text = v.get("text", "")
-        if text:
-            chunks.append(("voice", f"{v['scene']}：{text}"))
-
-    # 专长
-    for s in data.get("specialties", []):
-        desc = s.get("desc", "")
-        if desc:
-            chunks.append(("specialty", f"{s['name']}：{desc}"))
+    chunks = build_operator_chunks(data)
 
     for ctype, ctext in chunks:
         session.add(KnowledgeChunk(

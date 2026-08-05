@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "template": "装备档案",
+    "article_id": "7e50ff62-ae50-4b78-9788-f001cd56a992",
+    "updated_at": "2026-07-19T15:06:02.955Z"
+  },
+  "basic": {
+    "name": "阿伯莉重甲",
+    "rarity": 4,
+    "part_type": "Body",
+    "slot_type": "护甲",
+    "group_name": "阿伯莉遗声装备组",
+    "suit_name": "阿伯莉遗声",
+    "description": "本装备由特里格拉夫军工厂设计，使用集成工业系统制造，能够提高使用者的作战能力。",
+    "flavor": "针对阿伯莉采石场作业情况做出了调整的新型防护装甲。\n挖掘前文明遗物的过程中，遭遇的情况通常是多变的、突发的。因此作业中使用的装备必须兼顾防御性、灵活性，以及足够强的攻击能力。",
+    "icon_url": "https://assets.fz.wiki/c3338b6b5f3d4283/62eed046a2d7310b.png",
+    "categories": [
+      "四星装备",
+      "护甲",
+      "装备"
+    ]
+  },
+  "suit": {
+    "group_name": "阿伯莉遗声装备组",
+    "piece_count": 11,
+    "self_equip_id": "item_equip_t3_suit_atk01_body_01",
+    "bonus": {
+      "name": "阿伯莉遗声",
+      "levels": [
+        {
+          "desc": "伤害提升 24% · 攻击提升 5% · 持续 15s",
+          "level": 1,
+          "values": {
+            "atk_up": 0.05,
+            "dmg_up": 0.24,
+            "duration": 15.0
+          }
+        }
+      ],
+      "skillId": "passive_equipsuit_atk_01",
+      "paramTable": {
+        "rows": [
+          {
+            "label": "伤害提升",
+            "values": [
+              "24%"
+            ]
+          },
+          {
+            "label": "攻击提升",
+            "values": [
+              "5%"
+            ]
+          },
+          {
+            "label": "持续",
+            "values": [
+              "15s"
+            ]
+          }
+        ],
+        "levels": [
+          1
+        ],
+        "levelLabels": [
+          "Lv1"
+        ]
+      },
+      "description": "3件套组效果：装备者所有技能伤害<@ba.vup>+{dmg_up:0%}</>。\n当装备者施放战技、连携技、终结技时，分别<@ba.vup>+{atk_up:0%}</>攻击力，持续{duration}秒。三种增益状态独立存在，层数无法叠加。"
+    },
+    "pieces": [
+      {
+        "name": "阿伯莉重甲",
+        "rarity": 4,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t3_suit_atk01_body_01"
+      },
+      {
+        "name": "阿伯莉重甲·壹型",
+        "rarity": 4,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t3_suit_atk01_body_02"
+      },
+      {
+        "name": "阿伯莉轻甲",
+        "rarity": 4,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t3_suit_atk01_body_03"
+      },
+      {
+        "name": "阿伯莉轻甲·壹型",
+        "rarity": 4,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t3_suit_atk01_body_04"
+      },
+      {
+        "name": "阿伯莉手甲",
+        "rarity": 4,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t3_suit_atk01_hand_01"
+      },
+      {
+        "name": "阿伯莉紫光灯",
+        "rarity": 4,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t3_suit_atk01_edc_01"
+      },
+      {
+        "name": "阿伯莉侦听芯片",
+        "rarity": 4,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t3_suit_atk01_edc_02"
+      },
+      {
+        "name": "阿伯莉侦听芯片·壹型",
+        "rarity": 4,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t3_suit_atk01_edc_03"
+      },
+      {
+        "name": "阿伯莉照明器",
+        "rarity": 4,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t3_suit_atk01_edc_04"
+      },
+      {
+        "name": "阿伯莉传感芯片",
+        "rarity": 4,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t3_suit_atk01_edc_05"
+      },
+      {
+        "name": "阿伯莉传感芯片·壹型",
+        "rarity": 4,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t3_suit_atk01_edc_06"
+      }
+    ]
+  },
+  "stats": {
+    "enhance_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rows": [
+      {
+        "label": "防御力",
+        "attr_type": "Def",
+        "is_base": true,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          40.0,
+          40.0,
+          40.0,
+          40.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "力量",
+        "attr_type": "Str",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          61.0,
+          61.0,
+          61.0,
+          61.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "敏捷",
+        "attr_type": "Agi",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          41.0,
+          41.0,
+          41.0,
+          41.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "所有技能伤害加成",
+        "attr_type": "Level",
+        "is_base": false,
+        "is_percent": true,
+        "enhances": false,
+        "values": [
+          0.09799999999999999,
+          0.09799999999999999,
+          0.09799999999999999,
+          0.09799999999999999
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": "AllSkillDamageIncrease"
+      }
+    ]
+  },
+  "materials": {
+    "unlock_type": "AdventureLevel",
+    "unlock_key": "",
+    "gold": 0,
+    "items": []
+  }
+}

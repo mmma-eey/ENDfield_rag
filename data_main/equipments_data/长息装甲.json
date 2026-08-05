@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "source": "fz.wiki",
+    "template": "装备档案",
+    "article_id": "e5ef10b2-7d5f-4191-a112-06f2f63089f1",
+    "updated_at": "2026-07-19T15:05:51.613Z"
+  },
+  "basic": {
+    "name": "长息装甲",
+    "rarity": 5,
+    "part_type": "Body",
+    "slot_type": "护甲",
+    "group_name": "长息装备组",
+    "suit_name": "长息",
+    "description": "本装备由宏山选剑局设计，使用集成工业系统制造，能够提高使用者的作战能力。",
+    "flavor": "某位“疯狂”天师的遗世之作。\n常人或许很难将厨艺与息壤供能联系在一起，但武陵城中偏偏有人能在餐馆中获得设计灵感。",
+    "icon_url": "https://assets.fz.wiki/c3338b6b5f3d4283/167bab6598ddcc61.png",
+    "categories": [
+      "五星装备",
+      "护甲",
+      "装备"
+    ]
+  },
+  "suit": {
+    "group_name": "长息装备组",
+    "piece_count": 11,
+    "self_equip_id": "item_equip_t4_suit_usp02_body_01",
+    "bonus": {
+      "name": "长息",
+      "levels": [
+        {
+          "desc": "生命提升 100000% · 伤害提升 16% · 持续 15s",
+          "level": 1,
+          "values": {
+            "hp_up": 1000.0,
+            "dmg_up": 0.16,
+            "duration": 15.0
+          }
+        }
+      ],
+      "skillId": "passive_equipsuit_usp_02",
+      "paramTable": {
+        "rows": [
+          {
+            "label": "生命提升",
+            "values": [
+              "100000%"
+            ]
+          },
+          {
+            "label": "伤害提升",
+            "values": [
+              "16%"
+            ]
+          },
+          {
+            "label": "持续",
+            "values": [
+              "15s"
+            ]
+          }
+        ],
+        "levels": [
+          1
+        ],
+        "levelLabels": [
+          "Lv1"
+        ]
+      },
+      "description": "3件套组效果：装备者生命值<@ba.vup>+{hp_up}</>。\n装备者施加<#ba.enhance>增幅</>、<#ba.guard>庇护</>、<#ba.vulnerable>脆弱</>、<#ba.weak>虚弱</>后，使其他队友造成的伤害<@ba.vup>+{dmg_up:0%}</>，持续{duration}秒。该效果无法叠加。"
+    },
+    "pieces": [
+      {
+        "name": "长息装甲",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_usp02_body_01"
+      },
+      {
+        "name": "长息护手",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_usp02_hand_01"
+      },
+      {
+        "name": "长息护手·壹型",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_usp02_hand_02"
+      },
+      {
+        "name": "长息蓄电核",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_usp02_edc_01"
+      },
+      {
+        "name": "长息蓄电核·壹型",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_usp02_edc_02"
+      },
+      {
+        "name": "长息辅助臂",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_usp02_edc_03"
+      },
+      {
+        "name": "长息轻护甲",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_usp02_body_03"
+      },
+      {
+        "name": "长息轻护甲·壹型",
+        "rarity": 5,
+        "part_type": "Body",
+        "slot_type": "护甲",
+        "equip_id": "item_equip_t4_suit_usp02_body_04"
+      },
+      {
+        "name": "长息裹手",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_usp02_hand_03"
+      },
+      {
+        "name": "长息手套",
+        "rarity": 5,
+        "part_type": "Hand",
+        "slot_type": "护手",
+        "equip_id": "item_equip_t4_suit_usp02_hand_04"
+      },
+      {
+        "name": "长息加固板",
+        "rarity": 5,
+        "part_type": "EDC",
+        "slot_type": "配件",
+        "equip_id": "item_equip_t4_suit_usp02_edc_04"
+      }
+    ]
+  },
+  "stats": {
+    "enhance_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rows": [
+      {
+        "label": "防御力",
+        "attr_type": "Def",
+        "is_base": true,
+        "is_percent": false,
+        "enhances": false,
+        "values": [
+          56.0,
+          56.0,
+          56.0,
+          56.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "意志",
+        "attr_type": "Will",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          87.0,
+          95.0,
+          104.0,
+          113.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "智识",
+        "attr_type": "Wisd",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          58.0,
+          63.0,
+          69.0,
+          75.0
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      },
+      {
+        "label": "源石技艺强度",
+        "attr_type": "PhysicalAndSpellInflictionEnhance",
+        "is_base": false,
+        "is_percent": false,
+        "enhances": true,
+        "values": [
+          20.7,
+          22.77,
+          24.84,
+          26.91
+        ],
+        "modifier_type": "BaseAddition",
+        "composite_attr": ""
+      }
+    ]
+  },
+  "materials": {
+    "unlock_type": "EquipFormulaChest",
+    "unlock_key": "reward_eco_map02_lv001_int_23213",
+    "gold": 0,
+    "items": []
+  }
+}
