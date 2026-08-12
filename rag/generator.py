@@ -1,9 +1,9 @@
 """DeepSeek 生成器 —— 基于检索到的上下文回答问题"""
 from openai import OpenAI
 
-from rag.config import DEEPSEEK_API_KEY, DEEPSEEK_BASE_URL, LLM_MODEL
+from rag.config import DEEPSEEK_BASE_URL, LLM_MODEL, REPLY_API_KEY
 
-client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url=DEEPSEEK_BASE_URL)
+client = OpenAI(api_key=REPLY_API_KEY, base_url=DEEPSEEK_BASE_URL)
 
 from rag.prompts import GENERATION_SYSTEM_PROMPT
 

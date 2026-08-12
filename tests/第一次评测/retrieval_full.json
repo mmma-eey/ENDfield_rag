@@ -1,0 +1,5955 @@
+{
+ "total": 169,
+ "avg_source_hit": {
+  "rrf": 0.9606,
+  "minmax": 0.9586
+ },
+ "win_count": {
+  "rrf": 1,
+  "minmax": 0,
+  "tie": 168
+ },
+ "categories": {
+  "operator_stat": {
+   "total": 30,
+   "rrf_win": 0,
+   "minmax_win": 0,
+   "tie": 30,
+   "rrf_avg": 1.0,
+   "minmax_avg": 1.0
+  },
+  "operator_lore": {
+   "total": 30,
+   "rrf_win": 0,
+   "minmax_win": 0,
+   "tie": 30,
+   "rrf_avg": 1.0,
+   "minmax_avg": 1.0
+  },
+  "operator_skill": {
+   "total": 30,
+   "rrf_win": 0,
+   "minmax_win": 0,
+   "tie": 30,
+   "rrf_avg": 1.0,
+   "minmax_avg": 1.0
+  },
+  "enemy_skill": {
+   "total": 6,
+   "rrf_win": 0,
+   "minmax_win": 0,
+   "tie": 6,
+   "rrf_avg": 1.0,
+   "minmax_avg": 1.0
+  },
+  "enemy_resist": {
+   "total": 6,
+   "rrf_win": 0,
+   "minmax_win": 0,
+   "tie": 6,
+   "rrf_avg": 1.0,
+   "minmax_avg": 1.0
+  },
+  "enemy_drop": {
+   "total": 1,
+   "rrf_win": 0,
+   "minmax_win": 0,
+   "tie": 1,
+   "rrf_avg": 1.0,
+   "minmax_avg": 1.0
+  },
+  "weapon_match": {
+   "total": 10,
+   "rrf_win": 0,
+   "minmax_win": 0,
+   "tie": 10,
+   "rrf_avg": 1.0,
+   "minmax_avg": 1.0
+  },
+  "weapon_skill": {
+   "total": 10,
+   "rrf_win": 0,
+   "minmax_win": 0,
+   "tie": 10,
+   "rrf_avg": 1.0,
+   "minmax_avg": 1.0
+  },
+  "equipment_stat": {
+   "total": 12,
+   "rrf_win": 0,
+   "minmax_win": 0,
+   "tie": 12,
+   "rrf_avg": 1.0,
+   "minmax_avg": 1.0
+  },
+  "equipment_unlock": {
+   "total": 12,
+   "rrf_win": 0,
+   "minmax_win": 0,
+   "tie": 12,
+   "rrf_avg": 1.0,
+   "minmax_avg": 1.0
+  },
+  "operator_search": {
+   "total": 10,
+   "rrf_win": 0,
+   "minmax_win": 0,
+   "tie": 10,
+   "rrf_avg": 0.8,
+   "minmax_avg": 0.8
+  },
+  "equipment_search": {
+   "total": 3,
+   "rrf_win": 0,
+   "minmax_win": 0,
+   "tie": 3,
+   "rrf_avg": 0.167,
+   "minmax_avg": 0.167
+  },
+  "mechanism": {
+   "total": 5,
+   "rrf_win": 1,
+   "minmax_win": 0,
+   "tie": 4,
+   "rrf_avg": 0.733,
+   "minmax_avg": 0.667
+  },
+  "weapon_compare": {
+   "total": 2,
+   "rrf_win": 0,
+   "minmax_win": 0,
+   "tie": 2,
+   "rrf_avg": 0.834,
+   "minmax_avg": 0.834
+  },
+  "weapon_recommend": {
+   "total": 1,
+   "rrf_win": 0,
+   "minmax_win": 0,
+   "tie": 1,
+   "rrf_avg": 0.5,
+   "minmax_avg": 0.5
+  },
+  "lore": {
+   "total": 1,
+   "rrf_win": 0,
+   "minmax_win": 0,
+   "tie": 1,
+   "rrf_avg": 1.0,
+   "minmax_avg": 1.0
+  }
+ },
+ "details": [
+  {
+   "id": "G004",
+   "category": "operator_stat",
+   "question": "别礼是几星干员，什么职业？",
+   "expected_sources": [
+    "别礼"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "别礼",
+    "别礼",
+    "汤汤",
+    "别礼",
+    "诀"
+   ],
+   "rrf_hits": [
+    "别礼"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "别礼",
+    "别礼",
+    "别礼",
+    "别礼",
+    "别礼"
+   ],
+   "minmax_hits": [
+    "别礼"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.98
+  },
+  {
+   "id": "G006",
+   "category": "operator_lore",
+   "question": "别礼的背景故事是什么？",
+   "expected_sources": [
+    "别礼"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "别礼",
+    "别礼",
+    "别礼",
+    "别礼",
+    "别礼"
+   ],
+   "rrf_hits": [
+    "别礼"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "别礼",
+    "别礼",
+    "别礼",
+    "别礼",
+    "别礼"
+   ],
+   "minmax_hits": [
+    "别礼"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 1.01
+  },
+  {
+   "id": "G003",
+   "category": "operator_lore",
+   "question": "艾尔黛拉的背景故事是什么？",
+   "expected_sources": [
+    "艾尔黛拉"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "艾尔黛拉",
+    "艾尔黛拉",
+    "艾尔黛拉",
+    "艾尔黛拉",
+    "艾尔黛拉"
+   ],
+   "rrf_hits": [
+    "艾尔黛拉"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "艾尔黛拉",
+    "艾尔黛拉",
+    "艾尔黛拉",
+    "艾尔黛拉",
+    "艾尔黛拉"
+   ],
+   "minmax_hits": [
+    "艾尔黛拉"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 1.0
+  },
+  {
+   "id": "G005",
+   "category": "operator_skill",
+   "question": "别礼有哪些技能？",
+   "expected_sources": [
+    "别礼"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "别礼",
+    "别礼",
+    "别礼",
+    "萤石",
+    "别礼"
+   ],
+   "rrf_hits": [
+    "别礼"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "别礼",
+    "别礼",
+    "别礼",
+    "别礼",
+    "别礼"
+   ],
+   "minmax_hits": [
+    "别礼"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 1.01
+  },
+  {
+   "id": "G002",
+   "category": "operator_skill",
+   "question": "艾尔黛拉有哪些技能？",
+   "expected_sources": [
+    "艾尔黛拉"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "萤石",
+    "艾尔黛拉",
+    "埃特拉",
+    "艾尔黛拉",
+    "艾尔黛拉"
+   ],
+   "rrf_hits": [
+    "艾尔黛拉"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "萤石",
+    "艾尔黛拉",
+    "艾尔黛拉",
+    "艾尔黛拉",
+    "艾尔黛拉"
+   ],
+   "minmax_hits": [
+    "艾尔黛拉"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 1.02
+  },
+  {
+   "id": "G001",
+   "category": "operator_stat",
+   "question": "艾尔黛拉是几星干员，什么职业？",
+   "expected_sources": [
+    "艾尔黛拉"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "大潘",
+    "艾尔黛拉",
+    "萤石",
+    "艾尔黛拉",
+    "诀"
+   ],
+   "rrf_hits": [
+    "艾尔黛拉"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "大潘",
+    "艾尔黛拉",
+    "萤石",
+    "诀",
+    "汤汤"
+   ],
+   "minmax_hits": [
+    "艾尔黛拉"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 1.03
+  },
+  {
+   "id": "G010",
+   "category": "operator_stat",
+   "question": "诀是几星干员，什么职业？",
+   "expected_sources": [
+    "诀"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "诀",
+    "诀",
+    "诀",
+    "汤汤",
+    "诀"
+   ],
+   "rrf_hits": [
+    "诀"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "诀",
+    "诀",
+    "诀",
+    "诀",
+    "诀"
+   ],
+   "minmax_hits": [
+    "诀"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.3
+  },
+  {
+   "id": "G012",
+   "category": "operator_lore",
+   "question": "诀的背景故事是什么？",
+   "expected_sources": [
+    "诀"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "诀",
+    "诀",
+    "诀",
+    "诀",
+    "诀"
+   ],
+   "rrf_hits": [
+    "诀"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "诀",
+    "诀",
+    "诀",
+    "诀",
+    "诀"
+   ],
+   "minmax_hits": [
+    "诀"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.3
+  },
+  {
+   "id": "G008",
+   "category": "operator_skill",
+   "question": "洁尔佩塔有哪些技能？",
+   "expected_sources": [
+    "洁尔佩塔"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "萤石",
+    "洁尔佩塔",
+    "洁尔佩塔",
+    "洁尔佩塔",
+    "洁尔佩塔"
+   ],
+   "rrf_hits": [
+    "洁尔佩塔"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "洁尔佩塔",
+    "洁尔佩塔",
+    "萤石",
+    "洁尔佩塔",
+    "洁尔佩塔"
+   ],
+   "minmax_hits": [
+    "洁尔佩塔"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.35
+  },
+  {
+   "id": "G011",
+   "category": "operator_skill",
+   "question": "诀有哪些技能？",
+   "expected_sources": [
+    "诀"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "诀",
+    "萤石",
+    "诀",
+    "诀",
+    "埃特拉"
+   ],
+   "rrf_hits": [
+    "诀"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "诀",
+    "诀",
+    "诀",
+    "诀",
+    "萤石"
+   ],
+   "minmax_hits": [
+    "诀"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.35
+  },
+  {
+   "id": "G009",
+   "category": "operator_lore",
+   "question": "洁尔佩塔的背景故事是什么？",
+   "expected_sources": [
+    "洁尔佩塔"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "洁尔佩塔",
+    "洁尔佩塔",
+    "洁尔佩塔",
+    "洁尔佩塔",
+    "洁尔佩塔"
+   ],
+   "rrf_hits": [
+    "洁尔佩塔"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "洁尔佩塔",
+    "洁尔佩塔",
+    "洁尔佩塔",
+    "洁尔佩塔",
+    "洁尔佩塔"
+   ],
+   "minmax_hits": [
+    "洁尔佩塔"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.39
+  },
+  {
+   "id": "G007",
+   "category": "operator_stat",
+   "question": "洁尔佩塔是几星干员，什么职业？",
+   "expected_sources": [
+    "洁尔佩塔"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "洁尔佩塔",
+    "洁尔佩塔",
+    "洁尔佩塔",
+    "汤汤",
+    "洁尔佩塔"
+   ],
+   "rrf_hits": [
+    "洁尔佩塔"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "洁尔佩塔",
+    "洁尔佩塔",
+    "洁尔佩塔",
+    "汤汤",
+    "洁尔佩塔"
+   ],
+   "minmax_hits": [
+    "洁尔佩塔"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.43
+  },
+  {
+   "id": "G018",
+   "category": "operator_lore",
+   "question": "卡缪的背景故事是什么？",
+   "expected_sources": [
+    "卡缪"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "卡缪",
+    "卡缪",
+    "安塔尔",
+    "阿列什",
+    "卡缪"
+   ],
+   "rrf_hits": [
+    "卡缪"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "卡缪",
+    "卡缪",
+    "卡缪",
+    "卡缪",
+    "卡缪"
+   ],
+   "minmax_hits": [
+    "卡缪"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.27
+  },
+  {
+   "id": "G016",
+   "category": "operator_stat",
+   "question": "卡缪是几星干员，什么职业？",
+   "expected_sources": [
+    "卡缪"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "卡缪",
+    "卡缪",
+    "汤汤",
+    "诀",
+    "卡缪"
+   ],
+   "rrf_hits": [
+    "卡缪"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "卡缪",
+    "卡缪",
+    "卡缪",
+    "卡缪",
+    "卡缪"
+   ],
+   "minmax_hits": [
+    "卡缪"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.33
+  },
+  {
+   "id": "G013",
+   "category": "operator_stat",
+   "question": "骏卫是几星干员，什么职业？",
+   "expected_sources": [
+    "骏卫"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "骏卫",
+    "汤汤",
+    "骏卫",
+    "诀",
+    "骏卫"
+   ],
+   "rrf_hits": [
+    "骏卫"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "骏卫",
+    "骏卫",
+    "骏卫",
+    "骏卫",
+    "汤汤"
+   ],
+   "minmax_hits": [
+    "骏卫"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.43
+  },
+  {
+   "id": "G014",
+   "category": "operator_skill",
+   "question": "骏卫有哪些技能？",
+   "expected_sources": [
+    "骏卫"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "萤石",
+    "骏卫",
+    "骏卫",
+    "埃特拉",
+    "艾尔黛拉"
+   ],
+   "rrf_hits": [
+    "骏卫"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "萤石",
+    "骏卫",
+    "骏卫",
+    "骏卫",
+    "骏卫"
+   ],
+   "minmax_hits": [
+    "骏卫"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.37
+  },
+  {
+   "id": "G015",
+   "category": "operator_lore",
+   "question": "骏卫的背景故事是什么？",
+   "expected_sources": [
+    "骏卫"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "骏卫",
+    "骏卫",
+    "骏卫",
+    "骏卫",
+    "安塔尔"
+   ],
+   "rrf_hits": [
+    "骏卫"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "骏卫",
+    "骏卫",
+    "骏卫",
+    "骏卫",
+    "骏卫"
+   ],
+   "minmax_hits": [
+    "骏卫"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.37
+  },
+  {
+   "id": "G017",
+   "category": "operator_skill",
+   "question": "卡缪有哪些技能？",
+   "expected_sources": [
+    "卡缪"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "萤石",
+    "卡缪",
+    "卡缪",
+    "卡缪",
+    "埃特拉"
+   ],
+   "rrf_hits": [
+    "卡缪"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "卡缪",
+    "卡缪",
+    "卡缪",
+    "萤石",
+    "卡缪"
+   ],
+   "minmax_hits": [
+    "卡缪"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.41
+  },
+  {
+   "id": "G022",
+   "category": "operator_stat",
+   "question": "黎风是几星干员，什么职业？",
+   "expected_sources": [
+    "黎风"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "黎风",
+    "黎风",
+    "黎风",
+    "汤汤",
+    "黎风"
+   ],
+   "rrf_hits": [
+    "黎风"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "黎风",
+    "黎风",
+    "黎风",
+    "黎风",
+    "汤汤"
+   ],
+   "minmax_hits": [
+    "黎风"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.32
+  },
+  {
+   "id": "G020",
+   "category": "operator_skill",
+   "question": "莱万汀有哪些技能？",
+   "expected_sources": [
+    "莱万汀"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "莱万汀",
+    "萤石",
+    "莱万汀",
+    "埃特拉",
+    "莱万汀"
+   ],
+   "rrf_hits": [
+    "莱万汀"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "莱万汀",
+    "莱万汀",
+    "莱万汀",
+    "莱万汀",
+    "莱万汀"
+   ],
+   "minmax_hits": [
+    "莱万汀"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.32
+  },
+  {
+   "id": "G021",
+   "category": "operator_lore",
+   "question": "莱万汀的背景故事是什么？",
+   "expected_sources": [
+    "莱万汀"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "莱万汀",
+    "莱万汀",
+    "莱万汀",
+    "莱万汀",
+    "莱万汀"
+   ],
+   "rrf_hits": [
+    "莱万汀"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "莱万汀",
+    "莱万汀",
+    "莱万汀",
+    "莱万汀",
+    "莱万汀"
+   ],
+   "minmax_hits": [
+    "莱万汀"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.36
+  },
+  {
+   "id": "G023",
+   "category": "operator_skill",
+   "question": "黎风有哪些技能？",
+   "expected_sources": [
+    "黎风"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "萤石",
+    "黎风",
+    "埃特拉",
+    "黎风",
+    "黎风"
+   ],
+   "rrf_hits": [
+    "黎风"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "黎风",
+    "黎风",
+    "黎风",
+    "萤石",
+    "黎风"
+   ],
+   "minmax_hits": [
+    "黎风"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.36
+  },
+  {
+   "id": "G024",
+   "category": "operator_lore",
+   "question": "黎风的背景故事是什么？",
+   "expected_sources": [
+    "黎风"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "黎风",
+    "黎风",
+    "黎风",
+    "黎风",
+    "黎风"
+   ],
+   "rrf_hits": [
+    "黎风"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "黎风",
+    "黎风",
+    "黎风",
+    "黎风",
+    "黎风"
+   ],
+   "minmax_hits": [
+    "黎风"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.34
+  },
+  {
+   "id": "G019",
+   "category": "operator_stat",
+   "question": "莱万汀是几星干员，什么职业？",
+   "expected_sources": [
+    "莱万汀"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "莱万汀",
+    "莱万汀",
+    "莱万汀",
+    "莱万汀",
+    "莱万汀"
+   ],
+   "rrf_hits": [
+    "莱万汀"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "莱万汀",
+    "莱万汀",
+    "莱万汀",
+    "莱万汀",
+    "莱万汀"
+   ],
+   "minmax_hits": [
+    "莱万汀"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.48
+  },
+  {
+   "id": "G026",
+   "category": "operator_skill",
+   "question": "洛茜有哪些技能？",
+   "expected_sources": [
+    "洛茜"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "洛茜",
+    "洛茜",
+    "萤石",
+    "洛茜",
+    "洛茜"
+   ],
+   "rrf_hits": [
+    "洛茜"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "洛茜",
+    "洛茜",
+    "洛茜",
+    "洛茜",
+    "洛茜"
+   ],
+   "minmax_hits": [
+    "洛茜"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.33
+  },
+  {
+   "id": "G027",
+   "category": "operator_lore",
+   "question": "洛茜的背景故事是什么？",
+   "expected_sources": [
+    "洛茜"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "洛茜",
+    "洛茜",
+    "洛茜",
+    "洛茜",
+    "洛茜"
+   ],
+   "rrf_hits": [
+    "洛茜"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "洛茜",
+    "洛茜",
+    "洛茜",
+    "洛茜",
+    "洛茜"
+   ],
+   "minmax_hits": [
+    "洛茜"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.29
+  },
+  {
+   "id": "G029",
+   "category": "operator_skill",
+   "question": "弭弗有哪些技能？",
+   "expected_sources": [
+    "弭弗"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "弭弗",
+    "弭弗",
+    "弭弗",
+    "萤石",
+    "埃特拉"
+   ],
+   "rrf_hits": [
+    "弭弗"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "弭弗",
+    "弭弗",
+    "弭弗",
+    "弭弗",
+    "弭弗"
+   ],
+   "minmax_hits": [
+    "弭弗"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.3
+  },
+  {
+   "id": "G030",
+   "category": "operator_lore",
+   "question": "弭弗的背景故事是什么？",
+   "expected_sources": [
+    "弭弗"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "弭弗",
+    "弭弗",
+    "弭弗",
+    "弭弗",
+    "弭弗"
+   ],
+   "rrf_hits": [
+    "弭弗"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "弭弗",
+    "弭弗",
+    "弭弗",
+    "弭弗",
+    "弭弗"
+   ],
+   "minmax_hits": [
+    "弭弗"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.28
+  },
+  {
+   "id": "G025",
+   "category": "operator_stat",
+   "question": "洛茜是几星干员，什么职业？",
+   "expected_sources": [
+    "洛茜"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "洛茜",
+    "洛茜",
+    "洛茜",
+    "汤汤",
+    "洛茜"
+   ],
+   "rrf_hits": [
+    "洛茜"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "洛茜",
+    "洛茜",
+    "洛茜",
+    "洛茜",
+    "洛茜"
+   ],
+   "minmax_hits": [
+    "洛茜"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.43
+  },
+  {
+   "id": "G028",
+   "category": "operator_stat",
+   "question": "弭弗是几星干员，什么职业？",
+   "expected_sources": [
+    "弭弗"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "弭弗",
+    "弭弗",
+    "弭弗",
+    "弭弗",
+    "弭弗"
+   ],
+   "rrf_hits": [
+    "弭弗"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "弭弗",
+    "弭弗",
+    "弭弗",
+    "弭弗",
+    "弭弗"
+   ],
+   "minmax_hits": [
+    "弭弗"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.37
+  },
+  {
+   "id": "G032",
+   "category": "operator_skill",
+   "question": "男管理员有哪些技能？",
+   "expected_sources": [
+    "男管理员"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "男管理员",
+    "男管理员",
+    "男管理员",
+    "男管理员",
+    "男管理员"
+   ],
+   "rrf_hits": [
+    "男管理员"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "男管理员",
+    "男管理员",
+    "男管理员",
+    "男管理员",
+    "男管理员"
+   ],
+   "minmax_hits": [
+    "男管理员"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.29
+  },
+  {
+   "id": "G036",
+   "category": "operator_lore",
+   "question": "女管理员的背景故事是什么？",
+   "expected_sources": [
+    "女管理员"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "女管理员",
+    "女管理员",
+    "女管理员",
+    "女管理员",
+    "女管理员"
+   ],
+   "rrf_hits": [
+    "女管理员"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "女管理员",
+    "女管理员",
+    "女管理员",
+    "女管理员",
+    "女管理员"
+   ],
+   "minmax_hits": [
+    "女管理员"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.3
+  },
+  {
+   "id": "G034",
+   "category": "operator_stat",
+   "question": "女管理员是几星干员，什么职业？",
+   "expected_sources": [
+    "女管理员"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "女管理员",
+    "女管理员",
+    "汤汤",
+    "女管理员",
+    "女管理员"
+   ],
+   "rrf_hits": [
+    "女管理员"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "女管理员",
+    "女管理员",
+    "女管理员",
+    "女管理员",
+    "女管理员"
+   ],
+   "minmax_hits": [
+    "女管理员"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.33
+  },
+  {
+   "id": "G031",
+   "category": "operator_stat",
+   "question": "男管理员是几星干员，什么职业？",
+   "expected_sources": [
+    "男管理员"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "男管理员",
+    "男管理员",
+    "男管理员",
+    "男管理员",
+    "汤汤"
+   ],
+   "rrf_hits": [
+    "男管理员"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "男管理员",
+    "男管理员",
+    "男管理员",
+    "男管理员",
+    "男管理员"
+   ],
+   "minmax_hits": [
+    "男管理员"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.37
+  },
+  {
+   "id": "G035",
+   "category": "operator_skill",
+   "question": "女管理员有哪些技能？",
+   "expected_sources": [
+    "女管理员"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "女管理员",
+    "女管理员",
+    "女管理员",
+    "女管理员",
+    "女管理员"
+   ],
+   "rrf_hits": [
+    "女管理员"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "女管理员",
+    "女管理员",
+    "女管理员",
+    "女管理员",
+    "女管理员"
+   ],
+   "minmax_hits": [
+    "女管理员"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.34
+  },
+  {
+   "id": "G033",
+   "category": "operator_lore",
+   "question": "男管理员的背景故事是什么？",
+   "expected_sources": [
+    "男管理员"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "男管理员",
+    "男管理员",
+    "男管理员",
+    "男管理员",
+    "男管理员"
+   ],
+   "rrf_hits": [
+    "男管理员"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "男管理员",
+    "男管理员",
+    "男管理员",
+    "男管理员",
+    "男管理员"
+   ],
+   "minmax_hits": [
+    "男管理员"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.45
+  },
+  {
+   "id": "G037",
+   "category": "operator_stat",
+   "question": "汤汤是几星干员，什么职业？",
+   "expected_sources": [
+    "汤汤"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "汤汤",
+    "汤汤",
+    "汤汤",
+    "诀",
+    "汤汤"
+   ],
+   "rrf_hits": [
+    "汤汤"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "汤汤",
+    "汤汤",
+    "汤汤",
+    "汤汤",
+    "汤汤"
+   ],
+   "minmax_hits": [
+    "汤汤"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.46
+  },
+  {
+   "id": "G041",
+   "category": "operator_skill",
+   "question": "伊冯有哪些技能？",
+   "expected_sources": [
+    "伊冯"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "萤石",
+    "伊冯",
+    "埃特拉",
+    "伊冯",
+    "艾尔黛拉"
+   ],
+   "rrf_hits": [
+    "伊冯"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "萤石",
+    "伊冯",
+    "伊冯",
+    "伊冯",
+    "伊冯"
+   ],
+   "minmax_hits": [
+    "伊冯"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.26
+  },
+  {
+   "id": "G038",
+   "category": "operator_skill",
+   "question": "汤汤有哪些技能？",
+   "expected_sources": [
+    "汤汤"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "汤汤",
+    "汤汤",
+    "汤汤",
+    "萤石",
+    "汤汤"
+   ],
+   "rrf_hits": [
+    "汤汤"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "汤汤",
+    "汤汤",
+    "汤汤",
+    "汤汤",
+    "汤汤"
+   ],
+   "minmax_hits": [
+    "汤汤"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.33
+  },
+  {
+   "id": "G040",
+   "category": "operator_stat",
+   "question": "伊冯是几星干员，什么职业？",
+   "expected_sources": [
+    "伊冯"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "伊冯",
+    "伊冯",
+    "汤汤",
+    "伊冯",
+    "伊冯"
+   ],
+   "rrf_hits": [
+    "伊冯"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "伊冯",
+    "伊冯",
+    "伊冯",
+    "伊冯",
+    "伊冯"
+   ],
+   "minmax_hits": [
+    "伊冯"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.34
+  },
+  {
+   "id": "G039",
+   "category": "operator_lore",
+   "question": "汤汤的背景故事是什么？",
+   "expected_sources": [
+    "汤汤"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "汤汤",
+    "汤汤",
+    "汤汤",
+    "汤汤",
+    "汤汤"
+   ],
+   "rrf_hits": [
+    "汤汤"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "汤汤",
+    "汤汤",
+    "汤汤",
+    "汤汤",
+    "汤汤"
+   ],
+   "minmax_hits": [
+    "汤汤"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.34
+  },
+  {
+   "id": "G042",
+   "category": "operator_lore",
+   "question": "伊冯的背景故事是什么？",
+   "expected_sources": [
+    "伊冯"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "伊冯",
+    "伊冯",
+    "伊冯",
+    "伊冯",
+    "伊冯"
+   ],
+   "rrf_hits": [
+    "伊冯"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "伊冯",
+    "伊冯",
+    "伊冯",
+    "伊冯",
+    "伊冯"
+   ],
+   "minmax_hits": [
+    "伊冯"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.36
+  },
+  {
+   "id": "G043",
+   "category": "operator_stat",
+   "question": "余烬是几星干员，什么职业？",
+   "expected_sources": [
+    "余烬"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "余烬",
+    "余烬",
+    "汤汤",
+    "诀",
+    "余烬"
+   ],
+   "rrf_hits": [
+    "余烬"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "余烬",
+    "余烬",
+    "余烬",
+    "余烬",
+    "汤汤"
+   ],
+   "minmax_hits": [
+    "余烬"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.42
+  },
+  {
+   "id": "G045",
+   "category": "operator_lore",
+   "question": "余烬的背景故事是什么？",
+   "expected_sources": [
+    "余烬"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "安塔尔",
+    "余烬",
+    "余烬",
+    "阿列什",
+    "埃特拉"
+   ],
+   "rrf_hits": [
+    "余烬"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "余烬",
+    "余烬",
+    "余烬",
+    "安塔尔",
+    "余烬"
+   ],
+   "minmax_hits": [
+    "余烬"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.34
+  },
+  {
+   "id": "G044",
+   "category": "operator_skill",
+   "question": "余烬有哪些技能？",
+   "expected_sources": [
+    "余烬"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "余烬",
+    "萤石",
+    "余烬",
+    "余烬",
+    "余烬"
+   ],
+   "rrf_hits": [
+    "余烬"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "余烬",
+    "余烬",
+    "余烬",
+    "余烬",
+    "余烬"
+   ],
+   "minmax_hits": [
+    "余烬"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.39
+  },
+  {
+   "id": "G047",
+   "category": "operator_skill",
+   "question": "庄方宜有哪些技能？",
+   "expected_sources": [
+    "庄方宜"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "庄方宜",
+    "庄方宜",
+    "萤石",
+    "庄方宜",
+    "埃特拉"
+   ],
+   "rrf_hits": [
+    "庄方宜"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "庄方宜",
+    "庄方宜",
+    "庄方宜",
+    "庄方宜",
+    "萤石"
+   ],
+   "minmax_hits": [
+    "庄方宜"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.32
+  },
+  {
+   "id": "G048",
+   "category": "operator_lore",
+   "question": "庄方宜的背景故事是什么？",
+   "expected_sources": [
+    "庄方宜"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "庄方宜",
+    "庄方宜",
+    "汤汤",
+    "庄方宜",
+    "庄方宜"
+   ],
+   "rrf_hits": [
+    "庄方宜"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "庄方宜",
+    "庄方宜",
+    "庄方宜",
+    "庄方宜",
+    "庄方宜"
+   ],
+   "minmax_hits": [
+    "庄方宜"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.36
+  },
+  {
+   "id": "G046",
+   "category": "operator_stat",
+   "question": "庄方宜是几星干员，什么职业？",
+   "expected_sources": [
+    "庄方宜"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "庄方宜",
+    "汤汤",
+    "庄方宜",
+    "诀",
+    "庄方宜"
+   ],
+   "rrf_hits": [
+    "庄方宜"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "庄方宜",
+    "庄方宜",
+    "庄方宜",
+    "汤汤",
+    "诀"
+   ],
+   "minmax_hits": [
+    "庄方宜"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.41
+  },
+  {
+   "id": "G054",
+   "category": "operator_lore",
+   "question": "艾维文娜的背景故事是什么？",
+   "expected_sources": [
+    "艾维文娜"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "艾维文娜",
+    "艾维文娜",
+    "艾维文娜",
+    "艾维文娜",
+    "艾维文娜"
+   ],
+   "rrf_hits": [
+    "艾维文娜"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "艾维文娜",
+    "艾维文娜",
+    "艾维文娜",
+    "艾维文娜",
+    "艾维文娜"
+   ],
+   "minmax_hits": [
+    "艾维文娜"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.31
+  },
+  {
+   "id": "G049",
+   "category": "operator_stat",
+   "question": "阿列什是几星干员，什么职业？",
+   "expected_sources": [
+    "阿列什"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "阿列什",
+    "阿列什",
+    "阿列什",
+    "阿列什",
+    "大潘"
+   ],
+   "rrf_hits": [
+    "阿列什"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "阿列什",
+    "阿列什",
+    "阿列什",
+    "阿列什",
+    "阿列什"
+   ],
+   "minmax_hits": [
+    "阿列什"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.35
+  },
+  {
+   "id": "G052",
+   "category": "operator_stat",
+   "question": "艾维文娜是几星干员，什么职业？",
+   "expected_sources": [
+    "艾维文娜"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "艾维文娜",
+    "艾维文娜",
+    "艾维文娜",
+    "艾维文娜",
+    "艾维文娜"
+   ],
+   "rrf_hits": [
+    "艾维文娜"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "艾维文娜",
+    "艾维文娜",
+    "艾维文娜",
+    "艾维文娜",
+    "艾维文娜"
+   ],
+   "minmax_hits": [
+    "艾维文娜"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.36
+  },
+  {
+   "id": "G050",
+   "category": "operator_skill",
+   "question": "阿列什有哪些技能？",
+   "expected_sources": [
+    "阿列什"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "阿列什",
+    "阿列什",
+    "萤石",
+    "阿列什",
+    "埃特拉"
+   ],
+   "rrf_hits": [
+    "阿列什"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "阿列什",
+    "阿列什",
+    "阿列什",
+    "阿列什",
+    "阿列什"
+   ],
+   "minmax_hits": [
+    "阿列什"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.38
+  },
+  {
+   "id": "G053",
+   "category": "operator_skill",
+   "question": "艾维文娜有哪些技能？",
+   "expected_sources": [
+    "艾维文娜"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "艾维文娜",
+    "艾维文娜",
+    "向心之引",
+    "艾维文娜",
+    "艾维文娜"
+   ],
+   "rrf_hits": [
+    "艾维文娜"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "艾维文娜",
+    "艾维文娜",
+    "艾维文娜",
+    "艾维文娜",
+    "艾维文娜"
+   ],
+   "minmax_hits": [
+    "艾维文娜"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.33
+  },
+  {
+   "id": "G051",
+   "category": "operator_lore",
+   "question": "阿列什的背景故事是什么？",
+   "expected_sources": [
+    "阿列什"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "阿列什",
+    "阿列什",
+    "阿列什",
+    "阿列什",
+    "阿列什"
+   ],
+   "rrf_hits": [
+    "阿列什"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "阿列什",
+    "阿列什",
+    "阿列什",
+    "阿列什",
+    "阿列什"
+   ],
+   "minmax_hits": [
+    "阿列什"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.45
+  },
+  {
+   "id": "G057",
+   "category": "operator_lore",
+   "question": "陈千语的背景故事是什么？",
+   "expected_sources": [
+    "陈千语"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "陈千语",
+    "陈千语",
+    "陈千语",
+    "陈千语",
+    "陈千语"
+   ],
+   "rrf_hits": [
+    "陈千语"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "陈千语",
+    "陈千语",
+    "陈千语",
+    "陈千语",
+    "陈千语"
+   ],
+   "minmax_hits": [
+    "陈千语"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.33
+  },
+  {
+   "id": "G059",
+   "category": "operator_skill",
+   "question": "大潘有哪些技能？",
+   "expected_sources": [
+    "大潘"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "大潘",
+    "萤石",
+    "大潘",
+    "埃特拉",
+    "艾尔黛拉"
+   ],
+   "rrf_hits": [
+    "大潘"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "大潘",
+    "萤石",
+    "大潘",
+    "大潘",
+    "大潘"
+   ],
+   "minmax_hits": [
+    "大潘"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.33
+  },
+  {
+   "id": "G056",
+   "category": "operator_skill",
+   "question": "陈千语有哪些技能？",
+   "expected_sources": [
+    "陈千语"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "陈千语",
+    "陈千语",
+    "萤石",
+    "陈千语",
+    "陈千语"
+   ],
+   "rrf_hits": [
+    "陈千语"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "陈千语",
+    "陈千语",
+    "陈千语",
+    "陈千语",
+    "陈千语"
+   ],
+   "minmax_hits": [
+    "陈千语"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.37
+  },
+  {
+   "id": "G058",
+   "category": "operator_stat",
+   "question": "大潘是几星干员，什么职业？",
+   "expected_sources": [
+    "大潘"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "大潘",
+    "大潘",
+    "大潘",
+    "萤石",
+    "大潘"
+   ],
+   "rrf_hits": [
+    "大潘"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "大潘",
+    "大潘",
+    "萤石",
+    "诀",
+    "汤汤"
+   ],
+   "minmax_hits": [
+    "大潘"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.35
+  },
+  {
+   "id": "G055",
+   "category": "operator_stat",
+   "question": "陈千语是几星干员，什么职业？",
+   "expected_sources": [
+    "陈千语"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "陈千语",
+    "陈千语",
+    "陈千语",
+    "陈千语",
+    "陈千语"
+   ],
+   "rrf_hits": [
+    "陈千语"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "陈千语",
+    "陈千语",
+    "陈千语",
+    "陈千语",
+    "陈千语"
+   ],
+   "minmax_hits": [
+    "陈千语"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.44
+  },
+  {
+   "id": "G060",
+   "category": "operator_lore",
+   "question": "大潘的背景故事是什么？",
+   "expected_sources": [
+    "大潘"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "大潘",
+    "大潘",
+    "大潘",
+    "安塔尔",
+    "大潘"
+   ],
+   "rrf_hits": [
+    "大潘"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "大潘",
+    "大潘",
+    "大潘",
+    "大潘",
+    "大潘"
+   ],
+   "minmax_hits": [
+    "大潘"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.37
+  },
+  {
+   "id": "G062",
+   "category": "operator_skill",
+   "question": "弧光有哪些技能？",
+   "expected_sources": [
+    "弧光"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "弧光",
+    "萤石",
+    "弧光",
+    "埃特拉",
+    "弧光"
+   ],
+   "rrf_hits": [
+    "弧光"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "弧光",
+    "弧光",
+    "弧光",
+    "弧光",
+    "弧光"
+   ],
+   "minmax_hits": [
+    "弧光"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.31
+  },
+  {
+   "id": "G066",
+   "category": "operator_lore",
+   "question": "狼卫的背景故事是什么？",
+   "expected_sources": [
+    "狼卫"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "狼卫",
+    "安塔尔",
+    "狼卫",
+    "阿列什",
+    "狼卫"
+   ],
+   "rrf_hits": [
+    "狼卫"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "狼卫",
+    "狼卫",
+    "狼卫",
+    "安塔尔",
+    "狼卫"
+   ],
+   "minmax_hits": [
+    "狼卫"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.3
+  },
+  {
+   "id": "G063",
+   "category": "operator_lore",
+   "question": "弧光的背景故事是什么？",
+   "expected_sources": [
+    "弧光"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "弧光",
+    "弧光",
+    "弧光",
+    "弧光",
+    "弧光"
+   ],
+   "rrf_hits": [
+    "弧光"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "弧光",
+    "弧光",
+    "弧光",
+    "弧光",
+    "弧光"
+   ],
+   "minmax_hits": [
+    "弧光"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.37
+  },
+  {
+   "id": "G065",
+   "category": "operator_skill",
+   "question": "狼卫有哪些技能？",
+   "expected_sources": [
+    "狼卫"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "萤石",
+    "狼卫",
+    "埃特拉",
+    "狼卫",
+    "艾尔黛拉"
+   ],
+   "rrf_hits": [
+    "狼卫"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "萤石",
+    "狼卫",
+    "狼卫",
+    "狼卫",
+    "狼卫"
+   ],
+   "minmax_hits": [
+    "狼卫"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.32
+  },
+  {
+   "id": "G061",
+   "category": "operator_stat",
+   "question": "弧光是几星干员，什么职业？",
+   "expected_sources": [
+    "弧光"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "弧光",
+    "弧光",
+    "弧光",
+    "汤汤",
+    "弧光"
+   ],
+   "rrf_hits": [
+    "弧光"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "弧光",
+    "弧光",
+    "弧光",
+    "弧光",
+    "汤汤"
+   ],
+   "minmax_hits": [
+    "弧光"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.47
+  },
+  {
+   "id": "G064",
+   "category": "operator_stat",
+   "question": "狼卫是几星干员，什么职业？",
+   "expected_sources": [
+    "狼卫"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "狼卫",
+    "狼卫",
+    "汤汤",
+    "诀",
+    "狼卫"
+   ],
+   "rrf_hits": [
+    "狼卫"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "狼卫",
+    "狼卫",
+    "狼卫",
+    "狼卫",
+    "狼卫"
+   ],
+   "minmax_hits": [
+    "狼卫"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.67
+  },
+  {
+   "id": "G067",
+   "category": "operator_stat",
+   "question": "佩丽卡是几星干员，什么职业？",
+   "expected_sources": [
+    "佩丽卡"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "佩丽卡",
+    "汤汤",
+    "佩丽卡",
+    "诀",
+    "佩丽卡"
+   ],
+   "rrf_hits": [
+    "佩丽卡"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "佩丽卡",
+    "佩丽卡",
+    "佩丽卡",
+    "佩丽卡",
+    "汤汤"
+   ],
+   "minmax_hits": [
+    "佩丽卡"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.4
+  },
+  {
+   "id": "G068",
+   "category": "operator_skill",
+   "question": "佩丽卡有哪些技能？",
+   "expected_sources": [
+    "佩丽卡"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "佩丽卡",
+    "萤石",
+    "佩丽卡",
+    "埃特拉",
+    "佩丽卡"
+   ],
+   "rrf_hits": [
+    "佩丽卡"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "佩丽卡",
+    "佩丽卡",
+    "佩丽卡",
+    "萤石",
+    "佩丽卡"
+   ],
+   "minmax_hits": [
+    "佩丽卡"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.3
+  },
+  {
+   "id": "G070",
+   "category": "operator_stat",
+   "question": "赛希是几星干员，什么职业？",
+   "expected_sources": [
+    "赛希"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "赛希",
+    "大潘",
+    "赛希",
+    "萤石",
+    "赛希"
+   ],
+   "rrf_hits": [
+    "赛希"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "赛希",
+    "大潘",
+    "赛希",
+    "萤石",
+    "诀"
+   ],
+   "minmax_hits": [
+    "赛希"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.32
+  },
+  {
+   "id": "G071",
+   "category": "operator_skill",
+   "question": "赛希有哪些技能？",
+   "expected_sources": [
+    "赛希"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "萤石",
+    "赛希",
+    "埃特拉",
+    "赛希",
+    "艾尔黛拉"
+   ],
+   "rrf_hits": [
+    "赛希"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "萤石",
+    "赛希",
+    "赛希",
+    "赛希",
+    "赛希"
+   ],
+   "minmax_hits": [
+    "赛希"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.31
+  },
+  {
+   "id": "G069",
+   "category": "operator_lore",
+   "question": "佩丽卡的背景故事是什么？",
+   "expected_sources": [
+    "佩丽卡"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "佩丽卡",
+    "安塔尔",
+    "阿列什",
+    "佩丽卡",
+    "洛茜"
+   ],
+   "rrf_hits": [
+    "佩丽卡"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "佩丽卡",
+    "佩丽卡",
+    "佩丽卡",
+    "安塔尔",
+    "佩丽卡"
+   ],
+   "minmax_hits": [
+    "佩丽卡"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.39
+  },
+  {
+   "id": "G072",
+   "category": "operator_lore",
+   "question": "赛希的背景故事是什么？",
+   "expected_sources": [
+    "赛希"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "安塔尔",
+    "赛希",
+    "赛希",
+    "洛茜",
+    "赛希"
+   ],
+   "rrf_hits": [
+    "赛希"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "赛希",
+    "赛希",
+    "赛希",
+    "安塔尔",
+    "赛希"
+   ],
+   "minmax_hits": [
+    "赛希"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.31
+  },
+  {
+   "id": "G075",
+   "category": "operator_lore",
+   "question": "昼雪的背景故事是什么？",
+   "expected_sources": [
+    "昼雪"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "昼雪",
+    "昼雪",
+    "昼雪",
+    "昼雪",
+    "昼雪"
+   ],
+   "rrf_hits": [
+    "昼雪"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "昼雪",
+    "昼雪",
+    "昼雪",
+    "昼雪",
+    "昼雪"
+   ],
+   "minmax_hits": [
+    "昼雪"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.38
+  },
+  {
+   "id": "G077",
+   "category": "operator_skill",
+   "question": "埃特拉有哪些技能？",
+   "expected_sources": [
+    "埃特拉"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "埃特拉",
+    "O.B.J.尖峰",
+    "埃特拉",
+    "埃特拉",
+    "埃特拉"
+   ],
+   "rrf_hits": [
+    "埃特拉"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "埃特拉",
+    "埃特拉",
+    "埃特拉",
+    "埃特拉",
+    "埃特拉"
+   ],
+   "minmax_hits": [
+    "埃特拉"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.36
+  },
+  {
+   "id": "G073",
+   "category": "operator_stat",
+   "question": "昼雪是几星干员，什么职业？",
+   "expected_sources": [
+    "昼雪"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "大潘",
+    "昼雪",
+    "萤石",
+    "昼雪",
+    "诀"
+   ],
+   "rrf_hits": [
+    "昼雪"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "大潘",
+    "昼雪",
+    "萤石",
+    "诀",
+    "汤汤"
+   ],
+   "minmax_hits": [
+    "昼雪"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.43
+  },
+  {
+   "id": "G078",
+   "category": "operator_lore",
+   "question": "埃特拉的背景故事是什么？",
+   "expected_sources": [
+    "埃特拉"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "埃特拉",
+    "埃特拉",
+    "埃特拉",
+    "埃特拉",
+    "埃特拉"
+   ],
+   "rrf_hits": [
+    "埃特拉"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "埃特拉",
+    "安塔尔",
+    "埃特拉",
+    "埃特拉",
+    "埃特拉"
+   ],
+   "minmax_hits": [
+    "埃特拉"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.32
+  },
+  {
+   "id": "G074",
+   "category": "operator_skill",
+   "question": "昼雪有哪些技能？",
+   "expected_sources": [
+    "昼雪"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "萤石",
+    "昼雪",
+    "埃特拉",
+    "昼雪",
+    "艾尔黛拉"
+   ],
+   "rrf_hits": [
+    "昼雪"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "萤石",
+    "昼雪",
+    "昼雪",
+    "昼雪",
+    "昼雪"
+   ],
+   "minmax_hits": [
+    "昼雪"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.45
+  },
+  {
+   "id": "G076",
+   "category": "operator_stat",
+   "question": "埃特拉是几星干员，什么职业？",
+   "expected_sources": [
+    "埃特拉"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "埃特拉",
+    "埃特拉",
+    "埃特拉",
+    "埃特拉",
+    "秋栗"
+   ],
+   "rrf_hits": [
+    "埃特拉"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "埃特拉",
+    "埃特拉",
+    "埃特拉",
+    "安塔尔",
+    "秋栗"
+   ],
+   "minmax_hits": [
+    "埃特拉"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.53
+  },
+  {
+   "id": "G083",
+   "category": "operator_skill",
+   "question": "卡契尔有哪些技能？",
+   "expected_sources": [
+    "卡契尔"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "萤石",
+    "卡契尔",
+    "埃特拉",
+    "卡契尔",
+    "艾尔黛拉"
+   ],
+   "rrf_hits": [
+    "卡契尔"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "萤石",
+    "卡契尔",
+    "卡契尔",
+    "卡契尔",
+    "卡契尔"
+   ],
+   "minmax_hits": [
+    "卡契尔"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.36
+  },
+  {
+   "id": "G082",
+   "category": "operator_stat",
+   "question": "卡契尔是几星干员，什么职业？",
+   "expected_sources": [
+    "卡契尔"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "卡契尔",
+    "卡契尔",
+    "汤汤",
+    "诀",
+    "大潘"
+   ],
+   "rrf_hits": [
+    "卡契尔"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "卡契尔",
+    "卡契尔",
+    "卡契尔",
+    "卡契尔",
+    "卡契尔"
+   ],
+   "minmax_hits": [
+    "卡契尔"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.4
+  },
+  {
+   "id": "G079",
+   "category": "operator_stat",
+   "question": "安塔尔是几星干员，什么职业？",
+   "expected_sources": [
+    "安塔尔"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "安塔尔",
+    "安塔尔",
+    "安塔尔",
+    "安塔尔",
+    "安塔尔"
+   ],
+   "rrf_hits": [
+    "安塔尔"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "安塔尔",
+    "安塔尔",
+    "安塔尔",
+    "安塔尔",
+    "安塔尔"
+   ],
+   "minmax_hits": [
+    "安塔尔"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.45
+  },
+  {
+   "id": "G080",
+   "category": "operator_skill",
+   "question": "安塔尔有哪些技能？",
+   "expected_sources": [
+    "安塔尔"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "安塔尔",
+    "安塔尔",
+    "安塔尔",
+    "安塔尔",
+    "爆破单元"
+   ],
+   "rrf_hits": [
+    "安塔尔"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "安塔尔",
+    "安塔尔",
+    "安塔尔",
+    "安塔尔",
+    "安塔尔"
+   ],
+   "minmax_hits": [
+    "安塔尔"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.44
+  },
+  {
+   "id": "G081",
+   "category": "operator_lore",
+   "question": "安塔尔的背景故事是什么？",
+   "expected_sources": [
+    "安塔尔"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "安塔尔",
+    "安塔尔",
+    "安塔尔",
+    "安塔尔",
+    "安塔尔"
+   ],
+   "rrf_hits": [
+    "安塔尔"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "安塔尔",
+    "安塔尔",
+    "安塔尔",
+    "安塔尔",
+    "卡契尔"
+   ],
+   "minmax_hits": [
+    "安塔尔"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.51
+  },
+  {
+   "id": "G084",
+   "category": "operator_lore",
+   "question": "卡契尔的背景故事是什么？",
+   "expected_sources": [
+    "卡契尔"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "埃特拉",
+    "卡契尔",
+    "卡契尔",
+    "卡契尔",
+    "卡契尔"
+   ],
+   "rrf_hits": [
+    "卡契尔"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "埃特拉",
+    "卡契尔",
+    "卡契尔",
+    "卡契尔",
+    "卡契尔"
+   ],
+   "minmax_hits": [
+    "卡契尔"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.47
+  },
+  {
+   "id": "G088",
+   "category": "operator_stat",
+   "question": "萤石是几星干员，什么职业？",
+   "expected_sources": [
+    "萤石"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "萤石",
+    "萤石",
+    "汤汤",
+    "萤石",
+    "萤石"
+   ],
+   "rrf_hits": [
+    "萤石"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "萤石",
+    "萤石",
+    "萤石",
+    "萤石",
+    "萤石"
+   ],
+   "minmax_hits": [
+    "萤石"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.37
+  },
+  {
+   "id": "G086",
+   "category": "operator_skill",
+   "question": "秋栗有哪些技能？",
+   "expected_sources": [
+    "秋栗"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "秋栗",
+    "秋栗",
+    "萤石",
+    "秋栗",
+    "秋栗"
+   ],
+   "rrf_hits": [
+    "秋栗"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "秋栗",
+    "秋栗",
+    "秋栗",
+    "秋栗",
+    "秋栗"
+   ],
+   "minmax_hits": [
+    "秋栗"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.41
+  },
+  {
+   "id": "G085",
+   "category": "operator_stat",
+   "question": "秋栗是几星干员，什么职业？",
+   "expected_sources": [
+    "秋栗"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "秋栗",
+    "秋栗",
+    "秋栗",
+    "汤汤",
+    "秋栗"
+   ],
+   "rrf_hits": [
+    "秋栗"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "秋栗",
+    "秋栗",
+    "秋栗",
+    "秋栗",
+    "秋栗"
+   ],
+   "minmax_hits": [
+    "秋栗"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.6
+  },
+  {
+   "id": "G089",
+   "category": "operator_skill",
+   "question": "萤石有哪些技能？",
+   "expected_sources": [
+    "萤石"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "萤石",
+    "萤石",
+    "萤石",
+    "萤石",
+    "萤石"
+   ],
+   "rrf_hits": [
+    "萤石"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "萤石",
+    "萤石",
+    "萤石",
+    "萤石",
+    "萤石"
+   ],
+   "minmax_hits": [
+    "萤石"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.4
+  },
+  {
+   "id": "G090",
+   "category": "operator_lore",
+   "question": "萤石的背景故事是什么？",
+   "expected_sources": [
+    "萤石"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "萤石",
+    "萤石",
+    "萤石",
+    "萤石",
+    "安塔尔"
+   ],
+   "rrf_hits": [
+    "萤石"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "萤石",
+    "萤石",
+    "萤石",
+    "萤石",
+    "萤石"
+   ],
+   "minmax_hits": [
+    "萤石"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.4
+  },
+  {
+   "id": "G087",
+   "category": "operator_lore",
+   "question": "秋栗的背景故事是什么？",
+   "expected_sources": [
+    "秋栗"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "秋栗",
+    "秋栗",
+    "安塔尔",
+    "秋栗",
+    "安塔尔"
+   ],
+   "rrf_hits": [
+    "秋栗"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "秋栗",
+    "秋栗",
+    "秋栗",
+    "秋栗",
+    "秋栗"
+   ],
+   "minmax_hits": [
+    "秋栗"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.48
+  },
+  {
+   "id": "G096",
+   "category": "enemy_skill",
+   "question": "埃尔埃格尼斯有什么攻击方式或技能？",
+   "expected_sources": [
+    "埃尔埃格尼斯"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "埃尔埃格尼斯",
+    "埃尔埃格尼斯",
+    "卡缪",
+    "艾维文娜",
+    "别礼"
+   ],
+   "rrf_hits": [
+    "埃尔埃格尼斯"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "埃尔埃格尼斯",
+    "埃尔埃格尼斯",
+    "艾维文娜",
+    "刚角天使",
+    "棱镜天使"
+   ],
+   "minmax_hits": [
+    "埃尔埃格尼斯"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.43
+  },
+  {
+   "id": "G092",
+   "category": "enemy_skill",
+   "question": "“碾骨之拳”罗丹有什么攻击方式或技能？",
+   "expected_sources": [
+    "“碾骨之拳”罗丹"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "“碾骨之拳”罗丹",
+    "“碾骨之拳”罗丹",
+    "“碾骨之拳”罗丹",
+    "“碾骨之拳”罗丹",
+    "“碾骨之拳”罗丹"
+   ],
+   "rrf_hits": [
+    "“碾骨之拳”罗丹"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "“碾骨之拳”罗丹",
+    "“碾骨之拳”罗丹",
+    "“碾骨之拳”罗丹",
+    "“碾骨之拳”罗丹",
+    "“碾骨之拳”罗丹"
+   ],
+   "minmax_hits": [
+    "“碾骨之拳”罗丹"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.5
+  },
+  {
+   "id": "G094",
+   "category": "enemy_skill",
+   "question": "阿莱克琉斯，千夫长有什么攻击方式或技能？",
+   "expected_sources": [
+    "阿莱克琉斯，千夫长"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "阿莱克琉斯，千夫长",
+    "阿莱克琉斯，千夫长",
+    "阿莱克琉斯，千夫长",
+    "阿莱克琉斯，千夫长",
+    "阿莱克琉斯，千夫长"
+   ],
+   "rrf_hits": [
+    "阿莱克琉斯，千夫长"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "阿莱克琉斯，千夫长",
+    "阿莱克琉斯，千夫长",
+    "阿莱克琉斯，千夫长",
+    "阿莱克琉斯，千夫长",
+    "阿莱克琉斯，千夫长"
+   ],
+   "minmax_hits": [
+    "阿莱克琉斯，千夫长"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.49
+  },
+  {
+   "id": "G091",
+   "category": "enemy_resist",
+   "question": "“碾骨之拳”罗丹的元素抗性是什么？",
+   "expected_sources": [
+    "“碾骨之拳”罗丹"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "“碾骨之拳”罗丹",
+    "“碾骨之拳”罗丹",
+    "“碾骨之拳”罗丹",
+    "“碾骨之拳”罗丹",
+    "“碾骨之拳”罗丹"
+   ],
+   "rrf_hits": [
+    "“碾骨之拳”罗丹"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "“碾骨之拳”罗丹",
+    "“碾骨之拳”罗丹",
+    "“碾骨之拳”罗丹",
+    "“碾骨之拳”罗丹",
+    "“碾骨之拳”罗丹"
+   ],
+   "minmax_hits": [
+    "“碾骨之拳”罗丹"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.49
+  },
+  {
+   "id": "G093",
+   "category": "enemy_resist",
+   "question": "阿莱克琉斯，千夫长的元素抗性是什么？",
+   "expected_sources": [
+    "阿莱克琉斯，千夫长"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "阿莱克琉斯，千夫长",
+    "阿莱克琉斯，千夫长",
+    "阿莱克琉斯，千夫长",
+    "阿莱克琉斯，千夫长",
+    "阿莱克琉斯，千夫长"
+   ],
+   "rrf_hits": [
+    "阿莱克琉斯，千夫长"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "阿莱克琉斯，千夫长",
+    "阿莱克琉斯，千夫长",
+    "阿莱克琉斯，千夫长",
+    "阿莱克琉斯，千夫长",
+    "阿莱克琉斯，千夫长"
+   ],
+   "minmax_hits": [
+    "阿莱克琉斯，千夫长"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.49
+  },
+  {
+   "id": "G095",
+   "category": "enemy_resist",
+   "question": "埃尔埃格尼斯的元素抗性是什么？",
+   "expected_sources": [
+    "埃尔埃格尼斯"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "埃尔埃格尼斯",
+    "表象",
+    "三位一体",
+    "埃尔埃格尼斯",
+    "棱镜天使"
+   ],
+   "rrf_hits": [
+    "埃尔埃格尼斯"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "埃尔埃格尼斯",
+    "埃尔埃格尼斯",
+    "棱镜天使",
+    "表象",
+    "三位一体"
+   ],
+   "minmax_hits": [
+    "埃尔埃格尼斯"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.61
+  },
+  {
+   "id": "G098",
+   "category": "enemy_skill",
+   "question": "白垩附肢有什么攻击方式或技能？",
+   "expected_sources": [
+    "白垩附肢"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "白垩附肢",
+    "白垩附肢",
+    "白垩附肢",
+    "白垩界卫",
+    "白垩附肢"
+   ],
+   "rrf_hits": [
+    "白垩附肢"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "白垩附肢",
+    "白垩附肢",
+    "白垩界卫",
+    "白垩附肢",
+    "白垩附肢"
+   ],
+   "minmax_hits": [
+    "白垩附肢"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.39
+  },
+  {
+   "id": "G099",
+   "category": "enemy_resist",
+   "question": "白垩界卫的元素抗性是什么？",
+   "expected_sources": [
+    "白垩界卫"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "白垩界卫",
+    "白垩界卫",
+    "白垩附肢",
+    "白垩界卫",
+    "表象"
+   ],
+   "rrf_hits": [
+    "白垩界卫"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "白垩界卫",
+    "白垩界卫",
+    "白垩附肢",
+    "白垩界卫",
+    "白垩附肢"
+   ],
+   "minmax_hits": [
+    "白垩界卫"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.41
+  },
+  {
+   "id": "G102",
+   "category": "enemy_resist",
+   "question": "百眼彪兽的元素抗性是什么？",
+   "expected_sources": [
+    "百眼彪兽"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "百眼彪兽",
+    "怒目彪兽",
+    "百眼彪兽",
+    "百眼彪兽",
+    "百眼彪兽"
+   ],
+   "rrf_hits": [
+    "百眼彪兽"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "百眼彪兽",
+    "百眼彪兽",
+    "百眼彪兽",
+    "怒目彪兽",
+    "百眼彪兽"
+   ],
+   "minmax_hits": [
+    "百眼彪兽"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.32
+  },
+  {
+   "id": "G101",
+   "category": "enemy_drop",
+   "question": "百眼彪兽会掉落什么材料？",
+   "expected_sources": [
+    "百眼彪兽"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "百眼彪兽",
+    "怒目彪兽",
+    "百眼彪兽",
+    "百眼彪兽",
+    "百眼彪兽"
+   ],
+   "rrf_hits": [
+    "百眼彪兽"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "百眼彪兽",
+    "怒目彪兽",
+    "百眼彪兽",
+    "百眼彪兽",
+    "百眼彪兽"
+   ],
+   "minmax_hits": [
+    "百眼彪兽"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.46
+  },
+  {
+   "id": "G097",
+   "category": "enemy_resist",
+   "question": "白垩附肢的元素抗性是什么？",
+   "expected_sources": [
+    "白垩附肢"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "白垩附肢",
+    "白垩附肢",
+    "白垩附肢",
+    "白垩界卫",
+    "白垩界卫"
+   ],
+   "rrf_hits": [
+    "白垩附肢"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "白垩附肢",
+    "白垩附肢",
+    "白垩附肢",
+    "白垩界卫",
+    "白垩界卫"
+   ],
+   "minmax_hits": [
+    "白垩附肢"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.5
+  },
+  {
+   "id": "G100",
+   "category": "enemy_skill",
+   "question": "白垩界卫有什么攻击方式或技能？",
+   "expected_sources": [
+    "白垩界卫"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "白垩界卫",
+    "白垩附肢",
+    "白垩附肢",
+    "白垩界卫",
+    "白垩附肢"
+   ],
+   "rrf_hits": [
+    "白垩界卫"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "白垩界卫",
+    "白垩附肢",
+    "白垩附肢",
+    "白垩界卫",
+    "白垩附肢"
+   ],
+   "minmax_hits": [
+    "白垩界卫"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.58
+  },
+  {
+   "id": "G107",
+   "category": "weapon_match",
+   "question": "黯色火炬适合什么干员使用？",
+   "expected_sources": [
+    "黯色火炬"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "黯色火炬",
+    "黯色火炬",
+    "黯色火炬",
+    "黯色火炬",
+    "黯色火炬"
+   ],
+   "rrf_hits": [
+    "黯色火炬"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "黯色火炬",
+    "黯色火炬",
+    "黯色火炬",
+    "黯色火炬",
+    "黯色火炬"
+   ],
+   "minmax_hits": [
+    "黯色火炬"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.48
+  },
+  {
+   "id": "G104",
+   "category": "weapon_skill",
+   "question": "J.E.T.武器的技能效果是什么？",
+   "expected_sources": [
+    "J.E.T."
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "J.E.T.",
+    "J.E.T.",
+    "J.E.T.",
+    "J.E.T.",
+    "J.E.T."
+   ],
+   "rrf_hits": [
+    "J.E.T."
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "J.E.T.",
+    "J.E.T.",
+    "J.E.T.",
+    "J.E.T.",
+    "J.E.T."
+   ],
+   "minmax_hits": [
+    "J.E.T."
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.51
+  },
+  {
+   "id": "G103",
+   "category": "enemy_skill",
+   "question": "百眼彪兽有什么攻击方式或技能？",
+   "expected_sources": [
+    "百眼彪兽"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "百眼彪兽",
+    "百眼彪兽",
+    "百眼彪兽",
+    "百眼彪兽",
+    "百眼彪兽"
+   ],
+   "rrf_hits": [
+    "百眼彪兽"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "百眼彪兽",
+    "百眼彪兽",
+    "百眼彪兽",
+    "百眼彪兽",
+    "百眼彪兽"
+   ],
+   "minmax_hits": [
+    "百眼彪兽"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.52
+  },
+  {
+   "id": "G108",
+   "category": "weapon_skill",
+   "question": "白夜新星武器的技能效果是什么？",
+   "expected_sources": [
+    "白夜新星"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "白夜新星",
+    "白夜新星",
+    "白夜新星",
+    "白夜新星",
+    "白夜新星"
+   ],
+   "rrf_hits": [
+    "白夜新星"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "白夜新星",
+    "白夜新星",
+    "白夜新星",
+    "白夜新星",
+    "白夜新星"
+   ],
+   "minmax_hits": [
+    "白夜新星"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.42
+  },
+  {
+   "id": "G106",
+   "category": "weapon_skill",
+   "question": "黯色火炬武器的技能效果是什么？",
+   "expected_sources": [
+    "黯色火炬"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "黯色火炬",
+    "黯色火炬",
+    "黯色火炬",
+    "黯色火炬",
+    "黯色火炬"
+   ],
+   "rrf_hits": [
+    "黯色火炬"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "黯色火炬",
+    "黯色火炬",
+    "黯色火炬",
+    "黯色火炬",
+    "黯色火炬"
+   ],
+   "minmax_hits": [
+    "黯色火炬"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.46
+  },
+  {
+   "id": "G105",
+   "category": "weapon_match",
+   "question": "J.E.T.适合什么干员使用？",
+   "expected_sources": [
+    "J.E.T."
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "J.E.T.",
+    "J.E.T.",
+    "J.E.T.",
+    "J.E.T.",
+    "O.B.J.术识"
+   ],
+   "rrf_hits": [
+    "J.E.T."
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "J.E.T.",
+    "J.E.T.",
+    "J.E.T.",
+    "J.E.T.",
+    "J.E.T."
+   ],
+   "minmax_hits": [
+    "J.E.T."
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.64
+  },
+  {
+   "id": "G109",
+   "category": "weapon_match",
+   "question": "白夜新星适合什么干员使用？",
+   "expected_sources": [
+    "白夜新星"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "白夜新星",
+    "白夜新星",
+    "白夜新星",
+    "白夜新星",
+    "白夜新星"
+   ],
+   "rrf_hits": [
+    "白夜新星"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "白夜新星",
+    "白夜新星",
+    "白夜新星",
+    "白夜新星",
+    "白夜新星"
+   ],
+   "minmax_hits": [
+    "白夜新星"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.35
+  },
+  {
+   "id": "G113",
+   "category": "weapon_match",
+   "question": "不知归适合什么干员使用？",
+   "expected_sources": [
+    "不知归"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "不知归",
+    "不知归",
+    "不知归",
+    "不知归",
+    "不知归"
+   ],
+   "rrf_hits": [
+    "不知归"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "不知归",
+    "不知归",
+    "不知归",
+    "不知归",
+    "领航者"
+   ],
+   "minmax_hits": [
+    "不知归"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.4
+  },
+  {
+   "id": "G112",
+   "category": "weapon_skill",
+   "question": "不知归武器的技能效果是什么？",
+   "expected_sources": [
+    "不知归"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "不知归",
+    "不知归",
+    "不知归",
+    "不知归",
+    "不知归"
+   ],
+   "rrf_hits": [
+    "不知归"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "不知归",
+    "不知归",
+    "不知归",
+    "不知归",
+    "不知归"
+   ],
+   "minmax_hits": [
+    "不知归"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.5
+  },
+  {
+   "id": "G111",
+   "category": "weapon_match",
+   "question": "爆破单元适合什么干员使用？",
+   "expected_sources": [
+    "爆破单元"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "爆破单元",
+    "爆破单元",
+    "爆破单元",
+    "爆破单元",
+    "爆破单元"
+   ],
+   "rrf_hits": [
+    "爆破单元"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "爆破单元",
+    "爆破单元",
+    "爆破单元",
+    "爆破单元",
+    "爆破单元"
+   ],
+   "minmax_hits": [
+    "爆破单元"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.47
+  },
+  {
+   "id": "G110",
+   "category": "weapon_skill",
+   "question": "爆破单元武器的技能效果是什么？",
+   "expected_sources": [
+    "爆破单元"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "爆破单元",
+    "爆破单元",
+    "爆破单元",
+    "爆破单元",
+    "爆破单元"
+   ],
+   "rrf_hits": [
+    "爆破单元"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "爆破单元",
+    "爆破单元",
+    "爆破单元",
+    "爆破单元",
+    "爆破单元"
+   ],
+   "minmax_hits": [
+    "爆破单元"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.45
+  },
+  {
+   "id": "G114",
+   "category": "weapon_skill",
+   "question": "沧溟星梦武器的技能效果是什么？",
+   "expected_sources": [
+    "沧溟星梦"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "沧溟星梦",
+    "沧溟星梦",
+    "沧溟星梦",
+    "沧溟星梦",
+    "沧溟星梦"
+   ],
+   "rrf_hits": [
+    "沧溟星梦"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "沧溟星梦",
+    "沧溟星梦",
+    "沧溟星梦",
+    "沧溟星梦",
+    "沧溟星梦"
+   ],
+   "minmax_hits": [
+    "沧溟星梦"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.54
+  },
+  {
+   "id": "G115",
+   "category": "weapon_match",
+   "question": "沧溟星梦适合什么干员使用？",
+   "expected_sources": [
+    "沧溟星梦"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "沧溟星梦",
+    "沧溟星梦",
+    "沧溟星梦",
+    "沧溟星梦",
+    "沧溟星梦"
+   ],
+   "rrf_hits": [
+    "沧溟星梦"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "沧溟星梦",
+    "沧溟星梦",
+    "沧溟星梦",
+    "沧溟星梦",
+    "沧溟星梦"
+   ],
+   "minmax_hits": [
+    "沧溟星梦"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.48
+  },
+  {
+   "id": "G119",
+   "category": "weapon_match",
+   "question": "大雷斑适合什么干员使用？",
+   "expected_sources": [
+    "大雷斑"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "大雷斑",
+    "大雷斑",
+    "大雷斑",
+    "大雷斑",
+    "大雷斑"
+   ],
+   "rrf_hits": [
+    "大雷斑"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "大雷斑",
+    "大雷斑",
+    "大雷斑",
+    "大雷斑",
+    "大雷斑"
+   ],
+   "minmax_hits": [
+    "大雷斑"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.38
+  },
+  {
+   "id": "G116",
+   "category": "weapon_skill",
+   "question": "赤缨武器的技能效果是什么？",
+   "expected_sources": [
+    "赤缨"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "赤缨",
+    "赤缨",
+    "赤缨",
+    "赤缨",
+    "破碎君王"
+   ],
+   "rrf_hits": [
+    "赤缨"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "赤缨",
+    "赤缨",
+    "赤缨",
+    "赤缨",
+    "赤缨"
+   ],
+   "minmax_hits": [
+    "赤缨"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.49
+  },
+  {
+   "id": "G117",
+   "category": "weapon_match",
+   "question": "赤缨适合什么干员使用？",
+   "expected_sources": [
+    "赤缨"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "赤缨",
+    "赤缨",
+    "赤缨",
+    "赤缨",
+    "洛茜"
+   ],
+   "rrf_hits": [
+    "赤缨"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "赤缨",
+    "赤缨",
+    "赤缨",
+    "赤缨",
+    "赤缨"
+   ],
+   "minmax_hits": [
+    "赤缨"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.47
+  },
+  {
+   "id": "G118",
+   "category": "weapon_skill",
+   "question": "大雷斑武器的技能效果是什么？",
+   "expected_sources": [
+    "大雷斑"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "大雷斑",
+    "大雷斑",
+    "破碎君王",
+    "大雷斑",
+    "大雷斑"
+   ],
+   "rrf_hits": [
+    "大雷斑"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "大雷斑",
+    "大雷斑",
+    "大雷斑",
+    "大雷斑",
+    "大雷斑"
+   ],
+   "minmax_hits": [
+    "大雷斑"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.45
+  },
+  {
+   "id": "G120",
+   "category": "weapon_skill",
+   "question": "灯火使命武器的技能效果是什么？",
+   "expected_sources": [
+    "灯火使命"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "灯火使命",
+    "灯火使命",
+    "灯火使命",
+    "灯火使命",
+    "灯火使命"
+   ],
+   "rrf_hits": [
+    "灯火使命"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "灯火使命",
+    "灯火使命",
+    "灯火使命",
+    "灯火使命",
+    "灯火使命"
+   ],
+   "minmax_hits": [
+    "灯火使命"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.36
+  },
+  {
+   "id": "G121",
+   "category": "weapon_match",
+   "question": "灯火使命适合什么干员使用？",
+   "expected_sources": [
+    "灯火使命"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "灯火使命",
+    "灯火使命",
+    "灯火使命",
+    "灯火使命",
+    "使命必达"
+   ],
+   "rrf_hits": [
+    "灯火使命"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "灯火使命",
+    "灯火使命",
+    "灯火使命",
+    "灯火使命",
+    "使命必达"
+   ],
+   "minmax_hits": [
+    "灯火使命"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.38
+  },
+  {
+   "id": "G124",
+   "category": "equipment_stat",
+   "question": "50式应龙短刃是什么部位的装备，附加什么属性？",
+   "expected_sources": [
+    "50式应龙短刃"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "50式应龙短刃·壹型",
+    "50式应龙短刃",
+    "50式应龙短刃",
+    "50式应龙短刃·壹型",
+    "50式应龙短刃"
+   ],
+   "rrf_hits": [
+    "50式应龙短刃"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "50式应龙短刃",
+    "50式应龙短刃·壹型",
+    "50式应龙短刃",
+    "50式应龙短刃·壹型",
+    "50式应龙短刃"
+   ],
+   "minmax_hits": [
+    "50式应龙短刃"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.36
+  },
+  {
+   "id": "G126",
+   "category": "equipment_stat",
+   "question": "50式应龙短刃·壹型是什么部位的装备，附加什么属性？",
+   "expected_sources": [
+    "50式应龙短刃·壹型"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "50式应龙短刃·壹型",
+    "50式应龙短刃·壹型",
+    "50式应龙短刃",
+    "50式应龙短刃·壹型",
+    "50式应龙短刃·壹型"
+   ],
+   "rrf_hits": [
+    "50式应龙短刃·壹型"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "50式应龙短刃·壹型",
+    "50式应龙短刃·壹型",
+    "50式应龙短刃",
+    "50式应龙护手·壹型",
+    "50式应龙重甲·壹型"
+   ],
+   "minmax_hits": [
+    "50式应龙短刃·壹型"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.4
+  },
+  {
+   "id": "G125",
+   "category": "equipment_unlock",
+   "question": "50式应龙短刃怎么获得？",
+   "expected_sources": [
+    "50式应龙短刃"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "50式应龙短刃",
+    "50式应龙短刃",
+    "50式应龙短刃·壹型",
+    "50式应龙短刃·壹型",
+    "50式应龙重甲"
+   ],
+   "rrf_hits": [
+    "50式应龙短刃"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "50式应龙短刃",
+    "50式应龙短刃",
+    "50式应龙短刃·壹型",
+    "50式应龙短刃·壹型",
+    "50式应龙短刃"
+   ],
+   "minmax_hits": [
+    "50式应龙短刃"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.33
+  },
+  {
+   "id": "G123",
+   "category": "weapon_match",
+   "question": "典范适合什么干员使用？",
+   "expected_sources": [
+    "典范"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "典范",
+    "典范",
+    "典范",
+    "典范",
+    "显赫声名"
+   ],
+   "rrf_hits": [
+    "典范"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "典范",
+    "典范",
+    "典范",
+    "典范",
+    "显赫声名"
+   ],
+   "minmax_hits": [
+    "典范"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.45
+  },
+  {
+   "id": "G122",
+   "category": "weapon_skill",
+   "question": "典范武器的技能效果是什么？",
+   "expected_sources": [
+    "典范"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "典范",
+    "典范",
+    "典范",
+    "典范",
+    "赤缨"
+   ],
+   "rrf_hits": [
+    "典范"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "典范",
+    "典范",
+    "典范",
+    "典范",
+    "典范"
+   ],
+   "minmax_hits": [
+    "典范"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.51
+  },
+  {
+   "id": "G127",
+   "category": "equipment_unlock",
+   "question": "50式应龙短刃·壹型怎么获得？",
+   "expected_sources": [
+    "50式应龙短刃·壹型"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "50式应龙短刃·壹型",
+    "50式应龙短刃·壹型",
+    "50式应龙短刃",
+    "50式应龙短刃",
+    "50式应龙重甲·壹型"
+   ],
+   "rrf_hits": [
+    "50式应龙短刃·壹型"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "50式应龙短刃·壹型",
+    "50式应龙短刃·壹型",
+    "50式应龙短刃",
+    "50式应龙护手·壹型",
+    "50式应龙短刃"
+   ],
+   "minmax_hits": [
+    "50式应龙短刃·壹型"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.38
+  },
+  {
+   "id": "G132",
+   "category": "equipment_stat",
+   "question": "50式应龙雷达是什么部位的装备，附加什么属性？",
+   "expected_sources": [
+    "50式应龙雷达"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "50式应龙雷达·壹型",
+    "50式应龙雷达",
+    "50式应龙雷达·贰型",
+    "50式应龙雷达",
+    "50式应龙雷达"
+   ],
+   "rrf_hits": [
+    "50式应龙雷达"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "50式应龙雷达",
+    "50式应龙雷达·壹型",
+    "50式应龙雷达",
+    "50式应龙雷达·贰型",
+    "50式应龙雷达·壹型"
+   ],
+   "minmax_hits": [
+    "50式应龙雷达"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.36
+  },
+  {
+   "id": "G129",
+   "category": "equipment_unlock",
+   "question": "50式应龙护手怎么获得？",
+   "expected_sources": [
+    "50式应龙护手"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "50式应龙护手",
+    "50式应龙护手·壹型",
+    "50式应龙护手",
+    "50式应龙护手·壹型",
+    "50式应龙短刃"
+   ],
+   "rrf_hits": [
+    "50式应龙护手"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "50式应龙护手",
+    "50式应龙护手",
+    "50式应龙护手·壹型",
+    "50式应龙护手·壹型",
+    "50式应龙护手"
+   ],
+   "minmax_hits": [
+    "50式应龙护手"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.46
+  },
+  {
+   "id": "G128",
+   "category": "equipment_stat",
+   "question": "50式应龙护手是什么部位的装备，附加什么属性？",
+   "expected_sources": [
+    "50式应龙护手"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "50式应龙护手·壹型",
+    "50式应龙护手",
+    "50式应龙护手",
+    "50式应龙护手·壹型",
+    "50式应龙护手"
+   ],
+   "rrf_hits": [
+    "50式应龙护手"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "50式应龙护手·壹型",
+    "50式应龙护手",
+    "50式应龙护手",
+    "50式应龙护手·壹型",
+    "50式应龙护手"
+   ],
+   "minmax_hits": [
+    "50式应龙护手"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.43
+  },
+  {
+   "id": "G133",
+   "category": "equipment_unlock",
+   "question": "50式应龙雷达怎么获得？",
+   "expected_sources": [
+    "50式应龙雷达"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "50式应龙雷达",
+    "50式应龙雷达",
+    "50式应龙雷达·壹型",
+    "50式应龙雷达·贰型",
+    "50式应龙雷达·壹型"
+   ],
+   "rrf_hits": [
+    "50式应龙雷达"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "50式应龙雷达",
+    "50式应龙雷达",
+    "50式应龙雷达·壹型",
+    "50式应龙雷达·壹型",
+    "50式应龙雷达·贰型"
+   ],
+   "minmax_hits": [
+    "50式应龙雷达"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.35
+  },
+  {
+   "id": "G130",
+   "category": "equipment_stat",
+   "question": "50式应龙护手·壹型是什么部位的装备，附加什么属性？",
+   "expected_sources": [
+    "50式应龙护手·壹型"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "50式应龙护手·壹型",
+    "50式应龙护手·壹型",
+    "50式应龙护手",
+    "50式应龙护手·壹型",
+    "50式应龙护手·壹型"
+   ],
+   "rrf_hits": [
+    "50式应龙护手·壹型"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "50式应龙护手·壹型",
+    "50式应龙护手·壹型",
+    "50式应龙护手",
+    "50式应龙护手",
+    "50式应龙护手·壹型"
+   ],
+   "minmax_hits": [
+    "50式应龙护手·壹型"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.58
+  },
+  {
+   "id": "G131",
+   "category": "equipment_unlock",
+   "question": "50式应龙护手·壹型怎么获得？",
+   "expected_sources": [
+    "50式应龙护手·壹型"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "50式应龙护手·壹型",
+    "50式应龙护手",
+    "50式应龙护手·壹型",
+    "50式应龙重甲·壹型",
+    "50式应龙短刃·壹型"
+   ],
+   "rrf_hits": [
+    "50式应龙护手·壹型"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "50式应龙护手·壹型",
+    "50式应龙护手·壹型",
+    "50式应龙护手",
+    "50式应龙护手",
+    "50式应龙护手·壹型"
+   ],
+   "minmax_hits": [
+    "50式应龙护手·壹型"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.53
+  },
+  {
+   "id": "G139",
+   "category": "equipment_unlock",
+   "question": "50式应龙轻甲怎么获得？",
+   "expected_sources": [
+    "50式应龙轻甲"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "50式应龙轻甲",
+    "50式应龙轻甲",
+    "50式应龙重甲",
+    "50式应龙重甲",
+    "50式应龙雷达"
+   ],
+   "rrf_hits": [
+    "50式应龙轻甲"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "50式应龙轻甲",
+    "50式应龙轻甲",
+    "50式应龙重甲",
+    "50式应龙轻甲",
+    "50式应龙轻甲"
+   ],
+   "minmax_hits": [
+    "50式应龙轻甲"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.35
+  },
+  {
+   "id": "G135",
+   "category": "equipment_unlock",
+   "question": "50式应龙雷达·贰型怎么获得？",
+   "expected_sources": [
+    "50式应龙雷达·贰型"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "50式应龙雷达·贰型",
+    "50式应龙雷达·贰型",
+    "50式应龙雷达·壹型",
+    "50式应龙雷达",
+    "50式应龙重甲·贰型"
+   ],
+   "rrf_hits": [
+    "50式应龙雷达·贰型"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "50式应龙雷达·贰型",
+    "50式应龙雷达·贰型",
+    "50式应龙雷达",
+    "50式应龙雷达·壹型",
+    "50式应龙重甲·贰型"
+   ],
+   "minmax_hits": [
+    "50式应龙雷达·贰型"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.49
+  },
+  {
+   "id": "G137",
+   "category": "equipment_unlock",
+   "question": "50式应龙雷达·壹型怎么获得？",
+   "expected_sources": [
+    "50式应龙雷达·壹型"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "50式应龙雷达·壹型",
+    "50式应龙雷达·壹型",
+    "50式应龙雷达",
+    "50式应龙雷达·贰型",
+    "50式应龙雷达"
+   ],
+   "rrf_hits": [
+    "50式应龙雷达·壹型"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "50式应龙雷达·壹型",
+    "50式应龙雷达·壹型",
+    "50式应龙雷达",
+    "50式应龙雷达·贰型",
+    "50式应龙雷达"
+   ],
+   "minmax_hits": [
+    "50式应龙雷达·壹型"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.44
+  },
+  {
+   "id": "G136",
+   "category": "equipment_stat",
+   "question": "50式应龙雷达·壹型是什么部位的装备，附加什么属性？",
+   "expected_sources": [
+    "50式应龙雷达·壹型"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "50式应龙雷达·壹型",
+    "50式应龙雷达",
+    "50式应龙雷达·壹型",
+    "50式应龙雷达·壹型",
+    "50式应龙雷达·贰型"
+   ],
+   "rrf_hits": [
+    "50式应龙雷达·壹型"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "50式应龙雷达·壹型",
+    "50式应龙雷达·壹型",
+    "50式应龙雷达",
+    "50式应龙雷达·贰型",
+    "50式应龙护手·壹型"
+   ],
+   "minmax_hits": [
+    "50式应龙雷达·壹型"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.48
+  },
+  {
+   "id": "G134",
+   "category": "equipment_stat",
+   "question": "50式应龙雷达·贰型是什么部位的装备，附加什么属性？",
+   "expected_sources": [
+    "50式应龙雷达·贰型"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "50式应龙雷达·贰型",
+    "50式应龙雷达·贰型",
+    "50式应龙雷达·贰型",
+    "50式应龙雷达",
+    "50式应龙雷达·贰型"
+   ],
+   "rrf_hits": [
+    "50式应龙雷达·贰型"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "50式应龙雷达·贰型",
+    "50式应龙雷达·贰型",
+    "50式应龙雷达",
+    "50式应龙雷达·壹型",
+    "50式应龙重甲·贰型"
+   ],
+   "minmax_hits": [
+    "50式应龙雷达·贰型"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.53
+  },
+  {
+   "id": "G138",
+   "category": "equipment_stat",
+   "question": "50式应龙轻甲是什么部位的装备，附加什么属性？",
+   "expected_sources": [
+    "50式应龙轻甲"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "50式应龙轻甲",
+    "50式应龙轻甲",
+    "50式应龙轻甲",
+    "50式应龙重甲",
+    "50式应龙轻甲"
+   ],
+   "rrf_hits": [
+    "50式应龙轻甲"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "50式应龙轻甲",
+    "50式应龙轻甲",
+    "50式应龙重甲",
+    "50式应龙重甲·壹型",
+    "50式应龙轻甲"
+   ],
+   "minmax_hits": [
+    "50式应龙轻甲"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.48
+  },
+  {
+   "id": "G141",
+   "category": "equipment_unlock",
+   "question": "50式应龙重甲怎么获得？",
+   "expected_sources": [
+    "50式应龙重甲"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "50式应龙重甲",
+    "50式应龙重甲·壹型",
+    "50式应龙重甲",
+    "50式应龙重甲·贰型",
+    "50式应龙重甲·壹型"
+   ],
+   "rrf_hits": [
+    "50式应龙重甲"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "50式应龙重甲",
+    "50式应龙重甲",
+    "50式应龙轻甲",
+    "50式应龙重甲·壹型",
+    "50式应龙重甲·贰型"
+   ],
+   "minmax_hits": [
+    "50式应龙重甲"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.45
+  },
+  {
+   "id": "G145",
+   "category": "equipment_unlock",
+   "question": "50式应龙重甲·壹型怎么获得？",
+   "expected_sources": [
+    "50式应龙重甲·壹型"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "50式应龙重甲·壹型",
+    "50式应龙重甲",
+    "50式应龙重甲·贰型",
+    "50式应龙重甲·壹型",
+    "50式应龙重甲"
+   ],
+   "rrf_hits": [
+    "50式应龙重甲·壹型"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "50式应龙重甲·壹型",
+    "50式应龙重甲·壹型",
+    "50式应龙重甲",
+    "50式应龙护手·壹型",
+    "50式应龙重甲·贰型"
+   ],
+   "minmax_hits": [
+    "50式应龙重甲·壹型"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.43
+  },
+  {
+   "id": "G144",
+   "category": "equipment_stat",
+   "question": "50式应龙重甲·壹型是什么部位的装备，附加什么属性？",
+   "expected_sources": [
+    "50式应龙重甲·壹型"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "50式应龙重甲·壹型",
+    "50式应龙重甲",
+    "50式应龙重甲·壹型",
+    "50式应龙重甲·壹型",
+    "50式应龙重甲·壹型"
+   ],
+   "rrf_hits": [
+    "50式应龙重甲·壹型"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "50式应龙重甲·壹型",
+    "50式应龙重甲·壹型",
+    "50式应龙护手·壹型",
+    "50式应龙重甲·壹型",
+    "50式应龙重甲·贰型"
+   ],
+   "minmax_hits": [
+    "50式应龙重甲·壹型"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.39
+  },
+  {
+   "id": "G143",
+   "category": "equipment_unlock",
+   "question": "50式应龙重甲·贰型怎么获得？",
+   "expected_sources": [
+    "50式应龙重甲·贰型"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "50式应龙重甲·贰型",
+    "50式应龙重甲·贰型",
+    "50式应龙雷达·贰型",
+    "50式应龙重甲·壹型",
+    "50式应龙雷达·贰型"
+   ],
+   "rrf_hits": [
+    "50式应龙重甲·贰型"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "50式应龙重甲·贰型",
+    "50式应龙重甲·贰型",
+    "50式应龙雷达·贰型",
+    "50式应龙重甲",
+    "50式应龙重甲·壹型"
+   ],
+   "minmax_hits": [
+    "50式应龙重甲·贰型"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.44
+  },
+  {
+   "id": "G142",
+   "category": "equipment_stat",
+   "question": "50式应龙重甲·贰型是什么部位的装备，附加什么属性？",
+   "expected_sources": [
+    "50式应龙重甲·贰型"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "50式应龙重甲·贰型",
+    "50式应龙重甲·贰型",
+    "50式应龙重甲·贰型",
+    "50式应龙重甲·贰型",
+    "50式应龙重甲·贰型"
+   ],
+   "rrf_hits": [
+    "50式应龙重甲·贰型"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "50式应龙重甲·贰型",
+    "50式应龙重甲·贰型",
+    "50式应龙雷达·贰型",
+    "50式应龙重甲·贰型",
+    "50式应龙重甲·贰型"
+   ],
+   "minmax_hits": [
+    "50式应龙重甲·贰型"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.49
+  },
+  {
+   "id": "G140",
+   "category": "equipment_stat",
+   "question": "50式应龙重甲是什么部位的装备，附加什么属性？",
+   "expected_sources": [
+    "50式应龙重甲"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "50式应龙重甲",
+    "50式应龙重甲·壹型",
+    "50式应龙重甲",
+    "50式应龙重甲·贰型",
+    "50式应龙重甲"
+   ],
+   "rrf_hits": [
+    "50式应龙重甲"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "50式应龙重甲",
+    "50式应龙重甲·壹型",
+    "50式应龙重甲·贰型",
+    "50式应龙重甲",
+    "50式应龙轻甲"
+   ],
+   "minmax_hits": [
+    "50式应龙重甲"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.48
+  },
+  {
+   "id": "G146",
+   "category": "equipment_stat",
+   "question": "M.I.警用臂环是什么部位的装备，附加什么属性？",
+   "expected_sources": [
+    "M.I.警用臂环"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "M.I.警用臂环",
+    "M.I.警用罩衣",
+    "M.I.警用臂环",
+    "M.I.警用手环",
+    "M.I.警用罩衣·壹型"
+   ],
+   "rrf_hits": [
+    "M.I.警用臂环"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "M.I.警用臂环",
+    "M.I.警用臂环",
+    "M.I.警用手环",
+    "M.I.警用手环·壹型",
+    "M.I.警用手环"
+   ],
+   "minmax_hits": [
+    "M.I.警用臂环"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.5
+  },
+  {
+   "id": "G148",
+   "category": "operator_search",
+   "question": "有哪些6星辅助干员？",
+   "expected_sources": [
+    "艾尔黛拉",
+    "洁尔佩塔"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "艾尔黛拉",
+    "洁尔佩塔",
+    "洛茜",
+    "女管理员",
+    "男管理员"
+   ],
+   "rrf_hits": [
+    "艾尔黛拉",
+    "洁尔佩塔"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "艾尔黛拉",
+    "洁尔佩塔",
+    "洛茜",
+    "女管理员",
+    "男管理员"
+   ],
+   "minmax_hits": [
+    "艾尔黛拉",
+    "洁尔佩塔"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.38
+  },
+  {
+   "id": "G150",
+   "category": "operator_search",
+   "question": "有哪些6星术师干员？",
+   "expected_sources": [
+    "诀",
+    "汤汤"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "诀",
+    "汤汤",
+    "萤石",
+    "洛茜",
+    "莱万汀"
+   ],
+   "rrf_hits": [
+    "诀",
+    "汤汤"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "诀",
+    "汤汤",
+    "萤石",
+    "狼卫",
+    "佩丽卡"
+   ],
+   "minmax_hits": [
+    "诀",
+    "汤汤"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.46
+  },
+  {
+   "id": "G147",
+   "category": "equipment_unlock",
+   "question": "M.I.警用臂环怎么获得？",
+   "expected_sources": [
+    "M.I.警用臂环"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "M.I.警用臂环",
+    "M.I.警用臂环",
+    "M.I.警用手环",
+    "M.I.警用护甲",
+    "M.I.警用手环"
+   ],
+   "rrf_hits": [
+    "M.I.警用臂环"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "M.I.警用臂环",
+    "M.I.警用臂环",
+    "M.I.警用手环",
+    "M.I.警用臂环",
+    "M.I.警用臂环"
+   ],
+   "minmax_hits": [
+    "M.I.警用臂环"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.43
+  },
+  {
+   "id": "G149",
+   "category": "operator_search",
+   "question": "有哪些6星突击干员？",
+   "expected_sources": [
+    "别礼",
+    "莱万汀",
+    "伊冯"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "庄方宜",
+    "伊冯",
+    "莱万汀",
+    "别礼",
+    "骏卫"
+   ],
+   "rrf_hits": [
+    "别礼",
+    "莱万汀",
+    "伊冯"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "莱万汀",
+    "庄方宜",
+    "伊冯",
+    "别礼",
+    "艾维文娜"
+   ],
+   "minmax_hits": [
+    "别礼",
+    "莱万汀",
+    "伊冯"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.44
+  },
+  {
+   "id": "G151",
+   "category": "operator_search",
+   "question": "有哪些6星先锋干员？",
+   "expected_sources": [
+    "骏卫",
+    "卡缪"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "骏卫",
+    "卡缪",
+    "弧光",
+    "阿列什",
+    "洛茜"
+   ],
+   "rrf_hits": [
+    "骏卫",
+    "卡缪"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "卡缪",
+    "骏卫",
+    "弧光",
+    "阿列什",
+    "秋栗"
+   ],
+   "minmax_hits": [
+    "骏卫",
+    "卡缪"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.52
+  },
+  {
+   "id": "G154",
+   "category": "operator_search",
+   "question": "有哪些5星突击干员？",
+   "expected_sources": [
+    "艾维文娜",
+    "大潘"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "艾维文娜",
+    "大潘",
+    "莱万汀",
+    "庄方宜",
+    "伊冯"
+   ],
+   "rrf_hits": [
+    "艾维文娜",
+    "大潘"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "大潘",
+    "艾维文娜",
+    "庄方宜",
+    "莱万汀",
+    "伊冯"
+   ],
+   "minmax_hits": [
+    "艾维文娜",
+    "大潘"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.35
+  },
+  {
+   "id": "G155",
+   "category": "operator_search",
+   "question": "有哪些5星术师干员？",
+   "expected_sources": [
+    "狼卫",
+    "佩丽卡"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "狼卫",
+    "汤汤",
+    "佩丽卡",
+    "诀",
+    "萤石"
+   ],
+   "rrf_hits": [
+    "狼卫",
+    "佩丽卡"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "狼卫",
+    "佩丽卡",
+    "诀",
+    "汤汤",
+    "萤石"
+   ],
+   "minmax_hits": [
+    "狼卫",
+    "佩丽卡"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.4
+  },
+  {
+   "id": "G153",
+   "category": "operator_search",
+   "question": "有哪些5星先锋干员？",
+   "expected_sources": [
+    "阿列什",
+    "弧光"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "弧光",
+    "阿列什",
+    "骏卫",
+    "卡缪",
+    "秋栗"
+   ],
+   "rrf_hits": [
+    "阿列什",
+    "弧光"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "弧光",
+    "阿列什",
+    "骏卫",
+    "卡缪",
+    "秋栗"
+   ],
+   "minmax_hits": [
+    "阿列什",
+    "弧光"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.47
+  },
+  {
+   "id": "G152",
+   "category": "operator_search",
+   "question": "有哪些6星近卫干员？",
+   "expected_sources": [
+    "黎风",
+    "洛茜",
+    "弭弗"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "男管理员",
+    "洛茜",
+    "女管理员",
+    "黎风",
+    "弭弗"
+   ],
+   "rrf_hits": [
+    "黎风",
+    "洛茜",
+    "弭弗"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "男管理员",
+    "女管理员",
+    "洛茜",
+    "黎风",
+    "弭弗"
+   ],
+   "minmax_hits": [
+    "黎风",
+    "洛茜",
+    "弭弗"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.43
+  },
+  {
+   "id": "G157",
+   "category": "equipment_search",
+   "question": "有哪些护手装备？",
+   "expected_sources": [
+    "50式应龙护手",
+    "50式应龙护手·壹型",
+    "M.I.警用手环"
+   ],
+   "rrf_source_hit": 0.0,
+   "rrf_top5": [
+    "纾难护手",
+    "萤石",
+    "点剑战术手套",
+    "埃特拉",
+    "涉渊手套"
+   ],
+   "rrf_hits": [],
+   "rrf_misses": [
+    "50式应龙护手",
+    "50式应龙护手·壹型",
+    "M.I.警用手环"
+   ],
+   "minmax_source_hit": 0.0,
+   "minmax_top5": [
+    "纾难护手",
+    "简易护手",
+    "轻超域护手",
+    "涉渊护手",
+    "萤石"
+   ],
+   "minmax_hits": [],
+   "minmax_misses": [
+    "50式应龙护手",
+    "50式应龙护手·壹型",
+    "M.I.警用手环"
+   ],
+   "n_candidates": 30,
+   "elapsed": 0.35
+  },
+  {
+   "id": "G156",
+   "category": "equipment_search",
+   "question": "有哪些配件装备？",
+   "expected_sources": [
+    "50式应龙短刃",
+    "50式应龙短刃·壹型",
+    "50式应龙雷达"
+   ],
+   "rrf_source_hit": 0.0,
+   "rrf_top5": [
+    "萤石",
+    "碾骨小雕像",
+    "埃特拉",
+    "点剑火石",
+    "艾尔黛拉"
+   ],
+   "rrf_hits": [],
+   "rrf_misses": [
+    "50式应龙短刃",
+    "50式应龙短刃·壹型",
+    "50式应龙雷达"
+   ],
+   "minmax_source_hit": 0.0,
+   "minmax_top5": [
+    "应急联络仪",
+    "萤石",
+    "碾骨小雕像",
+    "点剑火石",
+    "生物辅助护板"
+   ],
+   "minmax_hits": [],
+   "minmax_misses": [
+    "50式应龙短刃",
+    "50式应龙短刃·壹型",
+    "50式应龙雷达"
+   ],
+   "n_candidates": 30,
+   "elapsed": 0.54
+  },
+  {
+   "id": "G160",
+   "category": "mechanism",
+   "question": "干员的终结技有什么特点？",
+   "expected_sources": [],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "洛茜",
+    "悼亡诗",
+    "萤石",
+    "诀",
+    "诀"
+   ],
+   "rrf_hits": [],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "洛茜",
+    "悼亡诗",
+    "诀",
+    "诀",
+    "诀"
+   ],
+   "minmax_hits": [],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.32
+  },
+  {
+   "id": "G161",
+   "category": "weapon_compare",
+   "question": "镀红祝福和灯火使命哪个更适合卡缪？",
+   "expected_sources": [
+    "卡缪",
+    "镀红祝福",
+    "灯火使命"
+   ],
+   "rrf_source_hit": 0.667,
+   "rrf_top5": [
+    "镀红祝福",
+    "镀红祝福",
+    "镀红祝福",
+    "灯火使命",
+    "灯火使命"
+   ],
+   "rrf_hits": [
+    "镀红祝福",
+    "灯火使命"
+   ],
+   "rrf_misses": [
+    "卡缪"
+   ],
+   "minmax_source_hit": 0.667,
+   "minmax_top5": [
+    "镀红祝福",
+    "灯火使命",
+    "镀红祝福",
+    "镀红祝福",
+    "灯火使命"
+   ],
+   "minmax_hits": [
+    "镀红祝福",
+    "灯火使命"
+   ],
+   "minmax_misses": [
+    "卡缪"
+   ],
+   "n_candidates": 30,
+   "elapsed": 0.38
+  },
+  {
+   "id": "G163",
+   "category": "mechanism",
+   "question": "伏血能恢复多少技力？",
+   "expected_sources": [
+    "卡缪",
+    "伏血"
+   ],
+   "rrf_source_hit": 0.0,
+   "rrf_top5": [
+    "不知归",
+    "埃特拉",
+    "幻想苦痛",
+    "阿列什",
+    "幻想苦痛"
+   ],
+   "rrf_hits": [],
+   "rrf_misses": [
+    "卡缪",
+    "伏血"
+   ],
+   "minmax_source_hit": 0.0,
+   "minmax_top5": [
+    "秋栗",
+    "秋栗",
+    "O.B.J.轻芒",
+    "不知归",
+    "埃特拉"
+   ],
+   "minmax_hits": [],
+   "minmax_misses": [
+    "卡缪",
+    "伏血"
+   ],
+   "n_candidates": 30,
+   "elapsed": 0.37
+  },
+  {
+   "id": "G162",
+   "category": "weapon_compare",
+   "question": "卡缪90级攻击力是多少？",
+   "expected_sources": [
+    "卡缪"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "卡缪",
+    "艾维文娜",
+    "卡缪",
+    "大潘",
+    "卡缪"
+   ],
+   "rrf_hits": [
+    "卡缪"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "卡缪",
+    "卡缪",
+    "卡缪",
+    "测试型重甲",
+    "卡缪"
+   ],
+   "minmax_hits": [
+    "卡缪"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.42
+  },
+  {
+   "id": "G158",
+   "category": "mechanism",
+   "question": "什么是灼热附着？",
+   "expected_sources": [],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "狼卫",
+    "灯火使命",
+    "卡缪",
+    "莱万汀",
+    "莱万汀"
+   ],
+   "rrf_hits": [],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "狼卫",
+    "莱万汀",
+    "秋栗",
+    "莱万汀",
+    "莱万汀"
+   ],
+   "minmax_hits": [],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.49
+  },
+  {
+   "id": "G159",
+   "category": "mechanism",
+   "question": "什么是连携技？",
+   "expected_sources": [],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "汤汤",
+    "余烬",
+    "汤汤",
+    "余烬",
+    "大潘"
+   ],
+   "rrf_hits": [],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "汤汤",
+    "余烬",
+    "余烬",
+    "汤汤",
+    "大潘"
+   ],
+   "minmax_hits": [],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.63
+  },
+  {
+   "id": "G164",
+   "category": "operator_search",
+   "question": "有哪些终末地工业的干员？",
+   "expected_sources": [
+    "卡缪",
+    "佩丽卡",
+    "陈千语"
+   ],
+   "rrf_source_hit": 0.0,
+   "rrf_top5": [
+    "塔尔11",
+    "吉米尼12",
+    "寻路者道标",
+    "显锋",
+    "全自动骇新星"
+   ],
+   "rrf_hits": [],
+   "rrf_misses": [
+    "卡缪",
+    "佩丽卡",
+    "陈千语"
+   ],
+   "minmax_source_hit": 0.0,
+   "minmax_top5": [
+    "塔尔11",
+    "寻路者道标",
+    "吉米尼12",
+    "显锋",
+    "奥佩罗77"
+   ],
+   "minmax_hits": [],
+   "minmax_misses": [
+    "卡缪",
+    "佩丽卡",
+    "陈千语"
+   ],
+   "n_candidates": 30,
+   "elapsed": 0.45
+  },
+  {
+   "id": "G166",
+   "category": "equipment_search",
+   "question": "有哪些五星护甲装备？",
+   "expected_sources": [
+    "集成实训护甲",
+    "纾难重甲"
+   ],
+   "rrf_source_hit": 0.5,
+   "rrf_top5": [
+    "萤石",
+    "M.I.警用护甲",
+    "集成实训护甲",
+    "埃特拉",
+    "艾尔黛拉"
+   ],
+   "rrf_hits": [
+    "集成实训护甲"
+   ],
+   "rrf_misses": [
+    "纾难重甲"
+   ],
+   "minmax_source_hit": 0.5,
+   "minmax_top5": [
+    "萤石",
+    "M.I.警用护甲",
+    "集成实训护甲",
+    "长息轻护甲",
+    "长息装甲"
+   ],
+   "minmax_hits": [
+    "集成实训护甲"
+   ],
+   "minmax_misses": [
+    "纾难重甲"
+   ],
+   "n_candidates": 30,
+   "elapsed": 0.39
+  },
+  {
+   "id": "G165",
+   "category": "operator_search",
+   "question": "有哪些五星干员？",
+   "expected_sources": [
+    "佩丽卡",
+    "大潘",
+    "弧光"
+   ],
+   "rrf_source_hit": 0.0,
+   "rrf_top5": [
+    "萤石",
+    "艾维文娜",
+    "庄方宜",
+    "埃特拉",
+    "艾尔黛拉"
+   ],
+   "rrf_hits": [],
+   "rrf_misses": [
+    "佩丽卡",
+    "大潘",
+    "弧光"
+   ],
+   "minmax_source_hit": 0.0,
+   "minmax_top5": [
+    "萤石",
+    "艾维文娜",
+    "庄方宜",
+    "陈千语",
+    "狼卫"
+   ],
+   "minmax_hits": [],
+   "minmax_misses": [
+    "佩丽卡",
+    "大潘",
+    "弧光"
+   ],
+   "n_candidates": 30,
+   "elapsed": 0.38
+  },
+  {
+   "id": "G168",
+   "category": "mechanism",
+   "question": "哪些干员有灼热伤害？",
+   "expected_sources": [
+    "卡缪",
+    "狼卫",
+    "莱万汀"
+   ],
+   "rrf_source_hit": 0.667,
+   "rrf_top5": [
+    "理性告别",
+    "灯火使命",
+    "狼卫",
+    "莱万汀",
+    "镀红祝福"
+   ],
+   "rrf_hits": [
+    "狼卫",
+    "莱万汀"
+   ],
+   "rrf_misses": [
+    "卡缪"
+   ],
+   "minmax_source_hit": 0.333,
+   "minmax_top5": [
+    "理性告别",
+    "黯色火炬",
+    "镀红祝福",
+    "灯火使命",
+    "狼卫"
+   ],
+   "minmax_hits": [
+    "狼卫"
+   ],
+   "minmax_misses": [
+    "卡缪",
+    "莱万汀"
+   ],
+   "n_candidates": 30,
+   "elapsed": 0.42
+  },
+  {
+   "id": "G169",
+   "category": "weapon_recommend",
+   "question": "别礼适合带什么武器？",
+   "expected_sources": [
+    "别礼",
+    "赫拉芬格"
+   ],
+   "rrf_source_hit": 0.5,
+   "rrf_top5": [
+    "别礼",
+    "别礼",
+    "别礼",
+    "别礼",
+    "佩丽卡"
+   ],
+   "rrf_hits": [
+    "别礼"
+   ],
+   "rrf_misses": [
+    "赫拉芬格"
+   ],
+   "minmax_source_hit": 0.5,
+   "minmax_top5": [
+    "别礼",
+    "别礼",
+    "别礼",
+    "别礼",
+    "别礼"
+   ],
+   "minmax_hits": [
+    "别礼"
+   ],
+   "minmax_misses": [
+    "赫拉芬格"
+   ],
+   "n_candidates": 30,
+   "elapsed": 0.3
+  },
+  {
+   "id": "G167",
+   "category": "lore",
+   "question": "陈千语的语音台词有哪些？",
+   "expected_sources": [
+    "陈千语"
+   ],
+   "rrf_source_hit": 1.0,
+   "rrf_top5": [
+    "陈千语",
+    "陈千语",
+    "陈千语",
+    "萤石",
+    "埃特拉"
+   ],
+   "rrf_hits": [
+    "陈千语"
+   ],
+   "rrf_misses": [],
+   "minmax_source_hit": 1.0,
+   "minmax_top5": [
+    "陈千语",
+    "陈千语",
+    "陈千语",
+    "陈千语",
+    "陈千语"
+   ],
+   "minmax_hits": [
+    "陈千语"
+   ],
+   "minmax_misses": [],
+   "n_candidates": 30,
+   "elapsed": 0.38
+  }
+ ]
+}

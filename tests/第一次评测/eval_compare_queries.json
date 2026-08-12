@@ -1,0 +1,2378 @@
+{
+  "total": 169,
+  "categories": {
+    "operator_stat": "干员数值查询",
+    "operator_skill": "干员技能查询",
+    "operator_lore": "干员档案/背景",
+    "operator_search": "干员条件筛选",
+    "enemy_drop": "敌人掉落",
+    "enemy_resist": "敌人抗性",
+    "enemy_skill": "敌人技能",
+    "weapon_skill": "武器技能效果",
+    "weapon_match": "武器适配推荐",
+    "weapon_compare": "武器对比/推荐",
+    "weapon_recommend": "武器推荐",
+    "equipment_stat": "装备属性查询",
+    "equipment_unlock": "装备获取方式",
+    "equipment_search": "装备条件筛选",
+    "mechanism": "游戏机制解释",
+    "lore": "剧情/语音/档案"
+  },
+  "scoring": {
+    "source_hit_rate": "期望来源出现在召回 Top5 的比例",
+    "keyword_recall": "回答包含期望关键词的比例",
+    "intent_acc": "意图判断与期望标签一致的比例",
+    "pass": "source_hit>0 且 keyword_recall>0 记为通过"
+  },
+  "queries": [
+    {
+      "id": "G001",
+      "category": "operator_stat",
+      "question": "艾尔黛拉是几星干员，什么职业？",
+      "expected_sources": [
+        "艾尔黛拉"
+      ],
+      "expected_keywords": [
+        "6星",
+        "辅助"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G002",
+      "category": "operator_skill",
+      "question": "艾尔黛拉有哪些技能？",
+      "expected_sources": [
+        "艾尔黛拉"
+      ],
+      "expected_keywords": [
+        "岩石的轻语"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G003",
+      "category": "operator_lore",
+      "question": "艾尔黛拉的背景故事是什么？",
+      "expected_sources": [
+        "艾尔黛拉"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G004",
+      "category": "operator_stat",
+      "question": "别礼是几星干员，什么职业？",
+      "expected_sources": [
+        "别礼"
+      ],
+      "expected_keywords": [
+        "6星",
+        "突击"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G005",
+      "category": "operator_skill",
+      "question": "别礼有哪些技能？",
+      "expected_sources": [
+        "别礼"
+      ],
+      "expected_keywords": [
+        "严霜之舞"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G006",
+      "category": "operator_lore",
+      "question": "别礼的背景故事是什么？",
+      "expected_sources": [
+        "别礼"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G007",
+      "category": "operator_stat",
+      "question": "洁尔佩塔是几星干员，什么职业？",
+      "expected_sources": [
+        "洁尔佩塔"
+      ],
+      "expected_keywords": [
+        "6星",
+        "辅助"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G008",
+      "category": "operator_skill",
+      "question": "洁尔佩塔有哪些技能？",
+      "expected_sources": [
+        "洁尔佩塔"
+      ],
+      "expected_keywords": [
+        "秘杖·束能技艺"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G009",
+      "category": "operator_lore",
+      "question": "洁尔佩塔的背景故事是什么？",
+      "expected_sources": [
+        "洁尔佩塔"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G010",
+      "category": "operator_stat",
+      "question": "诀是几星干员，什么职业？",
+      "expected_sources": [
+        "诀"
+      ],
+      "expected_keywords": [
+        "6星",
+        "术师"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G011",
+      "category": "operator_skill",
+      "question": "诀有哪些技能？",
+      "expected_sources": [
+        "诀"
+      ],
+      "expected_keywords": [
+        "重火力截击"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G012",
+      "category": "operator_lore",
+      "question": "诀的背景故事是什么？",
+      "expected_sources": [
+        "诀"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G013",
+      "category": "operator_stat",
+      "question": "骏卫是几星干员，什么职业？",
+      "expected_sources": [
+        "骏卫"
+      ],
+      "expected_keywords": [
+        "6星",
+        "先锋"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G014",
+      "category": "operator_skill",
+      "question": "骏卫有哪些技能？",
+      "expected_sources": [
+        "骏卫"
+      ],
+      "expected_keywords": [
+        "全面攻势"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G015",
+      "category": "operator_lore",
+      "question": "骏卫的背景故事是什么？",
+      "expected_sources": [
+        "骏卫"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G016",
+      "category": "operator_stat",
+      "question": "卡缪是几星干员，什么职业？",
+      "expected_sources": [
+        "卡缪"
+      ],
+      "expected_keywords": [
+        "6星",
+        "先锋"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G017",
+      "category": "operator_skill",
+      "question": "卡缪有哪些技能？",
+      "expected_sources": [
+        "卡缪"
+      ],
+      "expected_keywords": [
+        "歃血涤罪"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G018",
+      "category": "operator_lore",
+      "question": "卡缪的背景故事是什么？",
+      "expected_sources": [
+        "卡缪"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G019",
+      "category": "operator_stat",
+      "question": "莱万汀是几星干员，什么职业？",
+      "expected_sources": [
+        "莱万汀"
+      ],
+      "expected_keywords": [
+        "6星",
+        "突击"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G020",
+      "category": "operator_skill",
+      "question": "莱万汀有哪些技能？",
+      "expected_sources": [
+        "莱万汀"
+      ],
+      "expected_keywords": [
+        "燃烬"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G021",
+      "category": "operator_lore",
+      "question": "莱万汀的背景故事是什么？",
+      "expected_sources": [
+        "莱万汀"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G022",
+      "category": "operator_stat",
+      "question": "黎风是几星干员，什么职业？",
+      "expected_sources": [
+        "黎风"
+      ],
+      "expected_keywords": [
+        "6星",
+        "近卫"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G023",
+      "category": "operator_skill",
+      "question": "黎风有哪些技能？",
+      "expected_sources": [
+        "黎风"
+      ],
+      "expected_keywords": [
+        "摧破"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G024",
+      "category": "operator_lore",
+      "question": "黎风的背景故事是什么？",
+      "expected_sources": [
+        "黎风"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G025",
+      "category": "operator_stat",
+      "question": "洛茜是几星干员，什么职业？",
+      "expected_sources": [
+        "洛茜"
+      ],
+      "expected_keywords": [
+        "6星",
+        "近卫"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G026",
+      "category": "operator_skill",
+      "question": "洛茜有哪些技能？",
+      "expected_sources": [
+        "洛茜"
+      ],
+      "expected_keywords": [
+        "燎影时刻"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G027",
+      "category": "operator_lore",
+      "question": "洛茜的背景故事是什么？",
+      "expected_sources": [
+        "洛茜"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G028",
+      "category": "operator_stat",
+      "question": "弭弗是几星干员，什么职业？",
+      "expected_sources": [
+        "弭弗"
+      ],
+      "expected_keywords": [
+        "6星",
+        "近卫"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G029",
+      "category": "operator_skill",
+      "question": "弭弗有哪些技能？",
+      "expected_sources": [
+        "弭弗"
+      ],
+      "expected_keywords": [
+        "剑行拳意"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G030",
+      "category": "operator_lore",
+      "question": "弭弗的背景故事是什么？",
+      "expected_sources": [
+        "弭弗"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G031",
+      "category": "operator_stat",
+      "question": "男管理员是几星干员，什么职业？",
+      "expected_sources": [
+        "男管理员"
+      ],
+      "expected_keywords": [
+        "6星",
+        "近卫"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G032",
+      "category": "operator_skill",
+      "question": "男管理员有哪些技能？",
+      "expected_sources": [
+        "男管理员"
+      ],
+      "expected_keywords": [
+        "构成序列"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G033",
+      "category": "operator_lore",
+      "question": "男管理员的背景故事是什么？",
+      "expected_sources": [
+        "男管理员"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G034",
+      "category": "operator_stat",
+      "question": "女管理员是几星干员，什么职业？",
+      "expected_sources": [
+        "女管理员"
+      ],
+      "expected_keywords": [
+        "6星",
+        "近卫"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G035",
+      "category": "operator_skill",
+      "question": "女管理员有哪些技能？",
+      "expected_sources": [
+        "女管理员"
+      ],
+      "expected_keywords": [
+        "毁伤序列"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G036",
+      "category": "operator_lore",
+      "question": "女管理员的背景故事是什么？",
+      "expected_sources": [
+        "女管理员"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G037",
+      "category": "operator_stat",
+      "question": "汤汤是几星干员，什么职业？",
+      "expected_sources": [
+        "汤汤"
+      ],
+      "expected_keywords": [
+        "6星",
+        "术师"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G038",
+      "category": "operator_skill",
+      "question": "汤汤有哪些技能？",
+      "expected_sources": [
+        "汤汤"
+      ],
+      "expected_keywords": [
+        "崩你脑壳！"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G039",
+      "category": "operator_lore",
+      "question": "汤汤的背景故事是什么？",
+      "expected_sources": [
+        "汤汤"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G040",
+      "category": "operator_stat",
+      "question": "伊冯是几星干员，什么职业？",
+      "expected_sources": [
+        "伊冯"
+      ],
+      "expected_keywords": [
+        "6星",
+        "突击"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G041",
+      "category": "operator_skill",
+      "question": "伊冯有哪些技能？",
+      "expected_sources": [
+        "伊冯"
+      ],
+      "expected_keywords": [
+        "雀跃扳机"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G042",
+      "category": "operator_lore",
+      "question": "伊冯的背景故事是什么？",
+      "expected_sources": [
+        "伊冯"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G043",
+      "category": "operator_stat",
+      "question": "余烬是几星干员，什么职业？",
+      "expected_sources": [
+        "余烬"
+      ],
+      "expected_keywords": [
+        "6星",
+        "重装"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G044",
+      "category": "operator_skill",
+      "question": "余烬有哪些技能？",
+      "expected_sources": [
+        "余烬"
+      ],
+      "expected_keywords": [
+        "陷阵剑术"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G045",
+      "category": "operator_lore",
+      "question": "余烬的背景故事是什么？",
+      "expected_sources": [
+        "余烬"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G046",
+      "category": "operator_stat",
+      "question": "庄方宜是几星干员，什么职业？",
+      "expected_sources": [
+        "庄方宜"
+      ],
+      "expected_keywords": [
+        "6星",
+        "突击"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G047",
+      "category": "operator_skill",
+      "question": "庄方宜有哪些技能？",
+      "expected_sources": [
+        "庄方宜"
+      ],
+      "expected_keywords": [
+        "疾电法"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G048",
+      "category": "operator_lore",
+      "question": "庄方宜的背景故事是什么？",
+      "expected_sources": [
+        "庄方宜"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G049",
+      "category": "operator_stat",
+      "question": "阿列什是几星干员，什么职业？",
+      "expected_sources": [
+        "阿列什"
+      ],
+      "expected_keywords": [
+        "5星",
+        "先锋"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G050",
+      "category": "operator_skill",
+      "question": "阿列什有哪些技能？",
+      "expected_sources": [
+        "阿列什"
+      ],
+      "expected_keywords": [
+        "基本挥竿法"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G051",
+      "category": "operator_lore",
+      "question": "阿列什的背景故事是什么？",
+      "expected_sources": [
+        "阿列什"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G052",
+      "category": "operator_stat",
+      "question": "艾维文娜是几星干员，什么职业？",
+      "expected_sources": [
+        "艾维文娜"
+      ],
+      "expected_keywords": [
+        "5星",
+        "突击"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G053",
+      "category": "operator_skill",
+      "question": "艾维文娜有哪些技能？",
+      "expected_sources": [
+        "艾维文娜"
+      ],
+      "expected_keywords": [
+        "雷枪·疾袭"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G054",
+      "category": "operator_lore",
+      "question": "艾维文娜的背景故事是什么？",
+      "expected_sources": [
+        "艾维文娜"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G055",
+      "category": "operator_stat",
+      "question": "陈千语是几星干员，什么职业？",
+      "expected_sources": [
+        "陈千语"
+      ],
+      "expected_keywords": [
+        "5星",
+        "近卫"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G056",
+      "category": "operator_skill",
+      "question": "陈千语有哪些技能？",
+      "expected_sources": [
+        "陈千语"
+      ],
+      "expected_keywords": [
+        "破飞霞"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G057",
+      "category": "operator_lore",
+      "question": "陈千语的背景故事是什么？",
+      "expected_sources": [
+        "陈千语"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G058",
+      "category": "operator_stat",
+      "question": "大潘是几星干员，什么职业？",
+      "expected_sources": [
+        "大潘"
+      ],
+      "expected_keywords": [
+        "5星",
+        "突击"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G059",
+      "category": "operator_skill",
+      "question": "大潘有哪些技能？",
+      "expected_sources": [
+        "大潘"
+      ],
+      "expected_keywords": [
+        "滚刀切！"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G060",
+      "category": "operator_lore",
+      "question": "大潘的背景故事是什么？",
+      "expected_sources": [
+        "大潘"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G061",
+      "category": "operator_stat",
+      "question": "弧光是几星干员，什么职业？",
+      "expected_sources": [
+        "弧光"
+      ],
+      "expected_keywords": [
+        "5星",
+        "先锋"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G062",
+      "category": "operator_skill",
+      "question": "弧光有哪些技能？",
+      "expected_sources": [
+        "弧光"
+      ],
+      "expected_keywords": [
+        "循迹逐猎"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G063",
+      "category": "operator_lore",
+      "question": "弧光的背景故事是什么？",
+      "expected_sources": [
+        "弧光"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G064",
+      "category": "operator_stat",
+      "question": "狼卫是几星干员，什么职业？",
+      "expected_sources": [
+        "狼卫"
+      ],
+      "expected_keywords": [
+        "5星",
+        "术师"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G065",
+      "category": "operator_skill",
+      "question": "狼卫有哪些技能？",
+      "expected_sources": [
+        "狼卫"
+      ],
+      "expected_keywords": [
+        "多重连射"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G066",
+      "category": "operator_lore",
+      "question": "狼卫的背景故事是什么？",
+      "expected_sources": [
+        "狼卫"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G067",
+      "category": "operator_stat",
+      "question": "佩丽卡是几星干员，什么职业？",
+      "expected_sources": [
+        "佩丽卡"
+      ],
+      "expected_keywords": [
+        "5星",
+        "术师"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G068",
+      "category": "operator_skill",
+      "question": "佩丽卡有哪些技能？",
+      "expected_sources": [
+        "佩丽卡"
+      ],
+      "expected_keywords": [
+        "协议α·突破"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G069",
+      "category": "operator_lore",
+      "question": "佩丽卡的背景故事是什么？",
+      "expected_sources": [
+        "佩丽卡"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G070",
+      "category": "operator_stat",
+      "question": "赛希是几星干员，什么职业？",
+      "expected_sources": [
+        "赛希"
+      ],
+      "expected_keywords": [
+        "5星",
+        "辅助"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G071",
+      "category": "operator_skill",
+      "question": "赛希有哪些技能？",
+      "expected_sources": [
+        "赛希"
+      ],
+      "expected_keywords": [
+        "压力测试"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G072",
+      "category": "operator_lore",
+      "question": "赛希的背景故事是什么？",
+      "expected_sources": [
+        "赛希"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G073",
+      "category": "operator_stat",
+      "question": "昼雪是几星干员，什么职业？",
+      "expected_sources": [
+        "昼雪"
+      ],
+      "expected_keywords": [
+        "5星",
+        "重装"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G074",
+      "category": "operator_skill",
+      "question": "昼雪有哪些技能？",
+      "expected_sources": [
+        "昼雪"
+      ],
+      "expected_keywords": [
+        "失温猛击"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G075",
+      "category": "operator_lore",
+      "question": "昼雪的背景故事是什么？",
+      "expected_sources": [
+        "昼雪"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G076",
+      "category": "operator_stat",
+      "question": "埃特拉是几星干员，什么职业？",
+      "expected_sources": [
+        "埃特拉"
+      ],
+      "expected_keywords": [
+        "4星",
+        "近卫"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G077",
+      "category": "operator_skill",
+      "question": "埃特拉有哪些技能？",
+      "expected_sources": [
+        "埃特拉"
+      ],
+      "expected_keywords": [
+        "噪点"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G078",
+      "category": "operator_lore",
+      "question": "埃特拉的背景故事是什么？",
+      "expected_sources": [
+        "埃特拉"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G079",
+      "category": "operator_stat",
+      "question": "安塔尔是几星干员，什么职业？",
+      "expected_sources": [
+        "安塔尔"
+      ],
+      "expected_keywords": [
+        "4星",
+        "辅助"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G080",
+      "category": "operator_skill",
+      "question": "安塔尔有哪些技能？",
+      "expected_sources": [
+        "安塔尔"
+      ],
+      "expected_keywords": [
+        "交换电流"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G081",
+      "category": "operator_lore",
+      "question": "安塔尔的背景故事是什么？",
+      "expected_sources": [
+        "安塔尔"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G082",
+      "category": "operator_stat",
+      "question": "卡契尔是几星干员，什么职业？",
+      "expected_sources": [
+        "卡契尔"
+      ],
+      "expected_keywords": [
+        "4星",
+        "重装"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G083",
+      "category": "operator_skill",
+      "question": "卡契尔有哪些技能？",
+      "expected_sources": [
+        "卡契尔"
+      ],
+      "expected_keywords": [
+        "基础战术"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G084",
+      "category": "operator_lore",
+      "question": "卡契尔的背景故事是什么？",
+      "expected_sources": [
+        "卡契尔"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G085",
+      "category": "operator_stat",
+      "question": "秋栗是几星干员，什么职业？",
+      "expected_sources": [
+        "秋栗"
+      ],
+      "expected_keywords": [
+        "4星",
+        "先锋"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G086",
+      "category": "operator_skill",
+      "question": "秋栗有哪些技能？",
+      "expected_sources": [
+        "秋栗"
+      ],
+      "expected_keywords": [
+        "进取剑锋"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G087",
+      "category": "operator_lore",
+      "question": "秋栗的背景故事是什么？",
+      "expected_sources": [
+        "秋栗"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G088",
+      "category": "operator_stat",
+      "question": "萤石是几星干员，什么职业？",
+      "expected_sources": [
+        "萤石"
+      ],
+      "expected_keywords": [
+        "4星",
+        "术师"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G089",
+      "category": "operator_skill",
+      "question": "萤石有哪些技能？",
+      "expected_sources": [
+        "萤石"
+      ],
+      "expected_keywords": [
+        "独门射击法"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G090",
+      "category": "operator_lore",
+      "question": "萤石的背景故事是什么？",
+      "expected_sources": [
+        "萤石"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G091",
+      "category": "enemy_resist",
+      "question": "“碾骨之拳”罗丹的元素抗性是什么？",
+      "expected_sources": [
+        "“碾骨之拳”罗丹"
+      ],
+      "expected_keywords": [
+        "物理",
+        "灼热"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G092",
+      "category": "enemy_skill",
+      "question": "“碾骨之拳”罗丹有什么攻击方式或技能？",
+      "expected_sources": [
+        "“碾骨之拳”罗丹"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G093",
+      "category": "enemy_resist",
+      "question": "阿莱克琉斯，千夫长的元素抗性是什么？",
+      "expected_sources": [
+        "阿莱克琉斯，千夫长"
+      ],
+      "expected_keywords": [
+        "物理",
+        "灼热"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G094",
+      "category": "enemy_skill",
+      "question": "阿莱克琉斯，千夫长有什么攻击方式或技能？",
+      "expected_sources": [
+        "阿莱克琉斯，千夫长"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G095",
+      "category": "enemy_resist",
+      "question": "埃尔埃格尼斯的元素抗性是什么？",
+      "expected_sources": [
+        "埃尔埃格尼斯"
+      ],
+      "expected_keywords": [
+        "物理",
+        "灼热"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G096",
+      "category": "enemy_skill",
+      "question": "埃尔埃格尼斯有什么攻击方式或技能？",
+      "expected_sources": [
+        "埃尔埃格尼斯"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G097",
+      "category": "enemy_resist",
+      "question": "白垩附肢的元素抗性是什么？",
+      "expected_sources": [
+        "白垩附肢"
+      ],
+      "expected_keywords": [
+        "物理",
+        "灼热"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G098",
+      "category": "enemy_skill",
+      "question": "白垩附肢有什么攻击方式或技能？",
+      "expected_sources": [
+        "白垩附肢"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G099",
+      "category": "enemy_resist",
+      "question": "白垩界卫的元素抗性是什么？",
+      "expected_sources": [
+        "白垩界卫"
+      ],
+      "expected_keywords": [
+        "物理",
+        "灼热"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G100",
+      "category": "enemy_skill",
+      "question": "白垩界卫有什么攻击方式或技能？",
+      "expected_sources": [
+        "白垩界卫"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G101",
+      "category": "enemy_drop",
+      "question": "百眼彪兽会掉落什么材料？",
+      "expected_sources": [
+        "百眼彪兽"
+      ],
+      "expected_keywords": [
+        "彪兽的长绒"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G102",
+      "category": "enemy_resist",
+      "question": "百眼彪兽的元素抗性是什么？",
+      "expected_sources": [
+        "百眼彪兽"
+      ],
+      "expected_keywords": [
+        "物理",
+        "灼热"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G103",
+      "category": "enemy_skill",
+      "question": "百眼彪兽有什么攻击方式或技能？",
+      "expected_sources": [
+        "百眼彪兽"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G104",
+      "category": "weapon_skill",
+      "question": "J.E.T.武器的技能效果是什么？",
+      "expected_sources": [
+        "J.E.T."
+      ],
+      "expected_keywords": [
+        "主能力提升·大"
+      ],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G105",
+      "category": "weapon_match",
+      "question": "J.E.T.适合什么干员使用？",
+      "expected_sources": [
+        "J.E.T."
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G106",
+      "category": "weapon_skill",
+      "question": "黯色火炬武器的技能效果是什么？",
+      "expected_sources": [
+        "黯色火炬"
+      ],
+      "expected_keywords": [
+        "智识提升·大"
+      ],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G107",
+      "category": "weapon_match",
+      "question": "黯色火炬适合什么干员使用？",
+      "expected_sources": [
+        "黯色火炬"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G108",
+      "category": "weapon_skill",
+      "question": "白夜新星武器的技能效果是什么？",
+      "expected_sources": [
+        "白夜新星"
+      ],
+      "expected_keywords": [
+        "主能力提升·大"
+      ],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G109",
+      "category": "weapon_match",
+      "question": "白夜新星适合什么干员使用？",
+      "expected_sources": [
+        "白夜新星"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G110",
+      "category": "weapon_skill",
+      "question": "爆破单元武器的技能效果是什么？",
+      "expected_sources": [
+        "爆破单元"
+      ],
+      "expected_keywords": [
+        "主能力提升·大"
+      ],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G111",
+      "category": "weapon_match",
+      "question": "爆破单元适合什么干员使用？",
+      "expected_sources": [
+        "爆破单元"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G112",
+      "category": "weapon_skill",
+      "question": "不知归武器的技能效果是什么？",
+      "expected_sources": [
+        "不知归"
+      ],
+      "expected_keywords": [
+        "意志提升·大"
+      ],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G113",
+      "category": "weapon_match",
+      "question": "不知归适合什么干员使用？",
+      "expected_sources": [
+        "不知归"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G114",
+      "category": "weapon_skill",
+      "question": "沧溟星梦武器的技能效果是什么？",
+      "expected_sources": [
+        "沧溟星梦"
+      ],
+      "expected_keywords": [
+        "智识提升·大"
+      ],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G115",
+      "category": "weapon_match",
+      "question": "沧溟星梦适合什么干员使用？",
+      "expected_sources": [
+        "沧溟星梦"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G116",
+      "category": "weapon_skill",
+      "question": "赤缨武器的技能效果是什么？",
+      "expected_sources": [
+        "赤缨"
+      ],
+      "expected_keywords": [
+        "力量提升·大"
+      ],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G117",
+      "category": "weapon_match",
+      "question": "赤缨适合什么干员使用？",
+      "expected_sources": [
+        "赤缨"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G118",
+      "category": "weapon_skill",
+      "question": "大雷斑武器的技能效果是什么？",
+      "expected_sources": [
+        "大雷斑"
+      ],
+      "expected_keywords": [
+        "力量提升·大"
+      ],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G119",
+      "category": "weapon_match",
+      "question": "大雷斑适合什么干员使用？",
+      "expected_sources": [
+        "大雷斑"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G120",
+      "category": "weapon_skill",
+      "question": "灯火使命武器的技能效果是什么？",
+      "expected_sources": [
+        "灯火使命"
+      ],
+      "expected_keywords": [
+        "敏捷提升·大"
+      ],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G121",
+      "category": "weapon_match",
+      "question": "灯火使命适合什么干员使用？",
+      "expected_sources": [
+        "灯火使命"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G122",
+      "category": "weapon_skill",
+      "question": "典范武器的技能效果是什么？",
+      "expected_sources": [
+        "典范"
+      ],
+      "expected_keywords": [
+        "主能力提升·大"
+      ],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G123",
+      "category": "weapon_match",
+      "question": "典范适合什么干员使用？",
+      "expected_sources": [
+        "典范"
+      ],
+      "expected_keywords": [],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G124",
+      "category": "equipment_stat",
+      "question": "50式应龙短刃是什么部位的装备，附加什么属性？",
+      "expected_sources": [
+        "50式应龙短刃"
+      ],
+      "expected_keywords": [
+        "配件",
+        "防御力"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G125",
+      "category": "equipment_unlock",
+      "question": "50式应龙短刃怎么获得？",
+      "expected_sources": [
+        "50式应龙短刃"
+      ],
+      "expected_keywords": [
+        "域商店"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G126",
+      "category": "equipment_stat",
+      "question": "50式应龙短刃·壹型是什么部位的装备，附加什么属性？",
+      "expected_sources": [
+        "50式应龙短刃·壹型"
+      ],
+      "expected_keywords": [
+        "配件",
+        "防御力"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G127",
+      "category": "equipment_unlock",
+      "question": "50式应龙短刃·壹型怎么获得？",
+      "expected_sources": [
+        "50式应龙短刃·壹型"
+      ],
+      "expected_keywords": [
+        "域商店"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G128",
+      "category": "equipment_stat",
+      "question": "50式应龙护手是什么部位的装备，附加什么属性？",
+      "expected_sources": [
+        "50式应龙护手"
+      ],
+      "expected_keywords": [
+        "护手",
+        "防御力"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G129",
+      "category": "equipment_unlock",
+      "question": "50式应龙护手怎么获得？",
+      "expected_sources": [
+        "50式应龙护手"
+      ],
+      "expected_keywords": [
+        "装备图纸箱"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G130",
+      "category": "equipment_stat",
+      "question": "50式应龙护手·壹型是什么部位的装备，附加什么属性？",
+      "expected_sources": [
+        "50式应龙护手·壹型"
+      ],
+      "expected_keywords": [
+        "护手",
+        "防御力"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G131",
+      "category": "equipment_unlock",
+      "question": "50式应龙护手·壹型怎么获得？",
+      "expected_sources": [
+        "50式应龙护手·壹型"
+      ],
+      "expected_keywords": [
+        "装备图纸箱"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G132",
+      "category": "equipment_stat",
+      "question": "50式应龙雷达是什么部位的装备，附加什么属性？",
+      "expected_sources": [
+        "50式应龙雷达"
+      ],
+      "expected_keywords": [
+        "配件",
+        "防御力"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G133",
+      "category": "equipment_unlock",
+      "question": "50式应龙雷达怎么获得？",
+      "expected_sources": [
+        "50式应龙雷达"
+      ],
+      "expected_keywords": [
+        "装备图纸箱"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G134",
+      "category": "equipment_stat",
+      "question": "50式应龙雷达·贰型是什么部位的装备，附加什么属性？",
+      "expected_sources": [
+        "50式应龙雷达·贰型"
+      ],
+      "expected_keywords": [
+        "配件",
+        "防御力"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G135",
+      "category": "equipment_unlock",
+      "question": "50式应龙雷达·贰型怎么获得？",
+      "expected_sources": [
+        "50式应龙雷达·贰型"
+      ],
+      "expected_keywords": [
+        "装备图纸箱"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G136",
+      "category": "equipment_stat",
+      "question": "50式应龙雷达·壹型是什么部位的装备，附加什么属性？",
+      "expected_sources": [
+        "50式应龙雷达·壹型"
+      ],
+      "expected_keywords": [
+        "配件",
+        "防御力"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G137",
+      "category": "equipment_unlock",
+      "question": "50式应龙雷达·壹型怎么获得？",
+      "expected_sources": [
+        "50式应龙雷达·壹型"
+      ],
+      "expected_keywords": [
+        "装备图纸箱"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G138",
+      "category": "equipment_stat",
+      "question": "50式应龙轻甲是什么部位的装备，附加什么属性？",
+      "expected_sources": [
+        "50式应龙轻甲"
+      ],
+      "expected_keywords": [
+        "护甲",
+        "防御力"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G139",
+      "category": "equipment_unlock",
+      "question": "50式应龙轻甲怎么获得？",
+      "expected_sources": [
+        "50式应龙轻甲"
+      ],
+      "expected_keywords": [
+        "装备图纸箱"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G140",
+      "category": "equipment_stat",
+      "question": "50式应龙重甲是什么部位的装备，附加什么属性？",
+      "expected_sources": [
+        "50式应龙重甲"
+      ],
+      "expected_keywords": [
+        "护甲",
+        "防御力"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G141",
+      "category": "equipment_unlock",
+      "question": "50式应龙重甲怎么获得？",
+      "expected_sources": [
+        "50式应龙重甲"
+      ],
+      "expected_keywords": [
+        "装备图纸箱"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G142",
+      "category": "equipment_stat",
+      "question": "50式应龙重甲·贰型是什么部位的装备，附加什么属性？",
+      "expected_sources": [
+        "50式应龙重甲·贰型"
+      ],
+      "expected_keywords": [
+        "护甲",
+        "防御力"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G143",
+      "category": "equipment_unlock",
+      "question": "50式应龙重甲·贰型怎么获得？",
+      "expected_sources": [
+        "50式应龙重甲·贰型"
+      ],
+      "expected_keywords": [
+        "装备图纸箱"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G144",
+      "category": "equipment_stat",
+      "question": "50式应龙重甲·壹型是什么部位的装备，附加什么属性？",
+      "expected_sources": [
+        "50式应龙重甲·壹型"
+      ],
+      "expected_keywords": [
+        "护甲",
+        "防御力"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G145",
+      "category": "equipment_unlock",
+      "question": "50式应龙重甲·壹型怎么获得？",
+      "expected_sources": [
+        "50式应龙重甲·壹型"
+      ],
+      "expected_keywords": [
+        "装备图纸箱"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G146",
+      "category": "equipment_stat",
+      "question": "M.I.警用臂环是什么部位的装备，附加什么属性？",
+      "expected_sources": [
+        "M.I.警用臂环"
+      ],
+      "expected_keywords": [
+        "配件",
+        "防御力"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G147",
+      "category": "equipment_unlock",
+      "question": "M.I.警用臂环怎么获得？",
+      "expected_sources": [
+        "M.I.警用臂环"
+      ],
+      "expected_keywords": [
+        "域商店"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G148",
+      "category": "operator_search",
+      "question": "有哪些6星辅助干员？",
+      "expected_sources": [
+        "艾尔黛拉",
+        "洁尔佩塔"
+      ],
+      "expected_keywords": [
+        "辅助"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G149",
+      "category": "operator_search",
+      "question": "有哪些6星突击干员？",
+      "expected_sources": [
+        "别礼",
+        "莱万汀",
+        "伊冯"
+      ],
+      "expected_keywords": [
+        "突击"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G150",
+      "category": "operator_search",
+      "question": "有哪些6星术师干员？",
+      "expected_sources": [
+        "诀",
+        "汤汤"
+      ],
+      "expected_keywords": [
+        "术师"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G151",
+      "category": "operator_search",
+      "question": "有哪些6星先锋干员？",
+      "expected_sources": [
+        "骏卫",
+        "卡缪"
+      ],
+      "expected_keywords": [
+        "先锋"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G152",
+      "category": "operator_search",
+      "question": "有哪些6星近卫干员？",
+      "expected_sources": [
+        "黎风",
+        "洛茜",
+        "弭弗"
+      ],
+      "expected_keywords": [
+        "近卫"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G153",
+      "category": "operator_search",
+      "question": "有哪些5星先锋干员？",
+      "expected_sources": [
+        "阿列什",
+        "弧光"
+      ],
+      "expected_keywords": [
+        "先锋"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G154",
+      "category": "operator_search",
+      "question": "有哪些5星突击干员？",
+      "expected_sources": [
+        "艾维文娜",
+        "大潘"
+      ],
+      "expected_keywords": [
+        "突击"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G155",
+      "category": "operator_search",
+      "question": "有哪些5星术师干员？",
+      "expected_sources": [
+        "狼卫",
+        "佩丽卡"
+      ],
+      "expected_keywords": [
+        "术师"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G156",
+      "category": "equipment_search",
+      "question": "有哪些配件装备？",
+      "expected_sources": [
+        "50式应龙短刃",
+        "50式应龙短刃·壹型",
+        "50式应龙雷达"
+      ],
+      "expected_keywords": [
+        "配件"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G157",
+      "category": "equipment_search",
+      "question": "有哪些护手装备？",
+      "expected_sources": [
+        "50式应龙护手",
+        "50式应龙护手·壹型",
+        "M.I.警用手环"
+      ],
+      "expected_keywords": [
+        "护手"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G158",
+      "category": "mechanism",
+      "question": "什么是灼热附着？",
+      "expected_sources": [],
+      "expected_keywords": [
+        "灼热附着",
+        "灼热伤害"
+      ],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G159",
+      "category": "mechanism",
+      "question": "什么是连携技？",
+      "expected_sources": [],
+      "expected_keywords": [
+        "连携技"
+      ],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G160",
+      "category": "mechanism",
+      "question": "干员的终结技有什么特点？",
+      "expected_sources": [],
+      "expected_keywords": [
+        "终结技"
+      ],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G161",
+      "category": "weapon_compare",
+      "question": "镀红祝福和灯火使命哪个更适合卡缪？",
+      "expected_sources": [
+        "卡缪",
+        "镀红祝福",
+        "灯火使命"
+      ],
+      "expected_keywords": [
+        "镀红祝福",
+        "灯火使命"
+      ],
+      "expected_intents": [
+        "vector",
+        "database"
+      ]
+    },
+    {
+      "id": "G162",
+      "category": "weapon_compare",
+      "question": "卡缪90级攻击力是多少？",
+      "expected_sources": [
+        "卡缪"
+      ],
+      "expected_keywords": [
+        "攻击力",
+        "90"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G163",
+      "category": "mechanism",
+      "question": "伏血能恢复多少技力？",
+      "expected_sources": [
+        "卡缪",
+        "伏血"
+      ],
+      "expected_keywords": [
+        "伏血",
+        "技力"
+      ],
+      "expected_intents": [
+        "vector",
+        "database"
+      ]
+    },
+    {
+      "id": "G164",
+      "category": "operator_search",
+      "question": "有哪些终末地工业的干员？",
+      "expected_sources": [
+        "卡缪",
+        "佩丽卡",
+        "陈千语"
+      ],
+      "expected_keywords": [
+        "终末地工业"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G165",
+      "category": "operator_search",
+      "question": "有哪些五星干员？",
+      "expected_sources": [
+        "佩丽卡",
+        "大潘",
+        "弧光"
+      ],
+      "expected_keywords": [
+        "5星"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G166",
+      "category": "equipment_search",
+      "question": "有哪些五星护甲装备？",
+      "expected_sources": [
+        "集成实训护甲",
+        "纾难重甲"
+      ],
+      "expected_keywords": [
+        "护甲"
+      ],
+      "expected_intents": [
+        "database"
+      ]
+    },
+    {
+      "id": "G167",
+      "category": "lore",
+      "question": "陈千语的语音台词有哪些？",
+      "expected_sources": [
+        "陈千语"
+      ],
+      "expected_keywords": [
+        "语音"
+      ],
+      "expected_intents": [
+        "vector"
+      ]
+    },
+    {
+      "id": "G168",
+      "category": "mechanism",
+      "question": "哪些干员有灼热伤害？",
+      "expected_sources": [
+        "卡缪",
+        "狼卫",
+        "莱万汀"
+      ],
+      "expected_keywords": [
+        "灼热"
+      ],
+      "expected_intents": [
+        "vector",
+        "database"
+      ]
+    },
+    {
+      "id": "G169",
+      "category": "weapon_recommend",
+      "question": "别礼适合带什么武器？",
+      "expected_sources": [
+        "别礼",
+        "赫拉芬格"
+      ],
+      "expected_keywords": [
+        "武器"
+      ],
+      "expected_intents": [
+        "vector",
+        "database"
+      ]
+    }
+  ]
+}

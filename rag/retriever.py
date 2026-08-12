@@ -1,10 +1,60 @@
-"""混合检索器 —— RRF（Reciprocal Rank Fusion）融合 BM25 与 pgvector 排名"""
+"""混合检索器 —— RRF / MinMax 归一化加权两种融合方式
+
+- RRF（Reciprocal Rank Fusion）：1/(k+rank_bm25) + 1/(k+rank_vector)，按排名融合
+- MinMax：bm25/vector 原始分数各自 min-max 归一化到 [0,1] 后按权重加权求和
+"""
 from sqlalchemy.orm import Session
 
 from db.models import Enemy, Equipment, KnowledgeChunk, Operator, Weapon
 from rag.bm25_index import BM25Index
 from rag.embedder import query_embed
-from rag.config import TOP_K_RETRIEVAL, RRF_K
+from rag.config import BM25_WEIGHT, TOP_K_RETRIEVAL, RRF_K
+
+FUSION_RRF = "rrf"
+FUSION_MINMAX = "minmax"
+
+
+def _rrf_fuse(bm25_rank: dict, vector_rank: dict, candidate_ids: set,
+              bm25_scores: dict, vector_scores: dict) -> dict:
+    """RRF 融合：1/(k+rank_bm25) + 1/(k+rank_vector)"""
+    scores = {}
+    for cid in candidate_ids:
+        s = 0.0
+        if cid in bm25_rank:
+            s += 1.0 / (RRF_K + bm25_rank[cid])
+        if cid in vector_rank:
+            s += 1.0 / (RRF_K + vector_rank[cid])
+        scores[cid] = s
+    return scores
+
+
+def _minmax_fuse(bm25_rank: dict, vector_rank: dict, candidate_ids: set,
+                 bm25_scores: dict, vector_scores: dict) -> dict:
+    """MinMax 归一化加权融合：各子检索内部 min-max 归一化后按 BM25_WEIGHT 加权"""
+    def _norm(scores: dict, rank: dict, cids: set) -> dict:
+        vals = [scores[c] for c in cids if c in rank]
+        if not vals:
+            return {c: 0.0 for c in cids}
+        lo, hi = min(vals), max(vals)
+        out = {}
+        for c in cids:
+            if c not in rank:
+                out[c] = 0.0
+            elif hi > lo:
+                out[c] = (scores[c] - lo) / (hi - lo)
+            else:
+                out[c] = 1.0 if scores[c] > 0 else 0.0
+        return out
+
+    bm25_norm = _norm(bm25_scores, bm25_rank, candidate_ids)
+    vec_norm = _norm(vector_scores, vector_rank, candidate_ids)
+    return {
+        cid: BM25_WEIGHT * bm25_norm[cid] + (1.0 - BM25_WEIGHT) * vec_norm[cid]
+        for cid in candidate_ids
+    }
+
+
+_FUSERS = {FUSION_RRF: _rrf_fuse, FUSION_MINMAX: _minmax_fuse}
 
 
 def hybrid_search(
@@ -12,9 +62,12 @@ def hybrid_search(
     bm25: BM25Index,
     query: str,
     top_k: int = TOP_K_RETRIEVAL,
+    fusion: str = FUSION_RRF,
 ) -> list[dict]:
     """
-    RRF 融合检索：分别取 BM25 与 pgvector 的排名，按 1/(k+rank) 相加融合。
+    融合检索：分别取 BM25 与 pgvector 的排名/分数，按指定方式融合。
+    - fusion="rrf"   : RRF 排名融合 1/(k+rank)
+    - fusion="minmax": MinMax 归一化加权（bm25/vector 各自 min-max 归一化后加权）
     返回: [{"chunk_id": int, "content": str, "source_name": str,
             "source_type": str, "chunk_type": str, "bm25_score": float,
             "vector_score": float, "combined_score": float}, ...]
@@ -74,15 +127,10 @@ def hybrid_search(
                 "equipment_id": c.equipment_id,
             }
 
-    # ---- RRF 融合：1/(k+rank_bm25) + 1/(k+rank_vector) ----
-    rrf_scores = {}
-    for cid in candidate_ids:
-        s = 0.0
-        if cid in bm25_rank:
-            s += 1.0 / (RRF_K + bm25_rank[cid])
-        if cid in vector_rank:
-            s += 1.0 / (RRF_K + vector_rank[cid])
-        rrf_scores[cid] = s
+    # ---- 融合：RRF 或 MinMax 归一化加权 ----
+    fuse_fn = _FUSERS.get(fusion, _rrf_fuse)
+    combined = fuse_fn(bm25_rank, vector_rank, candidate_ids,
+                       bm25_scores, vector_scores)
 
     results = []
     for cid in candidate_ids:
@@ -90,8 +138,8 @@ def hybrid_search(
         if entry:
             entry["bm25_score"] = bm25_scores.get(cid, 0.0)
             entry["vector_score"] = vector_scores.get(cid, 0.0)
-            entry["combined_score"] = rrf_scores[cid]  # RRF 融合分数
-            entry["rrf_score"] = rrf_scores[cid]
+            entry["combined_score"] = combined[cid]  # 融合分数
+            entry["rrf_score"] = combined[cid]
             results.append(entry)
 
     results.sort(key=lambda x: x["combined_score"], reverse=True)
